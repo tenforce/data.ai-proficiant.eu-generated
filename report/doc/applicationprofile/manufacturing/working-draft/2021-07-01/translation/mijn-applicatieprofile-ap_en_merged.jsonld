@@ -176,8 +176,8 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "MijnApplicatieprofiel",
-  "documentcommit": "4f29c2caeca4893a2c8a10195ba0461fac0eb0de",
-  "dummy": "13",
+  "documentcommit": "5e72de601d00870852dc286566d3e0e0b9c2de6b",
+  "dummy": "14",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
     {
@@ -217,7 +217,7 @@
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
   "site": "site-skeleton/mijn-applicatieprofiel-ap",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
-  "toolchaincommit": "15b32a7bffb6132fdc66a470555dfedebb110527",
+  "toolchaincommit": "9b6f38cf5af6a1d51ced70214114529cbb609b5e",
   "translation": [
     {
       "language": "en",

@@ -76,7 +76,7 @@
     "void": "http://rdfs.org/ns/void#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "http://fixme.com",
+  "@id": "https://data.ai-proficiant.eu/ns",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "authors": [
     {
@@ -90,10 +90,11 @@
       "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein"
     }
   ],
+  "baseURI": "https://data.ai-proficiant.eu/ns#",
   "branchtag": "master",
   "classes": [
     {
-      "@id": "http://fixme.com#Bag",
+      "@id": "https://data.ai-proficiant.eu/ns#Bag",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
       "ap-definition-en": {
@@ -176,8 +177,8 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "MijnApplicatieprofiel",
-  "documentcommit": "5e72de601d00870852dc286566d3e0e0b9c2de6b",
-  "dummy": "14",
+  "documentcommit": "c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
+  "dummy": "15",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
     {
@@ -196,7 +197,14 @@
   "extra": {
     "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
     "EA-Name": "OSLO-MijnVocabularium",
-    "RawTags": [],
+    "RawTags": [
+      {
+        "key": "baseURI",
+        "note": "null",
+        "value": "https://data.ai-proficiant.eu/ns#"
+      }
+    ],
+    "baseURI": "https://data.ai-proficiant.eu/ns#",
     "issued": "TODO",
     "license": "TODO"
   },
@@ -217,7 +225,7 @@
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
   "site": "site-skeleton/mijn-applicatieprofiel-ap",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
-  "toolchaincommit": "9b6f38cf5af6a1d51ced70214114529cbb609b5e",
+  "toolchaincommit": "3bd9f9820771f5526ddf5bdcad2f6579471888bf",
   "translation": [
     {
       "language": "en",

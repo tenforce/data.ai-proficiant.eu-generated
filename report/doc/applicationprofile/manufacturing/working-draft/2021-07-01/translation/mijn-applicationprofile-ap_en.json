@@ -1,4 +1,5 @@
 {
+  "baseURI": "https://data.ai-proficiant.eu/ns#",
   "classes": [
     {
       "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",

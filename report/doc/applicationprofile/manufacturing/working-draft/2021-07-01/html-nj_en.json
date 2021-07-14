@@ -1,7 +1,8 @@
 {
   "metadata": {
-    "uri": "http://fixme.com",
+    "uri": "https://data.ai-proficiant.eu/ns",
     "issued": "2020-01-31",
+    "baseURI": "https://data.ai-proficiant.eu/ns#",
     "filename": "mijn-applicatieprofiel-ap",
     "navigation": {
       "self": "https://data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01"
@@ -9,8 +10,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/5e72de601d00870852dc286566d3e0e0b9c2de6b",
-    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/5e72de601d00870852dc286566d3e0e0b9c2de6b/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
+    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/c74c578d30b646bc5e071f30141f0ad9ba78f5ea/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
     "usesVocs": [],
@@ -18,7 +19,7 @@
   },
   "classes": [
     {
-      "uri": "http://fixme.com#Bag",
+      "uri": "https://data.ai-proficiant.eu/ns#Bag",
       "name": "Bag",
       "label": {
         "en": "Bag"

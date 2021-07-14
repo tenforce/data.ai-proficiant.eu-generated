@@ -6,4 +6,4 @@
 
 <https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en#BagShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://fixme.com#Bag> .
+  shacl:targetClass <https://data.ai-proficiant.eu/ns#Bag> .

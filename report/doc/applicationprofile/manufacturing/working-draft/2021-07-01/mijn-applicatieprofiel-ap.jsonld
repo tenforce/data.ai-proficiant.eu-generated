@@ -81,14 +81,14 @@
       "@container": "@language"
     }
   },
-"@id": "http://fixme.com",
+"@id": "https://data.ai-proficiant.eu/ns",
 "@type": "http://www.w3.org/2002/07/owl#Ontology",
 "label": {
   "nl": "mijn-applicatieprofiel-ap",
   "en": "mijn-applicatieprofiel-ap"
 },
-"issued" : "TODO", "license" : "TODO",
-"extra": {"EA-Name" : "OSLO-MijnVocabularium", "EA-Guid" : "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}" , "issued" : "TODO", "license" : "TODO", "RawTags" : []},
+"baseURI" : "https:\/\/data.ai-proficiant.eu\/ns#", "issued" : "TODO", "license" : "TODO",
+"extra": {"EA-Name" : "OSLO-MijnVocabularium", "EA-Guid" : "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}" , "baseURI" : "https:\/\/data.ai-proficiant.eu\/ns#", "issued" : "TODO", "license" : "TODO", "RawTags" : [{ "key": "baseURI", "value": "https:\/\/data.ai-proficiant.eu\/ns#", "note": "null" }]},
 "authors": [
 {
 "foaf:firstName": "AuteurVoornaam",
@@ -118,7 +118,7 @@
 }],
 "classes": [
 {
-"@id": "http://fixme.com#Bag",
+"@id": "https://data.ai-proficiant.eu/ns#Bag",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "a non-rigid container"}, "ap-label-en" : {"en": "Bag"}, "definition" : {"en": "a non-rigid container"}, "label" : {"en": "Bag"},
 "extra": {"EA-Name" : "Bag", "EA-Guid" : "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}", "EA-Package" : "OSLO-MijnVocabularium", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Bag", "definition" : "a non-rigid container", "usage" : "", "ap-label-en" : "Bag", "ap-definition-en" : "a non-rigid container", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Bag", "note": "null" }, { "key": "definition-en", "value": "a non-rigid container", "note": "null" }, { "key": "parentURI", "value": "https:\/\/saref.etsi.org\/saref4inma\/Batch", "note": "null" }, { "key": "label-nl", "value": "bag", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "a non-rigid container"}, "ap-label-en" : {"en": "Bag"}, "definition" : {"en": "a non-rigid container"}, "label" : {"en": "Bag"}},

@@ -1,5 +1,5 @@
 {
   "@context": {
-    "Bag": "http://fixme.com#Bag"
+    "Bag": "https://data.ai-proficiant.eu/ns#Bag"
   }
 }

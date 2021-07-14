@@ -76,20 +76,28 @@
       "@id": "rdfs:seeAlso"
     }
   },
-  "@id": "http://fixme.com",
+  "@id": "https://data.ai-proficiant.eu/ns",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
     "nl": "mijn-applicatieprofiel-ap",
     "en": "mijn-applicatieprofiel-ap"
   },
+  "baseURI": "https://data.ai-proficiant.eu/ns#",
   "issued": "TODO",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "extra": {
     "EA-Name": "OSLO-MijnVocabularium",
     "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
+    "baseURI": "https://data.ai-proficiant.eu/ns#",
     "issued": "TODO",
     "license": "TODO",
-    "RawTags": []
+    "RawTags": [
+      {
+        "key": "baseURI",
+        "value": "https://data.ai-proficiant.eu/ns#",
+        "note": "null"
+      }
+    ]
   },
   "authors": [
     {
@@ -129,7 +137,7 @@
   ],
   "classes": [
     {
-      "@id": "http://fixme.com#Bag",
+      "@id": "https://data.ai-proficiant.eu/ns#Bag",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
         "en": "a non-rigid container"
@@ -224,8 +232,8 @@
   "branchtag": "master",
   "filename": "config/mijn-applicatieprofiel-ap.json",
   "navigation": {},
-  "dummy": "14",
-  "documentcommit": "5e72de601d00870852dc286566d3e0e0b9c2de6b",
-  "toolchaincommit": "9b6f38cf5af6a1d51ced70214114529cbb609b5e",
+  "dummy": "15",
+  "documentcommit": "c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
+  "toolchaincommit": "3bd9f9820771f5526ddf5bdcad2f6579471888bf",
   "hostname": "https://data.ai-proficiant.eu"
 }

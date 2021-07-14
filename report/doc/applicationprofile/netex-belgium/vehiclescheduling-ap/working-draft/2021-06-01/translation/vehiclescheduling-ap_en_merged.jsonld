@@ -16931,7 +16931,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
   "template": "vehiclescheduling-ap_en.j2",
   "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
-  "toolchaincommit": "9b6f38cf5af6a1d51ced70214114529cbb609b5e",
+  "toolchaincommit": "3bd9f9820771f5526ddf5bdcad2f6579471888bf",
   "translation": [
     {
       "language": "en",

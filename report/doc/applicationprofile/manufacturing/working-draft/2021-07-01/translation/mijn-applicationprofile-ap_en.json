@@ -1,0 +1,17 @@
+{
+  "classes": [
+    {
+      "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+      "name": "Bag",
+      "label": {
+        "en": "Bag"
+      },
+      "definition": {
+        "en": "a non-rigid container"
+      }
+    }
+  ],
+  "properties": [],
+  "externals": [],
+  "externalproperties": []
+}

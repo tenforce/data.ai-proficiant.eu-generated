@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "uri": "http://fixme.com",
+    "issued": "2020-01-31",
+    "filename": "mijn-applicatieprofiel-ap",
+    "navigation": {
+      "self": "https://data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01"
+    },
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "statuslabel": "Ontwerp Standaard",
+    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/4f29c2caeca4893a2c8a10195ba0461fac0eb0de",
+    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/4f29c2caeca4893a2c8a10195ba0461fac0eb0de/CHANGELOG",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "http://fixme.com#Bag",
+      "name": "Bag",
+      "label": {
+        "en": "Bag"
+      },
+      "sort": "Bag",
+      "description": {
+        "en": "a non-rigid container"
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    }
+  ],
+  "properties": [],
+  "contributors": [
+    {
+      "role": "A",
+      "first_name": "AuteurVoornaam",
+      "last_name": "AuteurNaam",
+      "affiliation": {
+        "name": "AuteurAffiliatie",
+        "website": "https://auteurwebsiteurl"
+      },
+      "email": "auteurvoornaam.auteurnaam@auteurdomein"
+    },
+    {
+      "role": "E",
+      "first_name": "EditorVoornaam",
+      "last_name": "EditorNaam",
+      "affiliation": {
+        "name": "EditorAffiliatie",
+        "website": "https://editorwebsiteurl"
+      },
+      "email": "editorvoornaam.editornaam@editordomein"
+    },
+    {
+      "role": "C",
+      "first_name": "MedewerkerVoornaam",
+      "last_name": "MedewerkerNaam",
+      "affiliation": {
+        "name": "MedewerkerAffiliatie",
+        "website": "https://medewerkerwebsiteurl"
+      },
+      "email": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
+    }
+  ],
+  "datatypes": [],
+  "parents": [],
+  "documentroot": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01"
+}

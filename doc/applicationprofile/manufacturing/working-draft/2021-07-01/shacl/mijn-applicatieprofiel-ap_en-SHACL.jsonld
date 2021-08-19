@@ -45,6 +45,13 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://data.ai-proficiant.eu/ns#Bag"
+    },
+    {
+      "@id": "https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en#BatchShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://saref.etsi.org/saref4inma/Batch"
     }
   ]
 }

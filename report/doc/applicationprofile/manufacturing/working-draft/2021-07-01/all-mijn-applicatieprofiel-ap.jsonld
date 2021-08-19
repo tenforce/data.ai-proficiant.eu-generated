@@ -156,9 +156,16 @@
         "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
         "EA-Package": "OSLO-MijnVocabularium",
         "EA-Type": "CLASS",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "parentclasses": "",
+        "EA-Parents": "Batch",
+        "EA-Parents2": [
+          {
+            "name": "Batch",
+            "label": "Batch",
+            "package": "OSLO-MijnVocabularium",
+            "uri": "https://saref.etsi.org/saref4inma/Batch"
+          }
+        ],
+        "parentclasses": "https://saref.etsi.org/saref4inma/Batch",
         "label": {
           "en": "Bag"
         },
@@ -200,11 +207,74 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "name": "Bag",
-      "parents": []
+      "parents": [
+        "https://saref.etsi.org/saref4inma/Batch"
+      ]
     }
   ],
   "properties": [],
-  "externals": [],
+  "externals": [
+    {
+      "@id": "https://saref.etsi.org/saref4inma/Batch",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+      },
+      "ap-label-en": {
+        "en": "Batch"
+      },
+      "definition": {
+        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+      },
+      "label": {
+        "en": "Batch"
+      },
+      "extra": {
+        "EA-Name": "Batch",
+        "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
+        "EA-Package": "OSLO-MijnVocabularium",
+        "EA-Type": "CLASS",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "en": "Batch"
+        },
+        "definition": {
+          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "Batch"
+        },
+        "ap-definition-en": {
+          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://saref.etsi.org/saref4inma/Batch",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+          },
+          {
+            "key": "label-en",
+            "value": "Batch",
+            "note": "null"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "name": "Batch"
+    }
+  ],
   "externalproperties": [],
   "name": "mijn-applicatieprofiel-ap",
   "type": "ap",
@@ -232,8 +302,8 @@
   "branchtag": "master",
   "filename": "config/mijn-applicatieprofiel-ap.json",
   "navigation": {},
-  "dummy": "15",
-  "documentcommit": "c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
-  "toolchaincommit": "62b2c0db06892f05a677bbb4865c62cfcb957611",
+  "dummy": "16",
+  "documentcommit": "69d83314285796141ee2f709328449678929458b",
+  "toolchaincommit": "173026a373b2012054df440706cfd462791e03f8",
   "hostname": "https://data.ai-proficiant.eu"
 }

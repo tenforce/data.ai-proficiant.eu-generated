@@ -10,8 +10,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
-    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/c74c578d30b646bc5e071f30141f0ad9ba78f5ea/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/69d83314285796141ee2f709328449678929458b",
+    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/69d83314285796141ee2f709328449678929458b/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
     "usesVocs": [],
@@ -27,6 +27,28 @@
       "sort": "Bag",
       "description": {
         "en": "a non-rigid container"
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Batch",
+          "name": "Batch",
+          "package": "OSLO-MijnVocabularium",
+          "uri": "https://saref.etsi.org/saref4inma/Batch",
+          "scoped_uri": "#Batch"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://saref.etsi.org/saref4inma/Batch",
+      "name": "Batch",
+      "label": {
+        "en": "Batch"
+      },
+      "sort": "Batch",
+      "description": {
+        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
       },
       "usage": {},
       "parents": [],

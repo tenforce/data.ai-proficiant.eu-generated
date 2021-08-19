@@ -1,5 +1,6 @@
 {
   "@context": {
-    "Bag": "https://data.ai-proficiant.eu/ns#Bag"
+    "Bag": "https://data.ai-proficiant.eu/ns#Bag",
+    "Batch": "https://saref.etsi.org/saref4inma/Batch"
   }
 }

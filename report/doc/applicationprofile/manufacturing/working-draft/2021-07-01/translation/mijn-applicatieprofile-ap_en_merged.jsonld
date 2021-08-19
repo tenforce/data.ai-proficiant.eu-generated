@@ -110,8 +110,15 @@
         "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
         "EA-Name": "Bag",
         "EA-Package": "OSLO-MijnVocabularium",
-        "EA-Parents": "",
-        "EA-Parents2": [],
+        "EA-Parents": "Batch",
+        "EA-Parents2": [
+          {
+            "label": "Batch",
+            "name": "Batch",
+            "package": "OSLO-MijnVocabularium",
+            "uri": "https://saref.etsi.org/saref4inma/Batch"
+          }
+        ],
         "EA-Type": "CLASS",
         "RawTags": [
           {
@@ -150,7 +157,7 @@
         "label": {
           "en": "Bag"
         },
-        "parentclasses": "",
+        "parentclasses": "https://saref.etsi.org/saref4inma/Batch",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -158,7 +165,9 @@
         "en": "Bag"
       },
       "name": "Bag",
-      "parents": []
+      "parents": [
+        "https://saref.etsi.org/saref4inma/Batch"
+      ]
     }
   ],
   "config": "config/config-ap.json",
@@ -177,8 +186,8 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "MijnApplicatieprofiel",
-  "documentcommit": "c74c578d30b646bc5e071f30141f0ad9ba78f5ea",
-  "dummy": "15",
+  "documentcommit": "69d83314285796141ee2f709328449678929458b",
+  "dummy": "16",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
     {
@@ -193,7 +202,69 @@
     }
   ],
   "externalproperties": [],
-  "externals": [],
+  "externals": [
+    {
+      "@id": "https://saref.etsi.org/saref4inma/Batch",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
+      "ap-definition-en": {
+        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+      },
+      "ap-label-en": {
+        "en": "Batch"
+      },
+      "definition": {
+        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+      },
+      "extra": {
+        "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
+        "EA-Name": "Batch",
+        "EA-Package": "OSLO-MijnVocabularium",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://saref.etsi.org/saref4inma/Batch"
+          },
+          {
+            "key": "definition-en",
+            "note": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Batch"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+        },
+        "ap-label-en": {
+          "en": "Batch"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+        },
+        "label": {
+          "en": "Batch"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Batch"
+      },
+      "name": "Batch"
+    }
+  ],
   "extra": {
     "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
     "EA-Name": "OSLO-MijnVocabularium",
@@ -225,7 +296,7 @@
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
   "site": "site-skeleton/mijn-applicatieprofiel-ap",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
-  "toolchaincommit": "62b2c0db06892f05a677bbb4865c62cfcb957611",
+  "toolchaincommit": "173026a373b2012054df440706cfd462791e03f8",
   "translation": [
     {
       "language": "en",

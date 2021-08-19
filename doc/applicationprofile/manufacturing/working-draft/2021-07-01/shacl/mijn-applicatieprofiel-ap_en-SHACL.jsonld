@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en",
+    "@vocab": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@type": "@id"
@@ -37,17 +37,17 @@
       "@type": "@id"
     }
   },
-  "@id": "https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en",
+  "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en",
   "shapes": [
     {
-      "@id": "https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en#BagShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BagShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://data.ai-proficiant.eu/ns#Bag"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/mijn-applicatieprofiel-ap_en#BatchShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BatchShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],

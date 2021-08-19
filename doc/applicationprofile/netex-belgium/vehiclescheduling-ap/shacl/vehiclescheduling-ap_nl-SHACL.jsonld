@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl",
+    "@vocab": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@type": "@id"
@@ -37,17 +37,17 @@
       "@type": "@id"
     }
   },
-  "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl",
+  "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl",
   "shapes": [
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ContactPointShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactPointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://schema.org/ContactPoint"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PointShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -110,91 +110,91 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Point"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PolygoonShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PolygoonShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.opengis.net/ont/sf#Polygon"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DirectionTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TransportModeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TransportModeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TrainSizeTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainSizeTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PlaceTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PlaceTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DayOfWeekShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayOfWeekShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#HolidayTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#HolidayTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#SeasonShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#SeasonShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#CrowdingShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrowdingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#WeekOfMonthShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#WeekOfMonthShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TypeOfLineShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TypeOfLineShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#AdressRepresentationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdressRepresentationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/locn#Address"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#GeometryShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GeometryShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -224,28 +224,28 @@
       "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#StandardUnitShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#StandardUnitShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#AccessibilityAssessmentShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AccessibilityAssessmentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#AccessibilityAssessment"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#AuthorityOrOperatorShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AuthorityOrOperatorShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#AuthorityOrOperator"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#BlockShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#BlockShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -332,7 +332,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Block"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DayTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -415,7 +415,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#DayType"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DayTypeAssignmentShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeAssignmentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -469,21 +469,21 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#DayTypeAssignment"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DeadRunShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#DeadRun"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DeadRunPatternShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunPatternShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#DeadRunPattern"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DestinationDisplayShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DestinationDisplayShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -534,7 +534,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#DestinationDisplay"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#DirectionShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -564,7 +564,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Direction"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#GarageShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GarageShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -583,7 +583,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Garage"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#GaragePointShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GaragePointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -602,7 +602,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#GaragePoint"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#GroupOfLinesShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GroupOfLinesShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -654,7 +654,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#GroupOfLines"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#JourneyPatternShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#JourneyPatternShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -728,7 +728,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#JourneyPattern"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#LineShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#LineShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -941,7 +941,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Line"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#NetworkShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NetworkShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -982,14 +982,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Network"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#NoticeAssignmentShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NoticeAssignmentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#NoticeAssignment"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#OperatingDayShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingDayShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1044,7 +1044,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#OperatingDay"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#OperatingPeriodShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingPeriodShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1087,7 +1087,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#OperatingPeriod"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#OperatorShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatorShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1128,14 +1128,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Operator"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ParkingPointShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ParkingPointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#ParkingPoint"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PassengerCapacityShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PassengerCapacityShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1220,7 +1220,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#PassengerCapacity"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1286,7 +1286,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#PointInJourneyPattern"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PointOnRouteShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointOnRouteShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1317,14 +1317,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#PointOnRoute"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PresentationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PresentationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#Presentation"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#PropertyOfDayShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PropertyOfDayShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1462,7 +1462,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#PropertyOfDay"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#RouteShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#RouteShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1546,7 +1546,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Route"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ServiceCalendarShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceCalendarShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1607,14 +1607,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#ServiceCalendar"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ServiceFacilitySetShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceFacilitySetShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#ServiceFacilitySet"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ServiceJourneyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1738,14 +1738,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#ServiceJourney"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#ServiceJourneyPatternShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyPatternShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#ServiceJourneyPattern"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TimeTabledPassingTimeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimeTabledPassingTimeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1808,7 +1808,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#TimeTabledPassingTime"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TimebandShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimebandShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1851,14 +1851,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Timeband"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#TrainNumberShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainNumberShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#TrainNumber"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#UicOperatingPeriodShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#UicOperatingPeriodShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1889,7 +1889,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#UicOperatingPeriod"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#VehicleJourneyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleJourneyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -1974,7 +1974,7 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#VehicleJourney"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#VehicleTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -2113,14 +2113,14 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#VehicleType"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#NumberShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NumberShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://schema.org/Number"
     },
     {
-      "@id": "https://semiceu.github.io/shacl/vehiclescheduling-ap_nl#QuantitativeValueShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#QuantitativeValueShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [

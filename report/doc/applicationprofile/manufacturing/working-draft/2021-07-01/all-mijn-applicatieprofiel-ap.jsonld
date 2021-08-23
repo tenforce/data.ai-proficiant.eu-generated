@@ -296,6 +296,7 @@
       "mergefile": "mijn-applicatieprofile-ap_en_merged.jsonld"
     }
   ],
+  "toolchainversion": "2",
   "config": "config/config-ap.json",
   "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
@@ -303,7 +304,7 @@
   "filename": "config/mijn-applicatieprofiel-ap.json",
   "navigation": {},
   "dummy": "17",
-  "documentcommit": "69d83314285796141ee2f709328449678929458b",
-  "toolchaincommit": "a6b1ef810c386eca0fa09799b0fea6a827b2b5a9",
+  "documentcommit": "c8a02133f723ae477d49e87cd15d29ca957de45d",
+  "toolchaincommit": "137f1b873f4e34cd6b63db6fd155ab448157792a",
   "hostname": "https://data.ai-proficiant.eu"
 }

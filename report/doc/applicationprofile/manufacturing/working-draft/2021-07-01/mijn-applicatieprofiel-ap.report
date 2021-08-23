@@ -2,12 +2,12 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel".
-18:55:50 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.applicatieprofiel_MijnApplicatieprofiel
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:55:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
-18:55:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Bag" .
-18:55:51 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Batch" .
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.applicatieprofiel_MijnApplicatieprofiel".
+11:29:18 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.applicatieprofiel_MijnApplicatieprofiel
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+11:29:18 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.applicatieprofiel_MijnApplicatieprofiel.OSLO-MijnVocabularium".
+11:29:18 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Bag" .
+11:29:18 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Batch" .

@@ -296,7 +296,7 @@
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
   "site": "site-skeleton/mijn-applicatieprofiel-ap",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
-  "toolchaincommit": "861a88ae8ff0324044196f1369efb4035f435006",
+  "toolchaincommit": "5d88c0cbf62bc9403c827d5a8fb20f76c86cdfb8",
   "translation": [
     {
       "language": "en",

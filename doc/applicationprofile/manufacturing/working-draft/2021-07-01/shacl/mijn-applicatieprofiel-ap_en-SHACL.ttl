@@ -2,8 +2,8 @@
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en> <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_enshapes> <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BagShape>,
-    <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BatchShape> .
+<https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en> <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_enshapes> <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BatchShape>,
+    <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BagShape> .
 
 <https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BagShape> a shacl:NodeShape;
   shacl:closed false;

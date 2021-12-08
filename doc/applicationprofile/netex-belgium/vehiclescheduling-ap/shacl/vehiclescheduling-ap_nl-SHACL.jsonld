@@ -12,7 +12,7 @@
     "sh:datatype": {
       "@type": "@id"
     },
-    "sh:definition": {
+    "sh:description": {
       "@container": "@language"
     },
     "sh:maxCount": {
@@ -35,79 +35,123 @@
     },
     "shapes": {
       "@type": "@id"
-    }
+    },
+    "vl": "https://data.vlaanderen.be/ns/shacl#"
   },
   "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl",
   "shapes": [
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactPointShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://schema.org/ContactPoint"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactInfoShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://purl.eu/ns/mobility#Point",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
-          "sh:minCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#location"
+          "sh:path": "http://www.w3.org/2006/vcard/ns#honorific-prefix"
         },
         {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
-          "sh:minCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#name"
+          "sh:path": "http://www.w3.org/ns/locn#address"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://schema.org/hoursAvailable"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#pointNumber"
+          "sh:path": "http://xmlns.com/foaf/0.1/name"
         },
         {
-          "sh:class": "https://purl.eu/ns/mobility#PointProjection",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
+          "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#projection"
+          "sh:path": "http://schema.org/email"
         },
         {
-          "sh:class": "https://purl.eu/ns/mobility#PointInJourneyPattern",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
+          "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#viewedAs"
+          "sh:path": "http://schema.org/faxNumber"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://schema.org/openingHours"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://schema.org/telephone"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://xmlns.com/foaf/0.1/page"
         }
       ],
-      "sh:targetClass": "https://purl.eu/ns/mobility#Point"
+      "sh:targetClass": "http://schema.org/ContactPoint"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PuntShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#Point"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PolygoonShape",
@@ -124,14 +168,28 @@
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TransportModeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainSizeTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimingStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TransportmodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainSizetypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
@@ -187,20 +245,164 @@
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdressRepresentationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdresvoorstellingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#land"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        }
+      ],
       "sh:targetClass": "http://www.w3.org/ns/locn#Address"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GeometryShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GeometrieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -211,7 +413,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -224,7 +426,7 @@
       "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#StandardUnitShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#StandaardEenheidShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
@@ -250,8 +452,19 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -261,8 +474,19 @@
           "sh:path": "https://purl.eu/ns/mobility#endTime"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#endTimeDayOffset"
+        },
+        {
           "sh:class": "https://purl.eu/ns/mobility#ParkingPoint",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -273,8 +497,19 @@
           "sh:path": "https://purl.eu/ns/mobility#endedAt"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#finishingDuration"
+        },
+        {
           "sh:class": "https://purl.eu/ns/mobility#VehicleJourney",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -283,8 +518,30 @@
           "sh:path": "https://purl.eu/ns/mobility#including"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#preparationDuration"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -294,8 +551,19 @@
           "sh:path": "https://purl.eu/ns/mobility#startTime"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#startTimeDayOffset"
+        },
+        {
           "sh:class": "https://purl.eu/ns/mobility#ParkingPoint",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -307,7 +575,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#VehicleType",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -319,9 +587,10 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#DayType",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
+          "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
@@ -332,13 +601,95 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#Block"
     },
     {
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrewBaseShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^privateCode"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^purposeOfGrouping"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^shortName"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#Garage",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#near"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#Garage",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#near"
+        }
+      ],
+      "sh:targetClass": "https://purl.eu/ns/mobility#CrewBase"
+    },
+    {
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -349,7 +700,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#PropertyOfDay",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -359,7 +710,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -370,7 +721,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -381,7 +732,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -392,7 +743,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -403,7 +754,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Timeband",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -421,7 +772,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -433,7 +784,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -444,7 +795,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -455,7 +806,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#OperatingPeriod",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -472,7 +823,30 @@
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#deadRunType"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#directionType"
+        }
+      ],
       "sh:targetClass": "https://purl.eu/ns/mobility#DeadRun"
     },
     {
@@ -489,7 +863,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -500,7 +874,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -511,7 +885,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -522,7 +896,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Via",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -540,7 +914,7 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -551,7 +925,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Direction",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -569,8 +943,161 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:class": "https://purl.eu/ns/mobility#Point",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^centroid"
+        },
+        {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^image"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#Point",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^members"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^name"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^placeType"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Polygon",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^polygon"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^postalAddress"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^privateCode"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^purposeOfGrouping"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^roadAddress"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^short name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^url"
+        },
+        {
+          "sh:class": "http://schema.org/ContactPoint",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#contactDetails"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -578,6 +1105,27 @@
             "nl": "Enter your translation here"
           },
           "sh:path": "https://purl.eu/ns/mobility#name"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#Operator",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#operatedBy"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#Operator",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#usedBy"
         }
       ],
       "sh:targetClass": "https://purl.eu/ns/mobility#Garage"
@@ -589,10 +1137,11 @@
       "sh:property": [
         {
           "sh:class": "https://purl.eu/ns/mobility#Garage",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
@@ -608,7 +1157,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -619,7 +1168,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Line",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:minCount": "1",
@@ -630,18 +1179,18 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Line",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#mainLine"
+          "sh:path": "https://purl.eu/ns/mobility#mainline"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -660,7 +1209,7 @@
       "sh:property": [
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -671,7 +1220,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -682,7 +1231,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#DestinationDisplay",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -693,7 +1242,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Direction",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -704,7 +1253,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#PointInJourneyPattern",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:minCount": "1",
@@ -715,7 +1264,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Route",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -734,7 +1283,7 @@
       "sh:property": [
         {
           "sh:class": "https://purl.eu/ns/mobility#AccessibilityAssessment",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -745,7 +1294,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#AuthorityOrOperator",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -755,7 +1304,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Direction",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -765,7 +1314,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -775,8 +1324,7 @@
           "sh:path": "https://purl.eu/ns/mobility#description"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -786,7 +1334,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Route",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:minCount": "1",
@@ -797,7 +1345,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -808,7 +1356,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -820,7 +1368,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#NoticeAssignment",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -830,7 +1378,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -840,7 +1388,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Presentation",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -851,7 +1399,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -862,7 +1410,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -873,7 +1421,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -883,19 +1431,8 @@
           "sh:path": "https://purl.eu/ns/mobility#shortName"
         },
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#transportMode"
-        },
-        {
           "sh:class": "https://purl.eu/ns/mobility#AuthorityOrOperator",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -906,7 +1443,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -917,7 +1454,18 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#transportmode"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -927,8 +1475,7 @@
           "sh:path": "https://purl.eu/ns/mobility#typeOfLine"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -947,7 +1494,7 @@
       "sh:property": [
         {
           "sh:class": "https://purl.eu/ns/mobility#GroupOfLines",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -957,7 +1504,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -969,7 +1516,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#AuthorityOrOperator",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -995,7 +1542,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1007,7 +1554,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1019,7 +1566,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1031,7 +1578,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1050,7 +1597,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1062,7 +1609,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1073,7 +1620,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1093,7 +1640,7 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/ns/locn#Address",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1103,8 +1650,8 @@
           "sh:path": "https://purl.eu/ns/mobility#address"
         },
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1115,7 +1662,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1131,7 +1678,108 @@
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ParkingPointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^allowedForWaitTime"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^category"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^flexible"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#location"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#CrewBase",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^managedBy"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^pointNumber"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^projection"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#^timingPointType"
+        }
+      ],
       "sh:targetClass": "https://purl.eu/ns/mobility#ParkingPoint"
     },
     {
@@ -1140,8 +1788,8 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:class": "https://purl.eu/ns/mobility#FareClass",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1152,18 +1800,18 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#pushchairCapacity"
+          "sh:path": "https://purl.eu/ns/mobility#pushChairCapacity"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1174,7 +1822,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1185,7 +1833,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1196,7 +1844,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1207,7 +1855,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1220,13 +1868,75 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#PassengerCapacity"
     },
     {
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#location"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#pointNumber"
+        },
+        {
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#projection"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#PointInJourneyPattern",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#viewedAs"
+        }
+      ],
+      "sh:targetClass": "https://purl.eu/ns/mobility#Point"
+    },
+    {
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1237,7 +1947,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1249,7 +1959,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Point",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1260,8 +1970,18 @@
           "sh:path": "https://purl.eu/ns/mobility#aViewOf"
         },
         {
+          "sh:class": "https://purl.eu/ns/mobility#TimeTabledPassingTime",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#at"
+        },
+        {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1273,7 +1993,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#DestinationDisplay",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1289,31 +2009,7 @@
       "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointOnRouteShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#description"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#order"
-        }
-      ],
+      "sh:property": [],
       "sh:targetClass": "https://purl.eu/ns/mobility#PointOnRoute"
     },
     {
@@ -1330,7 +2026,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1340,7 +2036,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1350,7 +2046,7 @@
           "sh:path": "https://purl.eu/ns/mobility#crowding"
         },
         {
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1361,7 +2057,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "7",
@@ -1371,8 +2067,7 @@
           "sh:path": "https://purl.eu/ns/mobility#dayOfWeek"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#gMonthDay",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1383,7 +2078,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1395,7 +2090,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "5",
@@ -1405,8 +2100,7 @@
           "sh:path": "https://purl.eu/ns/mobility#holidayType"
         },
         {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#gMonth",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1417,7 +2111,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1428,7 +2122,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "4",
@@ -1439,7 +2133,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#DayType",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1449,7 +2143,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "5",
@@ -1468,7 +2162,7 @@
       "sh:property": [
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1479,7 +2173,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1490,7 +2184,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#JourneyPattern",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1500,7 +2194,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Direction",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1511,7 +2205,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1522,7 +2216,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Route",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1533,7 +2227,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Line",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1541,6 +2235,17 @@
             "nl": "Enter your translation here"
           },
           "sh:path": "https://purl.eu/ns/mobility#line"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#PointOnRoute",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:minCount": "2",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#through"
         }
       ],
       "sh:targetClass": "https://purl.eu/ns/mobility#Route"
@@ -1552,7 +2257,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1563,7 +2268,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1574,7 +2279,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#OperatingDay",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1584,7 +2289,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1595,7 +2300,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#OperatingPeriod",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1619,51 +2324,8 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://purl.eu/ns/mobility#DayType",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#dayType"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#departureDayOffset"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#departureTime"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://purl.eu/ns/mobility#journeyDuration"
-        },
-        {
           "sh:class": "https://purl.eu/ns/mobility#TrainNumber",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1673,7 +2335,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#ServiceFacilitySet",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1682,7 +2344,7 @@
           "sh:path": "https://purl.eu/ns/mobility#facility"
         },
         {
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1692,7 +2354,7 @@
           "sh:path": "https://purl.eu/ns/mobility#flexibleLineView"
         },
         {
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1703,7 +2365,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Operator",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1714,7 +2376,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1725,7 +2387,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#VehicleType",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1751,7 +2413,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1762,7 +2424,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1773,7 +2435,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1784,7 +2446,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1794,8 +2456,7 @@
           "sh:path": "https://purl.eu/ns/mobility#departureTime"
         },
         {
-          "sh:class": "https://purl.eu/ns/mobility#HeadwayInterval",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1814,7 +2475,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1825,7 +2486,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1837,7 +2498,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1864,7 +2525,7 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1875,7 +2536,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1895,7 +2556,7 @@
       "sh:property": [
         {
           "sh:class": "https://purl.eu/ns/mobility#NoticeAssignment",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1905,7 +2566,7 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1916,18 +2577,29 @@
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "Enter your translation here"
           },
-          "sh:path": "https://purl.eu/ns/mobility#transportSubmode"
+          "sh:path": "https://purl.eu/ns/mobility#^transportSubmode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#departureDayOffset"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#time",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1938,7 +2610,7 @@
         },
         {
           "sh:class": "https://purl.eu/ns/mobility#Block",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -1948,20 +2620,49 @@
           "sh:path": "https://purl.eu/ns/mobility#in"
         },
         {
-          "sh:class": "https://purl.eu/ns/mobility#JourneyPattern",
-          "sh:definition": {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
-          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#journeyDuration"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#JourneyPart",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#journeyPart"
+        },
+        {
+          "sh:class": "https://purl.eu/ns/mobility#JourneyPattern",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
           "sh:name": {
             "nl": "Enter your translation here"
           },
           "sh:path": "https://purl.eu/ns/mobility#madeUsing"
         },
         {
+          "sh:class": "https://purl.eu/ns/mobility#TimeTabledPassingTime",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://purl.eu/ns/mobility#passedAt"
+        },
+        {
           "sh:class": "https://purl.eu/ns/mobility#DayType",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:minCount": "1",
@@ -1980,7 +2681,7 @@
       "sh:property": [
         {
           "sh:class": "https://purl.eu/ns/mobility#PassengerCapacity",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:name": {
@@ -1990,7 +2691,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2001,7 +2702,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2012,7 +2713,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2023,7 +2724,7 @@
         },
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2034,7 +2735,7 @@
         },
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2045,7 +2746,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2056,7 +2757,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2067,7 +2768,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2077,8 +2778,8 @@
           "sh:path": "https://purl.eu/ns/mobility#selfPropelled"
         },
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:definition": {
+          "sh:class": "https://purl.eu/ns/mobility#TypeOfFuel",
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2089,7 +2790,7 @@
         },
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2100,7 +2801,7 @@
         },
         {
           "sh:class": "https://schema.org/QuantitativeValue",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2113,31 +2814,20 @@
       "sh:targetClass": "https://purl.eu/ns/mobility#VehicleType"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NumberShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GetalShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://schema.org/Number"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#QuantitativeValueShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#KwantitatieveWaardeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
-          "sh:definition": {
-            "nl": "Enter your translation here"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://schema.org/unitCode"
-        },
-        {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",
@@ -2147,8 +2837,19 @@
           "sh:path": "https://schema.org/unitText"
         },
         {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://schema.org/unitCode"
+        },
+        {
           "sh:class": "https://schema.org/Number",
-          "sh:definition": {
+          "sh:description": {
             "nl": "Enter your translation here"
           },
           "sh:maxCount": "1",

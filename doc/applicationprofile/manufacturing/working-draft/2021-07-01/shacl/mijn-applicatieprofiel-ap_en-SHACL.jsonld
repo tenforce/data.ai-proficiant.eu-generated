@@ -12,7 +12,7 @@
     "sh:datatype": {
       "@type": "@id"
     },
-    "sh:definition": {
+    "sh:description": {
       "@container": "@language"
     },
     "sh:maxCount": {
@@ -35,7 +35,8 @@
     },
     "shapes": {
       "@type": "@id"
-    }
+    },
+    "vl": "https://data.vlaanderen.be/ns/shacl#"
   },
   "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en",
   "shapes": [

@@ -237,7 +237,7 @@
         "EA-Type": "attribute",
         "EA-Domain": "Bag",
         "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-        "EA-Range": "int",
+        "EA-Range": "decimal",
         "RangeData": {
           "EA-Name": "",
           "EA-Package": "",
@@ -364,6 +364,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+  "title": "Manufacturing application profile",
   "translation": [
     {
       "language": "en",
@@ -381,7 +382,7 @@
   "filename": "config/manufacturing.json",
   "navigation": {},
   "dummy": "19",
-  "documentcommit": "370bc907a3435a247adc7d169e484093594b90b8",
-  "toolchaincommit": "87a6ef42c7a4e6bea1af08c3d307110e52b0c963",
+  "documentcommit": "e9cd0e6093e9f316a08be8fa3c16e0808c49d5d9",
+  "toolchaincommit": "24ecdb50e6d75c33218403a0a4bf0b7e19da6704",
   "hostname": "https://data.ai-proficiant.eu"
 }

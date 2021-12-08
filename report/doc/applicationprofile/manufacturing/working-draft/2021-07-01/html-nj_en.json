@@ -1,5 +1,6 @@
 {
   "metadata": {
+    "title": "Manufacturing application profile",
     "uri": "https://data.ai-proficiant.eu/ns",
     "issued": "2021-08-31",
     "baseURI": "https://data.ai-proficiant.eu/ns#",
@@ -12,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/370bc907a3435a247adc7d169e484093594b90b8",
-    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/370bc907a3435a247adc7d169e484093594b90b8/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/e9cd0e6093e9f316a08be8fa3c16e0808c49d5d9",
+    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/e9cd0e6093e9f316a08be8fa3c16e0808c49d5d9/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],

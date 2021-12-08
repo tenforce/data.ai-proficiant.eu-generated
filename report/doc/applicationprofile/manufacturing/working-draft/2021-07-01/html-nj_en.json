@@ -1,21 +1,21 @@
 {
   "metadata": {
     "uri": "https://data.ai-proficiant.eu/ns",
-    "issued": "2020-01-31",
+    "issued": "2021-08-31",
     "baseURI": "https://data.ai-proficiant.eu/ns#",
-    "filename": "mijn-applicatieprofiel-ap",
+    "filename": "manufacturing",
     "navigation": {
       "self": "https://data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01"
     },
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "documenttype": "ap",
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/c8a02133f723ae477d49e87cd15d29ca957de45d",
-    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/c8a02133f723ae477d49e87cd15d29ca957de45d/CHANGELOG",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+    "repositoryurl": "https://github.com/tenforce/ai-proficiant-thema/tree/370bc907a3435a247adc7d169e484093594b90b8",
+    "changelogurl": "https://github.com/tenforce/ai-proficiant-thema/blob/370bc907a3435a247adc7d169e484093594b90b8/CHANGELOG",
+    "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+    "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
     "usesAPs": []
   },
@@ -35,12 +35,35 @@
         {
           "label": "Batch",
           "name": "Batch",
-          "package": "OSLO-MijnVocabularium",
+          "package": "manufacturing",
           "uri": "https://saref.etsi.org/saref4inma/Batch",
           "scoped_uri": "#Batch"
         }
       ],
-      "properties": []
+      "properties": [
+        {
+          "uri": "https://data.ai-proficiant.eu/ns#size",
+          "name": "size",
+          "sort": "size",
+          "label": {
+            "en": "size"
+          },
+          "description": {
+            "en": "The volume the bag can hold in m2 "
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Bag",
+              "uri": "https://data.ai-proficiant.eu/ns#Bag"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "https://saref.etsi.org/saref4inma/Batch",

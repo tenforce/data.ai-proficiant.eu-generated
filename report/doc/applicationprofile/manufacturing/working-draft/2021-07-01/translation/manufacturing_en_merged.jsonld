@@ -109,13 +109,13 @@
       "extra": {
         "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
         "EA-Name": "Bag",
-        "EA-Package": "OSLO-MijnVocabularium",
+        "EA-Package": "manufacturing",
         "EA-Parents": "Batch",
         "EA-Parents2": [
           {
             "label": "Batch",
             "name": "Batch",
-            "package": "OSLO-MijnVocabularium",
+            "package": "manufacturing",
             "uri": "https://saref.etsi.org/saref4inma/Batch"
           }
         ],
@@ -183,10 +183,10 @@
       "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein"
     }
   ],
-  "contributors-column": "MijnKolom",
+  "contributors-column": "manufacturing",
   "contributors-file": "stakeholders.csv",
-  "diagram": "MijnApplicatieprofiel",
-  "documentcommit": "c8a02133f723ae477d49e87cd15d29ca957de45d",
+  "diagram": "manufacturing",
+  "documentcommit": "370bc907a3435a247adc7d169e484093594b90b8",
   "dummy": "19",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
@@ -219,7 +219,7 @@
       "extra": {
         "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
         "EA-Name": "Batch",
-        "EA-Package": "OSLO-MijnVocabularium",
+        "EA-Package": "manufacturing",
         "EA-Parents": "",
         "EA-Parents2": [],
         "EA-Type": "CLASS",
@@ -267,7 +267,7 @@
   ],
   "extra": {
     "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
-    "EA-Name": "OSLO-MijnVocabularium",
+    "EA-Name": "manufacturing",
     "RawTags": [
       {
         "key": "baseURI",
@@ -279,32 +279,110 @@
     "issued": "TODO",
     "license": "TODO"
   },
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
-  "filename": "config/mijn-applicatieprofiel-ap.json",
+  "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+  "filename": "config/manufacturing.json",
   "hostname": "https://data.ai-proficiant.eu",
   "issued": "TODO",
   "label": {
-    "en": "mijn-applicatieprofiel-ap",
-    "nl": "mijn-applicatieprofiel-ap"
+    "en": "manufacturing",
+    "nl": "manufacturing"
   },
-  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-  "name": "mijn-applicatieprofiel-ap",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "manufacturing",
   "navigation": {},
-  "properties": [],
-  "publication-date": "2020-01-31",
+  "properties": [
+    {
+      "@id": "https://data.ai-proficiant.eu/ns#size",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
+      "ap-definition-en": {
+        "en": "The volume the bag can hold in m2 "
+      },
+      "ap-label-en": {
+        "en": "size"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "The volume the bag can hold in m2 "
+      },
+      "domain": [
+        {
+          "EA-Name": "Bag",
+          "uri": "https://data.ai-proficiant.eu/ns#Bag"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Bag",
+        "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+        "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
+        "EA-Name": "size",
+        "EA-Package": "manufacturing",
+        "EA-Range": "int",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "size"
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "The volume the bag can hold in m2 "
+          },
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "size"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The volume the bag can hold in m2 "
+        },
+        "ap-label-en": {
+          "en": "size"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The volume the bag can hold in m2 "
+        },
+        "label": {
+          "en": "size"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "size"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "size",
+      "range": []
+    }
+  ],
+  "publication-date": "2021-08-31",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "repository": "https://github.com/tenforce/ai-proficiant-thema",
-  "site": "site-skeleton/mijn-applicatieprofiel-ap",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
-  "toolchaincommit": "eb740e465ac32785e26c7c8aa830b73c9c24c1e4",
+  "site": "site-skeleton/manufacturing-ap",
+  "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+  "toolchaincommit": "7495836f436b540733ca50020f9cad5626d18bf4",
   "toolchainversion": "2",
   "translation": [
     {
       "language": "en",
-      "mergefile": "mijn-applicatieprofile-ap_en_merged.jsonld",
-      "template": "mijn-applicatieprofiel-ap_en.j2",
-      "title": "My application profile",
-      "translationjson": "mijn-applicationprofile-ap_en.json"
+      "mergefile": "manufacturing_en_merged.jsonld",
+      "template": "manufacturing_en.j2",
+      "title": "Manufacturing application profile",
+      "translationjson": "manufacturing_en.json"
     }
   ],
   "type": "ap",

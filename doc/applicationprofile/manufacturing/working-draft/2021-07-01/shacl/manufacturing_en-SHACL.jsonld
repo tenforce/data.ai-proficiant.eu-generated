@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en",
+    "@vocab": "https://data.ai-proficiant.eu/shacl/manufacturing_en",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@type": "@id"
@@ -38,17 +38,29 @@
     },
     "vl": "https://data.vlaanderen.be/ns/shacl#"
   },
-  "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en",
+  "@id": "https://data.ai-proficiant.eu/shacl/manufacturing_en",
   "shapes": [
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BagShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/manufacturing_en#BagShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "The volume the bag can hold in m2 "
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "size"
+          },
+          "sh:path": "https://data.ai-proficiant.eu/ns#size"
+        }
+      ],
       "sh:targetClass": "https://data.ai-proficiant.eu/ns#Bag"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/mijn-applicatieprofiel-ap_en#BatchShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/manufacturing_en#BatchShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],

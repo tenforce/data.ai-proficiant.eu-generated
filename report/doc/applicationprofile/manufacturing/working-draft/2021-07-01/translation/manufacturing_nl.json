@@ -14,7 +14,20 @@
       }
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
+      "name": "size",
+      "label": {
+        "en": "size",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The volume the bag can hold in m2 ",
+        "nl": "Enter your translation here"
+      }
+    }
+  ],
   "externals": [
     {
       "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",

@@ -371,11 +371,11 @@
   ],
   "publication-date": "2021-08-31",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "repository": "https://github.com/tenforce/ai-proficiant-thema",
+  "repository": "https://github.com/tenforce/ai-proficient-thema",
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "24ecdb50e6d75c33218403a0a4bf0b7e19da6704",
+  "toolchaincommit": "6c6da8917276f598443811a3da1188f199cb02a3",
   "toolchainversion": "2",
   "translation": [
     {

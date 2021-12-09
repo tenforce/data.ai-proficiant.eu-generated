@@ -186,8 +186,8 @@
   "contributors-column": "manufacturing",
   "contributors-file": "stakeholders.csv",
   "diagram": "manufacturing",
-  "documentcommit": "1a791ee2889d995ddbdfebbf918a3829239c1516",
-  "dummy": "20",
+  "documentcommit": "3595f546edb467b159c76bc5fe6102979080d9e8",
+  "dummy": "21",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
     {
@@ -293,7 +293,7 @@
   "properties": [
     {
       "@id": "https://data.ai-proficiant.eu/ns#size",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
       "ap-definition-en": {
         "en": "The volume the bag can hold in m2 "
@@ -317,12 +317,12 @@
         "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
         "EA-Name": "size",
         "EA-Package": "manufacturing",
-        "EA-Range": "Decimal",
+        "EA-Range": "Double",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Double",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#double"
         },
         "RawTags": [
           {
@@ -339,6 +339,11 @@
             "key": "ap-label-en",
             "note": "null",
             "value": "size"
+          },
+          {
+            "key": "literal",
+            "note": "null",
+            "value": "true"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -366,7 +371,13 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "size",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Double",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      ]
     }
   ],
   "publication-date": "2021-08-31",
@@ -375,7 +386,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "591c019d9f0f2f283fcc2a9f44f03e7ceb3b1a60",
+  "toolchaincommit": "5cf7bd20d1d051b9f99443e4dd150f629d9fc403",
   "toolchainversion": "2",
   "translation": [
     {

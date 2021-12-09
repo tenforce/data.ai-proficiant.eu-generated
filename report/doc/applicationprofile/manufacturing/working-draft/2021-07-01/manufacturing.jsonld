@@ -131,18 +131,18 @@
 "properties": [
 {
 "@id": "https://data.ai-proficiant.eu/ns#size",
-"@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "size",
 "inpackage": "ACTIVE_PACKAGE",
 "ap-definition-en" : {"en": "The volume the bag can hold in m2 "}, "ap-label-en" : {"en": "size"}, "definition" : {"en": "The volume the bag can hold in m2 "}, "label" : {"en": "size"},
-"extra": {"EA-Name" : "size", "EA-Guid" : "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}", "EA-Package" : "manufacturing", "EA-Type" : "attribute", "EA-Domain" : "Bag", "EA-Domain-Guid" : "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}", "EA-Range" : "Decimal", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "size", "definition" : "The volume the bag can hold in m2 ", "usage" : "", "ap-label-en" : "size", "ap-definition-en" : "The volume the bag can hold in m2 ", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "size", "note": "null" }, { "key": "ap-definition-en", "value": "The volume the bag can hold in m2 ", "note": "null" }, { "key": "ap-label-en", "value": "size", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The volume the bag can hold in m2 "}, "ap-label-en" : {"en": "size"}, "definition" : {"en": "The volume the bag can hold in m2 "}, "label" : {"en": "size"}},
+"extra": {"EA-Name" : "size", "EA-Guid" : "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}", "EA-Package" : "manufacturing", "EA-Type" : "attribute", "EA-Domain" : "Bag", "EA-Domain-Guid" : "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}", "EA-Range" : "Double", "RangeData" : {"EA-Name" : "Double", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#double" }, "label" : "size", "definition" : "The volume the bag can hold in m2 ", "usage" : "", "ap-label-en" : "size", "ap-definition-en" : "The volume the bag can hold in m2 ", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "size", "note": "null" }, { "key": "ap-definition-en", "value": "The volume the bag can hold in m2 ", "note": "null" }, { "key": "ap-label-en", "value": "size", "note": "null" }, { "key": "literal", "value": "true", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The volume the bag can hold in m2 "}, "ap-label-en" : {"en": "size"}, "definition" : {"en": "The volume the bag can hold in m2 "}, "label" : {"en": "size"}},
 "codelist": [
 ],
 "domain": [
 { "uri": "https://data.ai-proficiant.eu/ns#Bag", "EA-Name" : "Bag" }
 ],
 "range": [
-
+{"EA-Name" : "Double", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#double" }
 ],
 "generalization": [
 

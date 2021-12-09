@@ -8,6 +8,7 @@
 <https://data.ai-proficiant.eu/shacl/manufacturing_en#BagShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:double;
     shacl:description "The volume the bag can hold in m2 "@en;
     shacl:maxCount 1;
     shacl:minCount 1;

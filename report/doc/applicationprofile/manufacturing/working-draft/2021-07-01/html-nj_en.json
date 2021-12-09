@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/1a791ee2889d995ddbdfebbf918a3829239c1516",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/1a791ee2889d995ddbdfebbf918a3829239c1516/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/3595f546edb467b159c76bc5fe6102979080d9e8",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/3595f546edb467b159c76bc5fe6102979080d9e8/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -59,8 +59,21 @@
               "uri": "https://data.ai-proficiant.eu/ns#Bag"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Double",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#double"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#double",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": ""
         }

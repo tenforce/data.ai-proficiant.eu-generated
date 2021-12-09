@@ -215,7 +215,7 @@
     "properties": [
         {
             "@id": "https://data.ai-proficiant.eu/ns#size",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "size",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
@@ -237,11 +237,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "Bag",
                 "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-                "EA-Range": "Decimal",
+                "EA-Range": "Double",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Double",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
                 },
                 "label": {
                     "en": "size"
@@ -273,6 +273,11 @@
                         "key": "ap-label-en",
                         "value": "size",
                         "note": "null"
+                    },
+                    {
+                        "key": "literal",
+                        "value": "true",
+                        "note": "null"
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -284,7 +289,13 @@
                     "EA-Name": "Bag"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
@@ -381,8 +392,8 @@
     "branchtag": "master",
     "filename": "config/manufacturing.json",
     "navigation": {},
-    "dummy": "20",
-    "documentcommit": "1a791ee2889d995ddbdfebbf918a3829239c1516",
-    "toolchaincommit": "591c019d9f0f2f283fcc2a9f44f03e7ceb3b1a60",
+    "dummy": "21",
+    "documentcommit": "3595f546edb467b159c76bc5fe6102979080d9e8",
+    "toolchaincommit": "5cf7bd20d1d051b9f99443e4dd150f629d9fc403",
     "hostname": "https://data.ai-proficiant.eu"
 }

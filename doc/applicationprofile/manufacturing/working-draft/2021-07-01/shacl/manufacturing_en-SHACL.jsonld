@@ -46,6 +46,7 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#double",
           "sh:description": {
             "en": "The volume the bag can hold in m2 "
           },

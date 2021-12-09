@@ -56,6 +56,15 @@
             "en": "size"
           },
           "sh:path": "https://data.ai-proficiant.eu/ns#size"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "the volume in m2"
+          },
+          "sh:path": "https://data.ai-proficiant.eu/ns#volume"
         }
       ],
       "sh:targetClass": "https://data.ai-proficiant.eu/ns#Bag"

@@ -22,6 +22,13 @@
       "definition": {
         "en": "The volume the bag can hold in m2 "
       }
+    },
+    {
+      "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
+      "name": "the volume in m2",
+      "label": {
+        "en": "the volume in m2"
+      }
     }
   ],
   "externals": [

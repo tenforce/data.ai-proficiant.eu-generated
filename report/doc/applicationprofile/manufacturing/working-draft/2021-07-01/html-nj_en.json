@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/3595f546edb467b159c76bc5fe6102979080d9e8",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/3595f546edb467b159c76bc5fe6102979080d9e8/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/9b2bddcc1e9c00ce3ee5daafd1e0608ec01d8239",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/9b2bddcc1e9c00ce3ee5daafd1e0608ec01d8239/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -52,6 +52,39 @@
           "description": {
             "en": "The volume the bag can hold in m2 "
           },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Bag",
+              "uri": "https://data.ai-proficiant.eu/ns#Bag"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Double",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#double"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#double",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.ai-proficiant.eu/ns#volume",
+          "name": "the volume in m2",
+          "sort": "the volume in m2",
+          "label": {
+            "en": "the volume in m2"
+          },
+          "description": {},
           "usage": {},
           "domain": [
             {

@@ -5,6 +5,10 @@
       "@id": "https://data.ai-proficiant.eu/ns#size",
       "@type": "http://www.w3.org/2001/XMLSchema#double"
     },
+    "Bag.theVolumeInM2": {
+      "@id": "https://data.ai-proficiant.eu/ns#volume",
+      "@type": "http://www.w3.org/2001/XMLSchema#double"
+    },
     "Batch": "https://saref.etsi.org/saref4inma/Batch"
   }
 }

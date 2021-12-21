@@ -459,7 +459,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "26e56bd58c642f86428110927ac333dff1ec4640",
+  "toolchaincommit": "c58a561cb904ebd2dd9ee5500bc5a664efe5b05c",
   "toolchainversion": "2",
   "translation": [
     {

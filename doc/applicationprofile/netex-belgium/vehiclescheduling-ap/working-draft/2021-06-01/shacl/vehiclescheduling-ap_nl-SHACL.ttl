@@ -8,64 +8,64 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl> <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nlshapes> <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PresentationShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunPatternShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GeometrieShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PuntShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NoticeAssignmentShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AccessibilityAssessmentShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DestinationDisplayShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrewBaseShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PolygoonShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrowdingShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#BlockShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PassengerCapacityShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GetalShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GaragePointShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#LineShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PlaceTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#SeasonShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#KwantitatieveWaardeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#StandaardEenheidShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimeTabledPassingTimeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TransportmodeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactInfoShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimingStatusShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#RouteShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GarageShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimebandShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingPeriodShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointOnRouteShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleJourneyShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#JourneyPatternShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceCalendarShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdresvoorstellingShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingDayShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NetworkShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#UicOperatingPeriodShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleTypeShape>,
+<https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl> <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nlshapes> <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainSizetypeShape>,
     <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TypeOfLineShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#WeekOfMonthShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatorShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ParkingPointShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PropertyOfDayShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GroupOfLinesShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceFacilitySetShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GaragePointShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimingStatusShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceCalendarShape>,
     <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyPatternShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeAssignmentShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainSizetypeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PolygoonShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactInfoShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrowdingShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatorShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PuntShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdresvoorstellingShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimebandShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunPatternShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GetalShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PassengerCapacityShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#JourneyPatternShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#StandaardEenheidShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionTypeShape>,
     <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AuthorityOrOperatorShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainNumberShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DeadRunTypeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceFacilitySetShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ParkingPointShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#WeekOfMonthShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#RouteShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NetworkShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleJourneyShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeAssignmentShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PlaceTypeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PresentationShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GroupOfLinesShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PropertyOfDayShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AccessibilityAssessmentShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingPeriodShape>,
     <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#HolidayTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayOfWeekShape> .
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayOfWeekShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#SeasonShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#NoticeAssignmentShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#LineShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleTypeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingDayShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#BlockShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#KwantitatieveWaardeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#UicOperatingPeriodShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointOnRouteShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#CrewBaseShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GarageShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimeTabledPassingTimeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TrainNumberShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GeometrieShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TransportmodeShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyPatternShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DestinationDisplayShape>,
+    <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AccessibilityAssessmentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -74,16 +74,20 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#AdresvoorstellingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#poBox>
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL1>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#locatorDesignator>
   ], [
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#fullAddress>
+    shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -94,17 +98,7 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#adminUnitL2>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#adminUnitL1>
+    shacl:path <http://www.w3.org/ns/locn#addressArea>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -113,9 +107,34 @@
     shacl:path <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>
   ], [
     shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#locatorName>
+  ], [
+    shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://data.vlaanderen.be/ns/adres#land>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#fullAddress>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL2>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#poBox>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <http://www.w3.org/ns/locn#postName>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -126,26 +145,7 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#addressArea>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#locatorName>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
     shacl:path <http://www.w3.org/ns/locn#thoroughfare>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#postName>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.w3.org/ns/locn#locatorDesignator>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
 
@@ -156,37 +156,6 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#BlockShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:integer;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#startTimeDayOffset>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#ParkingPoint>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#startedAt>
-  ], [
-    shacl:datatype xsd:time;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#startTime>
-  ], [
-    shacl:datatype xsd:time;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#endTime>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#ParkingPoint>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -198,12 +167,13 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#preparationDuration>
+    shacl:path <https://purl.eu/ns/mobility#finishingDuration>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#VehicleJourney>;
+    shacl:datatype xsd:integer;
     shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#including>
+    shacl:path <https://purl.eu/ns/mobility#startTimeDayOffset>
   ], [
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
@@ -211,12 +181,23 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#description>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#VehicleType>;
+    shacl:class <https://purl.eu/ns/mobility#ParkingPoint>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#using>
+    shacl:path <https://purl.eu/ns/mobility#startedAt>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#VehicleJourney>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#including>
+  ], [
+    shacl:datatype xsd:time;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#endTime>
   ], [
     shacl:class <https://purl.eu/ns/mobility#DayType>;
     shacl:description "Enter your translation here"@nl;
@@ -231,51 +212,58 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#endTimeDayOffset>
   ], [
+    shacl:class <https://purl.eu/ns/mobility#VehicleType>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#using>
+  ], [
     shacl:datatype xsd:duration;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#finishingDuration>
+    shacl:path <https://purl.eu/ns/mobility#preparationDuration>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
+  ], [
+    shacl:datatype xsd:time;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#startTime>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Block> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ContactInfoShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:string;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path schema:faxNumber
-  ], [
-    shacl:datatype rdfs:Literal;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path schema:openingHours
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path schema:hoursAvailable
-  ], [
     shacl:datatype xsd:anyURI;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path foaf:page
   ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path vcard:honorific-prefix
-  ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path foaf:name
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path schema:hoursAvailable
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path schema:telephone
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -289,11 +277,23 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <http://www.w3.org/ns/locn#address>
   ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path vcard:honorific-prefix
+  ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path schema:telephone
+    shacl:path schema:faxNumber
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path schema:openingHours
   ];
   shacl:targetClass schema:ContactPoint .
 
@@ -320,19 +320,19 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#near>
   ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
     shacl:class <https://purl.eu/ns/mobility#Garage>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#near>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#CrewBase> .
 
@@ -347,11 +347,11 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeAssignmentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
+    shacl:datatype xsd:date;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
+    shacl:path <https://purl.eu/ns/mobility#date>
   ], [
     shacl:class <https://purl.eu/ns/mobility#OperatingPeriod>;
     shacl:description "Enter your translation here"@nl;
@@ -367,35 +367,17 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#available>
   ], [
-    shacl:datatype xsd:date;
+    shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#date>
+    shacl:path <https://purl.eu/ns/mobility#name>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#DayTypeAssignment> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DayTypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#description>
-  ], [
-    shacl:datatype xsd:time;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#earliestTime>
-  ], [
     shacl:datatype xsd:duration;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -406,12 +388,30 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#shortName>
+    shacl:path <https://purl.eu/ns/mobility#description>
   ], [
     shacl:class <https://purl.eu/ns/mobility#PropertyOfDay>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#describedBy>
+  ], [
+    shacl:datatype xsd:time;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#earliestTime>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#shortName>
   ], [
     shacl:class <https://purl.eu/ns/mobility#Timeband>;
     shacl:description "Enter your translation here"@nl;
@@ -457,7 +457,7 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#sideText>
+    shacl:path <https://purl.eu/ns/mobility#frontText>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -469,24 +469,24 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#frontText>
+    shacl:path <https://purl.eu/ns/mobility#sideText>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#DestinationDisplay> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#DirectionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://purl.eu/ns/mobility#Direction>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#oppositeDirection>
-  ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#directionType>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#Direction>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#oppositeDirection>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Direction> .
 
@@ -509,26 +509,11 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GarageShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://purl.eu/ns/mobility#Operator>;
+    shacl:class <https://purl.eu/ns/mobility#Point>;
     shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#usedBy>
+    shacl:name "Enter your translation here"@nl
   ], [
     shacl:class <http://www.w3.org/ns/locn#Address>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:datatype xsd:anyURI;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
@@ -538,12 +523,19 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
-    shacl:datatype rdf:langString;
+    shacl:class <https://purl.eu/ns/mobility#Operator>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#operatedBy>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#Point>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
-    shacl:datatype rdf:langString;
+    shacl:class <http://www.opengis.net/ont/sf#Polygon>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
@@ -557,44 +549,52 @@
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:datatype xsd:anyURI;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#Point>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl
   ], [
     shacl:class <http://www.w3.org/ns/locn#Address>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
-    shacl:class <https://purl.eu/ns/mobility#Point>;
+    shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
-    shacl:class <http://www.opengis.net/ont/sf#Polygon>;
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:datatype xsd:anyURI;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
     shacl:class <https://purl.eu/ns/mobility#Operator>;
     shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#operatedBy>
+    shacl:path <https://purl.eu/ns/mobility#usedBy>
+  ], [
+    shacl:datatype xsd:anyURI;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Garage> .
 
@@ -605,13 +605,13 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.opengis.net/ont/geosparql#asWKT>
+    shacl:path <http://www.opengis.net/ont/geosparql#asGML>
   ], [
     shacl:datatype rdfs:Literal;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <http://www.opengis.net/ont/geosparql#asGML>
+    shacl:path <http://www.opengis.net/ont/geosparql#asWKT>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
 
@@ -622,18 +622,6 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#GroupOfLinesShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#transportmode>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#Line>;
     shacl:description "Enter your translation here"@nl;
     shacl:minCount 1;
@@ -645,6 +633,18 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#mainline>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#transportmode>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#GroupOfLines> .
 
@@ -655,23 +655,29 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#JourneyPatternShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <https://purl.eu/ns/mobility#PointInJourneyPattern>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#madeUpOf>
+  ], [
     shacl:class <https://purl.eu/ns/mobility#Route>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#route>
   ], [
+    shacl:class schemas:QuantitativeValue;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#distance>
+  ], [
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#PointInJourneyPattern>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#madeUpOf>
   ], [
     shacl:class <https://purl.eu/ns/mobility#DestinationDisplay>;
     shacl:description "Enter your translation here"@nl;
@@ -684,23 +690,17 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#direction>
-  ], [
-    shacl:class schemas:QuantitativeValue;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#distance>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#JourneyPattern> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#KwantitatieveWaardeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
+    shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path schemas:unitCode
+    shacl:path schemas:unitText
   ], [
     shacl:class schemas:Number;
     shacl:description "Enter your translation here"@nl;
@@ -709,34 +709,22 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path schemas:value
   ], [
-    shacl:datatype xsd:string;
+    shacl:class <https://data.vlaanderen.be/ns/generiek#StandaardEenheid>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path schemas:unitText
+    shacl:path schemas:unitCode
   ];
   shacl:targetClass schemas:QuantitativeValue .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#LineShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype rdf:langString;
+    shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#shortName>
-  ], [
-    shacl:datatype xsd:boolean;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#monitored>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#AccessibilityAssessment>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#accessibilityAssessment>
+    shacl:path <https://purl.eu/ns/mobility#transportSubmode>
   ], [
     shacl:class <https://purl.eu/ns/mobility#NoticeAssignment>;
     shacl:description "Enter your translation here"@nl;
@@ -745,19 +733,20 @@
   ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#otherModes>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#Route>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#madeUpOf>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#transportSubmode>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#Direction>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#allowedDirection>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#url>
+    shacl:path <https://purl.eu/ns/mobility#typeOfLine>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -768,19 +757,9 @@
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#description>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#Route>;
-    shacl:description "Enter your translation here"@nl;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#madeUpOf>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#AuthorityOrOperator>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#additionalOperators>
+    shacl:path <https://purl.eu/ns/mobility#name>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -791,32 +770,8 @@
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#otherModes>
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#transportmode>
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#typeOfLine>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#AuthorityOrOperator>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#transportOrganisation>
+    shacl:path <https://purl.eu/ns/mobility#shortName>
   ], [
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
@@ -827,6 +782,51 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#presentation>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#AuthorityOrOperator>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#additionalOperators>
+  ], [
+    shacl:datatype xsd:boolean;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#monitored>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#description>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#AccessibilityAssessment>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#accessibilityAssessment>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#Direction>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#allowedDirection>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#transportmode>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#AuthorityOrOperator>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#transportOrganisation>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#url>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Line> .
 
@@ -860,19 +860,11 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingDayShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:date;
+    shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#calendarDate>
-  ], [
-    shacl:datatype xsd:duration;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#dayLength>
+    shacl:path <https://purl.eu/ns/mobility#name>
   ], [
     shacl:datatype xsd:time;
     shacl:description "Enter your translation here"@nl;
@@ -881,24 +873,25 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#earliestTime>
   ], [
-    shacl:datatype rdf:langString;
+    shacl:datatype xsd:duration;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
+    shacl:path <https://purl.eu/ns/mobility#dayLength>
+  ], [
+    shacl:datatype xsd:date;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#calendarDate>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#OperatingDay> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatingPeriodShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:dateTime;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#fromDate>
-  ], [
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -911,17 +904,24 @@
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#toDate>
+  ], [
+    shacl:datatype xsd:dateTime;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#fromDate>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#OperatingPeriod> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#OperatorShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://www.w3.org/ns/locn#Address>;
+    shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#address>
+    shacl:path <https://purl.eu/ns/mobility#country>
   ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
@@ -929,42 +929,23 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#primaryMode>
   ], [
-    shacl:datatype xsd:string;
+    shacl:class <http://www.w3.org/ns/locn#Address>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#country>
+    shacl:path <https://purl.eu/ns/mobility#address>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Operator> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ParkingPointShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:boolean;
     shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
     shacl:datatype xsd:duration;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:datatype xsd:string;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl
-  ], [
-    shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
@@ -975,7 +956,15 @@
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl
   ], [
-    shacl:datatype xsd:boolean;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl
@@ -986,6 +975,17 @@
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#location>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#ParkingPoint> .
 
@@ -996,7 +996,7 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#seatingcapacity>
+    shacl:path <https://purl.eu/ns/mobility#specialPlaceCapacity>
   ], [
     shacl:class <https://purl.eu/ns/mobility#FareClass>;
     shacl:description "Enter your translation here"@nl;
@@ -1008,13 +1008,7 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#wheelchairPlaceCapacity>
-  ], [
-    shacl:datatype xsd:integer;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#specialPlaceCapacity>
+    shacl:path <https://purl.eu/ns/mobility#seatingcapacity>
   ], [
     shacl:datatype xsd:integer;
     shacl:description "Enter your translation here"@nl;
@@ -1033,6 +1027,12 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#standingCapacity>
+  ], [
+    shacl:datatype xsd:integer;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#wheelchairPlaceCapacity>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#PassengerCapacity> .
 
@@ -1043,12 +1043,30 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointInJourneyPatternShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:class <https://purl.eu/ns/mobility#TimeTabledPassingTime>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#at>
+  ], [
+    shacl:datatype xsd:boolean;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#changeOfDestinationDisplay>
+  ], [
     shacl:datatype xsd:integer;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#order>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#description>
   ], [
     shacl:class <https://purl.eu/ns/mobility#Point>;
     shacl:description "Enter your translation here"@nl;
@@ -1057,29 +1075,11 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#aViewOf>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#TimeTabledPassingTime>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#at>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#description>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#DestinationDisplay>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#destinationDisplay>
-  ], [
-    shacl:datatype xsd:boolean;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#changeOfDestinationDisplay>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#PointInJourneyPattern> .
 
@@ -1090,16 +1090,22 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#PointShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
+  ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#pointNumber>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#PointInJourneyPattern>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#viewedAs>
+    shacl:path <https://purl.eu/ns/mobility#projection>
   ], [
     shacl:class <http://www.opengis.net/ont/sf#Point>;
     shacl:description "Enter your translation here"@nl;
@@ -1108,16 +1114,10 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#location>
   ], [
+    shacl:class <https://purl.eu/ns/mobility#PointInJourneyPattern>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#projection>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
+    shacl:path <https://purl.eu/ns/mobility#viewedAs>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Point> .
 
@@ -1136,7 +1136,22 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 5;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#holidayType>
+    shacl:path <https://purl.eu/ns/mobility#weekOfMonth>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#country>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#monthOfYear>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#dayOfYear>
   ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
@@ -1144,16 +1159,17 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#dayOfWeek>
   ], [
-    shacl:datatype xsd:string;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#country>
-  ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#crowding>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 4;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#season>
   ], [
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -1166,21 +1182,10 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#name>
   ], [
-    shacl:class skos:Concept;
+    shacl:class <https://purl.eu/ns/mobility#DayType>;
     shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 5;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#weekOfMonth>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#monthOfYear>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#dayOfYear>
+    shacl:path <https://purl.eu/ns/mobility#usedToDescribe>
   ], [
     shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
@@ -1189,16 +1194,11 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#description>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#DayType>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#usedToDescribe>
-  ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 4;
+    shacl:maxCount 5;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#season>
+    shacl:path <https://purl.eu/ns/mobility#holidayType>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#PropertyOfDay> .
 
@@ -1209,36 +1209,6 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#RouteShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://purl.eu/ns/mobility#Direction>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#direction>
-  ], [
-    shacl:class skos:Concept;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#directionType>
-  ], [
-    shacl:class schemas:QuantitativeValue;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#distance>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#PointOnRoute>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:minCount 2;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#through>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#Route>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -1250,11 +1220,41 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#coveredBy>
   ], [
+    shacl:class <https://purl.eu/ns/mobility#PointOnRoute>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:minCount 2;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#through>
+  ], [
     shacl:class <https://purl.eu/ns/mobility#Line>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#line>
+  ], [
+    shacl:class schemas:QuantitativeValue;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#distance>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#Direction>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#direction>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#directionType>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Route> .
 
@@ -1265,6 +1265,12 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceCalendarShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:date;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#fromDate>
+  ], [
     shacl:class <https://purl.eu/ns/mobility#OperatingDay>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
@@ -1275,23 +1281,17 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#within>
   ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
     shacl:datatype xsd:date;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#toDate>
   ], [
-    shacl:datatype xsd:date;
+    shacl:datatype rdf:langString;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#fromDate>
+    shacl:path <https://purl.eu/ns/mobility#name>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#ServiceCalendar> .
 
@@ -1306,15 +1306,26 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#ServiceJourneyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://purl.eu/ns/mobility#ServiceFacilitySet>;
+    shacl:class <https://purl.eu/ns/mobility#Operator>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#operator>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#TrainNumber>;
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#facility>
+    shacl:path <https://purl.eu/ns/mobility#trainNumber>
   ], [
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#flexibleServiceProperties>
+    shacl:path <https://purl.eu/ns/mobility#flexibleLineView>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#ServiceFacilitySet>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#facility>
   ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
@@ -1322,27 +1333,16 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#trainSize>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#Operator>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#operator>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#flexibleLineView>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#VehicleType>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#vehicleType>
   ], [
-    shacl:class <https://purl.eu/ns/mobility#TrainNumber>;
     shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#trainNumber>
+    shacl:path <https://purl.eu/ns/mobility#flexibleServiceProperties>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#ServiceJourney> .
 
@@ -1353,6 +1353,23 @@
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimeTabledPassingTimeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype xsd:integer;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#departureDayOffset>
+  ], [
+    shacl:datatype xsd:time;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#arrivalTime>
+  ], [
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#headway>
+  ], [
     shacl:datatype xsd:time;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
@@ -1364,35 +1381,17 @@
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#arrivalDayOffset>
-  ], [
-    shacl:datatype xsd:integer;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#departureDayOffset>
-  ], [
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#headway>
-  ], [
-    shacl:datatype xsd:time;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#arrivalTime>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#TimeTabledPassingTime> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#TimebandShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:time;
+    shacl:datatype xsd:integer;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#startTime>
+    shacl:path <https://purl.eu/ns/mobility#dayOffset>
   ], [
     shacl:datatype xsd:time;
     shacl:description "Enter your translation here"@nl;
@@ -1401,11 +1400,12 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#endTime>
   ], [
-    shacl:datatype xsd:integer;
+    shacl:datatype xsd:time;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#dayOffset>
+    shacl:path <https://purl.eu/ns/mobility#startTime>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#Timeband> .
 
@@ -1435,54 +1435,32 @@
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
-    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#validDayBits>
+    shacl:path <https://purl.eu/ns/mobility#daysOfWeek>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
+    shacl:minCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#daysOfWeek>
+    shacl:path <https://purl.eu/ns/mobility#validDayBits>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#UicOperatingPeriod> .
 
 <https://data.ai-proficiant.eu/shacl/vehiclescheduling-ap_nl#VehicleJourneyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <https://purl.eu/ns/mobility#DayType>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:minCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#workedOn>
-  ], [
-    shacl:datatype xsd:integer;
+    shacl:datatype xsd:duration;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#departureDayOffset>
+    shacl:path <https://purl.eu/ns/mobility#journeyDuration>
   ], [
     shacl:datatype xsd:time;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#departureTime>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#Block>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#in>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#JourneyPattern>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#madeUsing>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#JourneyPart>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#journeyPart>
   ], [
     shacl:class <https://purl.eu/ns/mobility#NoticeAssignment>;
     shacl:description "Enter your translation here"@nl;
@@ -1493,6 +1471,12 @@
     shacl:description "Enter your translation here"@nl;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#passedAt>
+  ], [
+    shacl:datatype xsd:integer;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#departureDayOffset>
   ], [
     shacl:class skos:Concept;
     shacl:description "Enter your translation here"@nl;
@@ -1505,11 +1489,27 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#transportMode>
   ], [
-    shacl:datatype xsd:duration;
+    shacl:class <https://purl.eu/ns/mobility#Block>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#journeyDuration>
+    shacl:path <https://purl.eu/ns/mobility#in>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#JourneyPart>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#journeyPart>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#JourneyPattern>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#madeUsing>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#DayType>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:minCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#workedOn>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#VehicleJourney> .
 
@@ -1520,7 +1520,36 @@
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#lowFloor>
+    shacl:path <https://purl.eu/ns/mobility#selfPropelled>
+  ], [
+    shacl:class schemas:QuantitativeValue;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#width>
+  ], [
+    shacl:class schemas:QuantitativeValue;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#weight>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#name>
+  ], [
+    shacl:class <https://purl.eu/ns/mobility#PassengerCapacity>;
+    shacl:description "Enter your translation here"@nl;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#capacity>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#description>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Enter your translation here"@nl;
@@ -1534,22 +1563,11 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#height>
   ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#description>
-  ], [
     shacl:class schemas:QuantitativeValue;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#length>
-  ], [
-    shacl:class <https://purl.eu/ns/mobility#PassengerCapacity>;
-    shacl:description "Enter your translation here"@nl;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#capacity>
   ], [
     shacl:datatype xsd:boolean;
     shacl:description "Enter your translation here"@nl;
@@ -1557,35 +1575,17 @@
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#hasLiftOrRamp>
   ], [
-    shacl:class schemas:QuantitativeValue;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#width>
-  ], [
-    shacl:datatype rdf:langString;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#name>
-  ], [
-    shacl:datatype xsd:boolean;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#selfPropelled>
-  ], [
-    shacl:class schemas:QuantitativeValue;
-    shacl:description "Enter your translation here"@nl;
-    shacl:maxCount 1;
-    shacl:name "Enter your translation here"@nl;
-    shacl:path <https://purl.eu/ns/mobility#weight>
-  ], [
     shacl:class <https://purl.eu/ns/mobility#TypeOfFuel>;
     shacl:description "Enter your translation here"@nl;
     shacl:maxCount 1;
     shacl:name "Enter your translation here"@nl;
     shacl:path <https://purl.eu/ns/mobility#typeOfFuel>
+  ], [
+    shacl:datatype xsd:boolean;
+    shacl:description "Enter your translation here"@nl;
+    shacl:maxCount 1;
+    shacl:name "Enter your translation here"@nl;
+    shacl:path <https://purl.eu/ns/mobility#lowFloor>
   ];
   shacl:targetClass <https://purl.eu/ns/mobility#VehicleType> .
 

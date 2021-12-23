@@ -9,17 +9,17 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:double;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "the volume in m2"@en;
+    shacl:path <https://data.ai-proficiant.eu/ns#volume>
+  ], [
+    shacl:datatype xsd:double;
     shacl:description "The volume the bag can hold in m2 "@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "size"@en;
     shacl:path <https://data.ai-proficiant.eu/ns#size>
-  ], [
-    shacl:datatype xsd:double;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "the volume in m2"@en;
-    shacl:path <https://data.ai-proficiant.eu/ns#volume>
   ];
   shacl:targetClass <https://data.ai-proficiant.eu/ns#Bag> .
 

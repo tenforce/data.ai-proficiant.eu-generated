@@ -2,24 +2,24 @@
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.ai-proficiant.eu/shacl/manufacturing_en> <https://data.ai-proficiant.eu/shacl/manufacturing_enshapes> <https://data.ai-proficiant.eu/shacl/manufacturing_en#BatchShape>,
-    <https://data.ai-proficiant.eu/shacl/manufacturing_en#BagShape> .
+<https://data.ai-proficiant.eu/shacl/manufacturing_en> <https://data.ai-proficiant.eu/shacl/manufacturing_enshapes> <https://data.ai-proficiant.eu/shacl/manufacturing_en#BagShape>,
+    <https://data.ai-proficiant.eu/shacl/manufacturing_en#BatchShape> .
 
 <https://data.ai-proficiant.eu/shacl/manufacturing_en#BagShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:datatype xsd:double;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "the volume in m2"@en;
-    shacl:path <https://data.ai-proficiant.eu/ns#volume>
-  ], [
     shacl:datatype xsd:double;
     shacl:description "The volume the bag can hold in m2 "@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "size"@en;
     shacl:path <https://data.ai-proficiant.eu/ns#size>
+  ], [
+    shacl:datatype xsd:double;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "the volume in m2"@en;
+    shacl:path <https://data.ai-proficiant.eu/ns#volume>
   ];
   shacl:targetClass <https://data.ai-proficiant.eu/ns#Bag> .
 

@@ -18,7 +18,16 @@
     },
     {
       "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
-      "name": ""
+      "name": "Any",
+      "label": {
+        "en": "Any"
+      },
+      "definition": {
+        "en": "Represents instances of any type."
+      },
+      "usage": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      }
     },
     {
       "EA-Guid": "{8DC71D05-A00F-4974-B7A0-456B6B1D337B}",

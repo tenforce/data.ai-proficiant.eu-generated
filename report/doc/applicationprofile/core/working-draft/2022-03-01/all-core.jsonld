@@ -200,7 +200,22 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Represents instances of any type."
+      },
+      "ap-usageNote-en": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      },
+      "usage": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      },
+      "ap-label-en": {
+        "en": "Any"
+      },
+      "definition": {
+        "en": "Represents instances of any type."
+      },
+      "label": {
+        "en": "Any"
       },
       "extra": {
         "EA-Name": "Any",
@@ -210,14 +225,24 @@
         "EA-Parents": "",
         "EA-Parents2": [],
         "parentclasses": "",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-en": "",
-        "ap-definition-en": {
-          "en": "TODO"
+        "label": {
+          "en": "Any"
         },
-        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Represents instances of any type."
+        },
+        "usage": {
+          "en": "To be substituted by a suitable concrete class, datatype..."
+        },
+        "ap-label-en": {
+          "en": "Any"
+        },
+        "ap-definition-en": {
+          "en": "Represents instances of any type."
+        },
+        "ap-usageNote-en": {
+          "en": "To be substituted by a suitable concrete class, datatype..."
+        },
         "ap-codelist": "",
         "RawTags": [
           {
@@ -239,11 +264,26 @@
             "key": "uri",
             "value": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
             "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "Any",
+            "note": "null"
+          },
+          {
+            "key": "ap-usageNote-en",
+            "value": "To be substituted by a suitable concrete class, datatype...",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-en",
+            "value": "Represents instances of any type.",
+            "note": "null"
           }
         ],
         "Scope": "NOTHING"
       },
-      "name": ""
+      "name": "Any"
     },
     {
       "@id": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
@@ -10274,7 +10314,7 @@
   "filename": "config/core.json",
   "navigation": {},
   "dummy": "24",
-  "documentcommit": "932741cf8c6a485fd5ab6a0daf169474e489c57b",
-  "toolchaincommit": "2c1736455d4f1f7a07118f5858b26243176e399f",
+  "documentcommit": "cf17d1c03e38ef9b272955a2df868495b038ad61",
+  "toolchaincommit": "9d56ba27e787e8ac3dd046194955168a346f14cc",
   "hostname": "https://data.ai-proficiant.eu"
 }

@@ -87,7 +87,7 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Core",
-  "documentcommit": "932741cf8c6a485fd5ab6a0daf169474e489c57b",
+  "documentcommit": "cf17d1c03e38ef9b272955a2df868495b038ad61",
   "dummy": "24",
   "eap": "AI-PROFICIENT-Core-AP.eap",
   "editors": [],
@@ -6682,7 +6682,16 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Represents instances of any type."
+      },
+      "ap-label-en": {
+        "en": "Any"
+      },
+      "ap-usageNote-en": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      },
+      "definition": {
+        "en": "Represents instances of any type."
       },
       "extra": {
         "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
@@ -6711,22 +6720,53 @@
             "key": "uri",
             "note": "null",
             "value": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Any"
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "To be substituted by a suitable concrete class, datatype..."
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "Represents instances of any type."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Represents instances of any type."
         },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
+        "ap-label-en": {
+          "en": "Any"
+        },
+        "ap-usageNote-en": {
+          "en": "To be substituted by a suitable concrete class, datatype..."
+        },
+        "definition": {
+          "en": "Represents instances of any type."
+        },
+        "label": {
+          "en": "Any"
+        },
         "parentclasses": "",
-        "usage": ""
+        "usage": {
+          "en": "To be substituted by a suitable concrete class, datatype..."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Any"
+      },
+      "name": "Any",
+      "usage": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      }
     },
     {
       "@id": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
@@ -10363,7 +10403,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Core-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT Core data model",
-  "toolchaincommit": "2c1736455d4f1f7a07118f5858b26243176e399f",
+  "toolchaincommit": "9d56ba27e787e8ac3dd046194955168a346f14cc",
   "toolchainversion": "3",
   "translation": [
     {

@@ -87,8 +87,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Core",
-  "documentcommit": "cf17d1c03e38ef9b272955a2df868495b038ad61",
-  "dummy": "24",
+  "documentcommit": "28d7823f9599cd51c03f48c86375ed44b1f09147",
+  "dummy": "25",
   "eap": "AI-PROFICIENT-Core-AP.eap",
   "editors": [],
   "externalproperties": [
@@ -7439,7 +7439,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Information used to uniquely identify an object."
+      },
+      "ap-label-en": {
+        "en": "Identifier"
+      },
+      "definition": {
+        "en": "Information used to uniquely identify an object."
       },
       "extra": {
         "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
@@ -7463,22 +7469,41 @@
             "key": "uri",
             "note": "null",
             "value": "http://www.w3.org/ns/adms#Identifier"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Identifier"
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "Information used to uniquely identify an object."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Information used to uniquely identify an object."
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Identifier"
+        },
         "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
+        "definition": {
+          "en": "Information used to uniquely identify an object."
+        },
+        "label": {
+          "en": "Identifier"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Identifier"
+      },
+      "name": "Identifier"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -10403,7 +10428,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Core-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT Core data model",
-  "toolchaincommit": "9d56ba27e787e8ac3dd046194955168a346f14cc",
+  "toolchaincommit": "a148fd29584f285f4d09e3d83ecddc18471a9f11",
   "toolchainversion": "3",
   "translation": [
     {

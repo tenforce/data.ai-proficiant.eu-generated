@@ -193,9 +193,9 @@
 "@id": "http://www.w3.org/ns/adms#Identifier",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "TODO"},
-"extra": {"EA-Name" : "Identifier", "EA-Guid" : "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}", "EA-Package" : "OSLO-Generic", "EA-Type" : "DATATYPE", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "Identifier", "note": "null" }, { "key": "ap-definition-nl", "value": "Information used to uniquely identify an object.", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/ns\/adms#Identifier", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "TODO"}},
-"name": ""
+"ap-definition-en" : {"en": "Information used to uniquely identify an object."}, "ap-label-en" : {"en": "Identifier"}, "definition" : {"en": "Information used to uniquely identify an object."}, "label" : {"en": "Identifier"},
+"extra": {"EA-Name" : "Identifier", "EA-Guid" : "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}", "EA-Package" : "OSLO-Generic", "EA-Type" : "DATATYPE", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Identifier", "definition" : "Information used to uniquely identify an object.", "usage" : "", "ap-label-en" : "Identifier", "ap-definition-en" : "Information used to uniquely identify an object.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "Identifier", "note": "null" }, { "key": "ap-definition-nl", "value": "Information used to uniquely identify an object.", "note": "null" }, { "key": "uri", "value": "http:\/\/www.w3.org\/ns\/adms#Identifier", "note": "null" }, { "key": "label-en", "value": "Identifier", "note": "null" }, { "key": "ap-definition-en", "value": "Information used to uniquely identify an object.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Information used to uniquely identify an object."}, "ap-label-en" : {"en": "Identifier"}, "definition" : {"en": "Information used to uniquely identify an object."}, "label" : {"en": "Identifier"}},
+"name": "Identifier"
 }
 , {
 "@id": "http://www.w3.org/ns/locn#Geometry",

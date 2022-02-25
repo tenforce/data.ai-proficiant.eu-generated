@@ -947,7 +947,16 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Information used to uniquely identify an object."
+            },
+            "ap-label-en": {
+                "en": "Identifier"
+            },
+            "definition": {
+                "en": "Information used to uniquely identify an object."
+            },
+            "label": {
+                "en": "Identifier"
             },
             "extra": {
                 "EA-Name": "Identifier",
@@ -957,12 +966,18 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "Identifier"
+                },
+                "definition": {
+                    "en": "Information used to uniquely identify an object."
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Identifier"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Information used to uniquely identify an object."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -981,11 +996,21 @@
                         "key": "uri",
                         "value": "http://www.w3.org/ns/adms#Identifier",
                         "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Identifier",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Information used to uniquely identify an object.",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Identifier"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -10313,8 +10338,8 @@
     "branchtag": "master",
     "filename": "config/core.json",
     "navigation": {},
-    "dummy": "24",
-    "documentcommit": "cf17d1c03e38ef9b272955a2df868495b038ad61",
-    "toolchaincommit": "9d56ba27e787e8ac3dd046194955168a346f14cc",
+    "dummy": "25",
+    "documentcommit": "28d7823f9599cd51c03f48c86375ed44b1f09147",
+    "toolchaincommit": "a148fd29584f285f4d09e3d83ecddc18471a9f11",
     "hostname": "https://data.ai-proficiant.eu"
 }

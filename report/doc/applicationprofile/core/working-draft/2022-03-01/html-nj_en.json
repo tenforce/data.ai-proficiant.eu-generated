@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/cf17d1c03e38ef9b272955a2df868495b038ad61",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/cf17d1c03e38ef9b272955a2df868495b038ad61/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/28d7823f9599cd51c03f48c86375ed44b1f09147",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/28d7823f9599cd51c03f48c86375ed44b1f09147/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -2644,10 +2644,14 @@
     },
     {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Identifier",
+      "label": {
+        "en": "Identifier"
+      },
+      "sort": "Identifier",
+      "description": {
+        "en": "Information used to uniquely identify an object."
+      },
       "usage": {},
       "parents": [],
       "properties": [

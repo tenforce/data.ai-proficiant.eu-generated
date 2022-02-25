@@ -153,7 +153,15 @@
     },
     {
       "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
-      "name": ""
+      "name": "Identifier",
+      "label": {
+        "en": "Identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Information used to uniquely identify an object.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",

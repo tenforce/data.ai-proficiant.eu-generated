@@ -465,7 +465,7 @@
   "filename": "config/manufacturing.json",
   "navigation": {},
   "dummy": "22",
-  "documentcommit": "fc08af61de1a561be62959548b7d50769c0e9c06",
-  "toolchaincommit": "89bc0ff8afa77df9fb345418fe95e7a0a9d36759",
+  "documentcommit": "8c679f5392673c77508bb0eecbfd340bce768037",
+  "toolchaincommit": "0c1f04de2a25b678bcf18bdb926bae7155419188",
   "hostname": "https://data.ai-proficiant.eu"
 }

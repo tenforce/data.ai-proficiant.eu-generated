@@ -10253,7 +10253,7 @@
     "publication-date": "2022-03-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "AI-PROFICIENT",
-    "site": "site-skeleton/AI-PROFICIENT-CORE-ap",
+    "site": "site-skeleton/AI-PROFICIENT-Core-ap",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "title": "AI-PROFICIENT Core data model",
@@ -10273,8 +10273,8 @@
     "branchtag": "master",
     "filename": "config/core.json",
     "navigation": {},
-    "dummy": "23",
-    "documentcommit": "fc08af61de1a561be62959548b7d50769c0e9c06",
-    "toolchaincommit": "89bc0ff8afa77df9fb345418fe95e7a0a9d36759",
+    "dummy": "24",
+    "documentcommit": "8c679f5392673c77508bb0eecbfd340bce768037",
+    "toolchaincommit": "0c1f04de2a25b678bcf18bdb926bae7155419188",
     "hostname": "https://data.ai-proficiant.eu"
 }

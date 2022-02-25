@@ -87,8 +87,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Core",
-  "documentcommit": "fc08af61de1a561be62959548b7d50769c0e9c06",
-  "dummy": "23",
+  "documentcommit": "8c679f5392673c77508bb0eecbfd340bce768037",
+  "dummy": "24",
   "eap": "AI-PROFICIENT-Core-AP.eap",
   "editors": [],
   "externalproperties": [
@@ -10360,10 +10360,10 @@
   "publication-date": "2022-03-01",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "repository": "https://github.com/tenforce/ai-proficient-thema",
-  "site": "site-skeleton/AI-PROFICIENT-CORE-ap",
+  "site": "site-skeleton/AI-PROFICIENT-Core-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT Core data model",
-  "toolchaincommit": "89bc0ff8afa77df9fb345418fe95e7a0a9d36759",
+  "toolchaincommit": "0c1f04de2a25b678bcf18bdb926bae7155419188",
   "toolchainversion": "3",
   "translation": [
     {

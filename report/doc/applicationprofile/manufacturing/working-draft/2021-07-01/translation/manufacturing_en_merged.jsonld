@@ -186,7 +186,7 @@
   "contributors-column": "manufacturing",
   "contributors-file": "stakeholders.csv",
   "diagram": "manufacturing",
-  "documentcommit": "fc08af61de1a561be62959548b7d50769c0e9c06",
+  "documentcommit": "8c679f5392673c77508bb0eecbfd340bce768037",
   "dummy": "22",
   "eap": "MijnApplicatieprofiel-AP.eap",
   "editors": [
@@ -459,7 +459,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "89bc0ff8afa77df9fb345418fe95e7a0a9d36759",
+  "toolchaincommit": "0c1f04de2a25b678bcf18bdb926bae7155419188",
   "toolchainversion": "2",
   "translation": [
     {

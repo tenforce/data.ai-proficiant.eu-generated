@@ -1,187 +1,6 @@
 {
-  "classes": [],
-  "properties": [],
-  "externals": [
-    {
-      "EA-Guid": "{7EDA299E-BD0F-4377-AC68-9FE02C226B6C}",
-      "name": "Contact Info",
-      "label": {
-        "en": "Contact Info"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{38FA8555-95E2-419c-9C4E-229CB5297DFF}",
-      "name": "Punt",
-      "label": {
-        "en": "Punt"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{7AEA8938-AE7F-4bfd-A5D4-A8206E7B1C18}",
-      "name": "Polygoon",
-      "label": {
-        "en": "Polygoon"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{B027E553-8908-4217-847D-5161B00B73B0}",
-      "name": "Direction Type",
-      "label": {
-        "en": "Direction Type"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{4BB6D976-B537-4194-B8FD-54A86EF76DC9}",
-      "name": "Dead Run Type",
-      "label": {
-        "en": "Dead Run Type"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{42194F30-D08B-4397-87C2-2C4BC240ED19}",
-      "name": "Timing Status",
-      "label": {
-        "en": "Timing Status"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{5C073637-BB82-4b5f-A511-16BF481DBAB0}",
-      "name": "Transportmode",
-      "label": {
-        "en": "Transportmode"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{45367B07-F851-4a3c-B51D-58F7299F9B60}",
-      "name": "Train Sizetype",
-      "label": {
-        "en": "Train Sizetype"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{BC9BB421-F966-44a7-998E-58E454944904}",
-      "name": "Place Type",
-      "label": {
-        "en": "Place Type"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{D9680471-4CB9-4cad-AA73-FF0182A6E0F0}",
-      "name": "Day of Week",
-      "label": {
-        "en": "Day of Week"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{DAC82F3D-7A40-42f8-8167-50480554B99D}",
-      "name": "Holiday Type",
-      "label": {
-        "en": "Holiday Type"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{C3C7CDFD-F16F-4006-B4FB-FC66879E8086}",
-      "name": "Season",
-      "label": {
-        "en": "Season"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{5BAB254D-FA76-4d9e-B515-705504E6C50A}",
-      "name": "Crowding",
-      "label": {
-        "en": "Crowding"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{5C959CD8-7202-47f7-9C2C-59AC7F828177}",
-      "name": "Week of Month",
-      "label": {
-        "en": "Week of Month"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{272E30DF-AE00-44ce-B4B8-4FFC238529CA}",
-      "name": "Type of Line",
-      "label": {
-        "en": "Type of Line"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{AD0DDFB6-A28C-4009-836B-A53F2D7CD562}",
-      "name": "Adresvoorstelling",
-      "label": {
-        "en": "Adresvoorstelling"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{DBACF283-1F97-4d3e-A6A2-210E1CA7B228}",
-      "name": "Geometrie",
-      "label": {
-        "en": "Geometrie"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{B7213FC1-4314-4500-8A40-94A0ABB87ED5}",
-      "name": "Standaard Eenheid",
-      "label": {
-        "en": "Standaard Eenheid"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
+  "baseURI": "https://purl.eu/ns/mobility/timetables-and-planning#",
+  "classes": [
     {
       "EA-Guid": "{63F2A137-6EA5-4181-B55A-AC51190154C6}",
       "name": "Accessibility Assessment",
@@ -573,279 +392,9 @@
       "definition": {
         "en": "Vehicles may be classified using a Vehicle Type according to how they meet vehicle scheduling requirements as to capacity and on-board facilities (e.g. standard bus, double decker, etc.)."
       }
-    },
-    {
-      "EA-Guid": "{44A073D0-9823-43e7-89B6-9E7C33658A12}",
-      "name": "Getal",
-      "label": {
-        "en": "Getal"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{0CDF1614-1065-4806-A2C3-0ECECD9433E0}",
-      "name": "Kwantitatieve Waarde",
-      "label": {
-        "en": "Kwantitatieve Waarde"
-      },
-      "definition": {
-        "en": "TODO"
-      }
     }
   ],
-  "externalproperties": [
-    {
-      "EA-Guid": "{54CE5FF7-9290-4c97-B408-ED8932FA8A4E}",
-      "name": "email",
-      "label": {
-        "en": "email"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{0A9D56F9-31B2-4526-B93F-B30B1D6BFDB9}",
-      "name": "fax",
-      "label": {
-        "en": "fax"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{88C7B607-33AA-4c83-AB5A-FF2D7091A8E2}",
-      "name": "beschikbaarheid",
-      "label": {
-        "en": "beschikbaarheid"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{FCE7983E-CD60-48e5-AC9B-F4C286732E7A}",
-      "name": "openingsuren",
-      "label": {
-        "en": "openingsuren"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{57B02A1C-C37F-4c38-AA01-645A1DA2BDCA}",
-      "name": "telefoon",
-      "label": {
-        "en": "telefoon"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{B4C3483B-8098-46c2-BA50-6EAE3ECB0E4E}",
-      "name": "gml",
-      "label": {
-        "en": "gml"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{84BDC6BA-B5E8-46ef-9B34-AF15D05299B9}",
-      "name": "wkt",
-      "label": {
-        "en": "wkt"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{790755D1-DD99-4d81-AF91-AD619AF4F80D}",
-      "name": "aanschrijfvorm",
-      "label": {
-        "en": "aanschrijfvorm"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{DA95B672-93F4-4cbb-93B6-A7A57E295324}",
-      "name": "adres",
-      "label": {
-        "en": "adres"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{47FC94FE-67C3-46cb-8E92-384C7342FAE1}",
-      "name": "adresgebied",
-      "label": {
-        "en": "adresgebied"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{3A003AC5-6877-4cec-AAFA-47C9CBB07EED}",
-      "name": "administratieve eenheid niveau 1",
-      "label": {
-        "en": "administratieve eenheid niveau 1"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{CFED195A-3F4D-4828-9281-5C515C5449CC}",
-      "name": "administratieve eenheid niveau 2",
-      "label": {
-        "en": "administratieve eenheid niveau 2"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{79057909-60B4-44d4-8FCF-E80D774B98AE}",
-      "name": "volledig adres",
-      "label": {
-        "en": "volledig adres"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{320EE4E4-7C5B-42ce-9E38-F15A4614FB70}",
-      "name": "locatieaanduiding",
-      "label": {
-        "en": "locatieaanduiding"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{45574A51-9C5B-454b-BDD7-78FE9EDFB151}",
-      "name": "locatienaam",
-      "label": {
-        "en": "locatienaam"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{740B39CC-4028-4fa4-918D-27696E4412CB}",
-      "name": "postbus",
-      "label": {
-        "en": "postbus"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{D69680B4-4497-45ee-B361-3F1DE9F5FF3F}",
-      "name": "postcode",
-      "label": {
-        "en": "postcode"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{C8926E8E-0B29-40e8-986A-FE7BDE559120}",
-      "name": "postnaam",
-      "label": {
-        "en": "postnaam"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{2BF2B3D0-9E10-4092-AD77-6F37D44CB314}",
-      "name": "straatnaam",
-      "label": {
-        "en": "straatnaam"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{1D99FFD1-0E77-496d-AB40-56CD316CA6A8}",
-      "name": "contactnaam",
-      "label": {
-        "en": "contactnaam"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{55D3D4CC-EEDD-49ad-971D-79907E412EFC}",
-      "name": "website",
-      "label": {
-        "en": "website"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{7523622A-84F8-4d6f-B43C-8D1F69D782CC}",
-      "name": "busnummer",
-      "label": {
-        "en": "busnummer"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{1BE5D310-A819-44c1-A59D-60A7CDD1F4CB}",
-      "name": "huisnummer",
-      "label": {
-        "en": "huisnummer"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{15169048-6FCF-4e25-9111-24E100669DC9}",
-      "name": "gemeentenaam",
-      "label": {
-        "en": "gemeentenaam"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
-    {
-      "EA-Guid": "{AF62F2EF-9C9C-4470-A38B-E1573496F435}",
-      "name": "land",
-      "label": {
-        "en": "land"
-      },
-      "definition": {
-        "en": "TODO"
-      }
-    },
+  "properties": [
     {
       "EA-Guid": "{17C6BEBA-14BD-4428-B890-C04C1876D203}",
       "name": "allowed for wait time",
@@ -887,16 +436,6 @@
       }
     },
     {
-      "EA-Guid": "{0D41DA09-A5B4-401e-9DB9-0B0FFB79BDC6}",
-      "name": "description",
-      "label": {
-        "en": "description"
-      },
-      "definition": {
-        "en": "Description of the Crew Base."
-      }
-    },
-    {
       "EA-Guid": "{6EFBFE6A-36A8-4e23-A27A-9632F232A84D}",
       "name": "flexible",
       "label": {
@@ -914,16 +453,6 @@
       },
       "definition": {
         "en": "Image of the Garage."
-      }
-    },
-    {
-      "EA-Guid": "{F5837BD0-19C0-4f76-8897-21B73BE14E53}",
-      "name": "managed by",
-      "label": {
-        "en": "managed by"
-      },
-      "definition": {
-        "en": "Crew Base that manages the Parking Point."
       }
     },
     {
@@ -954,16 +483,6 @@
       },
       "definition": {
         "en": "Name of the Garage."
-      }
-    },
-    {
-      "EA-Guid": "{FBADCD39-48E8-4b3c-B451-424EF71A12E9}",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "definition": {
-        "en": "Name of the Crew Base."
       }
     },
     {
@@ -1017,16 +536,6 @@
       }
     },
     {
-      "EA-Guid": "{2B490C0B-60CC-4477-ADD7-39F242B7E710}",
-      "name": "private code",
-      "label": {
-        "en": "private code"
-      },
-      "definition": {
-        "en": "Private code of the Crew Base."
-      }
-    },
-    {
       "EA-Guid": "{DDAE7681-9ABF-4807-B103-B7A7EE1C447F}",
       "name": "projection",
       "label": {
@@ -1047,16 +556,6 @@
       }
     },
     {
-      "EA-Guid": "{C3B6A3D2-0D1F-4e4f-8998-C1F76A043463}",
-      "name": "purpose of grouping",
-      "label": {
-        "en": "purpose of grouping"
-      },
-      "definition": {
-        "en": "Purpose of grouping of the Crew Base."
-      }
-    },
-    {
       "EA-Guid": "{8E3CC4E1-2ED6-468f-ACC4-C479E52E97CB}",
       "name": "road address",
       "label": {
@@ -1074,16 +573,6 @@
       },
       "definition": {
         "en": "Short name of the Garage."
-      }
-    },
-    {
-      "EA-Guid": "{532E6338-F95B-4501-886D-468723E38A5E}",
-      "name": "short name",
-      "label": {
-        "en": "short name"
-      },
-      "definition": {
-        "en": "Short name for the Crew Base."
       }
     },
     {
@@ -1297,6 +786,16 @@
       }
     },
     {
+      "EA-Guid": "{12218FC4-6D61-4db7-8A19-44175BBC0F87}",
+      "name": "crew base",
+      "label": {
+        "en": "crew base"
+      },
+      "definition": {
+        "en": "Crew Base near the Garage."
+      }
+    },
+    {
       "EA-Guid": "{591F1C0A-FB4E-4564-8021-5EA0A229128E}",
       "name": "crowding",
       "label": {
@@ -1487,6 +986,16 @@
       },
       "definition": {
         "en": "Description of Vehicle Type."
+      }
+    },
+    {
+      "EA-Guid": "{0D41DA09-A5B4-401e-9DB9-0B0FFB79BDC6}",
+      "name": "description",
+      "label": {
+        "en": "description"
+      },
+      "definition": {
+        "en": "Description of the Crew Base."
       }
     },
     {
@@ -1740,9 +1249,9 @@
     },
     {
       "EA-Guid": "{4E9F2EB0-7AD2-423e-916F-EA00D1D049A9}",
-      "name": "from",
+      "name": "from date",
       "label": {
-        "en": "from"
+        "en": "from date"
       },
       "definition": {
         "en": "Inclusive start date for validity of the Service Calendar."
@@ -1915,16 +1424,6 @@
       }
     },
     {
-      "EA-Guid": "{3A09A7C5-54F8-4660-850E-F4C57F947238}",
-      "name": "made up of",
-      "label": {
-        "en": "made up of"
-      },
-      "definition": {
-        "en": "The ordered sequence of Points that together make up the Journey Pattern."
-      }
-    },
-    {
       "EA-Guid": "{51B3E41C-26E8-4f42-A808-F2A4ADC5FE9F}",
       "name": "made up of",
       "label": {
@@ -1932,6 +1431,16 @@
       },
       "definition": {
         "en": "The Group of Lines that together make up the Network."
+      }
+    },
+    {
+      "EA-Guid": "{3A09A7C5-54F8-4660-850E-F4C57F947238}",
+      "name": "made up of",
+      "label": {
+        "en": "made up of"
+      },
+      "definition": {
+        "en": "The ordered sequence of Points that together make up the Journey Pattern."
       }
     },
     {
@@ -1962,6 +1471,16 @@
       },
       "definition": {
         "en": "Main line of the Group of Lines."
+      }
+    },
+    {
+      "EA-Guid": "{F5837BD0-19C0-4f76-8897-21B73BE14E53}",
+      "name": "managed by",
+      "label": {
+        "en": "managed by"
+      },
+      "definition": {
+        "en": "Crew Base that manages the Parking Point."
       }
     },
     {
@@ -2065,13 +1584,13 @@
       }
     },
     {
-      "EA-Guid": "{B385729A-8781-42bf-9EFD-F9DBB6A42A12}",
+      "EA-Guid": "{FBADCD39-48E8-4b3c-B451-424EF71A12E9}",
       "name": "name",
       "label": {
         "en": "name"
       },
       "definition": {
-        "en": "Name of the Garage."
+        "en": "Name of the Crew Base."
       }
     },
     {
@@ -2132,26 +1651,6 @@
       },
       "definition": {
         "en": "Name of the Operating Day."
-      }
-    },
-    {
-      "EA-Guid": "{12218FC4-6D61-4db7-8A19-44175BBC0F87}",
-      "name": "near",
-      "label": {
-        "en": "near"
-      },
-      "definition": {
-        "en": "Garage near the Crew Base."
-      }
-    },
-    {
-      "EA-Guid": "{12218FC4-6D61-4db7-8A19-44175BBC0F87}",
-      "name": "near",
-      "label": {
-        "en": "near"
-      },
-      "definition": {
-        "en": "Crew Base near the Garage."
       }
     },
     {
@@ -2305,6 +1804,16 @@
       }
     },
     {
+      "EA-Guid": "{2B490C0B-60CC-4477-ADD7-39F242B7E710}",
+      "name": "private code",
+      "label": {
+        "en": "private code"
+      },
+      "definition": {
+        "en": "Private code of the Crew Base."
+      }
+    },
+    {
       "EA-Guid": "{7C905297-CFC1-4f79-85A6-327FC3D431F3}",
       "name": "projection",
       "label": {
@@ -2332,6 +1841,16 @@
       },
       "definition": {
         "en": "Public code (to be presented to the public) associated with the Destination Display."
+      }
+    },
+    {
+      "EA-Guid": "{C3B6A3D2-0D1F-4e4f-8998-C1F76A043463}",
+      "name": "purpose of grouping",
+      "label": {
+        "en": "purpose of grouping"
+      },
+      "definition": {
+        "en": "Purpose of grouping of the Crew Base."
       }
     },
     {
@@ -2392,6 +1911,16 @@
       },
       "definition": {
         "en": "Short name of the Line."
+      }
+    },
+    {
+      "EA-Guid": "{532E6338-F95B-4501-886D-468723E38A5E}",
+      "name": "short name",
+      "label": {
+        "en": "short name"
+      },
+      "definition": {
+        "en": "Short name for the Crew Base."
       }
     },
     {
@@ -2484,7 +2013,7 @@
         "en": "through"
       },
       "definition": {
-        "en": "TODO"
+        "en": "Points through which the Route goes."
       }
     },
     {
@@ -2499,9 +2028,9 @@
     },
     {
       "EA-Guid": "{96679C1E-7FCF-42ba-ADBA-21223F2FC04E}",
-      "name": "to",
+      "name": "to date",
       "label": {
-        "en": "to"
+        "en": "to date"
       },
       "definition": {
         "en": "Inclusive end date for validity of the Service Calendar."
@@ -2778,6 +2307,460 @@
       },
       "definition": {
         "en": "The Day Type when the Block was worked on."
+      }
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{7EDA299E-BD0F-4377-AC68-9FE02C226B6C}",
+      "name": "Contact Info",
+      "label": {
+        "en": "Contact Info"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{38FA8555-95E2-419c-9C4E-229CB5297DFF}",
+      "name": "Punt",
+      "label": {
+        "en": "Punt"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{7AEA8938-AE7F-4bfd-A5D4-A8206E7B1C18}",
+      "name": "Polygoon",
+      "label": {
+        "en": "Polygoon"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{B027E553-8908-4217-847D-5161B00B73B0}",
+      "name": "Direction Type",
+      "label": {
+        "en": "Direction Type"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{4BB6D976-B537-4194-B8FD-54A86EF76DC9}",
+      "name": "Dead Run Type",
+      "label": {
+        "en": "Dead Run Type"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{42194F30-D08B-4397-87C2-2C4BC240ED19}",
+      "name": "Timing Status",
+      "label": {
+        "en": "Timing Status"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{5C073637-BB82-4b5f-A511-16BF481DBAB0}",
+      "name": "Transportmode",
+      "label": {
+        "en": "Transportmode"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{45367B07-F851-4a3c-B51D-58F7299F9B60}",
+      "name": "Train Sizetype",
+      "label": {
+        "en": "Train Sizetype"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{BC9BB421-F966-44a7-998E-58E454944904}",
+      "name": "Place Type",
+      "label": {
+        "en": "Place Type"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{D9680471-4CB9-4cad-AA73-FF0182A6E0F0}",
+      "name": "Day of Week",
+      "label": {
+        "en": "Day of Week"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{DAC82F3D-7A40-42f8-8167-50480554B99D}",
+      "name": "Holiday Type",
+      "label": {
+        "en": "Holiday Type"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{C3C7CDFD-F16F-4006-B4FB-FC66879E8086}",
+      "name": "Season",
+      "label": {
+        "en": "Season"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{5BAB254D-FA76-4d9e-B515-705504E6C50A}",
+      "name": "Crowding",
+      "label": {
+        "en": "Crowding"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{5C959CD8-7202-47f7-9C2C-59AC7F828177}",
+      "name": "Week of Month",
+      "label": {
+        "en": "Week of Month"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{272E30DF-AE00-44ce-B4B8-4FFC238529CA}",
+      "name": "Type of Line",
+      "label": {
+        "en": "Type of Line"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{AD0DDFB6-A28C-4009-836B-A53F2D7CD562}",
+      "name": "Adresvoorstelling",
+      "label": {
+        "en": "Adresvoorstelling"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{DBACF283-1F97-4d3e-A6A2-210E1CA7B228}",
+      "name": "Geometrie",
+      "label": {
+        "en": "Geometrie"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{B7213FC1-4314-4500-8A40-94A0ABB87ED5}",
+      "name": "Standaard Eenheid",
+      "label": {
+        "en": "Standaard Eenheid"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{44A073D0-9823-43e7-89B6-9E7C33658A12}",
+      "name": "Getal",
+      "label": {
+        "en": "Getal"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{0CDF1614-1065-4806-A2C3-0ECECD9433E0}",
+      "name": "Kwantitatieve Waarde",
+      "label": {
+        "en": "Kwantitatieve Waarde"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{54CE5FF7-9290-4c97-B408-ED8932FA8A4E}",
+      "name": "email",
+      "label": {
+        "en": "email"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{0A9D56F9-31B2-4526-B93F-B30B1D6BFDB9}",
+      "name": "fax",
+      "label": {
+        "en": "fax"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{88C7B607-33AA-4c83-AB5A-FF2D7091A8E2}",
+      "name": "beschikbaarheid",
+      "label": {
+        "en": "beschikbaarheid"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{FCE7983E-CD60-48e5-AC9B-F4C286732E7A}",
+      "name": "openingsuren",
+      "label": {
+        "en": "openingsuren"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{57B02A1C-C37F-4c38-AA01-645A1DA2BDCA}",
+      "name": "telefoon",
+      "label": {
+        "en": "telefoon"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{B4C3483B-8098-46c2-BA50-6EAE3ECB0E4E}",
+      "name": "gml",
+      "label": {
+        "en": "gml"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{84BDC6BA-B5E8-46ef-9B34-AF15D05299B9}",
+      "name": "wkt",
+      "label": {
+        "en": "wkt"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{790755D1-DD99-4d81-AF91-AD619AF4F80D}",
+      "name": "aanschrijfvorm",
+      "label": {
+        "en": "aanschrijfvorm"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{DA95B672-93F4-4cbb-93B6-A7A57E295324}",
+      "name": "adres",
+      "label": {
+        "en": "adres"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{47FC94FE-67C3-46cb-8E92-384C7342FAE1}",
+      "name": "adresgebied",
+      "label": {
+        "en": "adresgebied"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{3A003AC5-6877-4cec-AAFA-47C9CBB07EED}",
+      "name": "administratieve eenheid niveau 1",
+      "label": {
+        "en": "administratieve eenheid niveau 1"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{CFED195A-3F4D-4828-9281-5C515C5449CC}",
+      "name": "administratieve eenheid niveau 2",
+      "label": {
+        "en": "administratieve eenheid niveau 2"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{79057909-60B4-44d4-8FCF-E80D774B98AE}",
+      "name": "volledig adres",
+      "label": {
+        "en": "volledig adres"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{320EE4E4-7C5B-42ce-9E38-F15A4614FB70}",
+      "name": "locatieaanduiding",
+      "label": {
+        "en": "locatieaanduiding"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{45574A51-9C5B-454b-BDD7-78FE9EDFB151}",
+      "name": "locatienaam",
+      "label": {
+        "en": "locatienaam"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{740B39CC-4028-4fa4-918D-27696E4412CB}",
+      "name": "postbus",
+      "label": {
+        "en": "postbus"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{D69680B4-4497-45ee-B361-3F1DE9F5FF3F}",
+      "name": "postcode",
+      "label": {
+        "en": "postcode"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{C8926E8E-0B29-40e8-986A-FE7BDE559120}",
+      "name": "postnaam",
+      "label": {
+        "en": "postnaam"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{2BF2B3D0-9E10-4092-AD77-6F37D44CB314}",
+      "name": "straatnaam",
+      "label": {
+        "en": "straatnaam"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{1D99FFD1-0E77-496d-AB40-56CD316CA6A8}",
+      "name": "contactnaam",
+      "label": {
+        "en": "contactnaam"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{55D3D4CC-EEDD-49ad-971D-79907E412EFC}",
+      "name": "website",
+      "label": {
+        "en": "website"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{7523622A-84F8-4d6f-B43C-8D1F69D782CC}",
+      "name": "busnummer",
+      "label": {
+        "en": "busnummer"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{1BE5D310-A819-44c1-A59D-60A7CDD1F4CB}",
+      "name": "huisnummer",
+      "label": {
+        "en": "huisnummer"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{15169048-6FCF-4e25-9111-24E100669DC9}",
+      "name": "gemeentenaam",
+      "label": {
+        "en": "gemeentenaam"
+      },
+      "definition": {
+        "en": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{AF62F2EF-9C9C-4470-A38B-E1573496F435}",
+      "name": "land",
+      "label": {
+        "en": "land"
+      },
+      "definition": {
+        "en": "TODO"
       }
     },
     {

@@ -24804,7 +24804,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
   "template": "vehiclescheduling-ap_en.j2",
   "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
-  "toolchaincommit": "45514577448466c8d1f8cc18e8da8bfc38dfb93b",
+  "toolchaincommit": "631ffc2ae09eb2f98bed46c748b984bf6a1f5199",
   "translation": [
     {
       "language": "en",

@@ -25366,7 +25366,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
   "template": "vehiclescheduling-ap_nl.j2",
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Planning (applicatieprofiel)",
-  "toolchaincommit": "f1029d18b3066fa2b64497566de8fd3845cfa286",
+  "toolchaincommit": "8253f37f516d0b0c4f964838eafaa67cdbfe8f55",
   "translation": [
     {
       "language": "en",

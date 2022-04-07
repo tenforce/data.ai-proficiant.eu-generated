@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://data.ai-proficiant.eu/shacl/core_en",
+    "@vocab": "https://data.ai-proficiant.eu/shacl/conti10_en",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@type": "@id"
@@ -38,31 +38,123 @@
     },
     "vl": "https://data.vlaanderen.be/ns/shacl#"
   },
-  "@id": "https://data.ai-proficiant.eu/shacl/core_en",
+  "@id": "https://data.ai-proficiant.eu/shacl/conti10_en",
   "shapes": [
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#GenericNameShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#PressureMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#StatusObservation"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TreadMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://def.isotc211.org/iso19103/2005/Names#GenericName"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#AnyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#AnyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://qudt.org/2.1/schema/qudt/Unit",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "https://purl.eu/ns/observations#standardUnit"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "https://purl.eu/ns/observations#unitText"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "https://purl.eu/ns/observations#value"
+        }
+      ],
       "sh:targetClass": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#TM_ObjectShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TM_ObjectShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#PropertyTypeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PropertyTypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -80,14 +172,21 @@
       "sh:targetClass": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#CI_responsiblePartyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CI_responsiblePartyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#MetadataShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#DQ_ElementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MetadataShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -183,7 +282,7 @@
       "sh:targetClass": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -337,14 +436,14 @@
       "sh:targetClass": "https://purl.eu/ns/observations#ObservationContext.observation.source"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ProcessShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ProcessShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ObservationContextShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ObservationContextShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -378,21 +477,43 @@
       "sh:targetClass": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#RepeatablityShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#identifier"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Extruder"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#RepeatablityShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://fixme.com#Repeatablity"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#AgentShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#AgentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://purl.org/dc/terms/Agent"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#IdentifierShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#UnitShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://qudt.org/2.1/schema/qudt/Unit"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#IdentifierShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -411,7 +532,7 @@
       "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#GeometryShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#GeometryShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -441,14 +562,14 @@
       "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#LocationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#LocationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/prov#Location"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ObservationCollectionShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ObservationCollectionShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -566,7 +687,7 @@
       "sh:targetClass": "http://www.w3.org/ns/sosa/ObservationCollection"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#PlatformShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PlatformShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -584,17 +705,24 @@
       "sh:targetClass": "http://www.w3.org/ns/sosa/Platform"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ProcedureShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ProcedureShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/sosa/Procedure"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#SensorShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SensorShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#identifier"
+        },
         {
           "sh:class": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
           "sh:description": {
@@ -606,6 +734,13 @@
             "en": "implements"
           },
           "sh:path": "http://www.w3.org/ns/ssn/implements"
+        },
+        {
+          "sh:class": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#locatedAt"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
@@ -632,7 +767,7 @@
       "sh:targetClass": "http://www.w3.org/ns/sosa/Sensor"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ObservationProcedureShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ObservationProcedureShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -670,168 +805,220 @@
       "sh:targetClass": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#AccuracyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#AccuracyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Accuracy"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#DetectionLimitShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#DetectionLimitShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/DetectionLimit"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#DriftShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#DriftShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Drift"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#FrequencyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#FrequencyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#UnitText"
+        },
+        {
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#standardUnit"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#value"
+        }
+      ],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Frequency"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#LatencyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#LatencyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Latency"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#MeasurementRangeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementRangeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/MeasurementRange"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#PrecisionShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PrecisionShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Precision"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ResolutionShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ResolutionShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Resolution"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ResponseTimeShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ResponseTimeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/ResponseTime"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#SelectivityShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SelectivityShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Selectivity"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#SensitivityShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SensitivityShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Sensitivity"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#SystemPropertyShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SystemCapabilityShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+          "sh:description": {
+            "en": "Property of the System that defines its capability."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "hasSystemProperty"
+          },
+          "sh:path": "http://www.w3.org/ns/ssn/systems/hasSystemProperty"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/ssn/systems/Condition",
+          "sh:description": {
+            "en": "Condition under which the capability takes effect."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "inCondition"
+          },
+          "sh:path": "http://www.w3.org/ns/ssn/systems/inCondition"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SystemPropertyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/SystemProperty"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#FeatureShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#FeatureShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#CategoryObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CategoryObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#ComplexObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ComplexObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#ComplexObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#CountObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CountObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#CountObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#GeometryObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#GeometryObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#GeometryObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#MeasurementShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#NamedValueShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#NamedValueShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#PointCoverageObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PointCoverageObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#PointCoverageObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#TemporalObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemporalObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#TemporalObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#TimeSeriesObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TimeSeriesObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#TimeseriesObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#TruthObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TruthObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#DeviceShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#DeviceShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -883,21 +1070,66 @@
       "sh:targetClass": "https://saref.etsi.org/core/Device"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#FunctionShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#FunctionShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://saref.etsi.org/core/Function"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#TaskShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TaskShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://saref.etsi.org/core/Task"
     },
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/core_en#SystemShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#FactoryShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "sh:description": "",
+          "sh:path": "http://fixme.com#contains"
+        }
+      ],
+      "sh:targetClass": "https://saref.etsi.org/saref4inma/Factory"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ProductionEquipmentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#QuantitativeValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:path": "https://schema.org/unitText"
+        },
+        {
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:path": "https://schema.org/unitCode"
+        },
+        {
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "https://schema.org/value"
+        }
+      ],
+      "sh:targetClass": "https://schema.org/QuantitativeValue"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SystemShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [

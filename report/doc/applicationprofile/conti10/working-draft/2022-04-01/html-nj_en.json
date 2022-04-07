@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "AI-PROFICIENT Core data model",
+    "title": "AI-PROFICIENT CONTI 10 data model",
     "uri": "https://purl.eu/ns/air-and-water/core",
-    "issued": "2022-03-01",
+    "issued": "2022-04-01",
     "baseURI": "https://purl.eu/ns/air-and-water/core#",
-    "filename": "core",
+    "filename": "conti10",
     "navigation": {
-      "self": "https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01"
+      "self": "https://data.ai-proficiant.eu/doc/applicationprofile/conti10/working-draft/2022-04-01"
     },
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "documenttype": "ap",
@@ -22,6 +22,186 @@
   },
   "classes": [
     {
+      "uri": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "CategoryObservation",
+          "name": "CategoryObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+          "scoped_uri": "#CategoryObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "TruthObservation",
+          "name": "TruthObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+          "scoped_uri": "#TruthObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Feature",
+          "name": "Feature",
+          "package": "OM",
+          "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+          "scoped_uri": "#Feature"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
       "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
       "name": "Any",
       "label": {
@@ -35,7 +215,101 @@
         "en": "To be substituted by a suitable concrete class, datatype..."
       },
       "parents": [],
-      "properties": []
+      "properties": [
+        {
+          "uri": "https://purl.eu/ns/observations#standardUnit",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Unit",
+              "range_uri": "http://qudt.org/2.1/schema/qudt/Unit"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Unit",
+              "range_puri": "http://qudt.org/2.1/schema/qudt/Unit",
+              "range_label": {
+                "en": "Unit"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/observations#unitText",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/observations#value",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
@@ -86,6 +360,22 @@
           "codelist_uri": ""
         }
       ]
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+      "name": "DQ_Element",
+      "label": {
+        "en": "DQ_Element"
+      },
+      "sort": "DQ_Element",
+      "description": {
+        "en": "Abstract class of all possible tests to assess the quality of a dataset."
+      },
+      "usage": {
+        "en": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115."
+      },
+      "parents": [],
+      "properties": []
     },
     {
       "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
@@ -607,7 +897,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+              "range_uri": "#DQ_Element",
               "range_puri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
               "range_label": {
                 "en": "DQ_Element"
@@ -999,6 +1289,56 @@
       ]
     },
     {
+      "uri": "http://fixme.com#Extruder",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "ProductionEquipment",
+          "name": "ProductionEquipment",
+          "package": "SAREF-INMA",
+          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "scoped_uri": "#ProductionEquipment"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://fixme.com#identifier",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Extruder",
+              "uri": "http://fixme.com#Extruder"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
       "uri": "http://fixme.com#Repeatablity",
       "name": "Repeatability",
       "label": {
@@ -1030,6 +1370,16 @@
       "description": {
         "en": "Someone or something that can act or has the power to act."
       },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://qudt.org/2.1/schema/qudt/Unit",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
       "usage": {},
       "parents": [],
       "properties": []
@@ -1504,6 +1854,68 @@
       ],
       "properties": [
         {
+          "uri": "http://fixme.com#identifier",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Sensor",
+              "uri": "http://www.w3.org/ns/sosa/Sensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#locatedAt",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Sensor",
+              "uri": "http://www.w3.org/ns/sosa/Sensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ProductionEquipment",
+              "range_uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ProductionEquipment",
+              "range_puri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+              "range_label": {
+                "en": "ProductionEquipment"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
           "uri": "http://www.w3.org/ns/sosa/madeObservation",
           "name": "madeObservation",
           "sort": "madeObservation",
@@ -1833,7 +2245,88 @@
           "scoped_uri": "#SystemProperty"
         }
       ],
-      "properties": []
+      "properties": [
+        {
+          "uri": "http://fixme.com#UnitText",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#standardUnit",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#value",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://www.w3.org/ns/ssn/systems/Latency",
@@ -1988,6 +2481,91 @@
         }
       ],
       "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+      "name": "SystemCapability",
+      "label": {
+        "en": "SystemCapability"
+      },
+      "sort": "SystemCapability",
+      "description": {
+        "en": "The normal SystemCapabilities of a System under some specified Conditions."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+          "name": "hasSystemProperty",
+          "sort": "hasSystemProperty",
+          "label": {
+            "en": "hasSystemProperty"
+          },
+          "description": {
+            "en": "Property of the System that defines its capability."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "SystemCapability",
+              "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "SystemProperty",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#SystemProperty",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+              "range_label": {
+                "en": "SystemProperty"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/ssn/systems/inCondition",
+          "name": "inCondition",
+          "sort": "inCondition",
+          "label": {
+            "en": "inCondition"
+          },
+          "description": {
+            "en": "Condition under which the capability takes effect."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "SystemCapability",
+              "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Condition",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/Condition"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/ns/ssn/systems/Condition",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/Condition",
+              "range_label": {
+                "en": "Condition"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty",
@@ -2436,6 +3014,60 @@
       "properties": []
     },
     {
+      "uri": "https://saref.etsi.org/saref4inma/Factory",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://fixme.com#contains",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Factory",
+              "uri": "https://saref.etsi.org/saref4inma/Factory"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ProductionEquipment",
+              "range_uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ProductionEquipment",
+              "range_puri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+              "range_label": {
+                "en": "ProductionEquipment"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+      "name": "ProductionEquipment",
+      "label": {
+        "en": "ProductionEquipment"
+      },
+      "sort": "ProductionEquipment",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
       "uri": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
       "name": "System",
       "label": {
@@ -2580,7 +3212,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+              "range_uri": "#SystemCapability",
               "range_puri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
               "range_label": {
                 "en": "SystemCapability"
@@ -2814,8 +3446,86 @@
       },
       "parents": [],
       "properties": []
+    },
+    {
+      "uri": "https://schema.org/QuantitativeValue",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://schema.org/unitCode",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://schema.org/unitText",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://schema.org/value",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
     }
   ],
   "parents": [],
-  "documentroot": "/doc/applicationprofile/core/working-draft/2022-03-01"
+  "documentroot": "/doc/applicationprofile/conti10/working-draft/2022-04-01"
 }

@@ -459,13 +459,14 @@
   ],
   "toolchainversion": "2",
   "config": "config/config-ap.json",
+  "note": "This publication point is acctually obsolete",
   "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
   "repository": "https://github.com/tenforce/ai-proficient-thema",
-  "branchtag": "master",
+  "branchtag": "95b43053a6c7917267b455ccb1f496667e69d10c",
   "filename": "config/manufacturing.json",
   "navigation": {},
   "dummy": "22",
   "documentcommit": "95b43053a6c7917267b455ccb1f496667e69d10c",
-  "toolchaincommit": "5fd536e39e9de1f1542043f9fae821e774992336",
+  "toolchaincommit": "3ec90455525401150c0d35741584816d432eddc4",
   "hostname": "https://data.ai-proficiant.eu"
 }

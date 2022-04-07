@@ -91,7 +91,7 @@
     }
   ],
   "baseURI": "https://data.ai-proficiant.eu/ns#",
-  "branchtag": "master",
+  "branchtag": "95b43053a6c7917267b455ccb1f496667e69d10c",
   "classes": [
     {
       "@id": "https://data.ai-proficiant.eu/ns#Bag",
@@ -290,6 +290,7 @@
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "name": "manufacturing",
   "navigation": {},
+  "note": "This publication point is acctually obsolete",
   "properties": [
     {
       "@id": "https://data.ai-proficiant.eu/ns#size",
@@ -459,7 +460,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "5fd536e39e9de1f1542043f9fae821e774992336",
+  "toolchaincommit": "3ec90455525401150c0d35741584816d432eddc4",
   "toolchainversion": "2",
   "translation": [
     {

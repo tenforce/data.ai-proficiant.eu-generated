@@ -1,0 +1,9 @@
+start reading
+/tmp/workspace/report/doc/applicationprofile/conti10/working-draft/2022-04-01/translation/AI-PROFICIENT-Conti10-ap_en_merged.jsonld
+/tmp/workspace/target/doc/applicationprofile/conti10/working-draft/2022-04-01/shacl/conti10_en-SHACL.jsonld
+en
+done
+start processing
+make shacl using grouped mode (default)
+start writing
+Write complete, file saved to: /tmp/workspace/target/doc/applicationprofile/conti10/working-draft/2022-04-01/shacl/conti10_en-SHACL.jsonld

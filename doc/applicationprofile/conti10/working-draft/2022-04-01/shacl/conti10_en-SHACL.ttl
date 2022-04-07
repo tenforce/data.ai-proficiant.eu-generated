@@ -3,90 +3,135 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schemas: <https://schema.org/> .
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.ai-proficiant.eu/shacl/core_en> <https://data.ai-proficiant.eu/shacl/core_enshapes> <https://data.ai-proficiant.eu/shacl/core_en#GenericNameShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#AnyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#TM_ObjectShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#PropertyTypeShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#CI_responsiblePartyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#MetadataShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ProcessShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ObservationContextShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#RepeatablityShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#AgentShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#IdentifierShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#GeometryShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#LocationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ObservationCollectionShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#PlatformShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ProcedureShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#SensorShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ObservationProcedureShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#AccuracyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#DetectionLimitShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#DriftShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#FrequencyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#LatencyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#MeasurementRangeShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#PrecisionShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ResolutionShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ResponseTimeShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#SelectivityShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#SensitivityShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#SystemPropertyShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#FeatureShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#CategoryObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#ComplexObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#CountObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#GeometryObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#MeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#NamedValueShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#PointCoverageObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#TemporalObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#TimeSeriesObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#TruthObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#DeviceShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#FunctionShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#TaskShape>,
-    <https://data.ai-proficiant.eu/shacl/core_en#SystemShape> .
+<https://data.ai-proficiant.eu/shacl/conti10_en> <https://data.ai-proficiant.eu/shacl/conti10_enshapes> <https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#AnyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TM_ObjectShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PropertyTypeShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#CI_responsiblePartyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#DQ_ElementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#MetadataShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ProcessShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationContextShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#RepeatablityShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#AgentShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#UnitShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#IdentifierShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#GeometryShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#LocationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationCollectionShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PlatformShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ProcedureShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SensorShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationProcedureShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#AccuracyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#DetectionLimitShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#DriftShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#FrequencyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#LatencyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementRangeShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PrecisionShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ResolutionShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ResponseTimeShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SelectivityShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SensitivityShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SystemCapabilityShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SystemPropertyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#FeatureShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#CategoryObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ComplexObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#CountObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#GeometryObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#NamedValueShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PointCoverageObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TemporalObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TimeSeriesObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TruthObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#DeviceShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#FunctionShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TaskShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#FactoryShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ProductionEquipmentShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#QuantitativeValueShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SystemShape> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#AccuracyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#AccuracyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Accuracy> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#AgentShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#AgentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass dc:Agent .
 
-<https://data.ai-proficiant.eu/shacl/core_en#AnyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#AnyShape> a shacl:NodeShape;
   shacl:closed false;
+  shacl:property [
+    shacl:class <http://qudt.org/2.1/schema/qudt/Unit>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <https://purl.eu/ns/observations#standardUnit>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <https://purl.eu/ns/observations#unitText>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <https://purl.eu/ns/observations#value>
+  ];
   shacl:targetClass <http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#CI_responsiblePartyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#CI_responsiblePartyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#CategoryObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#CategoryObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ComplexObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ComplexObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#ComplexObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#CountObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#CompoundNameObservation> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#CountObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#CountObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#DetectionLimitShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#DQ_ElementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#DetectionLimitShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/DetectionLimit> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#DeviceShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#DeviceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://saref.etsi.org/core/Function>;
@@ -115,31 +160,69 @@
   ];
   shacl:targetClass <https://saref.etsi.org/core/Device> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#DriftShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#DriftShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Drift> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#FeatureShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdfs:Literal;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#identifier>
+  ];
+  shacl:targetClass <http://fixme.com#Extruder> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#FactoryShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://saref.etsi.org/saref4inma/ProductionEquipment>;
+    shacl:description "";
+    shacl:path <http://fixme.com#contains>
+  ];
+  shacl:targetClass <https://saref.etsi.org/saref4inma/Factory> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#FeatureShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#FrequencyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#FrequencyShape> a shacl:NodeShape;
   shacl:closed false;
+  shacl:property [
+    shacl:datatype xsd:string;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#UnitText>
+  ], [
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#standardUnit>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#value>
+  ];
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Frequency> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#FunctionShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#FunctionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://saref.etsi.org/core/Function> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#GenericNameShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://def.isotc211.org/iso19103/2005/Names#GenericName> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#GeometryObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#GeometryObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#GeometryObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#GeometryShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#GeometryShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype rdfs:Literal;
@@ -156,7 +239,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#IdentifierShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#IdentifierShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype rdfs:Literal;
@@ -167,23 +250,23 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/adms#Identifier> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#LatencyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#LatencyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Latency> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#LocationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#LocationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass prov:Location .
 
-<https://data.ai-proficiant.eu/shacl/core_en#MeasurementRangeShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementRangeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/MeasurementRange> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#MeasurementShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#MeasurementShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#Measurement> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#MetadataShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#MetadataShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class dc:Agent;
@@ -236,11 +319,15 @@
   ];
   shacl:targetClass <http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#NamedValueShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#NamedValueShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#NamedValue> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ObservationCollectionShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ObservationCollectionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature>;
@@ -305,7 +392,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/sosa/ObservationCollection> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ObservationContextShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ObservationContextShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation>;
@@ -329,7 +416,7 @@
   ];
   shacl:targetClass <http://def.isotc211.org/iso19156/2011/Observation#ObservationContext> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ObservationProcedureShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ObservationProcedureShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://www.w3.org/ns/sosa/Sensor>;
@@ -349,7 +436,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/sosa/om#ObservationProcedure> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature>;
@@ -435,7 +522,11 @@
   ];
   shacl:targetClass <https://purl.eu/ns/observations#ObservationContext.observation.source> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#PlatformShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#PlatformShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://www.w3.org/TR/vocab-ssn/#ssn-system>;
@@ -445,23 +536,31 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/sosa/Platform> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#PointCoverageObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#PointCoverageObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#PointCoverageObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#PrecisionShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#PrecisionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Precision> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ProcedureShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#PressureMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#ProcedureShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/sosa/Procedure> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ProcessShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ProcessShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://def.isotc211.org/iso19156/2011/Observation#OM_Process> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#PropertyTypeShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ProductionEquipmentShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://saref.etsi.org/saref4inma/ProductionEquipment> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#PropertyTypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://www.w3.org/ns/sosa/Sensor>;
@@ -471,35 +570,74 @@
   ];
   shacl:targetClass <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#RepeatablityShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#QuantitativeValueShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype xsd:string;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:path schemas:unitText
+  ], [
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:path schemas:unitCode
+  ], [
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path schemas:value
+  ];
+  shacl:targetClass schemas:QuantitativeValue .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#RepeatablityShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://fixme.com#Repeatablity> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ResolutionShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ResolutionShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Resolution> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#ResponseTimeShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#ResponseTimeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/ResponseTime> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#SelectivityShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#SelectivityShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Selectivity> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#SensitivityShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#SensitivityShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/Sensitivity> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#SensorShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#SensorShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
+    shacl:datatype rdfs:Literal;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#identifier>
+  ], [
     shacl:class <http://www.w3.org/ns/sosa/om#ObservationProcedure>;
     shacl:description "ObservationProcedure that is implemented by the Sensor."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "implements"@en;
     shacl:path <http://www.w3.org/ns/ssn/implements>
+  ], [
+    shacl:class <https://saref.etsi.org/saref4inma/ProductionEquipment>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#locatedAt>
   ], [
     shacl:class <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation>;
     shacl:description "Observation made by the Sensor."@en;
@@ -514,11 +652,33 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/sosa/Sensor> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#SystemPropertyShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#StatusObservation> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#SystemCapabilityShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <http://www.w3.org/ns/ssn/systems/SystemProperty>;
+    shacl:description "Property of the System that defines its capability."@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "hasSystemProperty"@en;
+    shacl:path <http://www.w3.org/ns/ssn/systems/hasSystemProperty>
+  ], [
+    shacl:class <http://www.w3.org/ns/ssn/systems/Condition>;
+    shacl:description "Condition under which the capability takes effect."@en;
+    shacl:minCount 1;
+    shacl:name "inCondition"@en;
+    shacl:path <http://www.w3.org/ns/ssn/systems/inCondition>
+  ];
+  shacl:targetClass <http://www.w3.org/ns/ssn/systems/SystemCapability> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#SystemPropertyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://www.w3.org/ns/ssn/systems/SystemProperty> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#SystemShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#SystemShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://www.w3.org/ns/ssn/systems/OperatingRange>;
@@ -543,22 +703,38 @@
   ];
   shacl:targetClass <https://www.w3.org/TR/vocab-ssn/#ssn-system> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#TM_ObjectShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#TM_ObjectShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#TaskShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#TaskShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://saref.etsi.org/core/Task> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#TemporalObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#TemperatureMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#TemporalObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#TemporalObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#TimeSeriesObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#TimeSeriesObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#TimeseriesObservation> .
 
-<https://data.ai-proficiant.eu/shacl/core_en#TruthObservationShape> a shacl:NodeShape;
+<https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://purl.eu/ns/air-and-water/core#TreadMeasurement> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#TruthObservationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#TruthObservation> .
+
+<https://data.ai-proficiant.eu/shacl/conti10_en#UnitShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://qudt.org/2.1/schema/qudt/Unit> .

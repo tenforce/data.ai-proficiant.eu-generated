@@ -79,8 +79,8 @@
     "@id": "https://purl.eu/ns/air-and-water/core",
     "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "label": {
-        "nl": "core",
-        "en": "core"
+        "nl": "conti10",
+        "en": "conti10"
     },
     "baseURI": "https://purl.eu/ns/air-and-water/core#",
     "issued": "TODO",
@@ -102,7 +102,398 @@
     "authors": [],
     "editors": [],
     "contributors": [],
-    "classes": [],
+    "classes": [
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "CompoundNameObservation",
+                "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "CategoryObservation",
+                "EA-Parents2": [
+                    {
+                        "name": "CategoryObservation",
+                        "label": "CategoryObservation",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "MeterWeightMeasurement",
+                "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "PieceWeightMeasurement",
+                "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "PressureMeasurement",
+                "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "SchrinkingspeedMeasurement",
+                "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "ScrewSpeedMeasurement",
+                "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "StatusObservation",
+                "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "TruthObservation",
+                "EA-Parents2": [
+                    {
+                        "name": "TruthObservation",
+                        "label": "TruthObservation",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "TemperatureMeasurement",
+                "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "TemperatureOfCompoundOnHead",
+                "EA-Guid": "{1F299617-AA81-4fe8-8480-061F52CD55EC}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Feature",
+                "EA-Parents2": [
+                    {
+                        "name": "Feature",
+                        "label": "Feature",
+                        "package": "OM",
+                        "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+            ]
+        },
+        {
+            "@id": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "TreadMeasurement",
+                "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Measurement",
+                "EA-Parents2": [
+                    {
+                        "name": "Measurement",
+                        "label": "Measurement",
+                        "package": "Mirror",
+                        "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+                    }
+                ],
+                "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "",
+            "parents": [
+                "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            ]
+        }
+    ],
     "properties": [],
     "externals": [
         {
@@ -516,6 +907,96 @@
             "name": "CI_ResponsibleParty"
         },
         {
+            "@id": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "Abstract class of all possible tests to assess the quality of a dataset."
+            },
+            "ap-usageNote-en": {
+                "en": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115."
+            },
+            "usage": {
+                "en": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115."
+            },
+            "ap-label-en": {
+                "en": "DQ_Element"
+            },
+            "definition": {
+                "en": "Abstract class of all possible tests to assess the quality of a dataset."
+            },
+            "label": {
+                "en": "DQ_Element"
+            },
+            "extra": {
+                "EA-Name": "DQ_Element",
+                "EA-Guid": "{1BA3C50E-E187-4efd-9ABA-58849A647D46}",
+                "EA-Package": "OM",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": {
+                    "en": "DQ_Element"
+                },
+                "definition": {
+                    "en": "Abstract class of all possible tests to assess the quality of a dataset."
+                },
+                "usage": {
+                    "en": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115."
+                },
+                "ap-label-en": {
+                    "en": "DQ_Element"
+                },
+                "ap-definition-en": {
+                    "en": "Abstract class of all possible tests to assess the quality of a dataset."
+                },
+                "ap-usageNote-en": {
+                    "en": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115."
+                },
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "DQ_Element",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Abstract class of all possible tests to assess the quality of a dataset.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "DQ_Element",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Abstract class of all possible tests to assess the quality of a dataset.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "name": "DQ_Element"
+        },
+        {
             "@id": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
@@ -806,6 +1287,42 @@
             "name": "ObservationContext"
         },
         {
+            "@id": "http://fixme.com#Extruder",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "Extruder",
+                "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+                "EA-Package": "SAREF-INMA",
+                "EA-Type": "CLASS",
+                "EA-Parents": "ProductionEquipment",
+                "EA-Parents2": [
+                    {
+                        "name": "ProductionEquipment",
+                        "label": "ProductionEquipment",
+                        "package": "SAREF-INMA",
+                        "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+                    }
+                ],
+                "parentclasses": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "name": ""
+        },
+        {
             "@id": "http://fixme.com#Repeatablity",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
@@ -941,6 +1458,41 @@
                 "Scope": "NOTHING"
             },
             "name": "Agent"
+        },
+        {
+            "@id": "http://qudt.org/2.1/schema/qudt/Unit",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "Unit",
+                "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
+                "EA-Package": "AI-PROFICIENT",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://qudt.org/2.1/schema/qudt/Unit",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "name": ""
         },
         {
             "@id": "http://www.w3.org/ns/adms#Identifier",
@@ -2423,6 +2975,76 @@
             "name": "Sensitivity"
         },
         {
+            "@id": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "The normal SystemCapabilities of a System under some specified Conditions."
+            },
+            "ap-label-en": {
+                "en": "SystemCapability"
+            },
+            "definition": {
+                "en": "The normal SystemCapabilities of a System under some specified Conditions."
+            },
+            "label": {
+                "en": "SystemCapability"
+            },
+            "extra": {
+                "EA-Name": "SystemCapability",
+                "EA-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+                "EA-Package": "SSN",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": {
+                    "en": "SystemCapability"
+                },
+                "definition": {
+                    "en": "The normal SystemCapabilities of a System under some specified Conditions."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "SystemCapability"
+                },
+                "ap-definition-en": {
+                    "en": "The normal SystemCapabilities of a System under some specified Conditions."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "SystemCapability",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "Describes normal measurement, actuation, sampling properties such as accuracy, range, precision etc of a system under some specified conditions such as a temperature range. The capabilities specified here are those that affect the promary purpose of the system, while those in operatingrange represent the system's normal operating environment, including conditions that don't affect the observation or the actuations."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "SystemCapability",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The normal SystemCapabilities of a System under some specified Conditions.",
+                        "note": "Describes normal measurement, actuation, sampling properties such as accuracy, range, precision etc of a system under some specified conditions such as a temperature range. The capabilities specified here are those that affect the promary purpose of the system, while those in operatingrange represent the system's normal operating environment, including conditions that don't affect the observation or the actuations."
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "name": "SystemCapability"
+        },
+        {
             "@id": "http://www.w3.org/ns/ssn/systems/SystemProperty",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
@@ -3782,6 +4404,141 @@
                 "Scope": "NOTHING"
             },
             "name": "Task"
+        },
+        {
+            "@id": "https://saref.etsi.org/saref4inma/Factory",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "Factory",
+                "EA-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
+                "EA-Package": "SAREF-INMA",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "https://saref.etsi.org/saref4inma/Factory",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "name": ""
+        },
+        {
+            "@id": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "ProductionEquipment"
+            },
+            "label": {
+                "en": "ProductionEquipment"
+            },
+            "extra": {
+                "EA-Name": "ProductionEquipment",
+                "EA-Guid": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+                "EA-Package": "SAREF-INMA",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": {
+                    "en": "ProductionEquipment"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-en": {
+                    "en": "ProductionEquipment"
+                },
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "ProductionEquipment",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "name": "ProductionEquipment"
+        },
+        {
+            "@id": "https://schema.org/QuantitativeValue",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "QuantitativeValue",
+                "EA-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
+                "EA-Package": "OSLO-Generic",
+                "EA-Type": "DATATYPE",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "Aanduiding van de kwantiteit van een bepaald kenmerk van een object.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-nl",
+                        "value": "Bv de hoogte van een object,het gewicht,de temperatuur etc. Het gaat om een kenmerk dat numeriek uitgedrukt kan worden en in een bepaalde eenheid. Kwalitatieve aanduidingen zoals hoog,laag ed vallen hier dus niet onder.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "Kwantitatieve Waarde",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://schema.org/QuantitativeValue",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "name": ""
         },
         {
             "@id": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
@@ -5257,6 +6014,363 @@
                     "EA-GUID": "{93D68B5D-0223-45be-9955-719529D24B7A}",
                     "EA-Package": "OM",
                     "uri": "http://def.isotc211.org/iso19103/2005/Names#GenericName"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#UnitText",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "UnitText",
+                "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",
+                "EA-Package": "SSN",
+                "EA-Type": "attribute",
+                "EA-Domain": "Frequency",
+                "EA-Domain-Guid": "{EA770CCF-D167-4da0-B7C7-A075F878CB3E}",
+                "EA-Range": "String",
+                "RangeData": {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/Frequency",
+                    "EA-Name": "Frequency"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#contains",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "contains",
+                "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "Factory",
+                "EA-Domain-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
+                "EA-Range": "ProductionEquipment",
+                "RangeData": {
+                    "EA-Name": "ProductionEquipment",
+                    "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+                    "EA-Package": "SAREF-INMA",
+                    "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+                },
+                "sourceRole": "null",
+                "destRole": "contains",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://saref.etsi.org/saref4inma/Factory",
+                    "EA-Name": "Factory"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "ProductionEquipment",
+                    "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+                    "EA-Package": "SAREF-INMA",
+                    "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+                }
+            ],
+            "generalization": []
+        },
+        {
+            "@id": "http://fixme.com#identifier",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "identifier",
+                "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
+                "EA-Package": "SOSA",
+                "EA-Type": "attribute",
+                "EA-Domain": "Sensor",
+                "EA-Domain-Guid": "{015141B8-6D40-4817-94DF-C8E5A9E39BD6}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/sosa/Sensor",
+                    "EA-Name": "Sensor"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#identifier",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "identifier",
+                "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+                "EA-Package": "SAREF-INMA",
+                "EA-Type": "attribute",
+                "EA-Domain": "Extruder",
+                "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://fixme.com#Extruder",
+                    "EA-Name": "Extruder"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#locatedAt",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "locatedAt",
+                "EA-Guid": "{97B2326A-BD54-4751-BAFC-479FC7F20643}",
+                "EA-Package": "SOSA",
+                "EA-Type": "attribute",
+                "EA-Domain": "Sensor",
+                "EA-Domain-Guid": "{015141B8-6D40-4817-94DF-C8E5A9E39BD6}",
+                "EA-Range": "ProductionEquipment",
+                "RangeData": {
+                    "EA-Name": "ProductionEquipment",
+                    "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+                    "EA-Package": "SAREF-INMA",
+                    "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/sosa/Sensor",
+                    "EA-Name": "Sensor"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "ProductionEquipment",
+                    "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+                    "EA-Package": "SAREF-INMA",
+                    "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#standardUnit",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "standardUnit",
+                "EA-Guid": "{060E3DEB-E435-408e-8A63-9CABF517C315}",
+                "EA-Package": "SSN",
+                "EA-Type": "attribute",
+                "EA-Domain": "Frequency",
+                "EA-Domain-Guid": "{EA770CCF-D167-4da0-B7C7-A075F878CB3E}",
+                "EA-Range": "URi",
+                "RangeData": {
+                    "EA-Name": "",
+                    "EA-Package": "",
+                    "uri": "null"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/Frequency",
+                    "EA-Name": "Frequency"
+                }
+            ],
+            "range": [],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://fixme.com#value",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "value",
+                "EA-Guid": "{E6C324CB-5203-40b8-BD5B-B0E9F7C020A7}",
+                "EA-Package": "SSN",
+                "EA-Type": "attribute",
+                "EA-Domain": "Frequency",
+                "EA-Domain-Guid": "{EA770CCF-D167-4da0-B7C7-A075F878CB3E}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/Frequency",
+                    "EA-Name": "Frequency"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 }
             ],
             "generalization": [],
@@ -9193,6 +10307,214 @@
             "maxCardinality": "*"
         },
         {
+            "@id": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasSystemProperty",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "Property of the System that defines its capability."
+            },
+            "ap-label-en": {
+                "en": "hasSystemProperty"
+            },
+            "definition": {
+                "en": "Property of the System that defines its capability."
+            },
+            "label": {
+                "en": "hasSystemProperty"
+            },
+            "extra": {
+                "EA-Name": "hasSystemProperty",
+                "EA-Guid": "{B57924A4-3F31-4aa6-8BF8-C5E96B0947D2}",
+                "EA-Package": "SSN",
+                "EA-Type": "attribute",
+                "EA-Domain": "SystemCapability",
+                "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+                "EA-Range": "SystemProperty",
+                "RangeData": {
+                    "EA-Name": "SystemProperty",
+                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+                },
+                "label": {
+                    "en": "hasSystemProperty"
+                },
+                "definition": {
+                    "en": "Property of the System that defines its capability."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "hasSystemProperty"
+                },
+                "ap-definition-en": {
+                    "en": "Property of the System that defines its capability."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "hasSystemProperty",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Relation from an SystemCapability of a System to a SystemProperty describing the capabilities of the System.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-nl",
+                        "value": "hasSystemProperty",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "Relation from an SystemCapability of a System to a SystemProperty describing the capabilities of the System.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "hasSystemProperty",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Property of the System that defines its capability.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+                    "EA-Name": "SystemCapability"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "SystemProperty",
+                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://www.w3.org/ns/ssn/systems/inCondition",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "inCondition",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "Condition under which the capability takes effect."
+            },
+            "ap-label-en": {
+                "en": "inCondition"
+            },
+            "definition": {
+                "en": "Condition under which the capability takes effect."
+            },
+            "label": {
+                "en": "inCondition"
+            },
+            "extra": {
+                "EA-Name": "inCondition",
+                "EA-Guid": "{B408960B-2432-4fdc-92B4-709B3EF44A9F}",
+                "EA-Package": "SSN",
+                "EA-Type": "attribute",
+                "EA-Domain": "SystemCapability",
+                "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+                "EA-Range": "Condition",
+                "RangeData": {
+                    "EA-Name": "Condition",
+                    "EA-GUID": "{D6241DDF-0333-4e87-8FED-EB2BA30B73AD}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/Condition"
+                },
+                "label": {
+                    "en": "inCondition"
+                },
+                "definition": {
+                    "en": "Condition under which the capability takes effect."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "inCondition"
+                },
+                "ap-definition-en": {
+                    "en": "Condition under which the capability takes effect."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "inCondition",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Describes the prevailing environmental Conditions for SystemCapabilites, OperatingRanges and SurvivalRanges.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.w3.org/ns/ssn/systems/inCondition",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-nl",
+                        "value": "inCondition",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "Describes the prevailing environmental Conditions for SystemCapabilites, OperatingRanges and SurvivalRanges.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "inCondition",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Condition under which the capability takes effect.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+                    "EA-Name": "SystemCapability"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Condition",
+                    "EA-GUID": "{D6241DDF-0333-4e87-8FED-EB2BA30B73AD}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/Condition"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "*"
+        },
+        {
             "@id": "https://purl.eu/ns/air-and-water/core#ObservationCollection.metadata",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "metadata",
@@ -9898,6 +11220,161 @@
             "maxCardinality": "1"
         },
         {
+            "@id": "https://purl.eu/ns/observations#standardUnit",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "standardUnit",
+                "EA-Guid": "{9ED0BD02-7BCC-4d0c-87E6-7272FB1B8C49}",
+                "EA-Package": "OM",
+                "EA-Type": "attribute",
+                "EA-Domain": "Any",
+                "EA-Domain-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
+                "EA-Range": "Unit",
+                "RangeData": {
+                    "EA-Name": "Unit",
+                    "EA-GUID": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
+                    "EA-Package": "AI-PROFICIENT",
+                    "uri": "http://qudt.org/2.1/schema/qudt/Unit"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+                    "EA-Name": "Any"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Unit",
+                    "EA-GUID": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
+                    "EA-Package": "AI-PROFICIENT",
+                    "uri": "http://qudt.org/2.1/schema/qudt/Unit"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://purl.eu/ns/observations#unitText",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "unitText",
+                "EA-Guid": "{9BE3F175-E402-4acc-BD8E-020F89719A2C}",
+                "EA-Package": "OM",
+                "EA-Type": "attribute",
+                "EA-Domain": "Any",
+                "EA-Domain-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
+                "EA-Range": "String",
+                "RangeData": {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+                    "EA-Name": "Any"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://purl.eu/ns/observations#value",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "value",
+                "EA-Guid": "{2F84ED6F-C5B9-4fd8-95CC-6630E8BB1F5F}",
+                "EA-Package": "OM",
+                "EA-Type": "attribute",
+                "EA-Domain": "Any",
+                "EA-Domain-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+                    "EA-Name": "Any"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
             "@id": "https://saref.etsi.org/core/accomplishes",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "task",
@@ -10308,37 +11785,241 @@
             "generalization": [],
             "minCardinality": "0",
             "maxCardinality": "1"
+        },
+        {
+            "@id": "https://schema.org/unitCode",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "standaardEenheid",
+                "EA-Guid": "{AEBA842B-3FD9-4ead-A85F-1D886D6B8FAA}",
+                "EA-Package": "OSLO-Generic",
+                "EA-Type": "attribute",
+                "EA-Domain": "QuantitativeValue",
+                "EA-Domain-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
+                "EA-Range": "StandaardEenheid",
+                "RangeData": {
+                    "EA-Name": "",
+                    "EA-Package": "",
+                    "uri": "null"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "ap-label-nl",
+                        "value": "standaard eenheid",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "eenheidcode",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://schema.org/unitCode",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://schema.org/QuantitativeValue",
+                    "EA-Name": "QuantitativeValue"
+                }
+            ],
+            "range": [],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://schema.org/unitText",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "eenheid",
+                "EA-Guid": "{9C758685-237B-4716-95D0-52B6F606250F}",
+                "EA-Package": "OSLO-Generic",
+                "EA-Type": "attribute",
+                "EA-Domain": "QuantitativeValue",
+                "EA-Domain-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
+                "EA-Range": "String",
+                "RangeData": {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "ap-label-nl",
+                        "value": "eenheid",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://schema.org/unitText",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "eenheidtekst",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "De eenheid waarin de waarde is uitgedrukt.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-nl",
+                        "value": "Te gebruiken als geen standaard eenheid gekend is.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://schema.org/QuantitativeValue",
+                    "EA-Name": "QuantitativeValue"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "String",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#string"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://schema.org/value",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "waarde",
+                "EA-Guid": "{4C903963-279A-45cb-A0DA-D9172780C26F}",
+                "EA-Package": "OSLO-Generic",
+                "EA-Type": "attribute",
+                "EA-Domain": "QuantitativeValue",
+                "EA-Domain-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
+                "EA-Range": "Getal",
+                "RangeData": {
+                    "EA-Name": "",
+                    "EA-Package": "",
+                    "uri": "null"
+                },
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "https://schema.org/value",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "waarde",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://schema.org/QuantitativeValue",
+                    "EA-Name": "QuantitativeValue"
+                }
+            ],
+            "range": [],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
         }
     ],
-    "name": "core",
+    "name": "conti10",
     "type": "ap",
-    "eap": "AI-PROFICIENT-Core-AP.eap",
-    "diagram": "AI-PROFICIENT-Core",
+    "eap": "AI-PROFICIENT-Core-Conti10.eap",
+    "diagram": "AI-PROFICIENT-Conti10",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "publication-date": "2022-03-01",
+    "publication-date": "2022-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "AI-PROFICIENT",
-    "site": "site-skeleton/AI-PROFICIENT-Core-ap",
+    "site": "site-skeleton/AI-PROFICIENT-Conti10-ap",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "title": "AI-PROFICIENT Core data model",
     "translation": [
         {
             "language": "en",
-            "template": "AI-PROFICIENT-Core-ap_en.j2",
-            "title": "AI-PROFICIENT Core data model",
-            "translationjson": "AI-PROFICIENT-Core-ap_en.json",
-            "mergefile": "AI-PROFICIENT-Core-ap_en_merged.jsonld"
+            "template": "AI-PROFICIENT-Conti10-ap_en.j2",
+            "title": "AI-PROFICIENT CONTI 10 data model",
+            "translationjson": "AI-PROFICIENT-Conti10-ap_en.json",
+            "mergefile": "AI-PROFICIENT-Conti10-ap_en_merged.jsonld"
         }
     ],
     "toolchainversion": "3",
     "config": "config/config-ap.json",
-    "urlref": "/doc/applicationprofile/core/working-draft/2022-03-01",
+    "urlref": "/doc/applicationprofile/conti10/working-draft/2022-04-01",
     "repository": "https://github.com/tenforce/ai-proficient-thema",
     "branchtag": "master",
-    "filename": "config/core.json",
+    "filename": "config/conti10.json",
     "navigation": {},
-    "dummy": "25",
+    "dummy": "26",
     "documentcommit": "04de11f6341d14ddcc19afa7a65b4cccc0fb01c4",
     "toolchaincommit": "3ec90455525401150c0d35741584816d432eddc4",
     "hostname": "https://data.ai-proficiant.eu"

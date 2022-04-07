@@ -2,13 +2,13 @@
 <head>
     
     <meta charset="utf-8" />
-    <title>AI-PROFICIENT Core data model</title>
+    <title>AI-PROFICIENT CONTI 10 data model</title>
     <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
     <script class="remove">
     // All config options at https://respec.org/docs/
     var respecConfig = {
-      edDraftURI: "https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01",
-      latestVersion: "https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01",
+      edDraftURI: "https://data.ai-proficiant.eu/doc/applicationprofile/conti10/working-draft/2022-04-01",
+      latestVersion: "https://data.ai-proficiant.eu/doc/applicationprofile/conti10/working-draft/2022-04-01",
       specStatus: "unofficial",
       editors: [{
         name: "Bert van Nuffelen",
@@ -66,7 +66,7 @@
     <div class="page">
         
         <section>
-            <h2 class="h1">AI-PROFICIENT Core data model</h2>
+            <h2 class="h1">AI-PROFICIENT CONTI 10 data model</h2>
             <div class="col--9-12 col--1-1--s">
                 <div class="head" role="status" id="status">
                     <dl>
@@ -80,13 +80,13 @@
                             Published at
                         </dt>
                         <dd>
-                            2022-03-01
+                            2022-04-01
                         </dd>
                         <dt >
                             This version
                         </dt>
                         <dd>
-                            <a href="https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01">https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01</a>
+                            <a href="https://data.ai-proficiant.eu/doc/applicationprofile/conti10/working-draft/2022-04-01">https://data.ai-proficiant.eu/doc/applicationprofile/conti10/working-draft/2022-04-01</a>
                         </dd>
                         
                         
@@ -140,13 +140,13 @@
     </h2>
     
         <p>
-            This document describes an <strong>application profile</strong>, in this case <strong>AI-PROFICIENT Core data model</strong>. The application profile specifies a semantic data model covering a set of usecases. The specification consists of terms with their constraints (cardinalities, codelists, usage guidelines).
+            This document describes an <strong>application profile</strong>, in this case <strong>AI-PROFICIENT CONTI 10 data model</strong>. The application profile specifies a semantic data model covering a set of usecases. The specification consists of terms with their constraints (cardinalities, codelists, usage guidelines).
         </p>
     
 </section>
 <section id="abstract">
     
-<p>ADD SUMMARY</p>
+<p>This describes the data model used in the CONTI 10 usecase</p>
 
 </section>
 <section id="sotd">
@@ -193,7 +193,7 @@
                         <p>
                             This document describes the usage of the following entities for a correct usage of the Application Profile:
                             <br />
-                            | <a href="#Accuracy">Accuracy</a> | <a href="#Agent">Agent</a> | <a href="#Any">Any</a> | <a href="#CategoryObservation">CategoryObservation</a> | <a href="#ComplexObservation">ComplexObservation</a> | <a href="#CountObservation">CountObservation</a> | <a href="#DetectionLimit">DetectionLimit</a> | <a href="#Device">Device</a> | <a href="#Drift">Drift</a> | <a href="#Feature">Feature</a> | <a href="#Frequency">Frequency</a> | <a href="#Function">Function</a> | <a href="#GeometryObservation">GeometryObservation</a> | <a href="#Latency">Latency</a> | <a href="#Measurement">Measurement</a> | <a href="#MeasurementRange">MeasurementRange</a> | <a href="#Metadata">Metadata</a> | <a href="#Observation">Observation</a> | <a href="#ObservationCollection">ObservationCollection</a> | <a href="#ObservationContext">ObservationContext</a> | <a href="#ObservationProcedure">ObservationProcedure</a> | <a href="#Platform">Platform</a> | <a href="#PointCoverageObservation">PointCoverageObservation</a> | <a href="#Precision">Precision</a> | <a href="#Procedure">Procedure</a> | <a href="#Process">Process</a> | <a href="#PropertyType">PropertyType</a> | <a href="#Repeatability">Repeatability</a> | <a href="#Resolution">Resolution</a> | <a href="#ResponseTime">ResponseTime</a> | <a href="#Selectivity">Selectivity</a> | <a href="#Sensitivity">Sensitivity</a> | <a href="#Sensor">Sensor</a> | <a href="#System">System</a> | <a href="#SystemProperty">SystemProperty</a> | <a href="#Task">Task</a> | <a href="#TemporalObservation">TemporalObservation</a> | <a href="#TimeSeriesObservation">TimeSeriesObservation</a> | <a href="#TruthObservation">TruthObservation</a> |
+                            | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#"></a> | <a href="#Accuracy">Accuracy</a> | <a href="#Agent">Agent</a> | <a href="#Any">Any</a> | <a href="#CategoryObservation">CategoryObservation</a> | <a href="#ComplexObservation">ComplexObservation</a> | <a href="#CountObservation">CountObservation</a> | <a href="#DetectionLimit">DetectionLimit</a> | <a href="#Device">Device</a> | <a href="#DQ_Element">DQ_Element</a> | <a href="#Drift">Drift</a> | <a href="#Feature">Feature</a> | <a href="#Frequency">Frequency</a> | <a href="#Function">Function</a> | <a href="#GeometryObservation">GeometryObservation</a> | <a href="#Latency">Latency</a> | <a href="#Measurement">Measurement</a> | <a href="#MeasurementRange">MeasurementRange</a> | <a href="#Metadata">Metadata</a> | <a href="#Observation">Observation</a> | <a href="#ObservationCollection">ObservationCollection</a> | <a href="#ObservationContext">ObservationContext</a> | <a href="#ObservationProcedure">ObservationProcedure</a> | <a href="#Platform">Platform</a> | <a href="#PointCoverageObservation">PointCoverageObservation</a> | <a href="#Precision">Precision</a> | <a href="#Procedure">Procedure</a> | <a href="#Process">Process</a> | <a href="#ProductionEquipment">ProductionEquipment</a> | <a href="#PropertyType">PropertyType</a> | <a href="#Repeatability">Repeatability</a> | <a href="#Resolution">Resolution</a> | <a href="#ResponseTime">ResponseTime</a> | <a href="#Selectivity">Selectivity</a> | <a href="#Sensitivity">Sensitivity</a> | <a href="#Sensor">Sensor</a> | <a href="#System">System</a> | <a href="#SystemCapability">SystemCapability</a> | <a href="#SystemProperty">SystemProperty</a> | <a href="#Task">Task</a> | <a href="#TemporalObservation">TemporalObservation</a> | <a href="#TimeSeriesObservation">TimeSeriesObservation</a> | <a href="#TruthObservation">TruthObservation</a> |
                         </p>
                     </div>
                 
@@ -202,7 +202,7 @@
                         <p>
                             This document describes the usage of the following datatypes for a correct usage of the Application Profile:
                             <br />
-                            | <a href="#CI_ResponsibleParty">CI_ResponsibleParty</a> | <a href="#GenericName">GenericName</a> | <a href="#Geometry">Geometry</a> | <a href="#Identifier">Identifier</a> | <a href="#Location">Location</a> | <a href="#NamedValue">NamedValue</a> | <a href="#TM_Object">TM_Object</a> |
+                            | <a href="#"></a> | <a href="#CI_ResponsibleParty">CI_ResponsibleParty</a> | <a href="#GenericName">GenericName</a> | <a href="#Geometry">Geometry</a> | <a href="#Identifier">Identifier</a> | <a href="#Location">Location</a> | <a href="#NamedValue">NamedValue</a> | <a href="#TM_Object">TM_Object</a> |
                         </p>
                     </div>
                 
@@ -210,9 +210,9 @@
         </div>
     </div>
     <div class="region region--no-space-top">
-        <a href="https://tenforce.github.io/data.ai-proficiant.eu-generated/doc/applicationprofile/core/working-draft/2022-03-01/html/overview.jpg"
+        <a href="https://tenforce.github.io/data.ai-proficiant.eu-generated/doc/applicationprofile/conti10/working-draft/2022-04-01/html/overview.jpg"
            target="_blank">
-            <img src="https://tenforce.github.io/data.ai-proficiant.eu-generated/doc/applicationprofile/core/working-draft/2022-03-01/html/overview.jpg"/>
+            <img src="https://tenforce.github.io/data.ai-proficiant.eu-generated/doc/applicationprofile/conti10/working-draft/2022-04-01/html/overview.jpg"/>
         </a>
     </div>
 </section>
@@ -224,6 +224,672 @@
         
     </div>
     
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#CompoundNameObservation"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#CompoundNameObservation"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#CategoryObservation">CategoryObservation</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#PressureMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#PressureMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#StatusObservation"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#StatusObservation"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#TruthObservation">TruthObservation</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#TemperatureMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#TemperatureMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Feature">Feature</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://purl.eu/ns/air-and-water/core#TreadMeasurement"
+                   data-toggle="tooltip"
+                   data-content="https://purl.eu/ns/air-and-water/core#TreadMeasurement"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#Measurement">Measurement</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="http://fixme.com#Extruder"
+                   data-toggle="tooltip"
+                   data-content="http://fixme.com#Extruder"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Subclass of
+                        <dt>
+                            <dd> <a href="#ProductionEquipment">ProductionEquipment</a>
+                                
+                        </dd>
+                    
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                        <dd>
+                            For this entity the following properties are defined: <a href="#%3A"></a>
+                            .
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#identifier"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#identifier"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#identifier"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-placement="right">Literal</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="http://qudt.org/2.1/schema/qudt/Unit"
+                   data-toggle="tooltip"
+                   data-content="http://qudt.org/2.1/schema/qudt/Unit"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="">
+                
+                <a href="https://saref.etsi.org/saref4inma/Factory"
+                   data-toggle="tooltip"
+                   data-content="https://saref.etsi.org/saref4inma/Factory"
+                   data-placement="right"></a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                        <dd>
+                            For this entity the following properties are defined: <a href="#%3A"></a>
+                            .
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#contains"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#contains"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#contains"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#ProductionEquipment" data-placement="right">ProductionEquipment</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        
+    </div>
+</section>
+
         <section>
             <h3 class="h3" id="Accuracy">
                 
@@ -327,8 +993,11 @@
                         Properties
                     </dt>
                     
-                    <dd>
-                        No properties have been defined for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Any%3A"></a>
+                            , <a href="#Any%3A"></a>
+                            , <a href="#Any%3A"></a>
+                            .
                     </dd>
                 
             </dl>
@@ -336,6 +1005,161 @@
                 Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20Any&body=Explain%20your%20issue"}}>here</a>.
             </dd>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Any%3A"
+                                typeof="rdfs:Property"
+                                resource="https://purl.eu/ns/observations#standardUnit"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="https://purl.eu/ns/observations#standardUnit"
+                                           data-toggle="tooltip"
+                                           data-content="https://purl.eu/ns/observations#standardUnit"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#Unit" data-placement="right">Unit</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Any%3A"
+                                typeof="rdfs:Property"
+                                resource="https://purl.eu/ns/observations#unitText"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="https://purl.eu/ns/observations#unitText"
+                                           data-toggle="tooltip"
+                                           data-content="https://purl.eu/ns/observations#unitText"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2001/XMLSchema#string"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2001/XMLSchema#string"
+                                               data-placement="right">String</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Any%3A"
+                                typeof="rdfs:Property"
+                                resource="https://purl.eu/ns/observations#value"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="https://purl.eu/ns/observations#value"
+                                           data-toggle="tooltip"
+                                           data-content="https://purl.eu/ns/observations#value"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-placement="right">Literal</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -766,6 +1590,47 @@
 </section>
 
         <section>
+            <h3 class="h3" id="DQ_Element">
+                
+                <a href="http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
+                   data-toggle="tooltip"
+                   data-content="http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
+                   data-placement="right">DQ_Element</a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    Abstract class of all possible tests to assess the quality of a dataset.
+                </dd>
+                
+                    <dt>
+                        Usage
+                    </dt>
+                    <dd>
+                        This means a test to assess Completeness, LogicalConsistency, PositionalAccuracy, ThematicAccuracy or TemporalAccuracy. For a more detailed description see ISO19115.
+                    </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20DQ_Element&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
             <h3 class="h3" id="Drift">
                 
                 <a href="http://www.w3.org/ns/ssn/systems/Drift"
@@ -875,8 +1740,11 @@
                         Properties
                     </dt>
                     
-                    <dd>
-                        No properties have been defined for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Frequency%3A"></a>
+                            , <a href="#Frequency%3A"></a>
+                            , <a href="#Frequency%3A"></a>
+                            .
                     </dd>
                 
             </dl>
@@ -884,6 +1752,157 @@
                 Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20Frequency&body=Explain%20your%20issue"}}>here</a>.
             </dd>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Frequency%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#UnitText"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#UnitText"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#UnitText"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2001/XMLSchema#string"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2001/XMLSchema#string"
+                                               data-placement="right">String</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Frequency%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#standardUnit"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#standardUnit"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#standardUnit"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Frequency%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#value"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#value"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#value"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-placement="right">Literal</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -1991,10 +3010,7 @@
                                 <td>
                                     
                                         
-                                            <a href="http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
-                                               data-toggle="tooltip"
-                                               data-content="http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
-                                               data-placement="right">DQ_Element</a>
+                                            <a href="#DQ_Element" data-placement="right">DQ_Element</a>
                                         
                                     
                                 </td>
@@ -3233,6 +4249,40 @@
 </section>
 
         <section>
+            <h3 class="h3" id="ProductionEquipment">
+                
+                <a href="https://saref.etsi.org/saref4inma/ProductionEquipment"
+                   data-toggle="tooltip"
+                   data-content="https://saref.etsi.org/saref4inma/ProductionEquipment"
+                   data-placement="right">ProductionEquipment</a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    
+                </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        No properties have been defined for this entity.
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20ProductionEquipment&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+    </div>
+</section>
+
+        <section>
             <h3 class="h3" id="PropertyType">
                 
                 <a href="http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
@@ -3580,7 +4630,9 @@
                     </dt>
                     
                         <dd>
-                            For this entity the following properties are defined: <a href="#Sensor%3Aimplements">implements</a>
+                            For this entity the following properties are defined: <a href="#Sensor%3A"></a>
+                            , <a href="#Sensor%3A"></a>
+                            , <a href="#Sensor%3Aimplements">implements</a>
                             , <a href="#Sensor%3AmadeObservation">madeObservation</a>
                             , <a href="#Sensor%3Aobserves">observes</a>
                             .
@@ -3619,6 +4671,87 @@
                         </tr>
                     </thead>
                     <tbody class="supertype">
+                        
+                            <tr id="Sensor%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#identifier"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#identifier"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#identifier"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-placement="right">Literal</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Sensor%3A"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#locatedAt"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#locatedAt"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#locatedAt"
+                                           data-placement="right">
+                                        </a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#ProductionEquipment" data-placement="right">ProductionEquipment</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
                         
                             <tr id="Sensor%3Aimplements"
                                 typeof="rdfs:Property"
@@ -3919,10 +5052,7 @@
                                 <td>
                                     
                                         
-                                            <a href="http://www.w3.org/ns/ssn/systems/SystemCapability"
-                                               data-toggle="tooltip"
-                                               data-content="http://www.w3.org/ns/ssn/systems/SystemCapability"
-                                               data-placement="right">SystemCapability</a>
+                                            <a href="#SystemCapability" data-placement="right">SystemCapability</a>
                                         
                                     
                                 </td>
@@ -3970,6 +5100,155 @@
                                 </td>
                                 <td property="rdfs:comment">
                                     Platform on which the System is mounted on or hosted by.
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        
+    </div>
+</section>
+
+        <section>
+            <h3 class="h3" id="SystemCapability">
+                
+                <a href="http://www.w3.org/ns/ssn/systems/SystemCapability"
+                   data-toggle="tooltip"
+                   data-content="http://www.w3.org/ns/ssn/systems/SystemCapability"
+                   data-placement="right">SystemCapability</a>
+            </h3>
+            <dl>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    The normal SystemCapabilities of a System under some specified Conditions.
+                </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                        <dd>
+                            For this entity the following properties are defined: <a href="#SystemCapability%3AhasSystemProperty">hasSystemProperty</a>
+                            , <a href="#SystemCapability%3AinCondition">inCondition</a>
+                            .
+                    </dd>
+                
+            </dl>
+            <dd>
+                Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20SystemCapability&body=Explain%20your%20issue"}}>here</a>.
+            </dd>
+        </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="SystemCapability%3AhasSystemProperty"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20hasSystemProperty&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://www.w3.org/ns/ssn/systems/hasSystemProperty"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/ns/ssn/systems/hasSystemProperty"
+                                           data-placement="right">
+                                        hasSystemProperty</a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#SystemProperty" data-placement="right">SystemProperty</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    Property of the System that defines its capability.
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="SystemCapability%3AinCondition"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/ns/ssn/systems/inCondition"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20inCondition&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://www.w3.org/ns/ssn/systems/inCondition"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/ns/ssn/systems/inCondition"
+                                           data-placement="right">
+                                        inCondition</a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/ns/ssn/systems/Condition"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/ns/ssn/systems/Condition"
+                                               data-placement="right">Condition</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1..*
+                                </td>
+                                <td property="rdfs:comment">
+                                    Condition under which the capability takes effect.
                                 </td>
                                 <td property="skos:scopeNote">
                                     
@@ -4214,6 +5493,187 @@
         <div class="region region--no-space-top">
             
         </div>
+        
+            
+            <section>
+                
+                    <h3 class="h3" id="">
+                        <a href="https://schema.org/QuantitativeValue"
+                           data-toggle="tooltip"
+                           data-content="https://schema.org/QuantitativeValue"
+                           data-placement="right"></a>
+                    </h3>
+                
+                <div class="region region--no-space-top">
+                    <dl>
+                        <dt>
+                            Beschrijving
+                        </dt>
+                        <dd>
+                            
+                        </dd>
+                        
+                        
+                            <dt>
+                                Eigenschappen
+                            </dt>
+                            
+                                <dd>
+                                    Voor dit datatype zijn de volgende eigenschappen gedefinieerd: <a href="#%3A"></a>
+                                    , <a href="#%3A"></a>
+                                    , <a href="#%3A"></a>
+                                    .
+                            </dd>
+                        
+                    </dl>
+                    <dd>
+                        Add an issue for this property <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">here</a>.
+                    </dd>
+                </div>
+                
+                    <div class="u-table-overflow">
+                        <table class="data-table simple" id="table-mandatory-classes">
+                            <thead>
+                                <tr class="data-table__header">
+                                    <th class="data-table__header-title--sortable">
+                                    </th>
+                                    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                        Eigenschap
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Verwacht Type
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Kardinaliteit
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Beschrijving
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Gebruik
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Codelijst
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="supertype">
+                                
+                                    <tr id="%3A"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/unitCode"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/unitCode"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/unitCode"
+                                                   data-placement="right"></a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                        <td>
+                                            0..1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr id="%3A"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/unitText"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/unitText"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/unitText"
+                                                   data-placement="right"></a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                                
+                                                    <a href="http://www.w3.org/2001/XMLSchema#string"
+                                                       data-toggle="tooltip"
+                                                       data-content="http://www.w3.org/2001/XMLSchema#string"
+                                                       data-placement="right">String</a>
+                                                
+                                            
+                                        </td>
+                                        <td>
+                                            0..1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr id="%3A"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/value"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/value"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/value"
+                                                   data-placement="right"></a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                
+            </section>
+            
         
             
             <section>
@@ -4702,8 +6162,8 @@
          (niet normatief)
         
             <p>
-                A reusable JSON-LD context definition for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/core/working-draft/2022-03-01/context/core.jsonld"
-    target="_blank">/doc/applicationprofile/core/working-draft/2022-03-01/context/core.jsonld</a>
+                A reusable JSON-LD context definition for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/conti10/working-draft/2022-04-01/context/conti10.jsonld"
+    target="_blank">/doc/applicationprofile/conti10/working-draft/2022-04-01/context/conti10.jsonld</a>
             </p>
         
     </div>
@@ -4716,8 +6176,8 @@
          (niet normatief)
         
             <p>
-                A reusable SHACL template for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/core/working-draft/2022-03-01/shacl/core-SHACL.ttl"
-    target="_blank">/doc/applicationprofile/core/working-draft/2022-03-01/shacl/core-SHACL.ttl</a>
+                A reusable SHACL template for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/conti10/working-draft/2022-04-01/shacl/conti10-SHACL.ttl"
+    target="_blank">/doc/applicationprofile/conti10/working-draft/2022-04-01/shacl/conti10-SHACL.ttl</a>
             </p>
         
     </div>

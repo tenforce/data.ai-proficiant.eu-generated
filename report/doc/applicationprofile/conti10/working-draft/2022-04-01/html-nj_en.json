@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/747e97cb3cebc44ced0537536377fe251d66201b",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/747e97cb3cebc44ced0537536377fe251d66201b/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/24636f5be7e40848c1ad070fcca3e3a1b86d7c58",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/24636f5be7e40848c1ad070fcca3e3a1b86d7c58/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -22,158 +22,70 @@
   },
   "classes": [
     {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "CategoryObservation",
-          "name": "CategoryObservation",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
-          "scoped_uri": "#CategoryObservation"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "TruthObservation",
-          "name": "TruthObservation",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
-          "scoped_uri": "#TruthObservation"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
-      "name": "Temperature Measurement",
+      "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+      "name": "Extruder",
       "label": {
-        "en": "Temperature Measurement"
+        "en": "Extruder"
       },
-      "sort": "Temperature Measurement",
+      "sort": "Extruder",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
+          "label": "ProductionEquipment",
+          "name": "ProductionEquipment",
+          "package": "SAREF-INMA",
+          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "scoped_uri": "#ProductionEquipment"
         }
       ],
-      "properties": []
+      "properties": [
+        {
+          "uri": "https://data.ai-proficient.eu/ns/conti10#identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Extruder",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Temperature of Compound on Head",
+      "label": {
+        "en": "Temperature of Compound on Head"
+      },
+      "sort": "Temperature of Compound on Head",
       "description": {},
-      "usage": {},
+      "usage": {
+        "en": "DISCUSSION: This might be better an instance rather a class."
+      },
       "parents": [
         {
           "label": "Feature",
@@ -181,24 +93,6 @@
           "package": "OM",
           "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
           "scoped_uri": "#Feature"
-        }
-      ],
-      "properties": []
-    },
-    {
-      "uri": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Measurement",
-          "name": "Measurement",
-          "package": "Mirror",
-          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-          "scoped_uri": "#Measurement"
         }
       ],
       "properties": []
@@ -1282,56 +1176,6 @@
               "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
               "range_label": {
                 "en": "Observation"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Extruder",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "ProductionEquipment",
-          "name": "ProductionEquipment",
-          "package": "SAREF-INMA",
-          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
-          "scoped_uri": "#ProductionEquipment"
-        }
-      ],
-      "properties": [
-        {
-          "uri": "http://fixme.com#identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Extruder",
-              "uri": "http://fixme.com#Extruder"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Literal",
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_label": {
-                "en": "Literal"
               }
             }
           ],
@@ -2586,6 +2430,170 @@
       "properties": []
     },
     {
+      "uri": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "CategoryObservation",
+          "name": "CategoryObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+          "scoped_uri": "#CategoryObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#StatusObservation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "TruthObservation",
+          "name": "TruthObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+          "scoped_uri": "#TruthObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement",
+      "name": "Temperature Measurement",
+      "label": {
+        "en": "Temperature Measurement"
+      },
+      "sort": "Temperature Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#TreadMeasurement",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
       "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
       "name": "Feature",
       "label": {
@@ -3017,18 +3025,22 @@
     },
     {
       "uri": "https://saref.etsi.org/saref4inma/Factory",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Factory",
+      "label": {
+        "en": "Factory"
+      },
+      "sort": "Factory",
       "description": {},
       "usage": {},
       "parents": [],
       "properties": [
         {
-          "uri": "http://fixme.com#contains",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "https://saref.etsi.org/saref4inma/contains",
+          "name": "contains",
+          "sort": "contains",
+          "label": {
+            "en": "contains"
+          },
           "description": {},
           "usage": {},
           "domain": [

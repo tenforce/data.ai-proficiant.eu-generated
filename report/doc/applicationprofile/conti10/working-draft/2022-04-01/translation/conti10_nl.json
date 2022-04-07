@@ -2,51 +2,36 @@
   "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
   "classes": [
     {
-      "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
-      "name": "Temperature Measurement",
+      "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+      "name": "Extruder",
       "label": {
-        "en": "Temperature Measurement",
+        "en": "Extruder",
         "nl": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{1F299617-AA81-4fe8-8480-061F52CD55EC}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
-      "name": ""
+      "name": "Temperature of Compound on Head",
+      "label": {
+        "en": "Temperature of Compound on Head",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "DISCUSSION: This might be better an instance rather a class.",
+        "nl": "Enter your translation here"
+      }
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      }
+    }
+  ],
   "externals": [
     {
       "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
@@ -187,10 +172,6 @@
         "en": "Additional properties of the association associatedObservation of the class Observation with itself.",
         "nl": "Enter your translation here"
       }
-    },
-    {
-      "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-      "name": ""
     },
     {
       "EA-Guid": "{39F0B4C2-9D4C-4444-A40E-888FECAE904E}",
@@ -489,6 +470,46 @@
       }
     },
     {
+      "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+      "name": "Temperature Measurement",
+      "label": {
+        "en": "Temperature Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
+      "name": ""
+    },
+    {
       "EA-Guid": "{4183A92E-D715-4cf0-9D05-8882A58CEC59}",
       "name": "Feature",
       "label": {
@@ -702,7 +723,11 @@
     },
     {
       "EA-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
-      "name": ""
+      "name": "Factory",
+      "label": {
+        "en": "Factory",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
@@ -895,15 +920,7 @@
       "name": ""
     },
     {
-      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
-      "name": ""
-    },
-    {
       "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
       "name": ""
     },
     {
@@ -1467,6 +1484,14 @@
       },
       "definition": {
         "en": "Name of the model of the Device.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+      "name": "contains",
+      "label": {
+        "en": "contains",
         "nl": "Enter your translation here"
       }
     },

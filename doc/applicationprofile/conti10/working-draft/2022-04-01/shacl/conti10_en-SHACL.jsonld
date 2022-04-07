@@ -41,60 +41,21 @@
   "@id": "https://data.ai-proficiant.eu/shacl/conti10_en",
   "shapes": [
     {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape",
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#StatusObservation"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement"
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#identifier"
+        }
+      ],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#Extruder"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape",
@@ -102,13 +63,6 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape",
@@ -475,21 +429,6 @@
         }
       ],
       "sh:targetClass": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:path": "http://fixme.com#identifier"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Extruder"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#RepeatablityShape",
@@ -941,6 +880,69 @@
       "sh:targetClass": "http://www.w3.org/ns/ssn/systems/SystemProperty"
     },
     {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#PressureMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#StatusObservation"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement"
+    },
+    {
+      "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#TreadMeasurement"
+    },
+    {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#FeatureShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -1090,8 +1092,10 @@
       "sh:property": [
         {
           "sh:class": "https://saref.etsi.org/saref4inma/ProductionEquipment",
-          "sh:description": "",
-          "sh:path": "http://fixme.com#contains"
+          "sh:name": {
+            "en": "contains"
+          },
+          "sh:path": "https://saref.etsi.org/saref4inma/contains"
         }
       ],
       "sh:targetClass": "https://saref.etsi.org/saref4inma/Factory"

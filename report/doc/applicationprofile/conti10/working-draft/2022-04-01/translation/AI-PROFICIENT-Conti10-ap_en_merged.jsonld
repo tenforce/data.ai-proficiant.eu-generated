@@ -83,306 +83,26 @@
   "branchtag": "master",
   "classes": [
     {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#Extruder",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
-        "EA-Name": "CompoundNameObservation",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "CategoryObservation",
-        "EA-Parents2": [
-          {
-            "label": "CategoryObservation",
-            "name": "CategoryObservation",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
-        "EA-Name": "MeterWeightMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
-          {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
-        "EA-Name": "PieceWeightMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
-          {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
-        "EA-Name": "PressureMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
-          {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
-        "EA-Name": "SchrinkingspeedMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
-          {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
-        "EA-Name": "ScrewSpeedMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
-          {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
-        "EA-Name": "StatusObservation",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "TruthObservation",
-        "EA-Parents2": [
-          {
-            "label": "TruthObservation",
-            "name": "TruthObservation",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+      "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
       "ap-definition-en": {
         "en": "TODO"
       },
       "ap-label-en": {
-        "en": "Temperature Measurement"
+        "en": "Extruder"
       },
       "extra": {
-        "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
-        "EA-Name": "TemperatureMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
+        "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+        "EA-Name": "Extruder",
+        "EA-Package": "CONTI10",
+        "EA-Parents": "ProductionEquipment",
         "EA-Parents2": [
           {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            "label": "ProductionEquipment",
+            "name": "ProductionEquipment",
+            "package": "SAREF-INMA",
+            "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
           }
         ],
         "EA-Type": "CLASS",
@@ -390,7 +110,7 @@
           {
             "key": "label-en",
             "note": "null",
-            "value": "Temperature Measurement"
+            "value": "Extruder"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -399,23 +119,23 @@
           "en": "TODO"
         },
         "ap-label-en": {
-          "en": "Temperature Measurement"
+          "en": "Extruder"
         },
         "ap-usageNote-en": "",
         "definition": "",
         "label": {
-          "en": "Temperature Measurement"
+          "en": "Extruder"
         },
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "parentclasses": "https://saref.etsi.org/saref4inma/ProductionEquipment",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "en": "Temperature Measurement"
+        "en": "Extruder"
       },
-      "name": "Temperature Measurement",
+      "name": "Extruder",
       "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+        "https://saref.etsi.org/saref4inma/ProductionEquipment"
       ]
     },
     {
@@ -425,10 +145,16 @@
       "ap-definition-en": {
         "en": "TODO"
       },
+      "ap-label-en": {
+        "en": "Temperature of Compound on Head"
+      },
+      "ap-usageNote-en": {
+        "en": "DISCUSSION: This might be better an instance rather a class."
+      },
       "extra": {
         "EA-Guid": "{1F299617-AA81-4fe8-8480-061F52CD55EC}",
         "EA-Name": "TemperatureOfCompoundOnHead",
-        "EA-Package": "AI-PROFICIENT",
+        "EA-Package": "CONTI10",
         "EA-Parents": "Feature",
         "EA-Parents2": [
           {
@@ -439,64 +165,49 @@
           }
         ],
         "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "usage": ""
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
-      "parents": [
-        "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
-      ]
-    },
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
-        "EA-Name": "TreadMeasurement",
-        "EA-Package": "AI-PROFICIENT",
-        "EA-Parents": "Measurement",
-        "EA-Parents2": [
+        "RawTags": [
           {
-            "label": "Measurement",
-            "name": "Measurement",
-            "package": "Mirror",
-            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+            "key": "label-en",
+            "note": "null",
+            "value": "Temperature of Compound on Head"
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "DISCUSSION: This might be better an instance rather a class."
           }
         ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
           "en": "TODO"
         },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
+        "ap-label-en": {
+          "en": "Temperature of Compound on Head"
+        },
+        "ap-usageNote-en": {
+          "en": "DISCUSSION: This might be better an instance rather a class."
+        },
         "definition": "",
-        "label": "",
-        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-        "usage": ""
+        "label": {
+          "en": "Temperature of Compound on Head"
+        },
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "usage": {
+          "en": "DISCUSSION: This might be better an instance rather a class."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Temperature of Compound on Head"
+      },
+      "name": "Temperature of Compound on Head",
       "parents": [
-        "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-      ]
+        "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+      ],
+      "usage": {
+        "en": "DISCUSSION: This might be better an instance rather a class."
+      }
     }
   ],
   "config": "config/config-ap.json",
@@ -504,8 +215,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10",
-  "documentcommit": "747e97cb3cebc44ced0537536377fe251d66201b",
-  "dummy": "28",
+  "documentcommit": "24636f5be7e40848c1ad070fcca3e3a1b86d7c58",
+  "dummy": "29",
   "eap": "AI-PROFICIENT-Core-Conti10.eap",
   "editors": [],
   "externalproperties": [
@@ -1965,62 +1676,6 @@
       ]
     },
     {
-      "@id": "http://fixme.com#contains",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Factory",
-          "uri": "https://saref.etsi.org/saref4inma/Factory"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Factory",
-        "EA-Domain-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
-        "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
-        "EA-Name": "contains",
-        "EA-Package": "",
-        "EA-Range": "ProductionEquipment",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
-          "EA-Name": "ProductionEquipment",
-          "EA-Package": "SAREF-INMA",
-          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
-        },
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "contains",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
-          "EA-Name": "ProductionEquipment",
-          "EA-Package": "SAREF-INMA",
-          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
-        }
-      ]
-    },
-    {
       "@id": "http://fixme.com#identifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
@@ -2040,58 +1695,6 @@
         "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
         "EA-Name": "identifier",
         "EA-Package": "SOSA",
-        "EA-Range": "Literal",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        },
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "",
-      "range": [
-        {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        }
-      ]
-    },
-    {
-      "@id": "http://fixme.com#identifier",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Extruder",
-          "uri": "http://fixme.com#Extruder"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Extruder",
-        "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-        "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-        "EA-Name": "identifier",
-        "EA-Package": "SAREF-INMA",
         "EA-Range": "Literal",
         "EA-Type": "attribute",
         "RangeData": {
@@ -7184,7 +6787,7 @@
         "RangeData": {
           "EA-GUID": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
           "EA-Name": "Unit",
-          "EA-Package": "AI-PROFICIENT",
+          "EA-Package": "AI-PROFICIENT-Core",
           "uri": "http://qudt.org/2.1/schema/qudt/Unit"
         },
         "RawTags": [],
@@ -7208,7 +6811,7 @@
         {
           "EA-GUID": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
           "EA-Name": "Unit",
-          "EA-Package": "AI-PROFICIENT",
+          "EA-Package": "AI-PROFICIENT-Core",
           "uri": "http://qudt.org/2.1/schema/qudt/Unit"
         }
       ]
@@ -7730,6 +7333,84 @@
           "EA-Name": "LangString",
           "EA-Package": "",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    {
+      "@id": "https://saref.etsi.org/saref4inma/contains",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "contains"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Factory",
+          "uri": "https://saref.etsi.org/saref4inma/Factory"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "contains",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Factory",
+        "EA-Domain-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
+        "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+        "EA-Name": "contains",
+        "EA-Package": "",
+        "EA-Range": "ProductionEquipment",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+          "EA-Name": "ProductionEquipment",
+          "EA-Package": "SAREF-INMA",
+          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "contains",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "contains"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "contains",
+        "label": {
+          "en": "contains"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "contains"
+      },
+      "name": "contains",
+      "range": [
+        {
+          "EA-GUID": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+          "EA-Name": "ProductionEquipment",
+          "EA-Package": "SAREF-INMA",
+          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
         }
       ]
     },
@@ -8743,43 +8424,6 @@
       "name": "ObservationContext"
     },
     {
-      "@id": "http://fixme.com#Extruder",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "extra": {
-        "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-        "EA-Name": "Extruder",
-        "EA-Package": "SAREF-INMA",
-        "EA-Parents": "ProductionEquipment",
-        "EA-Parents2": [
-          {
-            "label": "ProductionEquipment",
-            "name": "ProductionEquipment",
-            "package": "SAREF-INMA",
-            "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
-          }
-        ],
-        "EA-Type": "CLASS",
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": "",
-        "parentclasses": "https://saref.etsi.org/saref4inma/ProductionEquipment",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "name": ""
-    },
-    {
       "@id": "http://fixme.com#Repeatablity",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{39F0B4C2-9D4C-4444-A40E-888FECAE904E}",
@@ -8928,7 +8572,7 @@
       "extra": {
         "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
         "EA-Name": "Unit",
-        "EA-Package": "AI-PROFICIENT",
+        "EA-Package": "AI-PROFICIENT-Core",
         "EA-Parents": "",
         "EA-Parents2": [],
         "EA-Type": "CLASS",
@@ -8939,7 +8583,7 @@
             "value": "http://qudt.org/2.1/schema/qudt/Unit"
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
           "en": "TODO"
@@ -10611,6 +10255,355 @@
       }
     },
     {
+      "@id": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
+        "EA-Name": "CompoundNameObservation",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "CategoryObservation",
+        "EA-Parents2": [
+          {
+            "label": "CategoryObservation",
+            "name": "CategoryObservation",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
+        "EA-Name": "MeterWeightMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
+        "EA-Name": "PieceWeightMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
+        "EA-Name": "PressureMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
+        "EA-Name": "SchrinkingspeedMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
+        "EA-Name": "ScrewSpeedMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#StatusObservation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
+        "EA-Name": "StatusObservation",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "TruthObservation",
+        "EA-Parents2": [
+          {
+            "label": "TruthObservation",
+            "name": "TruthObservation",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Temperature Measurement"
+      },
+      "extra": {
+        "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+        "EA-Name": "TemperatureMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Temperature Measurement"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Temperature Measurement"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Temperature Measurement"
+        },
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Temperature Measurement"
+      },
+      "name": "Temperature Measurement"
+    },
+    {
+      "@id": "https://data.ai-proficient.eu/ns/core#TreadMeasurement",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
+        "EA-Name": "TreadMeasurement",
+        "EA-Package": "AI-PROFICIENT-Core",
+        "EA-Parents": "Measurement",
+        "EA-Parents2": [
+          {
+            "label": "Measurement",
+            "name": "Measurement",
+            "package": "Mirror",
+            "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "name": ""
+    },
+    {
       "@id": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{4183A92E-D715-4cf0-9D05-8882A58CEC59}",
@@ -11907,6 +11900,9 @@
       "ap-definition-en": {
         "en": "TODO"
       },
+      "ap-label-en": {
+        "en": "Factory"
+      },
       "extra": {
         "EA-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
         "EA-Name": "Factory",
@@ -11919,6 +11915,11 @@
             "key": "uri",
             "note": "null",
             "value": "https://saref.etsi.org/saref4inma/Factory"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Factory"
           }
         ],
         "Scope": "NOTHING",
@@ -11926,15 +11927,22 @@
         "ap-definition-en": {
           "en": "TODO"
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Factory"
+        },
         "ap-usageNote-en": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Factory"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Factory"
+      },
+      "name": "Factory"
     },
     {
       "@id": "https://saref.etsi.org/saref4inma/ProductionEquipment",
@@ -12126,8 +12134,8 @@
     }
   ],
   "extra": {
-    "EA-Guid": "{3AACEA26-F272-433b-A322-16337B79B51F}",
-    "EA-Name": "AI-PROFICIENT",
+    "EA-Guid": "{E67BDFBA-9293-43c9-8354-9393C7F99D22}",
+    "EA-Name": "CONTI10",
     "RawTags": [
       {
         "key": "baseURI",
@@ -12150,14 +12158,83 @@
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "name": "conti10",
   "navigation": {},
-  "properties": [],
+  "properties": [
+    {
+      "@id": "https://data.ai-proficient.eu/ns/conti10#identifier",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "identifier"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Extruder",
+          "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Extruder",
+        "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+        "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+        "EA-Name": "identifier",
+        "EA-Package": "CONTI10",
+        "EA-Range": "Literal",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "identifier"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "identifier"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "identifier"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "identifier",
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    }
+  ],
   "publication-date": "2022-04-01",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "repository": "https://github.com/tenforce/ai-proficient-thema",
   "site": "site-skeleton/AI-PROFICIENT-Conti10-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 data model",
-  "toolchaincommit": "691571cdc347c2641831f9701e25a2e77ec997ff",
+  "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
   "toolchainversion": "3",
   "translation": [
     {

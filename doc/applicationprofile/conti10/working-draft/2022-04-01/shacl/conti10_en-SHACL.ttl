@@ -8,16 +8,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.ai-proficiant.eu/shacl/conti10_en> <https://data.ai-proficiant.eu/shacl/conti10_enshapes> <https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape>,
+<https://data.ai-proficiant.eu/shacl/conti10_en> <https://data.ai-proficiant.eu/shacl/conti10_enshapes> <https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#AnyShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#TM_ObjectShape>,
@@ -28,7 +20,6 @@
     <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#ProcessShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#ObservationContextShape>,
-    <https://data.ai-proficiant.eu/shacl/conti10_en#ExtruderShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#RepeatablityShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#AgentShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#UnitShape>,
@@ -53,6 +44,15 @@
     <https://data.ai-proficiant.eu/shacl/conti10_en#SensitivityShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#SystemCapabilityShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#SystemPropertyShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape>,
+    <https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#FeatureShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#CategoryObservationShape>,
     <https://data.ai-proficiant.eu/shacl/conti10_en#ComplexObservationShape>,
@@ -117,7 +117,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#CompoundNameObservationShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#CompoundNameObservation> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#CountObservationShape> a shacl:NodeShape;
   shacl:closed false;
@@ -168,19 +168,19 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype rdfs:Literal;
-    shacl:description "";
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:path <http://fixme.com#identifier>
+    shacl:name "identifier"@en;
+    shacl:path <https://data.ai-proficient.eu/ns/conti10#identifier>
   ];
-  shacl:targetClass <http://fixme.com#Extruder> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#Extruder> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#FactoryShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://saref.etsi.org/saref4inma/ProductionEquipment>;
-    shacl:description "";
-    shacl:path <http://fixme.com#contains>
+    shacl:name "contains"@en;
+    shacl:path <https://saref.etsi.org/saref4inma/contains>
   ];
   shacl:targetClass <https://saref.etsi.org/saref4inma/Factory> .
 
@@ -321,7 +321,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#NamedValueShape> a shacl:NodeShape;
   shacl:closed false;
@@ -524,7 +524,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#PlatformShape> a shacl:NodeShape;
   shacl:closed false;
@@ -546,7 +546,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#PressureMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#PressureMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#ProcedureShape> a shacl:NodeShape;
   shacl:closed false;
@@ -603,11 +603,11 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#SelectivityShape> a shacl:NodeShape;
   shacl:closed false;
@@ -654,7 +654,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#StatusObservation> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#StatusObservation> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#SystemCapabilityShape> a shacl:NodeShape;
   shacl:closed false;
@@ -713,7 +713,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#TemperatureMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape> a shacl:NodeShape;
   shacl:closed false;
@@ -729,7 +729,7 @@
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#TreadMeasurement> .
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#TreadMeasurement> .
 
 <https://data.ai-proficiant.eu/shacl/conti10_en#TruthObservationShape> a shacl:NodeShape;
   shacl:closed false;

@@ -10339,7 +10339,7 @@
     "filename": "config/core.json",
     "navigation": {},
     "dummy": "25",
-    "documentcommit": "747e97cb3cebc44ced0537536377fe251d66201b",
-    "toolchaincommit": "691571cdc347c2641831f9701e25a2e77ec997ff",
+    "documentcommit": "24636f5be7e40848c1ad070fcca3e3a1b86d7c58",
+    "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
     "hostname": "https://data.ai-proficiant.eu"
 }

@@ -87,7 +87,7 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Core",
-  "documentcommit": "747e97cb3cebc44ced0537536377fe251d66201b",
+  "documentcommit": "24636f5be7e40848c1ad070fcca3e3a1b86d7c58",
   "dummy": "25",
   "eap": "AI-PROFICIENT-Core-AP.eap",
   "editors": [],
@@ -10428,7 +10428,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Core-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT Core data model",
-  "toolchaincommit": "691571cdc347c2641831f9701e25a2e77ec997ff",
+  "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
   "toolchainversion": "3",
   "translation": [
     {

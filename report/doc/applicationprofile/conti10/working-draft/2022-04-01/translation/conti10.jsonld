@@ -76,25 +76,25 @@
             "@id": "rdfs:seeAlso"
         }
     },
-    "@id": "https://purl.eu/ns/air-and-water/core",
+    "@id": "https://data.ai-proficient.eu/ns/conti10",
     "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "label": {
         "nl": "conti10",
         "en": "conti10"
     },
-    "baseURI": "https://purl.eu/ns/air-and-water/core#",
+    "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
     "issued": "TODO",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "extra": {
         "EA-Name": "AI-PROFICIENT",
         "EA-Guid": "{3AACEA26-F272-433b-A322-16337B79B51F}",
-        "baseURI": "https://purl.eu/ns/air-and-water/core#",
+        "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
         "issued": "TODO",
         "license": "TODO",
         "RawTags": [
             {
                 "key": "baseURI",
-                "value": "https://purl.eu/ns/air-and-water/core#",
+                "value": "https://data.ai-proficient.eu/ns/conti10#",
                 "note": "null"
             }
         ]
@@ -104,7 +104,7 @@
     "contributors": [],
     "classes": [
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -182,7 +182,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -221,7 +221,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -299,7 +299,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -338,7 +338,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -377,10 +377,16 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Temperature Measurement"
+            },
+            "label": {
+                "en": "Temperature Measurement"
             },
             "extra": {
                 "EA-Name": "TemperatureMeasurement",
@@ -397,26 +403,36 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Temperature Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Temperature Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "Temperature Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "Temperature Measurement",
             "parents": [
                 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -455,7 +471,7 @@
             ]
         },
         {
-            "@id": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+            "@id": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
                 "en": "TODO"
@@ -12019,8 +12035,8 @@
     "branchtag": "master",
     "filename": "config/conti10.json",
     "navigation": {},
-    "dummy": "26",
-    "documentcommit": "04de11f6341d14ddcc19afa7a65b4cccc0fb01c4",
-    "toolchaincommit": "3ec90455525401150c0d35741584816d432eddc4",
+    "dummy": "28",
+    "documentcommit": "747e97cb3cebc44ced0537536377fe251d66201b",
+    "toolchaincommit": "691571cdc347c2641831f9701e25a2e77ec997ff",
     "hostname": "https://data.ai-proficiant.eu"
 }

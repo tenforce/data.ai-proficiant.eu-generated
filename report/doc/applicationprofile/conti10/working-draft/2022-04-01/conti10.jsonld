@@ -81,14 +81,14 @@
       "@container": "@language"
     }
   },
-"@id": "https://purl.eu/ns/air-and-water/core",
+"@id": "https://data.ai-proficient.eu/ns/conti10",
 "@type": "http://www.w3.org/2002/07/owl#Ontology",
 "label": {
   "nl": "conti10",
   "en": "conti10"
 },
-"baseURI" : "https:\/\/purl.eu\/ns\/air-and-water\/core#", "issued" : "TODO", "license" : "TODO",
-"extra": {"EA-Name" : "AI-PROFICIENT", "EA-Guid" : "{3AACEA26-F272-433b-A322-16337B79B51F}" , "baseURI" : "https:\/\/purl.eu\/ns\/air-and-water\/core#", "issued" : "TODO", "license" : "TODO", "RawTags" : [{ "key": "baseURI", "value": "https:\/\/purl.eu\/ns\/air-and-water\/core#", "note": "null" }]},
+"baseURI" : "https:\/\/data.ai-proficient.eu\/ns\/conti10#", "issued" : "TODO", "license" : "TODO",
+"extra": {"EA-Name" : "AI-PROFICIENT", "EA-Guid" : "{3AACEA26-F272-433b-A322-16337B79B51F}" , "baseURI" : "https:\/\/data.ai-proficient.eu\/ns\/conti10#", "issued" : "TODO", "license" : "TODO", "RawTags" : [{ "key": "baseURI", "value": "https:\/\/data.ai-proficient.eu\/ns\/conti10#", "note": "null" }]},
 "authors": [
 ],
 "editors": [
@@ -97,7 +97,7 @@
 ],
 "classes": [
 {
-"@id": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+"@id": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "CompoundNameObservation", "EA-Guid" : "{A0B77AF4-9079-4612-8B0B-2A067EB72077}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "CategoryObservation", "EA-Parents2" : [{ "name": "CategoryObservation", "label" : "CategoryObservation", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -107,7 +107,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "MeterWeightMeasurement", "EA-Guid" : "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -117,7 +117,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "PieceWeightMeasurement", "EA-Guid" : "{3B1460E6-753D-4c72-8429-53ACA36F9720}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -127,7 +127,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "PressureMeasurement", "EA-Guid" : "{2693B1A2-EBD8-4038-8668-6F74F9468462}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -137,7 +137,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "SchrinkingspeedMeasurement", "EA-Guid" : "{EFBE686B-8A28-4663-995C-B1F01EE79B59}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -147,7 +147,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "ScrewSpeedMeasurement", "EA-Guid" : "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -157,7 +157,7 @@
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+"@id": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "StatusObservation", "EA-Guid" : "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "TruthObservation", "EA-Parents2" : [{ "name": "TruthObservation", "label" : "TruthObservation", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -167,17 +167,17 @@
 "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
-"ap-definition-en" : {"en": "TODO"},
-"extra": {"EA-Name" : "TemperatureMeasurement", "EA-Guid" : "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
+"ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Temperature Measurement"}, "label" : {"en": "Temperature Measurement"},
+"extra": {"EA-Name" : "TemperatureMeasurement", "EA-Guid" : "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "Temperature Measurement", "definition" : "", "usage" : "", "ap-label-en" : "Temperature Measurement", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Temperature Measurement", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}, "ap-label-en" : {"en": "Temperature Measurement"}, "label" : {"en": "Temperature Measurement"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": "",
+"name": "Temperature Measurement",
 "parents": [
 "https://def.isotc211.org/iso19156/2011/Observation#Measurement"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+"@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "TemperatureOfCompoundOnHead", "EA-Guid" : "{1F299617-AA81-4fe8-8480-061F52CD55EC}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Feature", "EA-Parents2" : [{ "name": "Feature", "label" : "Feature", "package" : "OM", "uri" : "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},
@@ -187,7 +187,7 @@
 "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"]
 },
 {
-"@id": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+"@id": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "ap-definition-en" : {"en": "TODO"},
 "extra": {"EA-Name" : "TreadMeasurement", "EA-Guid" : "{5125D0F2-89CE-49a5-89C3-120880AB52E3}", "EA-Package" : "AI-PROFICIENT", "EA-Type" : "CLASS", "EA-Parents" : "Measurement", "EA-Parents2" : [{ "name": "Measurement", "label" : "Measurement", "package" : "Mirror", "uri" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement" }], "parentclasses" : "https://def.isotc211.org/iso19156/2011/Observation#Measurement", "label" : "", "definition" : "", "usage" : "", "ap-label-en" : "", "ap-definition-en" : "TODO", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "TODO"}},

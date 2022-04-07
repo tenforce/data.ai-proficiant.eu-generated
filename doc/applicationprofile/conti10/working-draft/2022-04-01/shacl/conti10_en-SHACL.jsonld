@@ -45,70 +45,70 @@
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#MeterWeightMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PieceWeightMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#PressureMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#PressureMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#SchrinkingspeedMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#ScrewSpeedMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#StatusObservationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#StatusObservation"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#StatusObservation"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TemperatureOfCompoundOnHeadShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#TreadMeasurementShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://purl.eu/ns/air-and-water/core#TreadMeasurement"
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement"
     },
     {
       "@id": "https://data.ai-proficiant.eu/shacl/conti10_en#GenericNameShape",

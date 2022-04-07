@@ -18,7 +18,7 @@
     "CategoryObservation": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
     "CiResponsibleParty": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty",
     "ComplexObservation": "https://def.isotc211.org/iso19156/2011/Observation#ComplexObservation",
-    "CompoundNameObservation": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+    "CompoundNameObservation": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
     "CountObservation": "https://def.isotc211.org/iso19156/2011/Observation#CountObservation",
     "DetectionLimit": "http://www.w3.org/ns/ssn/systems/DetectionLimit",
     "Device": "https://saref.etsi.org/core/Device",
@@ -121,7 +121,7 @@
       "@id": "http://purl.org/dc/elements/1.1/title",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
-    "MeterWeightMeasurement": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+    "MeterWeightMeasurement": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
     "NamedValue": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
     "Observation": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
     "Observation.featureOfInterest": {
@@ -248,7 +248,7 @@
       "@id": "https://purl.eu/ns/air-and-water/core#ObservationProcedure.type",
       "@type": "@id"
     },
-    "PieceWeightMeasurement": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+    "PieceWeightMeasurement": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
     "Platform": "http://www.w3.org/ns/sosa/Platform",
     "Platform.hosts": {
       "@container": "@set",
@@ -257,7 +257,7 @@
     },
     "PointCoverageObservation": "https://def.isotc211.org/iso19156/2011/Observation#PointCoverageObservation",
     "Precision": "http://www.w3.org/ns/ssn/systems/Precision",
-    "PressureMeasurement": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+    "PressureMeasurement": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
     "Procedure": "http://www.w3.org/ns/sosa/Procedure",
     "Process": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
     "ProductionEquipment": "https://saref.etsi.org/saref4inma/ProductionEquipment",
@@ -283,8 +283,8 @@
     "Repeatability": "http://fixme.com#Repeatablity",
     "Resolution": "http://www.w3.org/ns/ssn/systems/Resolution",
     "ResponseTime": "http://www.w3.org/ns/ssn/systems/ResponseTime",
-    "SchrinkingspeedMeasurement": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
-    "ScrewSpeedMeasurement": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+    "SchrinkingspeedMeasurement": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
+    "ScrewSpeedMeasurement": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
     "Selectivity": "http://www.w3.org/ns/ssn/systems/Selectivity",
     "Sensitivity": "http://www.w3.org/ns/ssn/systems/Sensitivity",
     "Sensor": "http://www.w3.org/ns/sosa/Sensor",
@@ -310,7 +310,7 @@
       "@id": "http://www.w3.org/ns/sosa/observes",
       "@type": "@id"
     },
-    "StatusObservation": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+    "StatusObservation": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
     "System": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
     "System.hasOperatingRange": {
       "@container": "@set",
@@ -344,12 +344,12 @@
     },
     "SystemProperty": "http://www.w3.org/ns/ssn/systems/SystemProperty",
     "Task": "https://saref.etsi.org/core/Task",
-    "TemperatureMeasurement": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
-    "TemperatureOfCompoundOnHead": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+    "TemperatureMeasurement": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
+    "TemperatureOfCompoundOnHead": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead",
     "TemporalObservation": "https://def.isotc211.org/iso19156/2011/Observation#TemporalObservation",
     "TimeSeriesObservation": "https://def.isotc211.org/iso19156/2011/Observation#TimeseriesObservation",
     "TmObject": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
-    "TreadMeasurement": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+    "TreadMeasurement": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
     "TruthObservation": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
     "Unit": "http://qudt.org/2.1/schema/qudt/Unit"
   }

@@ -2,15 +2,15 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.package_manufacturing".
-10:13:09 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.package_manufacturing
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.package_manufacturing.manufacturing".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.package_manufacturing.manufacturing".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.package_manufacturing.manufacturing".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.package_manufacturing.manufacturing".
-10:13:09 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Bag" .
-10:13:09 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Batch" .
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".
-10:13:09 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.package_manufacturing".
+10:27:05 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.package_manufacturing
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.package_manufacturing.manufacturing".
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.package_manufacturing.manufacturing".
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.package_manufacturing.manufacturing".
+10:27:05 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.package_manufacturing.manufacturing".
+10:27:05 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Bag" .
+10:27:06 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Batch" .
+10:27:06 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".
+10:27:06 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".
+10:27:06 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.package_manufacturing.manufacturing:Bag:volume".

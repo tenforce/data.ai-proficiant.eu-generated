@@ -76,14 +76,14 @@
     "void": "http://rdfs.org/ns/void#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "https://purl.eu/ns/air-and-water/core",
+  "@id": "https://data.ai-proficient.eu/ns/conti10",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "authors": [],
-  "baseURI": "https://purl.eu/ns/air-and-water/core#",
+  "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
   "branchtag": "master",
   "classes": [
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#CompoundNameObservation",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#CompoundNameObservation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
       "ap-definition-en": {
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#MeterWeightMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#MeterWeightMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
       "ap-definition-en": {
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#PieceWeightMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#PieceWeightMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
       "ap-definition-en": {
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#PressureMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#PressureMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
       "ap-definition-en": {
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#SchrinkingspeedMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#SchrinkingspeedMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
       "ap-definition-en": {
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#ScrewSpeedMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#ScrewSpeedMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
       "ap-definition-en": {
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#StatusObservation",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#StatusObservation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
       "ap-definition-en": {
@@ -363,11 +363,14 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#TemperatureMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
       "ap-definition-en": {
         "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Temperature Measurement"
       },
       "extra": {
         "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
@@ -383,27 +386,40 @@
           }
         ],
         "EA-Type": "CLASS",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Temperature Measurement"
+          }
+        ],
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
           "en": "TODO"
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "Temperature Measurement"
+        },
         "ap-usageNote-en": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Temperature Measurement"
+        },
         "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Temperature Measurement"
+      },
+      "name": "Temperature Measurement",
       "parents": [
         "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#TemperatureOfCompoundOnHead",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#TemperatureOfCompoundOnHead",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{1F299617-AA81-4fe8-8480-061F52CD55EC}",
       "ap-definition-en": {
@@ -443,7 +459,7 @@
       ]
     },
     {
-      "@id": "https://purl.eu/ns/air-and-water/core#TreadMeasurement",
+      "@id": "https://data.ai-proficient.eu/ns/conti10#TreadMeasurement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
       "ap-definition-en": {
@@ -488,8 +504,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10",
-  "documentcommit": "04de11f6341d14ddcc19afa7a65b4cccc0fb01c4",
-  "dummy": "26",
+  "documentcommit": "747e97cb3cebc44ced0537536377fe251d66201b",
+  "dummy": "28",
   "eap": "AI-PROFICIENT-Core-Conti10.eap",
   "editors": [],
   "externalproperties": [
@@ -12116,10 +12132,10 @@
       {
         "key": "baseURI",
         "note": "null",
-        "value": "https://purl.eu/ns/air-and-water/core#"
+        "value": "https://data.ai-proficient.eu/ns/conti10#"
       }
     ],
-    "baseURI": "https://purl.eu/ns/air-and-water/core#",
+    "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
     "issued": "TODO",
     "license": "TODO"
   },
@@ -12141,7 +12157,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Conti10-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 data model",
-  "toolchaincommit": "3ec90455525401150c0d35741584816d432eddc4",
+  "toolchaincommit": "691571cdc347c2641831f9701e25a2e77ec997ff",
   "toolchainversion": "3",
   "translation": [
     {

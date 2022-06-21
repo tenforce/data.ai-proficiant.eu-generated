@@ -6,11 +6,11 @@
       "name": "Bag",
       "label": {
         "en": "Bag",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       },
       "definition": {
         "en": "a non-rigid container",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       }
     }
   ],
@@ -20,7 +20,7 @@
       "name": "the volume in m2",
       "label": {
         "en": "the volume in m2",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       }
     },
     {
@@ -28,11 +28,11 @@
       "name": "size",
       "label": {
         "en": "size",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       },
       "definition": {
         "en": "The volume the bag can hold in m2 ",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       }
     }
   ],
@@ -42,11 +42,11 @@
       "name": "Batch",
       "label": {
         "en": "Batch",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       },
       "definition": {
         "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes.",
-        "nl": "Enter your translation here"
+        "de": "Enter your translation here"
       }
     }
   ],

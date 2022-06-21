@@ -1,472 +1,472 @@
 {
-  "@context": {
-    "vlaanderen": "http://data.vlaanderen.be/ns/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "void": "http://rdfs.org/ns/void#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
-    "qb": "http://purl.org/linked-data/cube#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "person": "http://www.w3.org/ns/person#",
-    "rec": "http://www.w3.org/2001/02pd/rec54#",
-    "vann": "http://purl.org/vocab/vann/",
-    "sh": "http://w3.org/ns/shacl#",
+    "@context": {
+        "vlaanderen": "http://data.vlaanderen.be/ns/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "void": "http://rdfs.org/ns/void#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+        "qb": "http://purl.org/linked-data/cube#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "person": "http://www.w3.org/ns/person#",
+        "rec": "http://www.w3.org/2001/02pd/rec54#",
+        "vann": "http://purl.org/vocab/vann/",
+        "sh": "http://w3.org/ns/shacl#",
+        "label": {
+            "@id": "rdfs:label",
+            "@container": "@language"
+        },
+        "modified": {
+            "@id": "dcterms:modified",
+            "@type": "xsd:date"
+        },
+        "issued": {
+            "@id": "dcterms:issued"
+        },
+        "authors": {
+            "@type": "foaf:Person",
+            "@id": "foaf:maker"
+        },
+        "editors": {
+            "@type": "foaf:Person",
+            "@id": "rec:editor"
+        },
+        "contributors": {
+            "@type": "foaf:Person",
+            "@id": "dcterms:contributor"
+        },
+        "affiliation": {
+            "@id": "http://schema.org/affiliation"
+        },
+        "classes": {
+            "@reverse": "rdfs:isDefinedBy"
+        },
+        "datatypes": {
+            "@reverse": "rdfs:isDefinedBy"
+        },
+        "name": {
+            "@id": "rdfs:label"
+        },
+        "properties": {
+            "@reverse": "rdfs:isDefinedBy"
+        },
+        "domain": {
+            "@id": "rdfs:domain"
+        },
+        "range": {
+            "@id": "rdfs:range"
+        },
+        "minCardinality": {
+            "@id": "sh:minCount"
+        },
+        "maxCardinality": {
+            "@id": "sh:maxCount"
+        },
+        "generalization": {
+            "@id": "rdfs:subPropertyOf"
+        },
+        "externals": {
+            "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "@id": "rdfs:seeAlso"
+        }
+    },
+    "@id": "https://data.ai-proficiant.eu/ns",
+    "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "label": {
-      "@id": "rdfs:label",
-      "@container": "@language"
+        "nl": "manufacturing",
+        "en": "manufacturing"
     },
-    "modified": {
-      "@id": "dcterms:modified",
-      "@type": "xsd:date"
-    },
-    "issued": {
-      "@id": "dcterms:issued"
-    },
-    "authors": {
-      "@type": "foaf:Person",
-      "@id": "foaf:maker"
-    },
-    "editors": {
-      "@type": "foaf:Person",
-      "@id": "rec:editor"
-    },
-    "contributors": {
-      "@type": "foaf:Person",
-      "@id": "dcterms:contributor"
-    },
-    "affiliation": {
-      "@id": "http://schema.org/affiliation"
-    },
-    "classes": {
-      "@reverse": "rdfs:isDefinedBy"
-    },
-    "datatypes": {
-      "@reverse": "rdfs:isDefinedBy"
-    },
-    "name": {
-      "@id": "rdfs:label"
-    },
-    "properties": {
-      "@reverse": "rdfs:isDefinedBy"
-    },
-    "domain": {
-      "@id": "rdfs:domain"
-    },
-    "range": {
-      "@id": "rdfs:range"
-    },
-    "minCardinality": {
-      "@id": "sh:minCount"
-    },
-    "maxCardinality": {
-      "@id": "sh:maxCount"
-    },
-    "generalization": {
-      "@id": "rdfs:subPropertyOf"
-    },
-    "externals": {
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
-      "@id": "rdfs:seeAlso"
-    }
-  },
-  "@id": "https://data.ai-proficiant.eu/ns",
-  "@type": "http://www.w3.org/2002/07/owl#Ontology",
-  "label": {
-    "nl": "manufacturing",
-    "en": "manufacturing"
-  },
-  "baseURI": "https://data.ai-proficiant.eu/ns#",
-  "issued": "TODO",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "extra": {
-    "EA-Name": "manufacturing",
-    "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
     "baseURI": "https://data.ai-proficiant.eu/ns#",
     "issued": "TODO",
-    "license": "TODO",
-    "RawTags": [
-      {
-        "key": "baseURI",
-        "value": "https://data.ai-proficiant.eu/ns#",
-        "note": "null"
-      }
-    ]
-  },
-  "authors": [
-    {
-      "foaf:firstName": "AuteurVoornaam",
-      "foaf:lastName": "AuteurNaam",
-      "affiliation": {
-        "foaf:name": "AuteurAffiliatie",
-        "foaf:homepage": "https://auteurwebsiteurl"
-      },
-      "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
-      "@type": "foaf:Person"
-    }
-  ],
-  "editors": [
-    {
-      "foaf:firstName": "EditorVoornaam",
-      "foaf:lastName": "EditorNaam",
-      "affiliation": {
-        "foaf:name": "EditorAffiliatie",
-        "foaf:homepage": "https://editorwebsiteurl"
-      },
-      "foaf:mbox": "editorvoornaam.editornaam@editordomein",
-      "@type": "foaf:Person"
-    }
-  ],
-  "contributors": [
-    {
-      "foaf:firstName": "MedewerkerVoornaam",
-      "foaf:lastName": "MedewerkerNaam",
-      "affiliation": {
-        "foaf:name": "MedewerkerAffiliatie",
-        "foaf:homepage": "https://medewerkerwebsiteurl"
-      },
-      "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
-      "@type": "foaf:Person"
-    }
-  ],
-  "classes": [
-    {
-      "@id": "https://data.ai-proficiant.eu/ns#Bag",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "ap-definition-en": {
-        "en": "a non-rigid container"
-      },
-      "ap-label-en": {
-        "en": "Bag"
-      },
-      "definition": {
-        "en": "a non-rigid container"
-      },
-      "label": {
-        "en": "Bag"
-      },
-      "extra": {
-        "EA-Name": "Bag",
-        "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-        "EA-Package": "manufacturing",
-        "EA-Type": "CLASS",
-        "EA-Parents": "Batch",
-        "EA-Parents2": [
-          {
-            "name": "Batch",
-            "label": "Batch",
-            "package": "manufacturing",
-            "uri": "https://saref.etsi.org/saref4inma/Batch"
-          }
-        ],
-        "parentclasses": "https://saref.etsi.org/saref4inma/Batch",
-        "label": {
-          "en": "Bag"
-        },
-        "definition": {
-          "en": "a non-rigid container"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "Bag"
-        },
-        "ap-definition-en": {
-          "en": "a non-rigid container"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "extra": {
+        "EA-Name": "manufacturing",
+        "EA-Guid": "{7AFE2547-465B-4e8f-BC1A-699A46AF2997}",
+        "baseURI": "https://data.ai-proficiant.eu/ns#",
+        "issued": "TODO",
+        "license": "TODO",
         "RawTags": [
-          {
-            "key": "label-en",
-            "value": "Bag",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "a non-rigid container",
-            "note": "null"
-          },
-          {
-            "key": "parentURI",
-            "value": "https://saref.etsi.org/saref4inma/Batch",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "bag",
-            "note": "null"
-          }
-        ],
-        "Scope": "FULL_DEFINITON"
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "name": "Bag",
-      "parents": [
-        "https://saref.etsi.org/saref4inma/Batch"
-      ]
-    }
-  ],
-  "properties": [
-    {
-      "@id": "https://data.ai-proficiant.eu/ns#size",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "size",
-      "inpackage": "ACTIVE_PACKAGE",
-      "ap-definition-en": {
-        "en": "The volume the bag can hold in m2 "
-      },
-      "ap-label-en": {
-        "en": "size"
-      },
-      "definition": {
-        "en": "The volume the bag can hold in m2 "
-      },
-      "label": {
-        "en": "size"
-      },
-      "extra": {
-        "EA-Name": "size",
-        "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
-        "EA-Package": "manufacturing",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bag",
-        "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-        "EA-Range": "Double",
-        "RangeData": {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
-        },
-        "label": {
-          "en": "size"
-        },
-        "definition": {
-          "en": "The volume the bag can hold in m2 "
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "size"
-        },
-        "ap-definition-en": {
-          "en": "The volume the bag can hold in m2 "
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "size",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-en",
-            "value": "The volume the bag can hold in m2 ",
-            "note": "null"
-          },
-          {
-            "key": "ap-label-en",
-            "value": "size",
-            "note": "null"
-          },
-          {
-            "key": "literal",
-            "value": "true",
-            "note": "null"
-          }
-        ],
-        "Scope": "FULL_DEFINITON"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.ai-proficiant.eu/ns#Bag",
-          "EA-Name": "Bag"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
+            {
+                "key": "baseURI",
+                "value": "https://data.ai-proficiant.eu/ns#",
+                "note": "null"
+            }
+        ]
     },
-    {
-      "@id": "https://data.ai-proficiant.eu/ns#volume",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "the volume in m2",
-      "inpackage": "ACTIVE_PACKAGE",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "the volume in m2"
-      },
-      "label": {
-        "en": "the volume in m2"
-      },
-      "extra": {
-        "EA-Name": "volume",
-        "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
-        "EA-Package": "manufacturing",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bag",
-        "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-        "EA-Range": "Double",
-        "RangeData": {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
-        },
-        "label": {
-          "en": "the volume in m2"
-        },
-        "definition": "",
-        "usage": "",
-        "ap-label-en": {
-          "en": "the volume in m2"
-        },
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "ap-label-en",
-            "value": "volume",
-            "note": "null"
-          },
-          {
-            "key": "ap-label-en",
-            "value": "the volume in m2",
-            "note": "null"
-          }
-        ],
-        "Scope": "FULL_DEFINITON"
-      },
-      "codelist": [],
-      "domain": [
+    "authors": [
         {
-          "uri": "https://data.ai-proficiant.eu/ns#Bag",
-          "EA-Name": "Bag"
+            "foaf:firstName": "AuteurVoornaam",
+            "foaf:lastName": "AuteurNaam",
+            "affiliation": {
+                "foaf:name": "AuteurAffiliatie",
+                "foaf:homepage": "https://auteurwebsiteurl"
+            },
+            "foaf:mbox": "auteurvoornaam.auteurnaam@auteurdomein",
+            "@type": "foaf:Person"
         }
-      ],
-      "range": [
+    ],
+    "editors": [
         {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
+            "foaf:firstName": "EditorVoornaam",
+            "foaf:lastName": "EditorNaam",
+            "affiliation": {
+                "foaf:name": "EditorAffiliatie",
+                "foaf:homepage": "https://editorwebsiteurl"
+            },
+            "foaf:mbox": "editorvoornaam.editornaam@editordomein",
+            "@type": "foaf:Person"
         }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    }
-  ],
-  "externals": [
-    {
-      "@id": "https://saref.etsi.org/saref4inma/Batch",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
-      },
-      "ap-label-en": {
-        "en": "Batch"
-      },
-      "definition": {
-        "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
-      },
-      "label": {
-        "en": "Batch"
-      },
-      "extra": {
-        "EA-Name": "Batch",
-        "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
-        "EA-Package": "manufacturing",
-        "EA-Type": "CLASS",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "parentclasses": "",
-        "label": {
-          "en": "Batch"
+    ],
+    "contributors": [
+        {
+            "foaf:firstName": "MedewerkerVoornaam",
+            "foaf:lastName": "MedewerkerNaam",
+            "affiliation": {
+                "foaf:name": "MedewerkerAffiliatie",
+                "foaf:homepage": "https://medewerkerwebsiteurl"
+            },
+            "foaf:mbox": "medewerkervoornaam.medewerkernaam@medewerkerdomein",
+            "@type": "foaf:Person"
+        }
+    ],
+    "classes": [
+        {
+            "@id": "https://data.ai-proficiant.eu/ns#Bag",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "ap-definition-en": {
+                "en": "a non-rigid container"
+            },
+            "ap-label-en": {
+                "en": "Bag"
+            },
+            "definition": {
+                "en": "a non-rigid container"
+            },
+            "label": {
+                "en": "Bag"
+            },
+            "extra": {
+                "EA-Name": "Bag",
+                "EA-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+                "EA-Package": "manufacturing",
+                "EA-Type": "CLASS",
+                "EA-Parents": "Batch",
+                "EA-Parents2": [
+                    {
+                        "name": "Batch",
+                        "label": "Batch",
+                        "package": "manufacturing",
+                        "uri": "https://saref.etsi.org/saref4inma/Batch"
+                    }
+                ],
+                "parentclasses": "https://saref.etsi.org/saref4inma/Batch",
+                "label": {
+                    "en": "Bag"
+                },
+                "definition": {
+                    "en": "a non-rigid container"
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "Bag"
+                },
+                "ap-definition-en": {
+                    "en": "a non-rigid container"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "Bag",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "a non-rigid container",
+                        "note": "null"
+                    },
+                    {
+                        "key": "parentURI",
+                        "value": "https://saref.etsi.org/saref4inma/Batch",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "bag",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "inpackage": "ACTIVE_PACKAGE",
+            "name": "Bag",
+            "parents": [
+                "https://saref.etsi.org/saref4inma/Batch"
+            ]
+        }
+    ],
+    "properties": [
+        {
+            "@id": "https://data.ai-proficiant.eu/ns#volume",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "the volume in m2",
+            "inpackage": "ACTIVE_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "the volume in m2"
+            },
+            "label": {
+                "en": "the volume in m2"
+            },
+            "extra": {
+                "EA-Name": "volume",
+                "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
+                "EA-Package": "manufacturing",
+                "EA-Type": "attribute",
+                "EA-Domain": "Bag",
+                "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+                "EA-Range": "Double",
+                "RangeData": {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                "label": {
+                    "en": "the volume in m2"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-en": {
+                    "en": "the volume in m2"
+                },
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "volume",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "the volume in m2",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficiant.eu/ns#Bag",
+                    "EA-Name": "Bag"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
         },
-        "definition": {
-          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "Batch"
-        },
-        "ap-definition-en": {
-          "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://saref.etsi.org/saref4inma/Batch",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
-          },
-          {
-            "key": "label-en",
-            "value": "Batch",
-            "note": "null"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "name": "Batch"
-    }
-  ],
-  "externalproperties": [],
-  "name": "manufacturing",
-  "type": "ap",
-  "eap": "MijnApplicatieprofiel-AP.eap",
-  "diagram": "manufacturing",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2021-08-31",
-  "contributors-file": "stakeholders.csv",
-  "contributors-column": "manufacturing",
-  "site": "site-skeleton/manufacturing-ap",
-  "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
-  "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
-  "title": "Manufacturing application profile",
-  "translation": [
-    {
-      "language": "en",
-      "template": "manufacturing_en.j2",
-      "title": "Manufacturing application profile",
-      "translationjson": "manufacturing_en.json",
-      "mergefile": "manufacturing_en_merged.jsonld"
-    }
-  ],
-  "toolchainversion": "2",
-  "config": "config/config-ap.json",
-  "note": "This publication point is acctually obsolete",
-  "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
-  "repository": "https://github.com/tenforce/ai-proficient-thema",
-  "branchtag": "95b43053a6c7917267b455ccb1f496667e69d10c",
-  "filename": "config/manufacturing.json",
-  "navigation": {},
-  "dummy": "22",
-  "documentcommit": "95b43053a6c7917267b455ccb1f496667e69d10c",
-  "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
-  "hostname": "https://data.ai-proficiant.eu"
+        {
+            "@id": "https://data.ai-proficiant.eu/ns#size",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "size",
+            "inpackage": "ACTIVE_PACKAGE",
+            "ap-definition-en": {
+                "en": "The volume the bag can hold in m2 "
+            },
+            "ap-label-en": {
+                "en": "size"
+            },
+            "definition": {
+                "en": "The volume the bag can hold in m2 "
+            },
+            "label": {
+                "en": "size"
+            },
+            "extra": {
+                "EA-Name": "size",
+                "EA-Guid": "{5CDB6ADC-C365-49ab-9FD6-37ECFC6B202B}",
+                "EA-Package": "manufacturing",
+                "EA-Type": "attribute",
+                "EA-Domain": "Bag",
+                "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+                "EA-Range": "Double",
+                "RangeData": {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                "label": {
+                    "en": "size"
+                },
+                "definition": {
+                    "en": "The volume the bag can hold in m2 "
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "size"
+                },
+                "ap-definition-en": {
+                    "en": "The volume the bag can hold in m2 "
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "size",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The volume the bag can hold in m2 ",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "size",
+                        "note": "null"
+                    },
+                    {
+                        "key": "literal",
+                        "value": "true",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficiant.eu/ns#Bag",
+                    "EA-Name": "Bag"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        }
+    ],
+    "externals": [
+        {
+            "@id": "https://saref.etsi.org/saref4inma/Batch",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+            },
+            "ap-label-en": {
+                "en": "Batch"
+            },
+            "definition": {
+                "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+            },
+            "label": {
+                "en": "Batch"
+            },
+            "extra": {
+                "EA-Name": "Batch",
+                "EA-Guid": "{650F8E09-8AF2-43a9-AB80-B54495ED17F9}",
+                "EA-Package": "manufacturing",
+                "EA-Type": "CLASS",
+                "EA-Parents": "",
+                "EA-Parents2": [],
+                "parentclasses": "",
+                "label": {
+                    "en": "Batch"
+                },
+                "definition": {
+                    "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "Batch"
+                },
+                "ap-definition-en": {
+                    "en": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "https://saref.etsi.org/saref4inma/Batch",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "A uniform collection of tangible objects or Lot. This can either be a collection of produced items (i.e. the outflow of products) or a collection of raw material or required material (i.e. the inflow of products). It is assumed that the objects in a batch are similar and thus have shared attributes."
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Batch",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "name": "Batch"
+        }
+    ],
+    "externalproperties": [],
+    "name": "manufacturing",
+    "type": "ap",
+    "eap": "MijnApplicatieprofiel-AP.eap",
+    "diagram": "manufacturing",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2021-08-31",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "manufacturing",
+    "site": "site-skeleton/manufacturing-ap",
+    "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+    "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+    "title": "Manufacturing application profile",
+    "translation": [
+        {
+            "language": "en",
+            "template": "manufacturing_en.j2",
+            "title": "Manufacturing application profile",
+            "translationjson": "manufacturing_en.json",
+            "mergefile": "manufacturing_en_merged.jsonld"
+        }
+    ],
+    "toolchainversion": "2",
+    "config": "config/config-ap.json",
+    "branchtag": "95b43053a6c7917267b455ccb1f496667e69d10c",
+    "dummy": "22",
+    "filename": "config/manufacturing.json",
+    "navigation": {},
+    "note": "This publication point is acctually obsolete",
+    "repository": "https://github.com/tenforce/ai-proficient-thema",
+    "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
+    "documentcommit": "95b43053a6c7917267b455ccb1f496667e69d10c",
+    "toolchaincommit": "9eb96feba64c8f0d15cdd2226d418d713f405ac3",
+    "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

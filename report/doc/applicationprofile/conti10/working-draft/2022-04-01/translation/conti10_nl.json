@@ -760,506 +760,222 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
-      "name": "featureOfInterest",
+      "EA-Guid": "{4C903963-279A-45cb-A0DA-D9172780C26F}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9C758685-237B-4716-95D0-52B6F606250F}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{AEBA842B-3FD9-4ead-A85F-1D886D6B8FAA}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+      "name": "contains",
       "label": {
-        "en": "featureOfInterest",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Object that is observed.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy.",
+        "en": "contains",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{5F6C9DB1-B192-447e-93C8-18D66AE7E267}",
-      "name": "metadata",
+      "EA-Guid": "{1B44CA1D-2019-4696-BA04-F42E5F95721F}",
+      "name": "model",
       "label": {
-        "en": "metadata",
+        "en": "model",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Link to the Metadata of the Observation.",
+        "en": "Name of the model of the Device.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{35AA6304-42F6-486d-9A25-84243CBAADB8}",
-      "name": "observedProperty",
+      "EA-Guid": "{9B2B7E42-EC54-49e4-8FFA-E8BBF2D62053}",
+      "name": "manufacturer",
       "label": {
-        "en": "observedProperty",
+        "en": "manufacturer",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Characteristic that one observes of the featureOfInterest.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject.",
+        "en": "Name of the manufacturer of the Device.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{2200D0B7-76FC-408f-BE2C-CB712006900D}",
+      "EA-Guid": "{BF78220A-A9B3-4063-B6B2-F35BF98CB61C}",
+      "name": "function",
+      "label": {
+        "en": "function",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Function that the Device can perform to accomplish a Task.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B9B91971-F7AF-4c74-94E8-B1B0D2AAA91D}",
+      "name": "task",
+      "label": {
+        "en": "task",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Task that the Device was designed to accomplish.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2F84ED6F-C5B9-4fd8-95CC-6630E8BB1F5F}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9BE3F175-E402-4acc-BD8E-020F89719A2C}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9ED0BD02-7BCC-4d0c-87E6-7272FB1B8C49}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "Derived:{C68FE5B1-51F8-477c-81AD-4D9CB090D27D}->{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "Derived:{C68FE5B1-51F8-477c-81AD-4D9CB090D27D}->{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9177CF92-B9EB-437a-B3A2-3FCF08348B7F}",
+      "name": "type",
+      "label": {
+        "en": "type",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "General type of the Procedure that was followed to make the Observation.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2B24233F-5535-479f-99A6-46DE03156A03}",
+      "name": "specification",
+      "label": {
+        "en": "specification",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Reference to the specification that describes the Procedure that was followed to make the Observation.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7ADE7517-E478-43ea-A885-122E5210D6BF}",
       "name": "parameter",
       "label": {
         "en": "parameter",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Any data related to the Observation as an activity.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "This is not about properties of the featureOfInterest (these are already described by the observedProperty) or parameters associated with the observation process (like an instrument setting). This is rather about, for example, environmental parameters that can influence the result and are important for correctly interpreting the result. An example is the depth in a well at which the water quality was measured or the ambient temperature when humidity was measured.",
+        "en": "A parameter from the Observation that the Observations in the collection have in common.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{ED04E378-FFA5-4c07-B164-E584C1424EAD}",
-      "name": "phenomenonTime",
+      "EA-Guid": "{37952B3A-8945-4b83-AF71-F6CBFD4D88EE}",
+      "name": "metadata",
       "label": {
-        "en": "phenomenonTime",
+        "en": "metadata",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "The moment when the result of the Observation was applicable.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Typically the moment when observed or sampled. If the Observation is temporal and the moment at which something takes place is registered, then this is also the phenomenon time.",
+        "en": "Metadata that the members of the collection have in common.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{4B1F5DDE-DB97-41cc-8E18-D398DA4CA4E6}",
-      "name": "resultQuality",
+      "EA-Guid": "{B408960B-2432-4fdc-92B4-709B3EF44A9F}",
+      "name": "inCondition",
       "label": {
-        "en": "resultQuality",
+        "en": "inCondition",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "The extent to which the result of the Observation meets the requirements or expectatrions.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "This concerns data that are specific to the Observation and complementary to the description of the procedure followed during the Observation (analysis method and aloke, see Process class), which in itself says something about the quality of the result.",
+        "en": "Condition under which the capability takes effect.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{BADD7125-AF08-4b13-BE14-65115E254FF9}",
-      "name": "resultTime",
+      "EA-Guid": "{B57924A4-3F31-4aa6-8BF8-C5E96B0947D2}",
+      "name": "hasSystemProperty",
       "label": {
-        "en": "resultTime",
+        "en": "hasSystemProperty",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Time when the result of the Observation was obtained.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply.",
+        "en": "Property of the System that defines its capability.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{FF9E4AFD-A5C0-4c57-9465-E1D0DAA2DCEF}",
-      "name": "result",
+      "EA-Guid": "{DC85B2E8-5F86-4ad6-9446-236FAB117286}",
+      "name": "hasSystemCapability",
       "label": {
-        "en": "result",
+        "en": "hasSystemCapability",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "The value of the observedProperty as a result of the Observation.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty.",
+        "en": "Capability of the System.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{64F22006-DFD5-42ac-899D-B3F92864E622}",
-      "name": "relatedObservation",
+      "EA-Guid": "{500AE507-4AF8-427f-9BD8-4FE3F6C24B7D}",
+      "name": "hasSurvivalRange",
       "label": {
-        "en": "relatedObservation",
+        "en": "hasSurvivalRange",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Observations of which the results are related in one way or another",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "It is about a relation that is important to understand the result of an individual Observation, eg a biotic relation (animal A is a predator and is present because animal B occurs as prey). Such relationships require to be explicitly described (as opposed to relationships as the coincidence of results of Observations in space and time, which are allowed to remain implicit). Also useful for relationships where the output of Observation A is the input for Observation B.",
+        "en": "SurvivalRange of the System.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{66B41F48-0A03-4d1b-9D9C-C2EC924E30EA}",
-      "name": "role",
+      "EA-Guid": "{7B76B80C-5740-4fad-9E5B-C36A83359334}",
+      "name": "hasOperatingRange",
       "label": {
-        "en": "role",
+        "en": "hasOperatingRange",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Nature of the relationship between the two Observations.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Role that Observation A fulfills relative to Observation B, eg B processes the result of A or B is dependant on the result of A.",
+        "en": "OperatingRange of the System.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{97B2326A-BD54-4751-BAFC-479FC7F20643}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{060E3DEB-E435-408e-8A63-9CABF517C315}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{E6C324CB-5203-40b8-BD5B-B0E9F7C020A7}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{59FE0737-85DD-43d7-83EA-A6F4609AAE48}",
-      "name": "contributor",
+      "EA-Guid": "{B54F0498-5919-4962-9033-92A9DDC7AA63}",
+      "name": "implements",
       "label": {
-        "en": "contributor",
+        "en": "implements",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "An entity responsible for making contributions to the resource.",
+        "en": "ObservationProcedure that is implemented by the Sensor.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{966CD8CB-791D-4fbe-99DB-B90BB2A99F9B}",
-      "name": "creator",
+      "EA-Guid": "{B54F0498-5919-4962-9033-92A9DDC7AA63}",
+      "name": "implementedBy",
       "label": {
-        "en": "creator",
+        "en": "implementedBy",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "An entity primarily responsible for making the resource.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{E973BA41-8103-48cb-8A69-91C9912CDE29}",
-      "name": "description",
-      "label": {
-        "en": "description",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "An account of the resource.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2D528FB7-ED52-4936-B2F4-B6D8866DD2BC}",
-      "name": "identifier",
-      "label": {
-        "en": "identifier",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "An unambiguous reference to the resource within a given context.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{7E5C298F-1CC8-4e5b-98CD-C2D5CEFAD71B}",
-      "name": "publisher",
-      "label": {
-        "en": "publisher",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "An entity responsible for making the resource available.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{8ABE2B7B-49F0-4afd-89F1-80FE919A17D7}",
-      "name": "rights",
-      "label": {
-        "en": "rights",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Information about rights held in and over the resource.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{A8BE15A1-1567-4d76-8F1D-5F6D5B870057}",
-      "name": "subject",
-      "label": {
-        "en": "subject",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The topic of the resource.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{E0E88FF4-7057-498c-B0A9-09BB9CAC4A5D}",
-      "name": "title",
-      "label": {
-        "en": "title",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "A name given to the resource.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
-      "name": "asGML",
-      "label": {
-        "en": "asGML",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Geometry expressed in GML format.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
-      "name": "asWKT",
-      "label": {
-        "en": "asWKT",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Geometry expressed in WKT format",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2945C5BF-1B78-41d4-8669-B5F5C8363121}",
-      "name": "identifier",
-      "label": {
-        "en": "identifier",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "String used to uniquely identify the object.",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F9ED1620-613E-40ed-B260-F022544017F0}",
-      "name": "hasFeatureOfInterest",
-      "label": {
-        "en": "hasFeatureOfInterest",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The Feature that the Observations in the collection have in common as featureOfInterest.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{18E5C180-6814-4627-82E3-350A4DBDACE8}",
-      "name": "hasMember",
-      "label": {
-        "en": "hasMember",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Observation that belongs to the collection.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{18CE982C-8917-4073-8146-32D5C0CC37BF}",
-      "name": "hasSimpleResult",
-      "label": {
-        "en": "hasSimpleResult",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The simple value of an Observation.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{80617C66-771B-4fe4-9910-55777E3DB3CB}",
-      "name": "hasUltimateFeatureOfInterest",
-      "label": {
-        "en": "hasUltimateFeatureOfInterest",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Link to the ultimate featureOfInterest of an Observation. This is useful when the proximate featureOfInterest is a Sample of the ultimateFeatureOfInterest, directly or transitively.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{5D213780-67B7-43a1-859E-9D19581F375E}",
-      "name": "hasUltimateFeatureOfInterest",
-      "label": {
-        "en": "hasUltimateFeatureOfInterest",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The Feature that the Observations in the collection have in common as ultimateFeatureOfInterest.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{CC9E57FC-0978-443d-BD27-4915A4B661D3}",
-      "name": "hosts",
-      "label": {
-        "en": "hosts",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "System that is hosted by the Platform..",
-        "nl": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Eg a Sensor, a Sampler.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{CC9E57FC-0978-443d-BD27-4915A4B661D3}",
-      "name": "isHostedBy",
-      "label": {
-        "en": "isHostedBy",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Platform on which the System is mounted on or hosted by.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
-      "name": "isObservedBy",
-      "label": {
-        "en": "isObservedBy",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Relation between a PropertyType and the Sensor able to observe it.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
-      "name": "madeBySensor",
-      "label": {
-        "en": "madeBySensor",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Relation between an Observation and the Sensor which made the Observations.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{AC62025C-BB3B-49d6-8858-C3C6E9A2E459}",
-      "name": "madeBySensor",
-      "label": {
-        "en": "madeBySensor",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The Sensor by which the Observations in the collection were made.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
-      "name": "madeObservation",
-      "label": {
-        "en": "madeObservation",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Observation made by the Sensor.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F11276BC-14C7-4b72-9B8F-70310672FC38}",
-      "name": "observedProperty",
-      "label": {
-        "en": "observedProperty",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The property that was observed by the Observations in the collection.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
-      "name": "observes",
-      "label": {
-        "en": "observes",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Type of Property that the Sensor is capable of sensing.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{7ABBF6E3-9D43-4d27-B0BD-10318A5FAB5B}",
-      "name": "phenomenonTime",
-      "label": {
-        "en": "phenomenonTime",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The phenomenonTime of the Observation that the Obser(vations in the collection have in common.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{071638E7-2A2C-470f-B5F5-88FD5EE100DA}",
-      "name": "resultTime",
-      "label": {
-        "en": "resultTime",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The resultTime of the Observation that the Observations in the collection have in common.",
+        "en": "Sensor that implements the Procedure in some executable way.",
         "nl": "Enter your translation here"
       }
     },
@@ -1288,224 +1004,508 @@
       }
     },
     {
-      "EA-Guid": "{B54F0498-5919-4962-9033-92A9DDC7AA63}",
-      "name": "implementedBy",
+      "EA-Guid": "{071638E7-2A2C-470f-B5F5-88FD5EE100DA}",
+      "name": "resultTime",
       "label": {
-        "en": "implementedBy",
+        "en": "resultTime",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Sensor that implements the Procedure in some executable way.",
+        "en": "The resultTime of the Observation that the Observations in the collection have in common.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{B54F0498-5919-4962-9033-92A9DDC7AA63}",
-      "name": "implements",
+      "EA-Guid": "{7ABBF6E3-9D43-4d27-B0BD-10318A5FAB5B}",
+      "name": "phenomenonTime",
       "label": {
-        "en": "implements",
+        "en": "phenomenonTime",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "ObservationProcedure that is implemented by the Sensor.",
+        "en": "The phenomenonTime of the Observation that the Obser(vations in the collection have in common.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{7B76B80C-5740-4fad-9E5B-C36A83359334}",
-      "name": "hasOperatingRange",
+      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
+      "name": "observes",
       "label": {
-        "en": "hasOperatingRange",
+        "en": "observes",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "OperatingRange of the System.",
+        "en": "Type of Property that the Sensor is capable of sensing.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{500AE507-4AF8-427f-9BD8-4FE3F6C24B7D}",
-      "name": "hasSurvivalRange",
+      "EA-Guid": "{F11276BC-14C7-4b72-9B8F-70310672FC38}",
+      "name": "observedProperty",
       "label": {
-        "en": "hasSurvivalRange",
+        "en": "observedProperty",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "SurvivalRange of the System.",
+        "en": "The property that was observed by the Observations in the collection.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{DC85B2E8-5F86-4ad6-9446-236FAB117286}",
-      "name": "hasSystemCapability",
+      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
+      "name": "madeObservation",
       "label": {
-        "en": "hasSystemCapability",
+        "en": "madeObservation",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Capability of the System.",
+        "en": "Observation made by the Sensor.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{B57924A4-3F31-4aa6-8BF8-C5E96B0947D2}",
-      "name": "hasSystemProperty",
+      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
+      "name": "madeBySensor",
       "label": {
-        "en": "hasSystemProperty",
+        "en": "madeBySensor",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Property of the System that defines its capability.",
+        "en": "Relation between an Observation and the Sensor which made the Observations.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{B408960B-2432-4fdc-92B4-709B3EF44A9F}",
-      "name": "inCondition",
+      "EA-Guid": "{AC62025C-BB3B-49d6-8858-C3C6E9A2E459}",
+      "name": "madeBySensor",
       "label": {
-        "en": "inCondition",
+        "en": "madeBySensor",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Condition under which the capability takes effect.",
+        "en": "The Sensor by which the Observations in the collection were made.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{37952B3A-8945-4b83-AF71-F6CBFD4D88EE}",
-      "name": "metadata",
+      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
+      "name": "isObservedBy",
       "label": {
-        "en": "metadata",
+        "en": "isObservedBy",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Metadata that the members of the collection have in common.",
+        "en": "Relation between a PropertyType and the Sensor able to observe it.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{7ADE7517-E478-43ea-A885-122E5210D6BF}",
+      "EA-Guid": "{CC9E57FC-0978-443d-BD27-4915A4B661D3}",
+      "name": "isHostedBy",
+      "label": {
+        "en": "isHostedBy",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Platform on which the System is mounted on or hosted by.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CC9E57FC-0978-443d-BD27-4915A4B661D3}",
+      "name": "hosts",
+      "label": {
+        "en": "hosts",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "System that is hosted by the Platform..",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Eg a Sensor, a Sampler.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{80617C66-771B-4fe4-9910-55777E3DB3CB}",
+      "name": "hasUltimateFeatureOfInterest",
+      "label": {
+        "en": "hasUltimateFeatureOfInterest",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Link to the ultimate featureOfInterest of an Observation. This is useful when the proximate featureOfInterest is a Sample of the ultimateFeatureOfInterest, directly or transitively.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5D213780-67B7-43a1-859E-9D19581F375E}",
+      "name": "hasUltimateFeatureOfInterest",
+      "label": {
+        "en": "hasUltimateFeatureOfInterest",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The Feature that the Observations in the collection have in common as ultimateFeatureOfInterest.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{18CE982C-8917-4073-8146-32D5C0CC37BF}",
+      "name": "hasSimpleResult",
+      "label": {
+        "en": "hasSimpleResult",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The simple value of an Observation.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{18E5C180-6814-4627-82E3-350A4DBDACE8}",
+      "name": "hasMember",
+      "label": {
+        "en": "hasMember",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation that belongs to the collection.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F9ED1620-613E-40ed-B260-F022544017F0}",
+      "name": "hasFeatureOfInterest",
+      "label": {
+        "en": "hasFeatureOfInterest",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The Feature that the Observations in the collection have in common as featureOfInterest.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2945C5BF-1B78-41d4-8669-B5F5C8363121}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "String used to uniquely identify the object.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
+      "name": "asWKT",
+      "label": {
+        "en": "asWKT",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Geometry expressed in WKT format",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
+      "name": "asGML",
+      "label": {
+        "en": "asGML",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Geometry expressed in GML format.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E0E88FF4-7057-498c-B0A9-09BB9CAC4A5D}",
+      "name": "title",
+      "label": {
+        "en": "title",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A name given to the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A8BE15A1-1567-4d76-8F1D-5F6D5B870057}",
+      "name": "subject",
+      "label": {
+        "en": "subject",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The topic of the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8ABE2B7B-49F0-4afd-89F1-80FE919A17D7}",
+      "name": "rights",
+      "label": {
+        "en": "rights",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Information about rights held in and over the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7E5C298F-1CC8-4e5b-98CD-C2D5CEFAD71B}",
+      "name": "publisher",
+      "label": {
+        "en": "publisher",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An entity responsible for making the resource available.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2D528FB7-ED52-4936-B2F4-B6D8866DD2BC}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An unambiguous reference to the resource within a given context.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E973BA41-8103-48cb-8A69-91C9912CDE29}",
+      "name": "description",
+      "label": {
+        "en": "description",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An account of the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{966CD8CB-791D-4fbe-99DB-B90BB2A99F9B}",
+      "name": "creator",
+      "label": {
+        "en": "creator",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An entity primarily responsible for making the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{59FE0737-85DD-43d7-83EA-A6F4609AAE48}",
+      "name": "contributor",
+      "label": {
+        "en": "contributor",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An entity responsible for making contributions to the resource.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E6C324CB-5203-40b8-BD5B-B0E9F7C020A7}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{060E3DEB-E435-408e-8A63-9CABF517C315}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{97B2326A-BD54-4751-BAFC-479FC7F20643}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{66B41F48-0A03-4d1b-9D9C-C2EC924E30EA}",
+      "name": "role",
+      "label": {
+        "en": "role",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Nature of the relationship between the two Observations.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Role that Observation A fulfills relative to Observation B, eg B processes the result of A or B is dependant on the result of A.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{64F22006-DFD5-42ac-899D-B3F92864E622}",
+      "name": "relatedObservation",
+      "label": {
+        "en": "relatedObservation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observations of which the results are related in one way or another",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "It is about a relation that is important to understand the result of an individual Observation, eg a biotic relation (animal A is a predator and is present because animal B occurs as prey). Such relationships require to be explicitly described (as opposed to relationships as the coincidence of results of Observations in space and time, which are allowed to remain implicit). Also useful for relationships where the output of Observation A is the input for Observation B.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FF9E4AFD-A5C0-4c57-9465-E1D0DAA2DCEF}",
+      "name": "result",
+      "label": {
+        "en": "result",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value of the observedProperty as a result of the Observation.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BADD7125-AF08-4b13-BE14-65115E254FF9}",
+      "name": "resultTime",
+      "label": {
+        "en": "resultTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Time when the result of the Observation was obtained.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4B1F5DDE-DB97-41cc-8E18-D398DA4CA4E6}",
+      "name": "resultQuality",
+      "label": {
+        "en": "resultQuality",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The extent to which the result of the Observation meets the requirements or expectatrions.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This concerns data that are specific to the Observation and complementary to the description of the procedure followed during the Observation (analysis method and aloke, see Process class), which in itself says something about the quality of the result.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ED04E378-FFA5-4c07-B164-E584C1424EAD}",
+      "name": "phenomenonTime",
+      "label": {
+        "en": "phenomenonTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The moment when the result of the Observation was applicable.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Typically the moment when observed or sampled. If the Observation is temporal and the moment at which something takes place is registered, then this is also the phenomenon time.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2200D0B7-76FC-408f-BE2C-CB712006900D}",
       "name": "parameter",
       "label": {
         "en": "parameter",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "A parameter from the Observation that the Observations in the collection have in common.",
+        "en": "Any data related to the Observation as an activity.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This is not about properties of the featureOfInterest (these are already described by the observedProperty) or parameters associated with the observation process (like an instrument setting). This is rather about, for example, environmental parameters that can influence the result and are important for correctly interpreting the result. An example is the depth in a well at which the water quality was measured or the ambient temperature when humidity was measured.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{2B24233F-5535-479f-99A6-46DE03156A03}",
-      "name": "specification",
+      "EA-Guid": "{35AA6304-42F6-486d-9A25-84243CBAADB8}",
+      "name": "observedProperty",
       "label": {
-        "en": "specification",
+        "en": "observedProperty",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Reference to the specification that describes the Procedure that was followed to make the Observation.",
+        "en": "Characteristic that one observes of the featureOfInterest.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{9177CF92-B9EB-437a-B3A2-3FCF08348B7F}",
-      "name": "type",
+      "EA-Guid": "{5F6C9DB1-B192-447e-93C8-18D66AE7E267}",
+      "name": "metadata",
       "label": {
-        "en": "type",
+        "en": "metadata",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "General type of the Procedure that was followed to make the Observation.",
+        "en": "Link to the Metadata of the Observation.",
         "nl": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "Derived:{C68FE5B1-51F8-477c-81AD-4D9CB090D27D}->{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "Derived:{C68FE5B1-51F8-477c-81AD-4D9CB090D27D}->{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{9ED0BD02-7BCC-4d0c-87E6-7272FB1B8C49}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{9BE3F175-E402-4acc-BD8E-020F89719A2C}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{2F84ED6F-C5B9-4fd8-95CC-6630E8BB1F5F}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{B9B91971-F7AF-4c74-94E8-B1B0D2AAA91D}",
-      "name": "task",
+      "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
+      "name": "featureOfInterest",
       "label": {
-        "en": "task",
+        "en": "featureOfInterest",
         "nl": "Enter your translation here"
       },
       "definition": {
-        "en": "Task that the Device was designed to accomplish.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{BF78220A-A9B3-4063-B6B2-F35BF98CB61C}",
-      "name": "function",
-      "label": {
-        "en": "function",
+        "en": "Object that is observed.",
         "nl": "Enter your translation here"
       },
-      "definition": {
-        "en": "Function that the Device can perform to accomplish a Task.",
+      "usage": {
+        "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy.",
         "nl": "Enter your translation here"
       }
-    },
-    {
-      "EA-Guid": "{9B2B7E42-EC54-49e4-8FFA-E8BBF2D62053}",
-      "name": "manufacturer",
-      "label": {
-        "en": "manufacturer",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Name of the manufacturer of the Device.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{1B44CA1D-2019-4696-BA04-F42E5F95721F}",
-      "name": "model",
-      "label": {
-        "en": "model",
-        "nl": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Name of the model of the Device.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
-      "name": "contains",
-      "label": {
-        "en": "contains",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{AEBA842B-3FD9-4ead-A85F-1D886D6B8FAA}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{9C758685-237B-4716-95D0-52B6F606250F}",
-      "name": ""
-    },
-    {
-      "EA-Guid": "{4C903963-279A-45cb-A0DA-D9172780C26F}",
-      "name": ""
     }
   ]
 }

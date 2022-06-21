@@ -6,15 +6,15 @@
     "baseURI": "https://purl.eu/ns/air-and-water/core#",
     "filename": "core",
     "navigation": {
-      "self": "https://data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01"
+      "self": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/core/working-draft/2022-03-01"
     },
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "documenttype": "ap",
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/24636f5be7e40848c1ad070fcca3e3a1b86d7c58",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/24636f5be7e40848c1ad070fcca3e3a1b86d7c58/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/747385950fd7721c8a2dc44c3c4cb77d29166945",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/747385950fd7721c8a2dc44c3c4cb77d29166945/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -101,84 +101,14 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://purl.org/dc/elements/1.1/contributor",
-          "name": "contributor",
-          "sort": "contributor",
+          "uri": "http://purl.org/dc/elements/1.1/title",
+          "name": "title",
+          "sort": "title",
           "label": {
-            "en": "contributor"
+            "en": "title"
           },
           "description": {
-            "en": "An entity responsible for making contributions to the resource."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Metadata",
-              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Agent",
-              "range_uri": "http://purl.org/dc/terms/Agent"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Agent",
-              "range_puri": "http://purl.org/dc/terms/Agent",
-              "range_label": {
-                "en": "Agent"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/elements/1.1/creator",
-          "name": "creator",
-          "sort": "creator",
-          "label": {
-            "en": "creator"
-          },
-          "description": {
-            "en": "An entity primarily responsible for making the resource."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Metadata",
-              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Agent",
-              "range_uri": "http://purl.org/dc/terms/Agent"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Agent",
-              "range_puri": "http://purl.org/dc/terms/Agent",
-              "range_label": {
-                "en": "Agent"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/elements/1.1/description",
-          "name": "description",
-          "sort": "description",
-          "label": {
-            "en": "description"
-          },
-          "description": {
-            "en": "An account of the resource."
+            "en": "A name given to the resource."
           },
           "usage": {},
           "domain": [
@@ -199,111 +129,6 @@
               "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
               "range_label": {
                 "en": "LangString"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/elements/1.1/identifier",
-          "name": "identifier",
-          "sort": "identifier",
-          "label": {
-            "en": "identifier"
-          },
-          "description": {
-            "en": "An unambiguous reference to the resource within a given context."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Metadata",
-              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Identifier",
-              "range_uri": "http://fixme.com#Identifier"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Identifier",
-              "range_puri": "http://fixme.com#Identifier",
-              "range_label": {
-                "en": "Identifier"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/elements/1.1/publisher",
-          "name": "publisher",
-          "sort": "publisher",
-          "label": {
-            "en": "publisher"
-          },
-          "description": {
-            "en": "An entity responsible for making the resource available."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Metadata",
-              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Agent",
-              "range_uri": "http://purl.org/dc/terms/Agent"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Agent",
-              "range_puri": "http://purl.org/dc/terms/Agent",
-              "range_label": {
-                "en": "Agent"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/elements/1.1/rights",
-          "name": "rights",
-          "sort": "rights",
-          "label": {
-            "en": "rights"
-          },
-          "description": {
-            "en": "Information about rights held in and over the resource."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Metadata",
-              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "URI",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
-              "range_label": {
-                "en": "URI"
               }
             }
           ],
@@ -346,14 +171,119 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://purl.org/dc/elements/1.1/title",
-          "name": "title",
-          "sort": "title",
+          "uri": "http://purl.org/dc/elements/1.1/rights",
+          "name": "rights",
+          "sort": "rights",
           "label": {
-            "en": "title"
+            "en": "rights"
           },
           "description": {
-            "en": "A name given to the resource."
+            "en": "Information about rights held in and over the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Metadata",
+              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "URI",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "range_label": {
+                "en": "URI"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/elements/1.1/publisher",
+          "name": "publisher",
+          "sort": "publisher",
+          "label": {
+            "en": "publisher"
+          },
+          "description": {
+            "en": "An entity responsible for making the resource available."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Metadata",
+              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Agent",
+              "range_uri": "http://purl.org/dc/terms/Agent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Agent",
+              "range_puri": "http://purl.org/dc/terms/Agent",
+              "range_label": {
+                "en": "Agent"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/elements/1.1/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {
+            "en": "An unambiguous reference to the resource within a given context."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Metadata",
+              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Identifier",
+              "range_uri": "http://fixme.com#Identifier"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Identifier",
+              "range_puri": "http://fixme.com#Identifier",
+              "range_label": {
+                "en": "Identifier"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/elements/1.1/description",
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
+          "description": {
+            "en": "An account of the resource."
           },
           "usage": {},
           "domain": [
@@ -379,6 +309,76 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/elements/1.1/creator",
+          "name": "creator",
+          "sort": "creator",
+          "label": {
+            "en": "creator"
+          },
+          "description": {
+            "en": "An entity primarily responsible for making the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Metadata",
+              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Agent",
+              "range_uri": "http://purl.org/dc/terms/Agent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Agent",
+              "range_puri": "http://purl.org/dc/terms/Agent",
+              "range_label": {
+                "en": "Agent"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/elements/1.1/contributor",
+          "name": "contributor",
+          "sort": "contributor",
+          "label": {
+            "en": "contributor"
+          },
+          "description": {
+            "en": "An entity responsible for making contributions to the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Metadata",
+              "uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Agent",
+              "range_uri": "http://purl.org/dc/terms/Agent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Agent",
+              "range_puri": "http://purl.org/dc/terms/Agent",
+              "range_label": {
+                "en": "Agent"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
         }
       ]
     },
@@ -398,18 +398,86 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
-          "name": "featureOfInterest",
-          "sort": "featureOfInterest",
+          "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+          "name": "usedProcedure",
+          "sort": "usedProcedure",
           "label": {
-            "en": "featureOfInterest"
+            "en": "usedProcedure"
           },
           "description": {
-            "en": "Object that is observed."
+            "en": "Reference to the Procedure by which the result of the Observation is obtained."
           },
-          "usage": {
-            "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy."
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ObservationProcedure",
+              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ObservationProcedure",
+              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+              "range_label": {
+                "en": "ObservationProcedure"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+          "name": "madeBySensor",
+          "sort": "madeBySensor",
+          "label": {
+            "en": "madeBySensor"
           },
+          "description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Sensor",
+              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Sensor",
+              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
+              "range_label": {
+                "en": "Sensor"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
+          "name": "hasUltimateFeatureOfInterest",
+          "sort": "hasUltimateFeatureOfInterest",
+          "label": {
+            "en": "hasUltimateFeatureOfInterest"
+          },
+          "description": {
+            "en": "Link to the ultimate featureOfInterest of an Observation. This is useful when the proximate featureOfInterest is a Sample of the ultimateFeatureOfInterest, directly or transitively."
+          },
+          "usage": {},
           "domain": [
             {
               "EA-Name": "Observation",
@@ -431,18 +499,18 @@
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "1..*",
           "codelist_uri": ""
         },
         {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
-          "name": "metadata",
-          "sort": "metadata",
+          "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "name": "hasSimpleResult",
+          "sort": "hasSimpleResult",
           "label": {
-            "en": "metadata"
+            "en": "hasSimpleResult"
           },
           "description": {
-            "en": "Link to the Metadata of the Observation."
+            "en": "The simple value of an Observation."
           },
           "usage": {},
           "domain": [
@@ -453,238 +521,16 @@
           ],
           "range": [
             {
-              "range_label": "Metadata",
-              "range_uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Metadata",
-              "range_puri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
               "range_label": {
-                "en": "Metadata"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
-          "name": "observedProperty",
-          "sort": "observedProperty",
-          "label": {
-            "en": "observedProperty"
-          },
-          "description": {
-            "en": "Characteristic that one observes of the featureOfInterest."
-          },
-          "usage": {
-            "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "PropertyType",
-              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#PropertyType",
-              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
-              "range_label": {
-                "en": "PropertyType"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
-          "name": "parameter",
-          "sort": "parameter",
-          "label": {
-            "en": "parameter"
-          },
-          "description": {
-            "en": "Any data related to the Observation as an activity."
-          },
-          "usage": {
-            "en": "This is not about properties of the featureOfInterest (these are already described by the observedProperty) or parameters associated with the observation process (like an instrument setting). This is rather about, for example, environmental parameters that can influence the result and are important for correctly interpreting the result. An example is the depth in a well at which the water quality was measured or the ambient temperature when humidity was measured."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "NamedValue",
-              "range_uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#NamedValue",
-              "range_puri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
-              "range_label": {
-                "en": "NamedValue"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
-          "name": "phenomenonTime",
-          "sort": "phenomenonTime",
-          "label": {
-            "en": "phenomenonTime"
-          },
-          "description": {
-            "en": "The moment when the result of the Observation was applicable."
-          },
-          "usage": {
-            "en": "Typically the moment when observed or sampled. If the Observation is temporal and the moment at which something takes place is registered, then this is also the phenomenon time."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TM_Object",
-              "range_uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#TM_Object",
-              "range_puri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
-              "range_label": {
-                "en": "TM_Object"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
-          "name": "resultQuality",
-          "sort": "resultQuality",
-          "label": {
-            "en": "resultQuality"
-          },
-          "description": {
-            "en": "The extent to which the result of the Observation meets the requirements or expectatrions."
-          },
-          "usage": {
-            "en": "This concerns data that are specific to the Observation and complementary to the description of the procedure followed during the Observation (analysis method and aloke, see Process class), which in itself says something about the quality of the result."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DQ_Element",
-              "range_uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
-              "range_puri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
-              "range_label": {
-                "en": "DQ_Element"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
-          "name": "resultTime",
-          "sort": "resultTime",
-          "label": {
-            "en": "resultTime"
-          },
-          "description": {
-            "en": "Time when the result of the Observation was obtained."
-          },
-          "usage": {
-            "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DateTime",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_label": {
-                "en": "DateTime"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
-          "name": "result",
-          "sort": "result",
-          "label": {
-            "en": "result"
-          },
-          "description": {
-            "en": "The value of the observedProperty as a result of the Observation."
-          },
-          "usage": {
-            "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty."
-          },
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Any",
-              "range_uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Any",
-              "range_puri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
-              "range_label": {
-                "en": "Any"
+                "en": "Literal"
               }
             }
           ],
@@ -729,14 +575,236 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
-          "name": "hasSimpleResult",
-          "sort": "hasSimpleResult",
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "name": "result",
+          "sort": "result",
           "label": {
-            "en": "hasSimpleResult"
+            "en": "result"
           },
           "description": {
-            "en": "The simple value of an Observation."
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "usage": {
+            "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Any",
+              "range_uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Any",
+              "range_puri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+              "range_label": {
+                "en": "Any"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "name": "resultTime",
+          "sort": "resultTime",
+          "label": {
+            "en": "resultTime"
+          },
+          "description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "usage": {
+            "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "en": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+          "name": "resultQuality",
+          "sort": "resultQuality",
+          "label": {
+            "en": "resultQuality"
+          },
+          "description": {
+            "en": "The extent to which the result of the Observation meets the requirements or expectatrions."
+          },
+          "usage": {
+            "en": "This concerns data that are specific to the Observation and complementary to the description of the procedure followed during the Observation (analysis method and aloke, see Process class), which in itself says something about the quality of the result."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DQ_Element",
+              "range_uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+              "range_puri": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+              "range_label": {
+                "en": "DQ_Element"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+          "name": "phenomenonTime",
+          "sort": "phenomenonTime",
+          "label": {
+            "en": "phenomenonTime"
+          },
+          "description": {
+            "en": "The moment when the result of the Observation was applicable."
+          },
+          "usage": {
+            "en": "Typically the moment when observed or sampled. If the Observation is temporal and the moment at which something takes place is registered, then this is also the phenomenon time."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TM_Object",
+              "range_uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#TM_Object",
+              "range_puri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+              "range_label": {
+                "en": "TM_Object"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+          "name": "parameter",
+          "sort": "parameter",
+          "label": {
+            "en": "parameter"
+          },
+          "description": {
+            "en": "Any data related to the Observation as an activity."
+          },
+          "usage": {
+            "en": "This is not about properties of the featureOfInterest (these are already described by the observedProperty) or parameters associated with the observation process (like an instrument setting). This is rather about, for example, environmental parameters that can influence the result and are important for correctly interpreting the result. An example is the depth in a well at which the water quality was measured or the ambient temperature when humidity was measured."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "NamedValue",
+              "range_uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#NamedValue",
+              "range_puri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+              "range_label": {
+                "en": "NamedValue"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "name": "observedProperty",
+          "sort": "observedProperty",
+          "label": {
+            "en": "observedProperty"
+          },
+          "description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "usage": {
+            "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PropertyType",
+              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PropertyType",
+              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+              "range_label": {
+                "en": "PropertyType"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+          "name": "metadata",
+          "sort": "metadata",
+          "label": {
+            "en": "metadata"
+          },
+          "description": {
+            "en": "Link to the Metadata of the Observation."
           },
           "usage": {},
           "domain": [
@@ -747,33 +815,35 @@
           ],
           "range": [
             {
-              "range_label": "Literal",
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+              "range_label": "Metadata",
+              "range_uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_uri": "#Metadata",
+              "range_puri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
               "range_label": {
-                "en": "Literal"
+                "en": "Metadata"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
-          "name": "hasUltimateFeatureOfInterest",
-          "sort": "hasUltimateFeatureOfInterest",
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "name": "featureOfInterest",
+          "sort": "featureOfInterest",
           "label": {
-            "en": "hasUltimateFeatureOfInterest"
+            "en": "featureOfInterest"
           },
           "description": {
-            "en": "Link to the ultimate featureOfInterest of an Observation. This is useful when the proximate featureOfInterest is a Sample of the ultimateFeatureOfInterest, directly or transitively."
+            "en": "Object that is observed."
           },
-          "usage": {},
+          "usage": {
+            "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy."
+          },
           "domain": [
             {
               "EA-Name": "Observation",
@@ -795,77 +865,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/madeBySensor",
-          "name": "madeBySensor",
-          "sort": "madeBySensor",
-          "label": {
-            "en": "madeBySensor"
-          },
-          "description": {
-            "en": "Relation between an Observation and the Sensor which made the Observations."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Sensor",
-              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Sensor",
-              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
-              "range_label": {
-                "en": "Sensor"
-              }
-            }
-          ],
           "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/usedProcedure",
-          "name": "usedProcedure",
-          "sort": "usedProcedure",
-          "label": {
-            "en": "usedProcedure"
-          },
-          "description": {
-            "en": "Reference to the Procedure by which the result of the Observation is obtained."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Observation",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ObservationProcedure",
-              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ObservationProcedure",
-              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
-              "range_label": {
-                "en": "ObservationProcedure"
-              }
-            }
-          ],
-          "cardinality": "0..*",
           "codelist_uri": ""
         }
       ]
@@ -898,6 +898,68 @@
       "parents": [],
       "properties": [
         {
+          "uri": "https://purl.eu/ns/observations#ObservationContext.observation.target",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationContext",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/observations#ObservationContext.observation.target",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationContext",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
           "uri": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
           "name": "role",
           "sort": "role",
@@ -928,68 +990,6 @@
               "range_puri": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
               "range_label": {
                 "en": "GenericName"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://purl.eu/ns/observations#ObservationContext.observation.source",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationContext",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Observation",
-              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Observation",
-              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
-              "range_label": {
-                "en": "Observation"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://purl.eu/ns/observations#ObservationContext.observation.source",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationContext",
-              "uri": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Observation",
-              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Observation",
-              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
-              "range_label": {
-                "en": "Observation"
               }
             }
           ],
@@ -1048,14 +1048,259 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
-          "name": "hasFeatureOfInterest",
-          "sort": "hasFeatureOfInterest",
+          "uri": "https://purl.eu/ns/air-and-water/core#ObservationCollection.parameter",
+          "name": "parameter",
+          "sort": "parameter",
           "label": {
-            "en": "hasFeatureOfInterest"
+            "en": "parameter"
           },
           "description": {
-            "en": "The Feature that the Observations in the collection have in common as featureOfInterest."
+            "en": "A parameter from the Observation that the Observations in the collection have in common."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "NamedValue",
+              "range_uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#NamedValue",
+              "range_puri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+              "range_label": {
+                "en": "NamedValue"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/air-and-water/core#ObservationCollection.metadata",
+          "name": "metadata",
+          "sort": "metadata",
+          "label": {
+            "en": "metadata"
+          },
+          "description": {
+            "en": "Metadata that the members of the collection have in common."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Metadata",
+              "range_uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Metadata",
+              "range_puri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+              "range_label": {
+                "en": "Metadata"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+          "name": "usedProcedure",
+          "sort": "usedProcedure",
+          "label": {
+            "en": "usedProcedure"
+          },
+          "description": {
+            "en": "The usedProcedure of the Observations in the collection."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ObservationProcedure",
+              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ObservationProcedure",
+              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+              "range_label": {
+                "en": "ObservationProcedure"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/resultTime",
+          "name": "resultTime",
+          "sort": "resultTime",
+          "label": {
+            "en": "resultTime"
+          },
+          "description": {
+            "en": "The resultTime of the Observation that the Observations in the collection have in common."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "en": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/phenomenonTime",
+          "name": "phenomenonTime",
+          "sort": "phenomenonTime",
+          "label": {
+            "en": "phenomenonTime"
+          },
+          "description": {
+            "en": "The phenomenonTime of the Observation that the Obser(vations in the collection have in common."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TM_Object",
+              "range_uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#TM_Object",
+              "range_puri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+              "range_label": {
+                "en": "TM_Object"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/observedProperty",
+          "name": "observedProperty",
+          "sort": "observedProperty",
+          "label": {
+            "en": "observedProperty"
+          },
+          "description": {
+            "en": "The property that was observed by the Observations in the collection."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PropertyType",
+              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PropertyType",
+              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+              "range_label": {
+                "en": "PropertyType"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+          "name": "madeBySensor",
+          "sort": "madeBySensor",
+          "label": {
+            "en": "madeBySensor"
+          },
+          "description": {
+            "en": "The Sensor by which the Observations in the collection were made."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Sensor",
+              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Sensor",
+              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
+              "range_label": {
+                "en": "Sensor"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
+          "name": "hasUltimateFeatureOfInterest",
+          "sort": "hasUltimateFeatureOfInterest",
+          "label": {
+            "en": "hasUltimateFeatureOfInterest"
+          },
+          "description": {
+            "en": "The Feature that the Observations in the collection have in common as ultimateFeatureOfInterest."
           },
           "usage": {},
           "domain": [
@@ -1118,14 +1363,14 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
-          "name": "hasUltimateFeatureOfInterest",
-          "sort": "hasUltimateFeatureOfInterest",
+          "uri": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+          "name": "hasFeatureOfInterest",
+          "sort": "hasFeatureOfInterest",
           "label": {
-            "en": "hasUltimateFeatureOfInterest"
+            "en": "hasFeatureOfInterest"
           },
           "description": {
-            "en": "The Feature that the Observations in the collection have in common as ultimateFeatureOfInterest."
+            "en": "The Feature that the Observations in the collection have in common as featureOfInterest."
           },
           "usage": {},
           "domain": [
@@ -1146,251 +1391,6 @@
               "range_puri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
               "range_label": {
                 "en": "Feature"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/madeBySensor",
-          "name": "madeBySensor",
-          "sort": "madeBySensor",
-          "label": {
-            "en": "madeBySensor"
-          },
-          "description": {
-            "en": "The Sensor by which the Observations in the collection were made."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Sensor",
-              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Sensor",
-              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
-              "range_label": {
-                "en": "Sensor"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/observedProperty",
-          "name": "observedProperty",
-          "sort": "observedProperty",
-          "label": {
-            "en": "observedProperty"
-          },
-          "description": {
-            "en": "The property that was observed by the Observations in the collection."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "PropertyType",
-              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#PropertyType",
-              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
-              "range_label": {
-                "en": "PropertyType"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/phenomenonTime",
-          "name": "phenomenonTime",
-          "sort": "phenomenonTime",
-          "label": {
-            "en": "phenomenonTime"
-          },
-          "description": {
-            "en": "The phenomenonTime of the Observation that the Obser(vations in the collection have in common."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TM_Object",
-              "range_uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#TM_Object",
-              "range_puri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
-              "range_label": {
-                "en": "TM_Object"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/resultTime",
-          "name": "resultTime",
-          "sort": "resultTime",
-          "label": {
-            "en": "resultTime"
-          },
-          "description": {
-            "en": "The resultTime of the Observation that the Observations in the collection have in common."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DateTime",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_label": {
-                "en": "DateTime"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/sosa/usedProcedure",
-          "name": "usedProcedure",
-          "sort": "usedProcedure",
-          "label": {
-            "en": "usedProcedure"
-          },
-          "description": {
-            "en": "The usedProcedure of the Observations in the collection."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ObservationProcedure",
-              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ObservationProcedure",
-              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
-              "range_label": {
-                "en": "ObservationProcedure"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://purl.eu/ns/air-and-water/core#ObservationCollection.metadata",
-          "name": "metadata",
-          "sort": "metadata",
-          "label": {
-            "en": "metadata"
-          },
-          "description": {
-            "en": "Metadata that the members of the collection have in common."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Metadata",
-              "range_uri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Metadata",
-              "range_puri": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
-              "range_label": {
-                "en": "Metadata"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://purl.eu/ns/air-and-water/core#ObservationCollection.parameter",
-          "name": "parameter",
-          "sort": "parameter",
-          "label": {
-            "en": "parameter"
-          },
-          "description": {
-            "en": "A parameter from the Observation that the Observations in the collection have in common."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ObservationCollection",
-              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "NamedValue",
-              "range_uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#NamedValue",
-              "range_puri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
-              "range_label": {
-                "en": "NamedValue"
               }
             }
           ],
@@ -1504,14 +1504,14 @@
       ],
       "properties": [
         {
-          "uri": "http://www.w3.org/ns/sosa/madeObservation",
-          "name": "madeObservation",
-          "sort": "madeObservation",
+          "uri": "http://www.w3.org/ns/ssn/implements",
+          "name": "implements",
+          "sort": "implements",
           "label": {
-            "en": "madeObservation"
+            "en": "implements"
           },
           "description": {
-            "en": "Observation made by the Sensor."
+            "en": "ObservationProcedure that is implemented by the Sensor."
           },
           "usage": {},
           "domain": [
@@ -1522,20 +1522,20 @@
           ],
           "range": [
             {
-              "range_label": "Observation",
-              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+              "range_label": "ObservationProcedure",
+              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Observation",
-              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_uri": "#ObservationProcedure",
+              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
               "range_label": {
-                "en": "Observation"
+                "en": "ObservationProcedure"
               }
             }
           ],
-          "cardinality": "0..*",
+          "cardinality": "1",
           "codelist_uri": ""
         },
         {
@@ -1574,14 +1574,14 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.w3.org/ns/ssn/implements",
-          "name": "implements",
-          "sort": "implements",
+          "uri": "http://www.w3.org/ns/sosa/madeObservation",
+          "name": "madeObservation",
+          "sort": "madeObservation",
           "label": {
-            "en": "implements"
+            "en": "madeObservation"
           },
           "description": {
-            "en": "ObservationProcedure that is implemented by the Sensor."
+            "en": "Observation made by the Sensor."
           },
           "usage": {},
           "domain": [
@@ -1592,20 +1592,20 @@
           ],
           "range": [
             {
-              "range_label": "ObservationProcedure",
-              "range_uri": "http://www.w3.org/ns/sosa/om#ObservationProcedure"
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#ObservationProcedure",
-              "range_puri": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
               "range_label": {
-                "en": "ObservationProcedure"
+                "en": "Observation"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..*",
           "codelist_uri": ""
         }
       ]
@@ -1641,14 +1641,14 @@
       ],
       "properties": [
         {
-          "uri": "http://www.w3.org/ns/ssn/implementedBy",
-          "name": "implementedBy",
-          "sort": "implementedBy",
+          "uri": "https://purl.eu/ns/air-and-water/core#ObservationProcedure.type",
+          "name": "type",
+          "sort": "type",
           "label": {
-            "en": "implementedBy"
+            "en": "type"
           },
           "description": {
-            "en": "Sensor that implements the Procedure in some executable way."
+            "en": "General type of the Procedure that was followed to make the Observation."
           },
           "usage": {},
           "domain": [
@@ -1659,16 +1659,16 @@
           ],
           "range": [
             {
-              "range_label": "Sensor",
-              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
+              "range_label": "ObservationProcedureType",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Sensor",
-              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "Sensor"
+                "en": "ObservationProcedureType"
               }
             }
           ],
@@ -1711,14 +1711,14 @@
           "codelist_uri": ""
         },
         {
-          "uri": "https://purl.eu/ns/air-and-water/core#ObservationProcedure.type",
-          "name": "type",
-          "sort": "type",
+          "uri": "http://www.w3.org/ns/ssn/implementedBy",
+          "name": "implementedBy",
+          "sort": "implementedBy",
           "label": {
-            "en": "type"
+            "en": "implementedBy"
           },
           "description": {
-            "en": "General type of the Procedure that was followed to make the Observation."
+            "en": "Sensor that implements the Procedure in some executable way."
           },
           "usage": {},
           "domain": [
@@ -1729,16 +1729,16 @@
           ],
           "range": [
             {
-              "range_label": "ObservationProcedureType",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+              "range_label": "Sensor",
+              "range_uri": "http://www.w3.org/ns/sosa/Sensor"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_uri": "#Sensor",
+              "range_puri": "http://www.w3.org/ns/sosa/Sensor",
               "range_label": {
-                "en": "ObservationProcedureType"
+                "en": "Sensor"
               }
             }
           ],
@@ -2266,14 +2266,14 @@
       ],
       "properties": [
         {
-          "uri": "https://saref.etsi.org/core/accomplishes",
-          "name": "task",
-          "sort": "task",
+          "uri": "https://saref.etsi.org/core/hasModel",
+          "name": "model",
+          "sort": "model",
           "label": {
-            "en": "task"
+            "en": "model"
           },
           "description": {
-            "en": "Task that the Device was designed to accomplish."
+            "en": "Name of the model of the Device."
           },
           "usage": {},
           "domain": [
@@ -2284,55 +2284,20 @@
           ],
           "range": [
             {
-              "range_label": "Task",
-              "range_uri": "https://saref.etsi.org/core/Task"
+              "range_label": "LangString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Task",
-              "range_puri": "https://saref.etsi.org/core/Task",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
               "range_label": {
-                "en": "Task"
+                "en": "LangString"
               }
             }
           ],
-          "cardinality": "1..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://saref.etsi.org/core/hasFunction",
-          "name": "function",
-          "sort": "function",
-          "label": {
-            "en": "function"
-          },
-          "description": {
-            "en": "Function that the Device can perform to accomplish a Task."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Device",
-              "uri": "https://saref.etsi.org/core/Device"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Function",
-              "range_uri": "https://saref.etsi.org/core/Function"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Function",
-              "range_puri": "https://saref.etsi.org/core/Function",
-              "range_label": {
-                "en": "Function"
-              }
-            }
-          ],
-          "cardinality": "1..*",
+          "cardinality": "0..1",
           "codelist_uri": ""
         },
         {
@@ -2371,14 +2336,14 @@
           "codelist_uri": ""
         },
         {
-          "uri": "https://saref.etsi.org/core/hasModel",
-          "name": "model",
-          "sort": "model",
+          "uri": "https://saref.etsi.org/core/hasFunction",
+          "name": "function",
+          "sort": "function",
           "label": {
-            "en": "model"
+            "en": "function"
           },
           "description": {
-            "en": "Name of the model of the Device."
+            "en": "Function that the Device can perform to accomplish a Task."
           },
           "usage": {},
           "domain": [
@@ -2389,20 +2354,55 @@
           ],
           "range": [
             {
-              "range_label": "LangString",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+              "range_label": "Function",
+              "range_uri": "https://saref.etsi.org/core/Function"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_uri": "#Function",
+              "range_puri": "https://saref.etsi.org/core/Function",
               "range_label": {
-                "en": "LangString"
+                "en": "Function"
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://saref.etsi.org/core/accomplishes",
+          "name": "task",
+          "sort": "task",
+          "label": {
+            "en": "task"
+          },
+          "description": {
+            "en": "Task that the Device was designed to accomplish."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Device",
+              "uri": "https://saref.etsi.org/core/Device"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Task",
+              "range_uri": "https://saref.etsi.org/core/Task"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Task",
+              "range_puri": "https://saref.etsi.org/core/Task",
+              "range_label": {
+                "en": "Task"
+              }
+            }
+          ],
+          "cardinality": "1..*",
           "codelist_uri": ""
         }
       ]
@@ -2451,14 +2451,14 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://www.w3.org/ns/sosa/isHostedBy",
-          "name": "isHostedBy",
-          "sort": "isHostedBy",
+          "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "name": "hasSystemCapability",
+          "sort": "hasSystemCapability",
           "label": {
-            "en": "isHostedBy"
+            "en": "hasSystemCapability"
           },
           "description": {
-            "en": "Platform on which the System is mounted on or hosted by."
+            "en": "Capability of the System."
           },
           "usage": {},
           "domain": [
@@ -2469,51 +2469,16 @@
           ],
           "range": [
             {
-              "range_label": "Platform",
-              "range_uri": "http://www.w3.org/ns/sosa/Platform"
+              "range_label": "SystemCapability",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Platform",
-              "range_puri": "http://www.w3.org/ns/sosa/Platform",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
               "range_label": {
-                "en": "Platform"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
-          "name": "hasOperatingRange",
-          "sort": "hasOperatingRange",
-          "label": {
-            "en": "hasOperatingRange"
-          },
-          "description": {
-            "en": "OperatingRange of the System."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "System",
-              "uri": "https://www.w3.org/TR/vocab-ssn/#ssn-system"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "OperatingRange",
-              "range_uri": "http://www.w3.org/ns/ssn/systems/OperatingRange"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/ns/ssn/systems/OperatingRange",
-              "range_puri": "http://www.w3.org/ns/ssn/systems/OperatingRange",
-              "range_label": {
-                "en": "OperatingRange"
+                "en": "SystemCapability"
               }
             }
           ],
@@ -2556,14 +2521,14 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-          "name": "hasSystemCapability",
-          "sort": "hasSystemCapability",
+          "uri": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+          "name": "hasOperatingRange",
+          "sort": "hasOperatingRange",
           "label": {
-            "en": "hasSystemCapability"
+            "en": "hasOperatingRange"
           },
           "description": {
-            "en": "Capability of the System."
+            "en": "OperatingRange of the System."
           },
           "usage": {},
           "domain": [
@@ -2574,16 +2539,51 @@
           ],
           "range": [
             {
-              "range_label": "SystemCapability",
-              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+              "range_label": "OperatingRange",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/OperatingRange"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
-              "range_puri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/OperatingRange",
               "range_label": {
-                "en": "SystemCapability"
+                "en": "OperatingRange"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/isHostedBy",
+          "name": "isHostedBy",
+          "sort": "isHostedBy",
+          "label": {
+            "en": "isHostedBy"
+          },
+          "description": {
+            "en": "Platform on which the System is mounted on or hosted by."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "System",
+              "uri": "https://www.w3.org/TR/vocab-ssn/#ssn-system"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Platform",
+              "range_uri": "http://www.w3.org/ns/sosa/Platform"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Platform",
+              "range_puri": "http://www.w3.org/ns/sosa/Platform",
+              "range_label": {
+                "en": "Platform"
               }
             }
           ],
@@ -2708,17 +2708,17 @@
       "parents": [],
       "properties": [
         {
-          "uri": "http://www.opengis.net/ont/geosparql#asGML",
-          "name": "asGML",
-          "sort": "asGML",
+          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+          "name": "asWKT",
+          "sort": "asWKT",
           "label": {
-            "en": "asGML"
+            "en": "asWKT"
           },
           "description": {
-            "en": "Geometry expressed in GML format."
+            "en": "Geometry expressed in WKT format"
           },
           "usage": {
-            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
+            "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
           },
           "domain": [
             {
@@ -2745,17 +2745,17 @@
           "codelist_uri": ""
         },
         {
-          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-          "name": "asWKT",
-          "sort": "asWKT",
+          "uri": "http://www.opengis.net/ont/geosparql#asGML",
+          "name": "asGML",
+          "sort": "asGML",
           "label": {
-            "en": "asWKT"
+            "en": "asGML"
           },
           "description": {
-            "en": "Geometry expressed in WKT format"
+            "en": "Geometry expressed in GML format."
           },
           "usage": {
-            "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
+            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
           },
           "domain": [
             {

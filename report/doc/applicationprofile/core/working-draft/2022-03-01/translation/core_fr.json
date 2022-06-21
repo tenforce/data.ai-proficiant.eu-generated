@@ -8,15 +8,15 @@
       "name": "GenericName",
       "label": {
         "en": "GenericName",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Abstract class of all names in a Namespace.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -24,15 +24,15 @@
       "name": "Any",
       "label": {
         "en": "Any",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Represents instances of any type.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "To be substituted by a suitable concrete class, datatype...",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -40,15 +40,15 @@
       "name": "TM_Object",
       "label": {
         "en": "TM_Object",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Abstract temporal class.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "In practice, usually takes the form of temporal primitives like Moment or Period (resp represented by a Date/DateTime or two Dates/DateTimes, one for the beginning of the Period, one for the end of the Period). For a more detailed description of this class see ISO 19108.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -56,11 +56,11 @@
       "name": "PropertyType",
       "label": {
         "en": "PropertyType",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Characteristic common to a class of Objects.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -68,11 +68,11 @@
       "name": "CI_ResponsibleParty",
       "label": {
         "en": "CI_ResponsibleParty",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -80,11 +80,11 @@
       "name": "Metadata",
       "label": {
         "en": "Metadata",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Metadata is data that contains information about data.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -92,15 +92,15 @@
       "name": "Observation",
       "label": {
         "en": "Observation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The determination of the value of a particular characteristic of an Object at a given time or between two times.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "These are estimates of the value, in other words there is a certain margin of error on the value. Examples are temperature, classification, color. This is different from values that have been assigned and are therefore not estimates, such as name or price.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -108,11 +108,11 @@
       "name": "Process",
       "label": {
         "en": "Process",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A series of actions or steps leading to some result.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -120,11 +120,11 @@
       "name": "ObservationContext",
       "label": {
         "en": "ObservationContext",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Additional properties of the association associatedObservation of the class Observation with itself.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -132,11 +132,11 @@
       "name": "Repeatability",
       "label": {
         "en": "Repeatability",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "TODO",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -144,11 +144,11 @@
       "name": "Agent",
       "label": {
         "en": "Agent",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Someone or something that can act or has the power to act.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -156,11 +156,11 @@
       "name": "Identifier",
       "label": {
         "en": "Identifier",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Information used to uniquely identify an object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -168,11 +168,11 @@
       "name": "Geometry",
       "label": {
         "en": "Geometry",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -180,15 +180,15 @@
       "name": "Location",
       "label": {
         "en": "Location",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -196,11 +196,11 @@
       "name": "ObservationCollection",
       "label": {
         "en": "ObservationCollection",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A collection of one or more observations, whose members share a common value for one or more properties.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -208,11 +208,11 @@
       "name": "Platform",
       "label": {
         "en": "Platform",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers or other Platforms.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -220,11 +220,11 @@
       "name": "Procedure",
       "label": {
         "en": "Procedure",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An established or official way of doing something.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -232,15 +232,15 @@
       "name": "Sensor",
       "label": {
         "en": "Sensor",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure to make an Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Sensors respond to a stimulus, eg a change in the environment, or Input data composed from the results of prior Observations, and generate a result. Sensors can be hosted by Platforms. Examples: accelerometers, gyroscopes, barameters, magnetometers etc, typically mounted on a smartphone (which acts as Platform). Other examples include the human eyes.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -248,15 +248,15 @@
       "name": "ObservationProcedure",
       "label": {
         "en": "ObservationProcedure",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "The procedure explains the steps to be carried out to arrive at reproducible results. It is reusable and might be involved in many Observations.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -264,11 +264,11 @@
       "name": "Accuracy",
       "label": {
         "en": "Accuracy",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The closeness of agreement between the Result of an Observation (resp. the command of an Actuation) and the true value of the observed ObservableProperty (resp. of the acted on ActuatableProperty) under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -276,11 +276,11 @@
       "name": "DetectionLimit",
       "label": {
         "en": "DetectionLimit",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An observed value for which the probability of falsely claiming the absence of a component in a material is beta, given a probability alpha of falsely claiming its presence.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -288,11 +288,11 @@
       "name": "Drift",
       "label": {
         "en": "Drift",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A continuous or incremental change in the reported values of Observations over time for an unchanging Property under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -300,11 +300,11 @@
       "name": "Frequency",
       "label": {
         "en": "Frequency",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The smallest possible time between one Observation, Actuation, or Sampling and the next, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -312,11 +312,11 @@
       "name": "Latency",
       "label": {
         "en": "Latency",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The time between a command for an Observation (resp. Actuation) and the Sensor providing a Result (resp. the Actuator operating the Actuation), under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -324,11 +324,11 @@
       "name": "MeasurementRange",
       "label": {
         "en": "MeasurementRange",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The set of values that the Sensor can return as the Result of an Observation under the defined Conditions with the defined system properties.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -336,11 +336,11 @@
       "name": "Precision",
       "label": {
         "en": "Precision",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The closeness of agreement between replicate Observations on an unchanged or similar quality value: i.e., a measure of a Sensor's ability to consistently reproduce an Observation, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -348,11 +348,11 @@
       "name": "Resolution",
       "label": {
         "en": "Resolution",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The smallest difference in the value of a ObservableProperty being observed that would result in perceptably different values of Observation Results, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -360,11 +360,11 @@
       "name": "ResponseTime",
       "label": {
         "en": "ResponseTime",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The time between a (step) change in the value of an observed ObservableProperty and a Sensor (possibly with specified error) 'settling' on an observed value, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -372,11 +372,11 @@
       "name": "Selectivity",
       "label": {
         "en": "Selectivity",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Selectivity is a Property of a Sensor whereby it provides observed values for one or more ObservableProperties such that the Result for each ObservableProperty are independent of other Properties in the FeatureOfInterest being investigated, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -384,11 +384,11 @@
       "name": "Sensitivity",
       "label": {
         "en": "Sensitivity",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Sensitivity is the quotient of the change in a Result of Observations and the corresponding change in a value of an ObservableProperty being observed, under the defined Conditions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -396,15 +396,15 @@
       "name": "SystemProperty",
       "label": {
         "en": "SystemProperty",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An identifiable and observable characteristic that represents the System's ability to operate its primary purpose.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "For example the Systems' Accuracy, Sensitivity, ResponseTime. The pimary purpose for a Sensor is to make Observations, for a Sampler to execute Sampling.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -412,15 +412,15 @@
       "name": "Feature",
       "label": {
         "en": "Feature",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Features are abstractions of real-world phenomena.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "An equivalent term is Object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -428,15 +428,15 @@
       "name": "CategoryObservation",
       "label": {
         "en": "CategoryObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of a class an Object belongs to.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the taxon of a Plant. Result is a ScopedName. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -444,15 +444,15 @@
       "name": "ComplexObservation",
       "label": {
         "en": "ComplexObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of a characteristic of an Object that produces a structured result.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the composition of a SoilSample. Result is a Record. For a more detailed description see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -460,15 +460,15 @@
       "name": "CountObservation",
       "label": {
         "en": "CountObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of some countable characteristic of an Object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the number of votes in an Election. Result is of type Integer. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -476,15 +476,15 @@
       "name": "GeometryObservation",
       "label": {
         "en": "GeometryObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of the form and/or location of an Object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the perimeter of a Plot. Result is of type Geometry. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -492,15 +492,15 @@
       "name": "Measurement",
       "label": {
         "en": "Measurement",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of some quantifiable characteristic of an Object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the mass of a Rock. Result is of type Measure. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -508,15 +508,15 @@
       "name": "NamedValue",
       "label": {
         "en": "NamedValue",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Generic soft-typed value.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -524,15 +524,15 @@
       "name": "PointCoverageObservation",
       "label": {
         "en": "PointCoverageObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation about how some characteristic of an Object varies for different points in space.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the temperature in different MeasuringStations. Result is of type DiscreetTimeInstantCoverage. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -540,15 +540,15 @@
       "name": "TemporalObservation",
       "label": {
         "en": "TemporalObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation of the timeframe in which an Object occurs.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the duration of a Sprint. Result is of type TM_Object. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -556,15 +556,15 @@
       "name": "TimeSeriesObservation",
       "label": {
         "en": "TimeSeriesObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation about how some characteristic of an Object varies for different points in time.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg the temperature in a MeasurementStation at different times during the day. Result is of type DiscreetTimeInstantCoverage. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -572,15 +572,15 @@
       "name": "TruthObservation",
       "label": {
         "en": "TruthObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation if something is true or false about an Object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg occurence of Fossiles. Result is of type Boolean. For a more detailed description of this class see ISO 19156.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -588,11 +588,11 @@
       "name": "Device",
       "label": {
         "en": "Device",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A tangible object designed to perform a particular Task.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -600,11 +600,11 @@
       "name": "Function",
       "label": {
         "en": "Function",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The functionality necessary to accomplish the Task for which a device is designed.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -612,11 +612,11 @@
       "name": "Task",
       "label": {
         "en": "Task",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The goal for which a Device is designed (from a user perspective).",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -624,15 +624,15 @@
       "name": "System",
       "label": {
         "en": "System",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "System is a unit of abstraction for pieces of infrastructure that implement Procedures.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "A System may have components, it's subsystems, which are other Systems. Examples of Systems are Sensors, Samplers",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     }
   ],
@@ -642,11 +642,11 @@
       "name": "model",
       "label": {
         "en": "model",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Name of the model of the Device.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -654,11 +654,11 @@
       "name": "manufacturer",
       "label": {
         "en": "manufacturer",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Name of the manufacturer of the Device.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -666,11 +666,11 @@
       "name": "function",
       "label": {
         "en": "function",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Function that the Device can perform to accomplish a Task.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -678,11 +678,11 @@
       "name": "task",
       "label": {
         "en": "task",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Task that the Device was designed to accomplish.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -698,11 +698,11 @@
       "name": "type",
       "label": {
         "en": "type",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "General type of the Procedure that was followed to make the Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -710,11 +710,11 @@
       "name": "specification",
       "label": {
         "en": "specification",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Reference to the specification that describes the Procedure that was followed to make the Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -722,11 +722,11 @@
       "name": "parameter",
       "label": {
         "en": "parameter",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A parameter from the Observation that the Observations in the collection have in common.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -734,11 +734,11 @@
       "name": "metadata",
       "label": {
         "en": "metadata",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Metadata that the members of the collection have in common.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -746,11 +746,11 @@
       "name": "hasSystemCapability",
       "label": {
         "en": "hasSystemCapability",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Capability of the System.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -758,11 +758,11 @@
       "name": "hasSurvivalRange",
       "label": {
         "en": "hasSurvivalRange",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "SurvivalRange of the System.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -770,11 +770,11 @@
       "name": "hasOperatingRange",
       "label": {
         "en": "hasOperatingRange",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "OperatingRange of the System.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -782,11 +782,11 @@
       "name": "implements",
       "label": {
         "en": "implements",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "ObservationProcedure that is implemented by the Sensor.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -794,11 +794,11 @@
       "name": "implementedBy",
       "label": {
         "en": "implementedBy",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Sensor that implements the Procedure in some executable way.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -806,11 +806,11 @@
       "name": "usedProcedure",
       "label": {
         "en": "usedProcedure",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Reference to the Procedure by which the result of the Observation is obtained.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -818,11 +818,11 @@
       "name": "usedProcedure",
       "label": {
         "en": "usedProcedure",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The usedProcedure of the Observations in the collection.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -830,11 +830,11 @@
       "name": "resultTime",
       "label": {
         "en": "resultTime",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The resultTime of the Observation that the Observations in the collection have in common.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -842,11 +842,11 @@
       "name": "phenomenonTime",
       "label": {
         "en": "phenomenonTime",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The phenomenonTime of the Observation that the Obser(vations in the collection have in common.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -854,11 +854,11 @@
       "name": "observes",
       "label": {
         "en": "observes",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Type of Property that the Sensor is capable of sensing.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -866,11 +866,11 @@
       "name": "observedProperty",
       "label": {
         "en": "observedProperty",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The property that was observed by the Observations in the collection.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -878,11 +878,11 @@
       "name": "madeObservation",
       "label": {
         "en": "madeObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation made by the Sensor.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -890,11 +890,11 @@
       "name": "madeBySensor",
       "label": {
         "en": "madeBySensor",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Relation between an Observation and the Sensor which made the Observations.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -902,11 +902,11 @@
       "name": "madeBySensor",
       "label": {
         "en": "madeBySensor",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The Sensor by which the Observations in the collection were made.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -914,11 +914,11 @@
       "name": "isObservedBy",
       "label": {
         "en": "isObservedBy",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Relation between a PropertyType and the Sensor able to observe it.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -926,11 +926,11 @@
       "name": "isHostedBy",
       "label": {
         "en": "isHostedBy",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Platform on which the System is mounted on or hosted by.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -938,15 +938,15 @@
       "name": "hosts",
       "label": {
         "en": "hosts",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "System that is hosted by the Platform..",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Eg a Sensor, a Sampler.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -954,11 +954,11 @@
       "name": "hasUltimateFeatureOfInterest",
       "label": {
         "en": "hasUltimateFeatureOfInterest",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Link to the ultimate featureOfInterest of an Observation. This is useful when the proximate featureOfInterest is a Sample of the ultimateFeatureOfInterest, directly or transitively.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -966,11 +966,11 @@
       "name": "hasUltimateFeatureOfInterest",
       "label": {
         "en": "hasUltimateFeatureOfInterest",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The Feature that the Observations in the collection have in common as ultimateFeatureOfInterest.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -978,11 +978,11 @@
       "name": "hasSimpleResult",
       "label": {
         "en": "hasSimpleResult",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The simple value of an Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -990,11 +990,11 @@
       "name": "hasMember",
       "label": {
         "en": "hasMember",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observation that belongs to the collection.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1002,11 +1002,11 @@
       "name": "hasFeatureOfInterest",
       "label": {
         "en": "hasFeatureOfInterest",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The Feature that the Observations in the collection have in common as featureOfInterest.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1014,15 +1014,15 @@
       "name": "identifier",
       "label": {
         "en": "identifier",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "String used to uniquely identify the object.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1030,15 +1030,15 @@
       "name": "asWKT",
       "label": {
         "en": "asWKT",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Geometry expressed in WKT format",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1046,15 +1046,15 @@
       "name": "asGML",
       "label": {
         "en": "asGML",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Geometry expressed in GML format.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1062,11 +1062,11 @@
       "name": "title",
       "label": {
         "en": "title",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "A name given to the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1074,11 +1074,11 @@
       "name": "subject",
       "label": {
         "en": "subject",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The topic of the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1086,11 +1086,11 @@
       "name": "rights",
       "label": {
         "en": "rights",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Information about rights held in and over the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1098,11 +1098,11 @@
       "name": "publisher",
       "label": {
         "en": "publisher",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An entity responsible for making the resource available.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1110,11 +1110,11 @@
       "name": "identifier",
       "label": {
         "en": "identifier",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An unambiguous reference to the resource within a given context.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1122,11 +1122,11 @@
       "name": "description",
       "label": {
         "en": "description",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An account of the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1134,11 +1134,11 @@
       "name": "creator",
       "label": {
         "en": "creator",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An entity primarily responsible for making the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1146,11 +1146,11 @@
       "name": "contributor",
       "label": {
         "en": "contributor",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "An entity responsible for making contributions to the resource.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1158,15 +1158,15 @@
       "name": "role",
       "label": {
         "en": "role",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Nature of the relationship between the two Observations.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Role that Observation A fulfills relative to Observation B, eg B processes the result of A or B is dependant on the result of A.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1174,15 +1174,15 @@
       "name": "relatedObservation",
       "label": {
         "en": "relatedObservation",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Observations of which the results are related in one way or another",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "It is about a relation that is important to understand the result of an individual Observation, eg a biotic relation (animal A is a predator and is present because animal B occurs as prey). Such relationships require to be explicitly described (as opposed to relationships as the coincidence of results of Observations in space and time, which are allowed to remain implicit). Also useful for relationships where the output of Observation A is the input for Observation B.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1190,15 +1190,15 @@
       "name": "result",
       "label": {
         "en": "result",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The value of the observedProperty as a result of the Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1206,15 +1206,15 @@
       "name": "resultTime",
       "label": {
         "en": "resultTime",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Time when the result of the Observation was obtained.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1222,15 +1222,15 @@
       "name": "resultQuality",
       "label": {
         "en": "resultQuality",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The extent to which the result of the Observation meets the requirements or expectatrions.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "This concerns data that are specific to the Observation and complementary to the description of the procedure followed during the Observation (analysis method and aloke, see Process class), which in itself says something about the quality of the result.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1238,15 +1238,15 @@
       "name": "phenomenonTime",
       "label": {
         "en": "phenomenonTime",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "The moment when the result of the Observation was applicable.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Typically the moment when observed or sampled. If the Observation is temporal and the moment at which something takes place is registered, then this is also the phenomenon time.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1254,15 +1254,15 @@
       "name": "parameter",
       "label": {
         "en": "parameter",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Any data related to the Observation as an activity.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "This is not about properties of the featureOfInterest (these are already described by the observedProperty) or parameters associated with the observation process (like an instrument setting). This is rather about, for example, environmental parameters that can influence the result and are important for correctly interpreting the result. An example is the depth in a well at which the water quality was measured or the ambient temperature when humidity was measured.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1270,15 +1270,15 @@
       "name": "observedProperty",
       "label": {
         "en": "observedProperty",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Characteristic that one observes of the featureOfInterest.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1286,11 +1286,11 @@
       "name": "metadata",
       "label": {
         "en": "metadata",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Link to the Metadata of the Observation.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -1298,15 +1298,15 @@
       "name": "featureOfInterest",
       "label": {
         "en": "featureOfInterest",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Object that is observed.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       },
       "usage": {
         "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy.",
-        "nl": "Enter your translation here"
+        "fr": "Enter your translation here"
       }
     }
   ]

@@ -214,6 +214,78 @@
     ],
     "properties": [
         {
+            "@id": "https://data.ai-proficiant.eu/ns#volume",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "the volume in m2",
+            "inpackage": "ACTIVE_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "the volume in m2"
+            },
+            "label": {
+                "en": "the volume in m2"
+            },
+            "extra": {
+                "EA-Name": "volume",
+                "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
+                "EA-Package": "manufacturing",
+                "EA-Type": "attribute",
+                "EA-Domain": "Bag",
+                "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+                "EA-Range": "Double",
+                "RangeData": {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                },
+                "label": {
+                    "en": "the volume in m2"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-en": {
+                    "en": "the volume in m2"
+                },
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "volume",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "the volume in m2",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficiant.eu/ns#Bag",
+                    "EA-Name": "Bag"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Double",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#double"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
             "@id": "https://data.ai-proficiant.eu/ns#size",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "size",
@@ -277,78 +349,6 @@
                     {
                         "key": "literal",
                         "value": "true",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "FULL_DEFINITON"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://data.ai-proficiant.eu/ns#Bag",
-                    "EA-Name": "Bag"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Double",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2001/XMLSchema#double"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "https://data.ai-proficiant.eu/ns#volume",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "the volume in m2",
-            "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "TODO"
-            },
-            "ap-label-en": {
-                "en": "the volume in m2"
-            },
-            "label": {
-                "en": "the volume in m2"
-            },
-            "extra": {
-                "EA-Name": "volume",
-                "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
-                "EA-Package": "manufacturing",
-                "EA-Type": "attribute",
-                "EA-Domain": "Bag",
-                "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-                "EA-Range": "Double",
-                "RangeData": {
-                    "EA-Name": "Double",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2001/XMLSchema#double"
-                },
-                "label": {
-                    "en": "the volume in m2"
-                },
-                "definition": "",
-                "usage": "",
-                "ap-label-en": {
-                    "en": "the volume in m2"
-                },
-                "ap-definition-en": {
-                    "en": "TODO"
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "ap-label-en",
-                        "value": "volume",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-label-en",
-                        "value": "the volume in m2",
                         "note": "null"
                     }
                 ],
@@ -459,14 +459,14 @@
     ],
     "toolchainversion": "2",
     "config": "config/config-ap.json",
-    "note": "This publication point is acctually obsolete",
-    "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
-    "repository": "https://github.com/tenforce/ai-proficient-thema",
     "branchtag": "95b43053a6c7917267b455ccb1f496667e69d10c",
+    "dummy": "22",
     "filename": "config/manufacturing.json",
     "navigation": {},
-    "dummy": "22",
+    "note": "This publication point is acctually obsolete",
+    "repository": "https://github.com/tenforce/ai-proficient-thema",
+    "urlref": "/doc/applicationprofile/manufacturing/working-draft/2021-07-01",
     "documentcommit": "95b43053a6c7917267b455ccb1f496667e69d10c",
-    "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
-    "hostname": "https://data.ai-proficiant.eu"
+    "toolchaincommit": "9eb96feba64c8f0d15cdd2226d418d713f405ac3",
+    "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

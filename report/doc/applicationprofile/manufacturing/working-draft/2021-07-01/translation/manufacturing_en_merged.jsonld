@@ -281,7 +281,7 @@
   },
   "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
   "filename": "config/manufacturing.json",
-  "hostname": "https://data.ai-proficiant.eu",
+  "hostname": "https://tenforce.github.io/data.ai-proficiant.eu",
   "issued": "TODO",
   "label": {
     "en": "manufacturing",
@@ -292,6 +292,79 @@
   "navigation": {},
   "note": "This publication point is acctually obsolete",
   "properties": [
+    {
+      "@id": "https://data.ai-proficiant.eu/ns#volume",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "the volume in m2"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Bag",
+          "uri": "https://data.ai-proficiant.eu/ns#Bag"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Bag",
+        "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
+        "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
+        "EA-Name": "volume",
+        "EA-Package": "manufacturing",
+        "EA-Range": "Double",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Double",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#double"
+        },
+        "RawTags": [
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "volume"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "the volume in m2"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "the volume in m2"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "the volume in m2"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "the volume in m2"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "the volume in m2",
+      "range": [
+        {
+          "EA-Name": "Double",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      ]
+    },
     {
       "@id": "https://data.ai-proficiant.eu/ns#size",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
@@ -379,79 +452,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#double"
         }
       ]
-    },
-    {
-      "@id": "https://data.ai-proficiant.eu/ns#volume",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "the volume in m2"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Bag",
-          "uri": "https://data.ai-proficiant.eu/ns#Bag"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Bag",
-        "EA-Domain-Guid": "{D60B7001-A563-491b-ABC0-AD6F865BE2BA}",
-        "EA-Guid": "{EED89ED1-6B94-4e53-A4CA-154EF6F75AE9}",
-        "EA-Name": "volume",
-        "EA-Package": "manufacturing",
-        "EA-Range": "Double",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
-        },
-        "RawTags": [
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "volume"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "the volume in m2"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "the volume in m2"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "the volume in m2"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "the volume in m2"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "the volume in m2",
-      "range": [
-        {
-          "EA-Name": "Double",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#double"
-        }
-      ]
     }
   ],
   "publication-date": "2021-08-31",
@@ -460,7 +460,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "Manufacturing application profile",
-  "toolchaincommit": "95e8388109332a234fbbe233e329ef3497f78608",
+  "toolchaincommit": "9eb96feba64c8f0d15cdd2226d418d713f405ac3",
   "toolchainversion": "2",
   "translation": [
     {

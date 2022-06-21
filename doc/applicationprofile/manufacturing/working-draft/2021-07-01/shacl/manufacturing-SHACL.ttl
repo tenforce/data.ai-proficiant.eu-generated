@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01> rdfs:member <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BatchShape> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/145dc07f44ff251a54099fac73b757b6af9674d2>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/513b52781499adbcff39c3009e0071bdaaa48d11>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/55d83a828d0c6a678bfbd6190066ec246386238c>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/66f3203284d94d9695f66668e82384a9409bad61>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/b2fa28885393ee1205d3624299976c21e3d2a4a7>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/b72bdc3c9470f6cb2d50e7c785e51348495caf52>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/defb1babd6e6408ce16f108d1331ec98cb59c829>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/eae4a65c21acb2f7cdb050658d0af3292574683a>;
+  shacl:targetClass <https://data.ai-proficiant.eu/ns#Bag> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/145dc07f44ff251a54099fac73b757b6af9674d2> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Asize";
+  shacl:description "The volume the bag can hold in m2 "@en;
+  shacl:minCount 1;
+  shacl:name "size"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#size>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "Minimaal 1 waarden verwacht voor size"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/513b52781499adbcff39c3009e0071bdaaa48d11> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Athe%20volume%20in%20m2";
+  shacl:name "the volume in m2"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://data.ai-proficiant.eu/ns#volume>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "De verwachte waarde voor the volume in m2 is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/55d83a828d0c6a678bfbd6190066ec246386238c> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Athe%20volume%20in%20m2";
+  shacl:maxCount 1;
+  shacl:name "the volume in m2"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#volume>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "Maximaal 1 waarden toegelaten voor the volume in m2"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/66f3203284d94d9695f66668e82384a9409bad61> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Asize";
+  shacl:datatype xsd:double;
+  shacl:description "The volume the bag can hold in m2 "@en;
+  shacl:name "size"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#size>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "De range van size moet van het type <http://www.w3.org/2001/XMLSchema#double> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/b2fa28885393ee1205d3624299976c21e3d2a4a7> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Asize";
+  shacl:description "The volume the bag can hold in m2 "@en;
+  shacl:maxCount 1;
+  shacl:name "size"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#size>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "Maximaal 1 waarden toegelaten voor size"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/b72bdc3c9470f6cb2d50e7c785e51348495caf52> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Athe%20volume%20in%20m2";
+  shacl:minCount 1;
+  shacl:name "the volume in m2"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#volume>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "Minimaal 1 waarden verwacht voor the volume in m2"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/defb1babd6e6408ce16f108d1331ec98cb59c829> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Asize";
+  shacl:description "The volume the bag can hold in m2 "@en;
+  shacl:name "size"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://data.ai-proficiant.eu/ns#size>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "De verwachte waarde voor size is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BagShape/eae4a65c21acb2f7cdb050658d0af3292574683a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#Bag%3Athe%20volume%20in%20m2";
+  shacl:datatype xsd:double;
+  shacl:name "the volume in m2"@en;
+  shacl:path <https://data.ai-proficiant.eu/ns#volume>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01en> "De range van the volume in m2 moet van het type <http://www.w3.org/2001/XMLSchema#double> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/manufacturing/working-draft/2021-07-01#BatchShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://saref.etsi.org/saref4inma/Batch> .

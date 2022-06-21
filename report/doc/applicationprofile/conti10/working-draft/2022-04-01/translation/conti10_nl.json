@@ -199,13 +199,17 @@
     },
     {
       "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
-      "name": ""
+      "name": "Unit",
+      "label": {
+        "en": "Unit",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
-      "name": "Identifier",
+      "name": "identifier",
       "label": {
-        "en": "Identifier",
+        "en": "identifier",
         "nl": "Enter your translation here"
       },
       "definition": {
@@ -471,31 +475,63 @@
     },
     {
       "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
-      "name": ""
+      "name": "Compound Name Observation",
+      "label": {
+        "en": "Compound Name Observation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation of the Compound name",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
-      "name": ""
+      "name": "Meterweight Measurement",
+      "label": {
+        "en": "Meterweight Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
-      "name": ""
+      "name": "Piece Weight Measurement",
+      "label": {
+        "en": "Piece Weight Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
-      "name": ""
+      "name": "Pressure Measurement",
+      "label": {
+        "en": "Pressure Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
-      "name": ""
+      "name": "Schrinking Speed Measurement",
+      "label": {
+        "en": "Schrinking Speed Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
-      "name": ""
+      "name": "Screw Speed Measurement",
+      "label": {
+        "en": "Screw Speed Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
-      "name": ""
+      "name": "Status Observation",
+      "label": {
+        "en": "Status Observation",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
@@ -507,7 +543,11 @@
     },
     {
       "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
-      "name": ""
+      "name": "Tread Measurement",
+      "label": {
+        "en": "Tread Measurement",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{4183A92E-D715-4cf0-9D05-8882A58CEC59}",
@@ -727,6 +767,10 @@
       "label": {
         "en": "Factory",
         "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The facility in which goods are produced or processed",
+        "nl": "Enter your translation here"
       }
     },
     {
@@ -734,6 +778,10 @@
       "name": "ProductionEquipment",
       "label": {
         "en": "ProductionEquipment",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A phyical mean used in the production process of goods.",
         "nl": "Enter your translation here"
       }
     },
@@ -776,6 +824,10 @@
       "name": "contains",
       "label": {
         "en": "contains",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "production equiment present at the factory",
         "nl": "Enter your translation here"
       }
     },
@@ -829,15 +881,47 @@
     },
     {
       "EA-Guid": "{2F84ED6F-C5B9-4fd8-95CC-6630E8BB1F5F}",
-      "name": ""
+      "name": "value",
+      "label": {
+        "en": "value",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value measured, shared, ",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9BE3F175-E402-4acc-BD8E-020F89719A2C}",
-      "name": ""
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The unit identified using the unit textual acronym",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9ED0BD02-7BCC-4d0c-87E6-7272FB1B8C49}",
-      "name": ""
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The unit identified using a standard unit code",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "Derived:{C68FE5B1-51F8-477c-81AD-4D9CB090D27D}->{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
@@ -1341,11 +1425,27 @@
     },
     {
       "EA-Guid": "{97B2326A-BD54-4751-BAFC-479FC7F20643}",
-      "name": ""
+      "name": "located at",
+      "label": {
+        "en": "located at",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a place where the sensor is located",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{8D8C82AC-E29F-4bcd-A732-EC74F5F975D2}",
-      "name": ""
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a unique reference to identify a sensor",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",

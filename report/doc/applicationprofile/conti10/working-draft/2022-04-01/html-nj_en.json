@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/747385950fd7721c8a2dc44c3c4cb77d29166945",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/747385950fd7721c8a2dc44c3c4cb77d29166945/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/9b0e68f389609a444276e8cf04f179c6de5f53ce",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/9b0e68f389609a444276e8cf04f179c6de5f53ce/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -114,10 +114,14 @@
       "properties": [
         {
           "uri": "https://purl.eu/ns/observations#value",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value measured, shared, "
+          },
           "usage": {},
           "domain": [
             {
@@ -145,11 +149,17 @@
         },
         {
           "uri": "https://purl.eu/ns/observations#unitText",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
           "domain": [
             {
               "EA-Name": "Any",
@@ -176,11 +186,17 @@
         },
         {
           "uri": "https://purl.eu/ns/observations#standardUnit",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
           "domain": [
             {
               "EA-Name": "Any",
@@ -451,10 +467,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Identifier",
+              "range_uri": "#identifier",
               "range_puri": "http://fixme.com#Identifier",
               "range_label": {
-                "en": "Identifier"
+                "en": "identifier"
               }
             }
           ],
@@ -1222,9 +1238,11 @@
     },
     {
       "uri": "http://qudt.org/2.1/schema/qudt/Unit",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Unit",
+      "label": {
+        "en": "Unit"
+      },
+      "sort": "Unit",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1806,10 +1824,14 @@
         },
         {
           "uri": "http://fixme.com#locatedAt",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "located at",
+          "sort": "located at",
+          "label": {
+            "en": "located at"
+          },
+          "description": {
+            "en": "a place where the sensor is located"
+          },
           "usage": {},
           "domain": [
             {
@@ -1837,10 +1859,14 @@
         },
         {
           "uri": "http://fixme.com#identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {
+            "en": "a unique reference to identify a sensor"
+          },
           "usage": {},
           "domain": [
             {
@@ -2431,10 +2457,14 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Compound Name Observation",
+      "label": {
+        "en": "Compound Name Observation"
+      },
+      "sort": "Compound Name Observation",
+      "description": {
+        "en": "Observation of the Compound name"
+      },
       "usage": {},
       "parents": [
         {
@@ -2449,9 +2479,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Meterweight Measurement",
+      "label": {
+        "en": "Meterweight Measurement"
+      },
+      "sort": "Meterweight Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -2467,9 +2499,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Piece Weight Measurement",
+      "label": {
+        "en": "Piece Weight Measurement"
+      },
+      "sort": "Piece Weight Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -2485,9 +2519,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Pressure Measurement",
+      "label": {
+        "en": "Pressure Measurement"
+      },
+      "sort": "Pressure Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -2503,9 +2539,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Schrinking Speed Measurement",
+      "label": {
+        "en": "Schrinking Speed Measurement"
+      },
+      "sort": "Schrinking Speed Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -2521,9 +2559,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Screw Speed Measurement",
+      "label": {
+        "en": "Screw Speed Measurement"
+      },
+      "sort": "Screw Speed Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -2539,9 +2579,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#StatusObservation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Status Observation",
+      "label": {
+        "en": "Status Observation"
+      },
+      "sort": "Status Observation",
       "description": {},
       "usage": {},
       "parents": [
@@ -2577,9 +2619,11 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/core#TreadMeasurement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Tread Measurement",
+      "label": {
+        "en": "Tread Measurement"
+      },
+      "sort": "Tread Measurement",
       "description": {},
       "usage": {},
       "parents": [
@@ -3030,7 +3074,9 @@
         "en": "Factory"
       },
       "sort": "Factory",
-      "description": {},
+      "description": {
+        "en": "The facility in which goods are produced or processed"
+      },
       "usage": {},
       "parents": [],
       "properties": [
@@ -3041,7 +3087,9 @@
           "label": {
             "en": "contains"
           },
-          "description": {},
+          "description": {
+            "en": "production equiment present at the factory"
+          },
           "usage": {},
           "domain": [
             {
@@ -3076,7 +3124,9 @@
         "en": "ProductionEquipment"
       },
       "sort": "ProductionEquipment",
-      "description": {},
+      "description": {
+        "en": "A phyical mean used in the production process of goods."
+      },
       "usage": {},
       "parents": [],
       "properties": []
@@ -3290,11 +3340,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "Identifier",
+      "name": "identifier",
       "label": {
-        "en": "Identifier"
+        "en": "identifier"
       },
-      "sort": "Identifier",
+      "sort": "identifier",
       "description": {
         "en": "Information used to uniquely identify an object."
       },

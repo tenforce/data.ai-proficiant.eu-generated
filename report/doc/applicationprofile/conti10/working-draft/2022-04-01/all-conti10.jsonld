@@ -148,6 +148,11 @@
                         "key": "label-en",
                         "value": "Extruder",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Extruder",
+                        "note": "null"
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -218,6 +223,11 @@
                         "key": "ap-usageNote-en",
                         "value": "DISCUSSION: This might be better an instance rather a class.",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Temperature of Compound on Head",
+                        "note": "null"
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -273,6 +283,11 @@
                 "RawTags": [
                     {
                         "key": "label-en",
+                        "value": "identifier",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
                         "value": "identifier",
                         "note": "null"
                     }
@@ -472,6 +487,11 @@
                     {
                         "key": "ap-definition-en",
                         "value": "Represents instances of any type.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Any",
                         "note": "null"
                     }
                 ],
@@ -1220,6 +1240,11 @@
                         "key": "ap-definition-en",
                         "value": "Someone or something that can act or has the power to act.",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Agent",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
@@ -1233,6 +1258,12 @@
             "ap-definition-en": {
                 "en": "TODO"
             },
+            "ap-label-en": {
+                "en": "Unit"
+            },
+            "label": {
+                "en": "Unit"
+            },
             "extra": {
                 "EA-Name": "Unit",
                 "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
@@ -1241,10 +1272,14 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Unit"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Unit"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
@@ -1255,11 +1290,21 @@
                         "key": "uri",
                         "value": "http://qudt.org/2.1/schema/qudt/Unit",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Unit",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Unit",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Unit"
         },
         {
             "@id": "http://www.w3.org/ns/adms#Identifier",
@@ -1269,13 +1314,13 @@
                 "en": "Information used to uniquely identify an object."
             },
             "ap-label-en": {
-                "en": "Identifier"
+                "en": "identifier"
             },
             "definition": {
                 "en": "Information used to uniquely identify an object."
             },
             "label": {
-                "en": "Identifier"
+                "en": "identifier"
             },
             "extra": {
                 "EA-Name": "Identifier",
@@ -1286,14 +1331,14 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "en": "Identifier"
+                    "en": "identifier"
                 },
                 "definition": {
                     "en": "Information used to uniquely identify an object."
                 },
                 "usage": "",
                 "ap-label-en": {
-                    "en": "Identifier"
+                    "en": "identifier"
                 },
                 "ap-definition-en": {
                     "en": "Information used to uniquely identify an object."
@@ -1325,11 +1370,21 @@
                         "key": "ap-definition-en",
                         "value": "Information used to uniquely identify an object.",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-nl",
+                        "value": "identifier",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "identifier",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Identifier"
+            "name": "identifier"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -2901,7 +2956,16 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Observation of the Compound name"
+            },
+            "ap-label-en": {
+                "en": "Compound Name Observation"
+            },
+            "definition": {
+                "en": "Observation of the Compound name"
+            },
+            "label": {
+                "en": "Compound Name Observation"
             },
             "extra": {
                 "EA-Name": "CompoundNameObservation",
@@ -2918,19 +2982,41 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "Compound Name Observation"
+                },
+                "definition": {
+                    "en": "Observation of the Compound name"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Compound Name Observation"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Observation of the Compound name"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Observation of the Compound name",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Compound Name Observation",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Compound Name Observation",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Compound Name Observation"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
@@ -2938,6 +3024,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Meterweight Measurement"
+            },
+            "label": {
+                "en": "Meterweight Measurement"
             },
             "extra": {
                 "EA-Name": "MeterWeightMeasurement",
@@ -2954,19 +3046,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Meterweight Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Meterweight Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Meterweight Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Meter Weight Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Meterweight Measurement"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement",
@@ -2974,6 +3081,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Piece Weight Measurement"
+            },
+            "label": {
+                "en": "Piece Weight Measurement"
             },
             "extra": {
                 "EA-Name": "PieceWeightMeasurement",
@@ -2990,19 +3103,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Piece Weight Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Piece Weight Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Piece Weight Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Piece Weight Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Piece Weight Measurement"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
@@ -3010,6 +3138,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Pressure Measurement"
+            },
+            "label": {
+                "en": "Pressure Measurement"
             },
             "extra": {
                 "EA-Name": "PressureMeasurement",
@@ -3026,19 +3160,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Pressure Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Pressure Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Pressure Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Pressure Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Pressure Measurement"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement",
@@ -3046,6 +3195,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Schrinking Speed Measurement"
+            },
+            "label": {
+                "en": "Schrinking Speed Measurement"
             },
             "extra": {
                 "EA-Name": "SchrinkingspeedMeasurement",
@@ -3062,19 +3217,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Schrinking Speed Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Schrinking Speed Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Schrinking Speed Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Schrinking Speed Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Schrinking Speed Measurement"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement",
@@ -3082,6 +3252,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Screw Speed Measurement"
+            },
+            "label": {
+                "en": "Screw Speed Measurement"
             },
             "extra": {
                 "EA-Name": "ScrewSpeedMeasurement",
@@ -3098,19 +3274,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Screw Speed Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Screw Speed Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Screw Speed Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Screw Speed Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Screw Speed Measurement"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#StatusObservation",
@@ -3118,6 +3309,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Status Observation"
+            },
+            "label": {
+                "en": "Status Observation"
             },
             "extra": {
                 "EA-Name": "StatusObservation",
@@ -3134,19 +3331,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
-                "label": "",
+                "label": {
+                    "en": "Status Observation"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Status Observation"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Status Observation",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Status Observation",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Status Observation"
         },
         {
             "@id": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement",
@@ -3194,6 +3406,11 @@
                         "key": "label-en",
                         "value": "Temperature Measurement",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Temperature Measurement",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
@@ -3206,6 +3423,12 @@
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
                 "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "Tread Measurement"
+            },
+            "label": {
+                "en": "Tread Measurement"
             },
             "extra": {
                 "EA-Name": "TreadMeasurement",
@@ -3222,19 +3445,34 @@
                     }
                 ],
                 "parentclasses": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
-                "label": "",
+                "label": {
+                    "en": "Tread Measurement"
+                },
                 "definition": "",
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Tread Measurement"
+                },
                 "ap-definition-en": {
                     "en": "TODO"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-label-en",
+                        "value": "Tread Measurement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "Tread Measurement",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Tread Measurement"
         },
         {
             "@id": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
@@ -4517,10 +4755,13 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The facility in which goods are produced or processed"
             },
             "ap-label-en": {
                 "en": "Factory"
+            },
+            "definition": {
+                "en": "The facility in which goods are produced or processed"
             },
             "label": {
                 "en": "Factory"
@@ -4536,13 +4777,15 @@
                 "label": {
                     "en": "Factory"
                 },
-                "definition": "",
+                "definition": {
+                    "en": "The facility in which goods are produced or processed"
+                },
                 "usage": "",
                 "ap-label-en": {
                     "en": "Factory"
                 },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "The facility in which goods are produced or processed"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -4556,6 +4799,16 @@
                         "key": "label-en",
                         "value": "Factory",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The facility in which goods are produced or processed",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Factory",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
@@ -4567,10 +4820,13 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "A phyical mean used in the production process of goods."
             },
             "ap-label-en": {
                 "en": "ProductionEquipment"
+            },
+            "definition": {
+                "en": "A phyical mean used in the production process of goods."
             },
             "label": {
                 "en": "ProductionEquipment"
@@ -4586,13 +4842,15 @@
                 "label": {
                     "en": "ProductionEquipment"
                 },
-                "definition": "",
+                "definition": {
+                    "en": "A phyical mean used in the production process of goods."
+                },
                 "usage": "",
                 "ap-label-en": {
                     "en": "ProductionEquipment"
                 },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "A phyical mean used in the production process of goods."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -4605,6 +4863,16 @@
                     {
                         "key": "uri",
                         "value": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "A phyical mean used in the production process of goods.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "ProductionEquipment",
                         "note": "null"
                     }
                 ],
@@ -4959,10 +5227,13 @@
             "name": "contains",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "production equiment present at the factory"
             },
             "ap-label-en": {
                 "en": "contains"
+            },
+            "definition": {
+                "en": "production equiment present at the factory"
             },
             "label": {
                 "en": "contains"
@@ -4987,26 +5258,48 @@
                 "label": {
                     "en": "contains"
                 },
-                "definition": "",
+                "definition": {
+                    "en": "production equiment present at the factory"
+                },
                 "usage": "",
                 "ap-label-en": {
                     "en": "contains"
                 },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "production equiment present at the factory"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
                 "RawTags": [
                     {
+                        "key": "ap-definition-en",
+                        "value": "NOTE",
+                        "note": "production equiment present at the factory"
+                    },
+                    {
                         "key": "label-en",
+                        "value": "NOTE",
+                        "note": "contains"
+                    },
+                    {
+                        "key": "ap-label-en",
                         "value": "NOTE",
                         "note": "contains"
                     }
                 ],
                 "DestRoleTags": [
                     {
+                        "key": "ap-definition-en",
+                        "value": "NOTE",
+                        "note": "production equiment present at the factory"
+                    },
+                    {
                         "key": "label-en",
+                        "value": "NOTE",
+                        "note": "contains"
+                    },
+                    {
+                        "key": "ap-label-en",
                         "value": "NOTE",
                         "note": "contains"
                     }
@@ -5445,10 +5738,19 @@
         {
             "@id": "https://purl.eu/ns/observations#value",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "value",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The value measured, shared, "
+            },
+            "ap-label-en": {
+                "en": "value"
+            },
+            "definition": {
+                "en": "The value measured, shared, "
+            },
+            "label": {
+                "en": "value"
             },
             "extra": {
                 "EA-Name": "value",
@@ -5463,16 +5765,33 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "value"
+                },
+                "definition": {
+                    "en": "The value measured, shared, "
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "value"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "The value measured, shared, "
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The value measured, shared, ",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "value",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -5496,10 +5815,25 @@
         {
             "@id": "https://purl.eu/ns/observations#unitText",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "unit acronym",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The unit identified using the unit textual acronym"
+            },
+            "ap-usageNote-en": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "usage": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "ap-label-en": {
+                "en": "unit acronym"
+            },
+            "definition": {
+                "en": "The unit identified using the unit textual acronym"
+            },
+            "label": {
+                "en": "unit acronym"
             },
             "extra": {
                 "EA-Name": "unitText",
@@ -5514,16 +5848,42 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "unit acronym"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The unit identified using the unit textual acronym"
+                },
+                "usage": {
+                    "en": "e.g. \"m\" for meter"
+                },
+                "ap-label-en": {
+                    "en": "unit acronym"
+                },
+                "ap-definition-en": {
+                    "en": "The unit identified using the unit textual acronym"
+                },
+                "ap-usageNote-en": {
+                    "en": "e.g. \"m\" for meter"
+                },
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The unit identified using the unit textual acronym",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "unit acronym",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "e.g. \"m\" for meter",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -5547,10 +5907,25 @@
         {
             "@id": "https://purl.eu/ns/observations#standardUnit",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "standard unit",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The unit identified using a standard unit code"
+            },
+            "ap-usageNote-en": {
+                "en": "This references a URI."
+            },
+            "usage": {
+                "en": "This references a URI."
+            },
+            "ap-label-en": {
+                "en": "standard unit"
+            },
+            "definition": {
+                "en": "The unit identified using a standard unit code"
+            },
+            "label": {
+                "en": "standard unit"
             },
             "extra": {
                 "EA-Name": "standardUnit",
@@ -5566,16 +5941,42 @@
                     "EA-Package": "AI-PROFICIENT-Core",
                     "uri": "http://qudt.org/2.1/schema/qudt/Unit"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "standard unit"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The unit identified using a standard unit code"
+                },
+                "usage": {
+                    "en": "This references a URI."
+                },
+                "ap-label-en": {
+                    "en": "standard unit"
+                },
+                "ap-definition-en": {
+                    "en": "The unit identified using a standard unit code"
+                },
+                "ap-usageNote-en": {
+                    "en": "This references a URI."
+                },
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The unit identified using a standard unit code",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "standard unit",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "This references a URI.",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -10538,10 +10939,19 @@
         {
             "@id": "http://fixme.com#locatedAt",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "located at",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "a place where the sensor is located"
+            },
+            "ap-label-en": {
+                "en": "located at"
+            },
+            "definition": {
+                "en": "a place where the sensor is located"
+            },
+            "label": {
+                "en": "located at"
             },
             "extra": {
                 "EA-Name": "locatedAt",
@@ -10557,16 +10967,33 @@
                     "EA-Package": "SAREF-INMA",
                     "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
                 },
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "located at"
+                },
+                "definition": {
+                    "en": "a place where the sensor is located"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "located at"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "a place where the sensor is located"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "a place where the sensor is located",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "located at",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -10591,10 +11018,19 @@
         {
             "@id": "http://fixme.com#identifier",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "a unique reference to identify a sensor"
+            },
+            "ap-label-en": {
+                "en": "identifier"
+            },
+            "definition": {
+                "en": "a unique reference to identify a sensor"
+            },
+            "label": {
+                "en": "identifier"
             },
             "extra": {
                 "EA-Name": "identifier",
@@ -10609,16 +11045,33 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "identifier"
+                },
+                "definition": {
+                    "en": "a unique reference to identify a sensor"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "identifier"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "a unique reference to identify a sensor"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "a unique reference to identify a sensor",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "identifier",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -12018,6 +12471,11 @@
                         "key": "uri",
                         "value": "NOTE",
                         "note": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "NOTE",
+                        "note": "featureOfInterest"
                     }
                 ],
                 "DestRoleTags": [
@@ -12060,6 +12518,11 @@
                         "key": "uri",
                         "value": "NOTE",
                         "note": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "NOTE",
+                        "note": "featureOfInterest"
                     }
                 ],
                 "Scope": "NOTHING"
@@ -12108,12 +12571,12 @@
     "toolchainversion": "3",
     "config": "config/config-ap.json",
     "branchtag": "master",
-    "dummy": "29",
+    "dummy": "30",
     "filename": "config/conti10.json",
     "navigation": {},
     "repository": "https://github.com/tenforce/ai-proficient-thema",
     "urlref": "/doc/applicationprofile/conti10/working-draft/2022-04-01",
-    "documentcommit": "747385950fd7721c8a2dc44c3c4cb77d29166945",
-    "toolchaincommit": "9eb96feba64c8f0d15cdd2226d418d713f405ac3",
+    "documentcommit": "9b0e68f389609a444276e8cf04f179c6de5f53ce",
+    "toolchaincommit": "cd2eae4f60cd5472027aa0b42572ad207d07b947",
     "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

@@ -103,13 +103,13 @@
                 Source
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/tree/9b0e68f389609a444276e8cf04f179c6de5f53ce">https://github.com/tenforce/ai-proficient-thema/tree/9b0e68f389609a444276e8cf04f179c6de5f53ce</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/tree/4cc62a16d14e97679c7a7d3b4155c18bdd147170">https://github.com/tenforce/ai-proficient-thema/tree/4cc62a16d14e97679c7a7d3b4155c18bdd147170</a>
             </dd>
             <dt>
                 Changelog
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/blob/9b0e68f389609a444276e8cf04f179c6de5f53ce/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/9b0e68f389609a444276e8cf04f179c6de5f53ce/CHANGELOG</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/blob/4cc62a16d14e97679c7a7d3b4155c18bdd147170/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/4cc62a16d14e97679c7a7d3b4155c18bdd147170/CHANGELOG</a>
             </dd>
             <dt>
                 Feedback
@@ -202,7 +202,7 @@
                         <p>
                             This document describes the usage of the following datatypes for a correct usage of the Application Profile:
                             <br />
-                            | <a href="#"></a> | <a href="#CI_ResponsibleParty">CI_ResponsibleParty</a> | <a href="#GenericName">GenericName</a> | <a href="#Geometry">Geometry</a> | <a href="#identifier">identifier</a> | <a href="#Location">Location</a> | <a href="#NamedValue">NamedValue</a> | <a href="#TM_Object">TM_Object</a> |
+                            | <a href="#CI_ResponsibleParty">CI_ResponsibleParty</a> | <a href="#GenericName">GenericName</a> | <a href="#Geometry">Geometry</a> | <a href="#identifier">identifier</a> | <a href="#Location">Location</a> | <a href="#NamedValue">NamedValue</a> | <a href="#Quantative Value">Quantative Value</a> | <a href="#TM_Object">TM_Object</a> |
                         </p>
                     </div>
                 
@@ -1296,8 +1296,9 @@
                         Properties
                     </dt>
                     
-                    <dd>
-                        No properties have been defined for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Feature%3Aproperty%20Value%20Provider">property Value Provider</a>
+                            .
                     </dd>
                 
             </dl>
@@ -1305,6 +1306,77 @@
                 Add an issue for this entity <a href="https://github.com/tenforce/ai-proficiant-thema/issues/new?title=Issue%20for%20Feature&body=Explain%20your%20issue"}}>here</a>.
             </dd>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Expected Range
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Cardinality
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Description
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Usage
+                            </th>
+                            <th class="data-table__header-title--sortable">
+                                Codelist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Feature%3Aproperty%20Value%20Provider"
+                                typeof="rdfs:Property"
+                                resource="TODO"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20property Value Provider&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="TODO"
+                                           data-toggle="tooltip"
+                                           data-content="TODO"
+                                           data-placement="right">
+                                        property Value Provider</a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#Observation" data-placement="right">Observation</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    0..*
+                                </td>
+                                <td property="rdfs:comment">
+                                    Observations that provide the observedProperty with a value.
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -1338,9 +1410,9 @@
                     </dt>
                     
                         <dd>
-                            For this entity the following properties are defined: <a href="#Frequency%3A"></a>
-                            , <a href="#Frequency%3A"></a>
-                            , <a href="#Frequency%3A"></a>
+                            For this entity the following properties are defined: <a href="#Frequency%3Astandard%20unit">standard unit</a>
+                            , <a href="#Frequency%3Aunit%20acronym">unit acronym</a>
+                            , <a href="#Frequency%3Avalue">value</a>
                             .
                     </dd>
                 
@@ -1378,54 +1450,12 @@
                     </thead>
                     <tbody class="supertype">
                         
-                            <tr id="Frequency%3A"
-                                typeof="rdfs:Property"
-                                resource="http://fixme.com#value"
-                                class="class mandatory">
-                                <td>
-                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
-                                        <i class="icon"></i>
-                                    </a>
-                                </td>
-                                <td>
-                                    <code property="rdfs:label">
-                                        <a href="http://fixme.com#value"
-                                           data-toggle="tooltip"
-                                           data-content="http://fixme.com#value"
-                                           data-placement="right">
-                                        </a>
-                                    </code>
-                                </td>
-                                <td>
-                                    
-                                        
-                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
-                                               data-toggle="tooltip"
-                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
-                                               data-placement="right">Literal</a>
-                                        
-                                    
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td property="rdfs:comment">
-                                    
-                                </td>
-                                <td property="skos:scopeNote">
-                                    
-                                </td>
-                                <td>
-                                    
-                                </td>
-                            </tr>
-                        
-                            <tr id="Frequency%3A"
+                            <tr id="Frequency%3Astandard%20unit"
                                 typeof="rdfs:Property"
                                 resource="http://fixme.com#standardUnit"
                                 class="class mandatory">
                                 <td>
-                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20standard unit&body=Explain%20your%20issue">
                                         <i class="icon"></i>
                                     </a>
                                 </td>
@@ -1435,7 +1465,7 @@
                                            data-toggle="tooltip"
                                            data-content="http://fixme.com#standardUnit"
                                            data-placement="right">
-                                        </a>
+                                        standard unit</a>
                                     </code>
                                 </td>
                                 <td>
@@ -1445,22 +1475,22 @@
                                     1
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The standard unit in which the frequencey is expressed
                                 </td>
                                 <td property="skos:scopeNote">
-                                    
+                                    This references a URI.
                                 </td>
                                 <td>
                                     
                                 </td>
                             </tr>
                         
-                            <tr id="Frequency%3A"
+                            <tr id="Frequency%3Aunit%20acronym"
                                 typeof="rdfs:Property"
                                 resource="http://fixme.com#UnitText"
                                 class="class mandatory">
                                 <td>
-                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20unit acronym&body=Explain%20your%20issue">
                                         <i class="icon"></i>
                                     </a>
                                 </td>
@@ -1470,7 +1500,7 @@
                                            data-toggle="tooltip"
                                            data-content="http://fixme.com#UnitText"
                                            data-placement="right">
-                                        </a>
+                                        unit acronym</a>
                                     </code>
                                 </td>
                                 <td>
@@ -1487,7 +1517,49 @@
                                     1
                                 </td>
                                 <td property="rdfs:comment">
+                                    The  unit in which the frequency is expressed
+                                </td>
+                                <td property="skos:scopeNote">
+                                    e.g. "m" for meter
+                                </td>
+                                <td>
                                     
+                                </td>
+                            </tr>
+                        
+                            <tr id="Frequency%3Avalue"
+                                typeof="rdfs:Property"
+                                resource="http://fixme.com#value"
+                                class="class mandatory">
+                                <td>
+                                    <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20value&body=Explain%20your%20issue">
+                                        <i class="icon"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code property="rdfs:label">
+                                        <a href="http://fixme.com#value"
+                                           data-toggle="tooltip"
+                                           data-content="http://fixme.com#value"
+                                           data-placement="right">
+                                        value</a>
+                                    </code>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-toggle="tooltip"
+                                               data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
+                                               data-placement="right">Literal</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    The value expressing the frequency
                                 </td>
                                 <td property="skos:scopeNote">
                                     
@@ -5504,187 +5576,6 @@
             
             <section>
                 
-                    <h3 class="h3" id="">
-                        <a href="https://schema.org/QuantitativeValue"
-                           data-toggle="tooltip"
-                           data-content="https://schema.org/QuantitativeValue"
-                           data-placement="right"></a>
-                    </h3>
-                
-                <div class="region region--no-space-top">
-                    <dl>
-                        <dt>
-                            Beschrijving
-                        </dt>
-                        <dd>
-                            
-                        </dd>
-                        
-                        
-                            <dt>
-                                Eigenschappen
-                            </dt>
-                            
-                                <dd>
-                                    Voor dit datatype zijn de volgende eigenschappen gedefinieerd: <a href="#%3A"></a>
-                                    , <a href="#%3A"></a>
-                                    , <a href="#%3A"></a>
-                                    .
-                            </dd>
-                        
-                    </dl>
-                    <dd>
-                        Add an issue for this property <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">here</a>.
-                    </dd>
-                </div>
-                
-                    <div class="u-table-overflow">
-                        <table class="data-table simple" id="table-mandatory-classes">
-                            <thead>
-                                <tr class="data-table__header">
-                                    <th class="data-table__header-title--sortable">
-                                    </th>
-                                    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
-                                        Eigenschap
-                                    </th>
-                                    <th class="data-table__header-title--sortable">
-                                        Verwacht Type
-                                    </th>
-                                    <th class="data-table__header-title--sortable">
-                                        Kardinaliteit
-                                    </th>
-                                    <th class="data-table__header-title--sortable">
-                                        Beschrijving
-                                    </th>
-                                    <th class="data-table__header-title--sortable">
-                                        Gebruik
-                                    </th>
-                                    <th class="data-table__header-title--sortable">
-                                        Codelijst
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody class="supertype">
-                                
-                                    <tr id="%3A"
-                                        typeof="rdfs:Property"
-                                        resource="https://schema.org/value"
-                                        class="class mandatory">
-                                        <td>
-                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
-                                                <i class="icon"></i>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <code property="rdfs:label">
-                                                <a href="https://schema.org/value"
-                                                   data-toggle="tooltip"
-                                                   data-content="https://schema.org/value"
-                                                   data-placement="right"></a>
-                                            </code>
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                            1
-                                        </td>
-                                        <td property="rdfs:comment">
-                                            
-                                        </td>
-                                        <td property="skos:scopeNote">
-                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                    </tr>
-                                
-                                    <tr id="%3A"
-                                        typeof="rdfs:Property"
-                                        resource="https://schema.org/unitText"
-                                        class="class mandatory">
-                                        <td>
-                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
-                                                <i class="icon"></i>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <code property="rdfs:label">
-                                                <a href="https://schema.org/unitText"
-                                                   data-toggle="tooltip"
-                                                   data-content="https://schema.org/unitText"
-                                                   data-placement="right"></a>
-                                            </code>
-                                        </td>
-                                        <td>
-                                            
-                                                
-                                                    <a href="http://www.w3.org/2001/XMLSchema#string"
-                                                       data-toggle="tooltip"
-                                                       data-content="http://www.w3.org/2001/XMLSchema#string"
-                                                       data-placement="right">String</a>
-                                                
-                                            
-                                        </td>
-                                        <td>
-                                            0..1
-                                        </td>
-                                        <td property="rdfs:comment">
-                                            
-                                        </td>
-                                        <td property="skos:scopeNote">
-                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                    </tr>
-                                
-                                    <tr id="%3A"
-                                        typeof="rdfs:Property"
-                                        resource="https://schema.org/unitCode"
-                                        class="class mandatory">
-                                        <td>
-                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20&body=Explain%20your%20issue">
-                                                <i class="icon"></i>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <code property="rdfs:label">
-                                                <a href="https://schema.org/unitCode"
-                                                   data-toggle="tooltip"
-                                                   data-content="https://schema.org/unitCode"
-                                                   data-placement="right"></a>
-                                            </code>
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                        <td>
-                                            0..1
-                                        </td>
-                                        <td property="rdfs:comment">
-                                            
-                                        </td>
-                                        <td property="skos:scopeNote">
-                                            
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                    </tr>
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                
-            </section>
-            
-        
-            
-            <section>
-                
                     <h3 class="h3" id="CI_ResponsibleParty">
                         <a href="http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty"
                            data-toggle="tooltip"
@@ -6111,6 +6002,187 @@
                         Add an issue for this property <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20NamedValue&body=Explain%20your%20issue">here</a>.
                     </dd>
                 </div>
+                
+            </section>
+            
+        
+            
+            <section>
+                
+                    <h3 class="h3" id="Quantative Value">
+                        <a href="https://schema.org/QuantitativeValue"
+                           data-toggle="tooltip"
+                           data-content="https://schema.org/QuantitativeValue"
+                           data-placement="right">Quantative Value</a>
+                    </h3>
+                
+                <div class="region region--no-space-top">
+                    <dl>
+                        <dt>
+                            Beschrijving
+                        </dt>
+                        <dd>
+                            Indication of the quantity a property of an object has.
+                        </dd>
+                        
+                        
+                            <dt>
+                                Eigenschappen
+                            </dt>
+                            
+                                <dd>
+                                    Voor dit datatype zijn de volgende eigenschappen gedefinieerd: <a href="#Quantative%20Value%3Astandard%20unit">standard unit</a>
+                                    , <a href="#Quantative%20Value%3Aunit%20acronym">unit acronym</a>
+                                    , <a href="#Quantative%20Value%3Avalue">value</a>
+                                    .
+                            </dd>
+                        
+                    </dl>
+                    <dd>
+                        Add an issue for this property <a href="https://github.com/tenforce/ai-proficiant-thema/issues/issues/new?title=Issue%20for%20Quantative Value&body=Explain%20your%20issue">here</a>.
+                    </dd>
+                </div>
+                
+                    <div class="u-table-overflow">
+                        <table class="data-table simple" id="table-mandatory-classes">
+                            <thead>
+                                <tr class="data-table__header">
+                                    <th class="data-table__header-title--sortable">
+                                    </th>
+                                    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
+                                        Eigenschap
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Verwacht Type
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Kardinaliteit
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Beschrijving
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Gebruik
+                                    </th>
+                                    <th class="data-table__header-title--sortable">
+                                        Codelijst
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="supertype">
+                                
+                                    <tr id="Quantative%20Value%3Astandard%20unit"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/unitCode"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20standard unit&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/unitCode"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/unitCode"
+                                                   data-placement="right">standard unit</a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                        <td>
+                                            0..1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            The standard unit in which the quantity  is expressed
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            This references a URI.
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr id="Quantative%20Value%3Aunit%20acronym"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/unitText"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20unit acronym&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/unitText"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/unitText"
+                                                   data-placement="right">unit acronym</a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                                
+                                                    <a href="http://www.w3.org/2001/XMLSchema#string"
+                                                       data-toggle="tooltip"
+                                                       data-content="http://www.w3.org/2001/XMLSchema#string"
+                                                       data-placement="right">String</a>
+                                                
+                                            
+                                        </td>
+                                        <td>
+                                            0..1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            The  unit in which the quantity  is expressed
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            e.g. "m" for meter
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr id="Quantative%20Value%3Avalue"
+                                        typeof="rdfs:Property"
+                                        resource="https://schema.org/value"
+                                        class="class mandatory">
+                                        <td>
+                                            <a href="https://github.com/Informatievlaanderen/purl-eu/issues/new?title=Issue%20for%20value&body=Explain%20your%20issue">
+                                                <i class="icon"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <code property="rdfs:label">
+                                                <a href="https://schema.org/value"
+                                                   data-toggle="tooltip"
+                                                   data-content="https://schema.org/value"
+                                                   data-placement="right">value</a>
+                                            </code>
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td property="rdfs:comment">
+                                            The value expressing the quantity of the property
+                                        </td>
+                                        <td property="skos:scopeNote">
+                                            
+                                        </td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
                 
             </section>
             

@@ -4885,7 +4885,16 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Indication of the quantity a property of an object has."
+            },
+            "ap-label-en": {
+                "en": "Quantative Value"
+            },
+            "definition": {
+                "en": "Indication of the quantity a property of an object has."
+            },
+            "label": {
+                "en": "Quantative Value"
             },
             "extra": {
                 "EA-Name": "QuantitativeValue",
@@ -4895,12 +4904,18 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "Quantative Value"
+                },
+                "definition": {
+                    "en": "Indication of the quantity a property of an object has."
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Quantative Value"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Indication of the quantity a property of an object has."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -4924,11 +4939,21 @@
                         "key": "uri",
                         "value": "https://schema.org/QuantitativeValue",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "Indication of the quantity a property of an object has.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "Quantative Value",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Quantative Value"
         },
         {
             "@id": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
@@ -5020,10 +5045,19 @@
         {
             "@id": "https://schema.org/value",
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-            "name": "",
+            "name": "value",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The value expressing the quantity of the property"
+            },
+            "ap-label-en": {
+                "en": "value"
+            },
+            "definition": {
+                "en": "The value expressing the quantity of the property"
+            },
+            "label": {
+                "en": "value"
             },
             "extra": {
                 "EA-Name": "waarde",
@@ -5038,12 +5072,18 @@
                     "EA-Package": "",
                     "uri": "null"
                 },
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "value"
+                },
+                "definition": {
+                    "en": "The value expressing the quantity of the property"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "value"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "The value expressing the quantity of the property"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -5061,6 +5101,16 @@
                     {
                         "key": "ap-definition-nl",
                         "value": "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The value expressing the quantity of the property",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "value",
                         "note": "null"
                     }
                 ],
@@ -5081,10 +5131,25 @@
         {
             "@id": "https://schema.org/unitText",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "unit acronym",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The  unit in which the quantity  is expressed"
+            },
+            "ap-usageNote-en": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "usage": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "ap-label-en": {
+                "en": "unit acronym"
+            },
+            "definition": {
+                "en": "The  unit in which the quantity  is expressed"
+            },
+            "label": {
+                "en": "unit acronym"
             },
             "extra": {
                 "EA-Name": "eenheid",
@@ -5099,14 +5164,24 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "unit acronym"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The  unit in which the quantity  is expressed"
+                },
+                "usage": {
+                    "en": "e.g. \"m\" for meter"
+                },
+                "ap-label-en": {
+                    "en": "unit acronym"
+                },
+                "ap-definition-en": {
+                    "en": "The  unit in which the quantity  is expressed"
+                },
+                "ap-usageNote-en": {
+                    "en": "e.g. \"m\" for meter"
+                },
                 "ap-codelist": "",
                 "RawTags": [
                     {
@@ -5133,6 +5208,21 @@
                         "key": "ap-usageNote-nl",
                         "value": "Te gebruiken als geen standaard eenheid gekend is.",
                         "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The  unit in which the quantity  is expressed",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "unit acronym",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "e.g. \"m\" for meter",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
@@ -5158,10 +5248,25 @@
         {
             "@id": "https://schema.org/unitCode",
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-            "name": "",
+            "name": "standard unit",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The standard unit in which the quantity  is expressed"
+            },
+            "ap-usageNote-en": {
+                "en": "This references a URI."
+            },
+            "usage": {
+                "en": "This references a URI."
+            },
+            "ap-label-en": {
+                "en": "standard unit"
+            },
+            "definition": {
+                "en": "The standard unit in which the quantity  is expressed"
+            },
+            "label": {
+                "en": "standard unit"
             },
             "extra": {
                 "EA-Name": "standaardEenheid",
@@ -5176,14 +5281,24 @@
                     "EA-Package": "",
                     "uri": "null"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "standard unit"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The standard unit in which the quantity  is expressed"
+                },
+                "usage": {
+                    "en": "This references a URI."
+                },
+                "ap-label-en": {
+                    "en": "standard unit"
+                },
+                "ap-definition-en": {
+                    "en": "The standard unit in which the quantity  is expressed"
+                },
+                "ap-usageNote-en": {
+                    "en": "This references a URI."
+                },
                 "ap-codelist": "",
                 "RawTags": [
                     {
@@ -5204,6 +5319,21 @@
                     {
                         "key": "uri",
                         "value": "https://schema.org/unitCode",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The standard unit in which the quantity  is expressed",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "standard unit",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "This references a URI.",
                         "note": "null"
                     }
                 ],
@@ -10843,10 +10973,19 @@
         {
             "@id": "http://fixme.com#value",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "value",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The value expressing the frequency"
+            },
+            "ap-label-en": {
+                "en": "value"
+            },
+            "definition": {
+                "en": "The value expressing the frequency"
+            },
+            "label": {
+                "en": "value"
             },
             "extra": {
                 "EA-Name": "value",
@@ -10861,16 +11000,33 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "value"
+                },
+                "definition": {
+                    "en": "The value expressing the frequency"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "value"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "The value expressing the frequency"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The value expressing the frequency",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "value",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -10894,10 +11050,25 @@
         {
             "@id": "http://fixme.com#standardUnit",
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-            "name": "",
+            "name": "standard unit",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The standard unit in which the frequencey is expressed"
+            },
+            "ap-usageNote-en": {
+                "en": "This references a URI."
+            },
+            "usage": {
+                "en": "This references a URI."
+            },
+            "ap-label-en": {
+                "en": "standard unit"
+            },
+            "definition": {
+                "en": "The standard unit in which the frequencey is expressed"
+            },
+            "label": {
+                "en": "standard unit"
             },
             "extra": {
                 "EA-Name": "standardUnit",
@@ -10912,16 +11083,42 @@
                     "EA-Package": "",
                     "uri": "null"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "standard unit"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The standard unit in which the frequencey is expressed"
+                },
+                "usage": {
+                    "en": "This references a URI."
+                },
+                "ap-label-en": {
+                    "en": "standard unit"
+                },
+                "ap-definition-en": {
+                    "en": "The standard unit in which the frequencey is expressed"
+                },
+                "ap-usageNote-en": {
+                    "en": "This references a URI."
+                },
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The standard unit in which the frequencey is expressed",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "standard unit",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "This references a URI.",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -11095,10 +11292,25 @@
         {
             "@id": "http://fixme.com#UnitText",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "unit acronym",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The  unit in which the frequency is expressed"
+            },
+            "ap-usageNote-en": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "usage": {
+                "en": "e.g. \"m\" for meter"
+            },
+            "ap-label-en": {
+                "en": "unit acronym"
+            },
+            "definition": {
+                "en": "The  unit in which the frequency is expressed"
+            },
+            "label": {
+                "en": "unit acronym"
             },
             "extra": {
                 "EA-Name": "UnitText",
@@ -11113,16 +11325,42 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
+                "label": {
+                    "en": "unit acronym"
                 },
-                "ap-usageNote-en": "",
+                "definition": {
+                    "en": "The  unit in which the frequency is expressed"
+                },
+                "usage": {
+                    "en": "e.g. \"m\" for meter"
+                },
+                "ap-label-en": {
+                    "en": "unit acronym"
+                },
+                "ap-definition-en": {
+                    "en": "The  unit in which the frequency is expressed"
+                },
+                "ap-usageNote-en": {
+                    "en": "e.g. \"m\" for meter"
+                },
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "ap-definition-en",
+                        "value": "The  unit in which the frequency is expressed",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "unit acronym",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "e.g. \"m\" for meter",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "NOTHING"
             },
             "codelist": [],
@@ -12545,6 +12783,140 @@
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
+        },
+        {
+            "@id": "TODO",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "property Value Provider",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "Observations that provide the observedProperty with a value."
+            },
+            "ap-label-en": {
+                "en": "property Value Provider"
+            },
+            "definition": {
+                "en": "Observations that provide the observedProperty with a value."
+            },
+            "label": {
+                "en": "property Value Provider"
+            },
+            "extra": {
+                "EA-Name": "propertyValueProvider",
+                "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "Feature",
+                "EA-Domain-Guid": "{4183A92E-D715-4cf0-9D05-8882A58CEC59}",
+                "EA-Range": "Observation",
+                "RangeData": {
+                    "EA-Name": "Observation",
+                    "EA-GUID": "{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
+                    "EA-Package": "OM",
+                    "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+                },
+                "sourceRole": "featureOfInterest",
+                "destRole": "propertyValueProvider",
+                "label": {
+                    "en": "property Value Provider"
+                },
+                "definition": {
+                    "en": "Observations that provide the observedProperty with a value."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "property Value Provider"
+                },
+                "ap-definition-en": {
+                    "en": "Observations that provide the observedProperty with a value."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "NOTE",
+                        "note": "propertyValueProviider"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "TODO"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "NOTE",
+                        "note": "Observations that provide the observedProperty with a value."
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "NOTE",
+                        "note": "property Value Provider"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "NOTE",
+                        "note": "TODO"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "Observations that provide the observedProperty with a value."
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "NOTE",
+                        "note": "propertyValueProviider"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "TODO"
+                    },
+                    {
+                        "key": "ap-definition-en",
+                        "value": "NOTE",
+                        "note": "Observations that provide the observedProperty with a value."
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "NOTE",
+                        "note": "property Value Provider"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "NOTE",
+                        "note": "TODO"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "Observations that provide the observedProperty with a value."
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+                    "EA-Name": "Feature"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Observation",
+                    "EA-GUID": "{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
+                    "EA-Package": "OM",
+                    "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
         }
     ]
 }

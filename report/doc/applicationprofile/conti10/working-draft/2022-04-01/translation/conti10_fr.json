@@ -787,7 +787,15 @@
     },
     {
       "EA-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
-      "name": ""
+      "name": "Quantative Value",
+      "label": {
+        "en": "Quantative Value",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Indication of the quantity a property of an object has.",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{8FB38CBD-34EB-4cef-AAF9-9226519301B7}",
@@ -809,15 +817,47 @@
   "externalproperties": [
     {
       "EA-Guid": "{4C903963-279A-45cb-A0DA-D9172780C26F}",
-      "name": ""
+      "name": "value",
+      "label": {
+        "en": "value",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value expressing the quantity of the property",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9C758685-237B-4716-95D0-52B6F606250F}",
-      "name": ""
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The  unit in which the quantity  is expressed",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{AEBA842B-3FD9-4ead-A85F-1D886D6B8FAA}",
-      "name": ""
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The standard unit in which the quantity  is expressed",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
@@ -1417,11 +1457,31 @@
     },
     {
       "EA-Guid": "{E6C324CB-5203-40b8-BD5B-B0E9F7C020A7}",
-      "name": ""
+      "name": "value",
+      "label": {
+        "en": "value",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value expressing the frequency",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{060E3DEB-E435-408e-8A63-9CABF517C315}",
-      "name": ""
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The standard unit in which the frequencey is expressed",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{97B2326A-BD54-4751-BAFC-479FC7F20643}",
@@ -1449,7 +1509,19 @@
     },
     {
       "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",
-      "name": ""
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The  unit in which the frequency is expressed",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "fr": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{66B41F48-0A03-4d1b-9D9C-C2EC924E30EA}",
@@ -1604,6 +1676,18 @@
       },
       "usage": {
         "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
+      "name": "property Value Provider",
+      "label": {
+        "en": "property Value Provider",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observations that provide the observedProperty with a value.",
         "fr": "Enter your translation here"
       }
     }

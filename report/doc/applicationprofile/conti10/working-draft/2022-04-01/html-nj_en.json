@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/9b0e68f389609a444276e8cf04f179c6de5f53ce",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/9b0e68f389609a444276e8cf04f179c6de5f53ce/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/4cc62a16d14e97679c7a7d3b4155c18bdd147170",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/4cc62a16d14e97679c7a7d3b4155c18bdd147170/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -2120,10 +2120,14 @@
       "properties": [
         {
           "uri": "http://fixme.com#value",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value expressing the frequency"
+          },
           "usage": {},
           "domain": [
             {
@@ -2151,11 +2155,17 @@
         },
         {
           "uri": "http://fixme.com#standardUnit",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The standard unit in which the frequencey is expressed"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
           "domain": [
             {
               "EA-Name": "Frequency",
@@ -2169,11 +2179,17 @@
         },
         {
           "uri": "http://fixme.com#UnitText",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
           "domain": [
             {
               "EA-Name": "Frequency",
@@ -2651,7 +2667,43 @@
         "en": "An equivalent term is Object."
       },
       "parents": [],
-      "properties": []
+      "properties": [
+        {
+          "uri": "TODO",
+          "name": "property Value Provider",
+          "sort": "property Value Provider",
+          "label": {
+            "en": "property Value Provider"
+          },
+          "description": {
+            "en": "Observations that provide the observedProperty with a value."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Feature",
+              "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
@@ -3513,19 +3565,27 @@
     },
     {
       "uri": "https://schema.org/QuantitativeValue",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Quantative Value",
+      "label": {
+        "en": "Quantative Value"
+      },
+      "sort": "Quantative Value",
+      "description": {
+        "en": "Indication of the quantity a property of an object has."
+      },
       "usage": {},
       "parents": [],
       "properties": [
         {
           "uri": "https://schema.org/value",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value expressing the quantity of the property"
+          },
           "usage": {},
           "domain": [
             {
@@ -3540,11 +3600,17 @@
         },
         {
           "uri": "https://schema.org/unitText",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The  unit in which the quantity  is expressed"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
           "domain": [
             {
               "EA-Name": "QuantitativeValue",
@@ -3571,11 +3637,17 @@
         },
         {
           "uri": "https://schema.org/unitCode",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The standard unit in which the quantity  is expressed"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
           "domain": [
             {
               "EA-Name": "QuantitativeValue",

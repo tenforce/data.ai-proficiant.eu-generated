@@ -1,0 +1,867 @@
+{
+  "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
+  "classes": [
+    {
+      "EA-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+      "name": "Extruder",
+      "label": {
+        "en": "Extruder",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+      "name": ""
+    }
+  ],
+  "properties": [
+    {
+      "EA-Guid": "{6FB22896-AB73-4c4e-A711-5B43EFC7CBF8}",
+      "name": ""
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
+      "name": "GenericName",
+      "label": {
+        "en": "GenericName",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Abstract class of all names in a Namespace.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
+      "name": "Any",
+      "label": {
+        "en": "Any",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Represents instances of any type.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "To be substituted by a suitable concrete class, datatype...",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8DC71D05-A00F-4974-B7A0-456B6B1D337B}",
+      "name": "TM_Object",
+      "label": {
+        "en": "TM_Object",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Abstract temporal class.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "In practice, usually takes the form of temporal primitives like Moment or Period (resp represented by a Date/DateTime or two Dates/DateTimes, one for the beginning of the Period, one for the end of the Period). For a more detailed description of this class see ISO 19108.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{53EBF228-2BB3-4e05-AED6-2C77D9EE7CDD}",
+      "name": "PropertyType",
+      "label": {
+        "en": "PropertyType",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Characteristic common to a class of Objects.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{967D02A1-E7B9-4b34-AB44-61027BBBF85B}",
+      "name": "CI_ResponsibleParty",
+      "label": {
+        "en": "CI_ResponsibleParty",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
+      "name": "Observation",
+      "label": {
+        "en": "Observation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The determination of the value of a particular characteristic of an Object at a given time or between two times.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "These are estimates of the value, in other words there is a certain margin of error on the value. Examples are temperature, classification, color. This is different from values that have been assigned and are therefore not estimates, such as name or price.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C9C17C85-EA67-44a4-B489-0C82BC4FCF92}",
+      "name": "Agent",
+      "label": {
+        "en": "Agent",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Someone or something that can act or has the power to act.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
+      "name": "Unit",
+      "label": {
+        "en": "Unit",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Information used to uniquely identify an object.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
+      "name": "Geometry",
+      "label": {
+        "en": "Geometry",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{836A92DB-235F-4c0c-9187-08CAD6C03E01}",
+      "name": "Location",
+      "label": {
+        "en": "Location",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E43D704F-478B-4ddd-A40F-C7895885D6C2}",
+      "name": "ObservationCollection",
+      "label": {
+        "en": "ObservationCollection",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A collection of one or more observations, whose members share a common value for one or more properties.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EA770CCF-D167-4da0-B7C7-A075F878CB3E}",
+      "name": "Frequency",
+      "label": {
+        "en": "Frequency",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The smallest possible time between one Observation, Actuation, or Sampling and the next, under the defined Conditions.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+      "name": "SystemCapability",
+      "label": {
+        "en": "SystemCapability",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The normal SystemCapabilities of a System under some specified Conditions.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+      "name": "SystemProperty",
+      "label": {
+        "en": "SystemProperty",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An identifiable and observable characteristic that represents the System's ability to operate its primary purpose.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example the Systems' Accuracy, Sensitivity, ResponseTime. The pimary purpose for a Sensor is to make Observations, for a Sampler to execute Sampling.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A0B77AF4-9079-4612-8B0B-2A067EB72077}",
+      "name": "Compound Name Observation",
+      "label": {
+        "en": "Compound Name Observation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation of the Compound name",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{80E79E12-9C6F-4197-A9DC-C1B9DD6EC09F}",
+      "name": "Meterweight Measurement",
+      "label": {
+        "en": "Meterweight Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3B1460E6-753D-4c72-8429-53ACA36F9720}",
+      "name": "Piece Weight Measurement",
+      "label": {
+        "en": "Piece Weight Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2693B1A2-EBD8-4038-8668-6F74F9468462}",
+      "name": "Pressure Measurement",
+      "label": {
+        "en": "Pressure Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EFBE686B-8A28-4663-995C-B1F01EE79B59}",
+      "name": "Schrinking Speed Measurement",
+      "label": {
+        "en": "Schrinking Speed Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6ABAFF4C-BF87-48be-A7C5-70574E4A969D}",
+      "name": "Screw Speed Measurement",
+      "label": {
+        "en": "Screw Speed Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4E11DA80-A61E-4ad3-AD5F-2FB191CBA834}",
+      "name": "Status Observation",
+      "label": {
+        "en": "Status Observation",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FE77F0EB-B246-45e4-9EC2-FCD0CD382127}",
+      "name": "Temperature Measurement",
+      "label": {
+        "en": "Temperature Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5125D0F2-89CE-49a5-89C3-120880AB52E3}",
+      "name": "Tread Measurement",
+      "label": {
+        "en": "Tread Measurement",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4183A92E-D715-4cf0-9D05-8882A58CEC59}",
+      "name": "Feature",
+      "label": {
+        "en": "Feature",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Features are abstractions of real-world phenomena.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "An equivalent term is Object.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C3518BFC-B69C-4275-A789-449A4EC1C7BB}",
+      "name": "CategoryObservation",
+      "label": {
+        "en": "CategoryObservation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation of a class an Object belongs to.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Eg the taxon of a Plant. Result is a ScopedName. For a more detailed description of this class see ISO 19156.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{44EA8AAA-FFAD-4e42-8112-BF4B2DB4CB23}",
+      "name": "Measurement",
+      "label": {
+        "en": "Measurement",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation of some quantifiable characteristic of an Object.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Eg the mass of a Rock. Result is of type Measure. For a more detailed description of this class see ISO 19156.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7FA3F20F-F28C-449a-A07A-8CAFB58C7542}",
+      "name": "NamedValue",
+      "label": {
+        "en": "NamedValue",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Generic soft-typed value.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BF72588B-F588-41c2-9330-D0CD897EBBFA}",
+      "name": "TruthObservation",
+      "label": {
+        "en": "TruthObservation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation if something is true or false about an Object.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Eg occurence of Fossiles. Result is of type Boolean. For a more detailed description of this class see ISO 19156.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7F31A230-246C-4f2c-A9A7-66744CE80720}",
+      "name": "Device",
+      "label": {
+        "en": "Device",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A tangible object designed to perform a particular Task.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2609BCF4-CEA3-455c-93D7-6BB2963A9B22}",
+      "name": "Function",
+      "label": {
+        "en": "Function",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The functionality necessary to accomplish the Task for which a device is designed.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8E88D4F9-D8FB-4d94-BC7F-1BAD82FFB62D}",
+      "name": "Task",
+      "label": {
+        "en": "Task",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The goal for which a Device is designed (from a user perspective).",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DD086377-7D75-4442-A171-E8CCB51769C4}",
+      "name": "Factory",
+      "label": {
+        "en": "Factory",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The facility in which goods are produced or processed",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2123AE65-FE5A-41db-9A2C-03203613F357}",
+      "name": "ProductionEquipment",
+      "label": {
+        "en": "ProductionEquipment",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A phyical mean used in the production process of goods.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{612B1B67-F0EE-4d26-B21F-487EA6528A88}",
+      "name": "Quantative Value",
+      "label": {
+        "en": "Quantative Value",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Indication of the quantity a property of an object has.",
+        "nl": "Enter your translation here"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{4C903963-279A-45cb-A0DA-D9172780C26F}",
+      "name": "value",
+      "label": {
+        "en": "value",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value expressing the quantity of the property",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9C758685-237B-4716-95D0-52B6F606250F}",
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The  unit in which the quantity  is expressed",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AEBA842B-3FD9-4ead-A85F-1D886D6B8FAA}",
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The standard unit in which the quantity  is expressed",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9D9983C2-B4CB-4af8-B263-8E01EBE13E36}",
+      "name": "contains",
+      "label": {
+        "en": "contains",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "production equiment present at the factory",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1B44CA1D-2019-4696-BA04-F42E5F95721F}",
+      "name": "model",
+      "label": {
+        "en": "model",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Name of the model of the Device.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9B2B7E42-EC54-49e4-8FFA-E8BBF2D62053}",
+      "name": "manufacturer",
+      "label": {
+        "en": "manufacturer",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Name of the manufacturer of the Device.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BF78220A-A9B3-4063-B6B2-F35BF98CB61C}",
+      "name": "function",
+      "label": {
+        "en": "function",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Function that the Device can perform to accomplish a Task.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B9B91971-F7AF-4c74-94E8-B1B0D2AAA91D}",
+      "name": "task",
+      "label": {
+        "en": "task",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Task that the Device was designed to accomplish.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2F84ED6F-C5B9-4fd8-95CC-6630E8BB1F5F}",
+      "name": "value",
+      "label": {
+        "en": "value",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value measured, shared, ",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9BE3F175-E402-4acc-BD8E-020F89719A2C}",
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The unit identified using the unit textual acronym",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9ED0BD02-7BCC-4d0c-87E6-7272FB1B8C49}",
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The unit identified using a standard unit code",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
+      "name": "observes",
+      "label": {
+        "en": "observes",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Type of Property that the Sensor is capable of sensing.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
+      "name": "madeObservation",
+      "label": {
+        "en": "madeObservation",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation made by the Sensor.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0D82E527-E678-473d-A1D4-EBFF12AC8925}",
+      "name": "madeBySensor",
+      "label": {
+        "en": "madeBySensor",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Relation between an Observation and the Sensor which made the Observations.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",
+      "name": "isObservedBy",
+      "label": {
+        "en": "isObservedBy",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Relation between a PropertyType and the Sensor able to observe it.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{18CE982C-8917-4073-8146-32D5C0CC37BF}",
+      "name": "hasSimpleResult",
+      "label": {
+        "en": "hasSimpleResult",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The simple value of an Observation.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{18E5C180-6814-4627-82E3-350A4DBDACE8}",
+      "name": "hasMember",
+      "label": {
+        "en": "hasMember",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observation that belongs to the collection.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2945C5BF-1B78-41d4-8669-B5F5C8363121}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "String used to uniquely identify the object.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
+      "name": "asWKT",
+      "label": {
+        "en": "asWKT",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Geometry expressed in WKT format",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
+      "name": "asGML",
+      "label": {
+        "en": "asGML",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Geometry expressed in GML format.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D70DC76C-767E-496a-972E-797B3F9C45C9}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E6C324CB-5203-40b8-BD5B-B0E9F7C020A7}",
+      "name": "value",
+      "label": {
+        "en": "value",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value expressing the frequency",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E219460B-41EF-4f21-89FF-A9138508CBA3}",
+      "name": "unit acronym",
+      "label": {
+        "en": "unit acronym",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The  unit in which the frequency is expressed",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "e.g. \"m\" for meter",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{060E3DEB-E435-408e-8A63-9CABF517C315}",
+      "name": "standard unit",
+      "label": {
+        "en": "standard unit",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The standard unit in which the frequencey is expressed",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This references a URI.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FF9E4AFD-A5C0-4c57-9465-E1D0DAA2DCEF}",
+      "name": "result",
+      "label": {
+        "en": "result",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The value of the observedProperty as a result of the Observation.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BADD7125-AF08-4b13-BE14-65115E254FF9}",
+      "name": "resultTime",
+      "label": {
+        "en": "resultTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Time when the result of the Observation was obtained.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{35AA6304-42F6-486d-9A25-84243CBAADB8}",
+      "name": "observedProperty",
+      "label": {
+        "en": "observedProperty",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Characteristic that one observes of the featureOfInterest.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
+      "name": "featureOfInterest",
+      "label": {
+        "en": "featureOfInterest",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Object that is observed.",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A4F4F7CA-855F-4bec-BCCF-5798AC1F08B9}",
+      "name": "property Value Provider",
+      "label": {
+        "en": "property Value Provider",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Observations that provide the observedProperty with a value.",
+        "nl": "Enter your translation here"
+      }
+    }
+  ]
+}

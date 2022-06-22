@@ -1,0 +1,1844 @@
+{
+  "metadata": {
+    "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
+    "uri": "https://data.ai-proficient.eu/ns/conti10",
+    "issued": "2022-06-01",
+    "baseURI": "https://data.ai-proficient.eu/ns/conti10#",
+    "filename": "conti10lim",
+    "navigation": {
+      "self": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01"
+    },
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "documenttype": "ap",
+    "documentconfig": {},
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "statuslabel": "Ontwerp Standaard",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/fd415f2574cf7037f20befdd40aa83262ec94e45",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/fd415f2574cf7037f20befdd40aa83262ec94e45/CHANGELOG",
+    "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+    "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+      "name": "Extruder",
+      "label": {
+        "en": "Extruder"
+      },
+      "sort": "Extruder",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "ProductionEquipment",
+          "name": "ProductionEquipment",
+          "package": "SAREF-INMA",
+          "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "scoped_uri": "#ProductionEquipment"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Extruder",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Device",
+          "name": "Device",
+          "package": "SAREF",
+          "uri": "https://saref.etsi.org/core/Device",
+          "scoped_uri": "#Device"
+        },
+        {
+          "label": "Sensor",
+          "name": "Sensor",
+          "package": "SOSA",
+          "uri": "http://www.w3.org/ns/sosa/Sensor",
+          "scoped_uri": "http://www.w3.org/ns/sosa/Sensor"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Extruder",
+              "range_uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Extruder",
+              "range_puri": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+              "range_label": {
+                "en": "Extruder"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "SystemCapability",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#SystemCapability",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+              "range_label": {
+                "en": "SystemCapability"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/observes",
+          "name": "observes",
+          "sort": "observes",
+          "label": {
+            "en": "observes"
+          },
+          "description": {
+            "en": "Type of Property that the Sensor is capable of sensing."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PropertyType",
+              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PropertyType",
+              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+              "range_label": {
+                "en": "PropertyType"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/madeObservation",
+          "name": "madeObservation",
+          "sort": "madeObservation",
+          "label": {
+            "en": "madeObservation"
+          },
+          "description": {
+            "en": "Observation made by the Sensor."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+      "name": "Any",
+      "label": {
+        "en": "Any"
+      },
+      "sort": "Any",
+      "description": {
+        "en": "Represents instances of any type."
+      },
+      "usage": {
+        "en": "To be substituted by a suitable concrete class, datatype..."
+      },
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://purl.eu/ns/observations#value",
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value measured, shared, "
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/observations#unitText",
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://purl.eu/ns/observations#standardUnit",
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
+          "domain": [
+            {
+              "EA-Name": "Any",
+              "uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Unit",
+              "range_uri": "http://qudt.org/2.1/schema/qudt/Unit"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Unit",
+              "range_puri": "http://qudt.org/2.1/schema/qudt/Unit",
+              "range_label": {
+                "en": "Unit"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+      "name": "PropertyType",
+      "label": {
+        "en": "PropertyType"
+      },
+      "sort": "PropertyType",
+      "description": {
+        "en": "Characteristic common to a class of Objects."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/sosa/isObservedBy",
+          "name": "isObservedBy",
+          "sort": "isObservedBy",
+          "label": {
+            "en": "isObservedBy"
+          },
+          "description": {
+            "en": "Relation between a PropertyType and the Sensor able to observe it."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "PropertyType",
+              "uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ExtruderSensor",
+              "range_uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ExtruderSensor",
+              "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+              "range_label": {
+                "en": "ExtruderSensor"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+      "name": "Observation",
+      "label": {
+        "en": "Observation"
+      },
+      "sort": "Observation",
+      "description": {
+        "en": "The determination of the value of a particular characteristic of an Object at a given time or between two times."
+      },
+      "usage": {
+        "en": "These are estimates of the value, in other words there is a certain margin of error on the value. Examples are temperature, classification, color. This is different from values that have been assigned and are therefore not estimates, such as name or price."
+      },
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+          "name": "madeBySensor",
+          "sort": "madeBySensor",
+          "label": {
+            "en": "madeBySensor"
+          },
+          "description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ExtruderSensor",
+              "range_uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ExtruderSensor",
+              "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+              "range_label": {
+                "en": "ExtruderSensor"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "name": "hasSimpleResult",
+          "sort": "hasSimpleResult",
+          "label": {
+            "en": "hasSimpleResult"
+          },
+          "description": {
+            "en": "The simple value of an Observation."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "name": "result",
+          "sort": "result",
+          "label": {
+            "en": "result"
+          },
+          "description": {
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "usage": {
+            "en": "The result can be of any type as any Property of any type of Object can be observed. CONSTRAINT: The type of the result of the Observation must match the observedProperty and the value obtained must be within the range of the observedProperty."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Any",
+              "range_uri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Any",
+              "range_puri": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+              "range_label": {
+                "en": "Any"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "name": "resultTime",
+          "sort": "resultTime",
+          "label": {
+            "en": "resultTime"
+          },
+          "description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "usage": {
+            "en": "Is equal to the phenomenonTime for some Observations, but can also be different, eg when performing an analysis on a Specimen that was taken earlier (and usually elsewhere) or with Sensor measurements that were processed later. Also useful for separating repeated Observations eg on the same Specimen. If the result is a prediction, then the phenomonTime is the moment at which it should apply."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "en": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "name": "observedProperty",
+          "sort": "observedProperty",
+          "label": {
+            "en": "observedProperty"
+          },
+          "description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "usage": {
+            "en": "Sometimes the way in which the values of the property are obtained is indirect, ie one measures for practical reasons another property that is a proxy for the property one really wants to observe. And if that proxy is not a property of the featureOfInterest, then the Observation takes place on a proxy of the Object. For example, to find out the vegetation in an area, we measure the color reflection of the earth's surface. CONSTRAINT: The observedProperty must be an actual attribute of the observedObject."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PropertyType",
+              "range_uri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PropertyType",
+              "range_puri": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+              "range_label": {
+                "en": "PropertyType"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "name": "featureOfInterest",
+          "sort": "featureOfInterest",
+          "label": {
+            "en": "featureOfInterest"
+          },
+          "description": {
+            "en": "Object that is observed."
+          },
+          "usage": {
+            "en": "Can be the Feature itself or a proxy, viz a SamplingFeature. REMARK: Sometimes the actual FeatureOfInterest is only determined after observing the proxy."
+          },
+          "domain": [
+            {
+              "EA-Name": "Observation",
+              "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Feature",
+              "range_uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Feature",
+              "range_puri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+              "range_label": {
+                "en": "Feature"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://purl.org/dc/terms/Agent",
+      "name": "Agent",
+      "label": {
+        "en": "Agent"
+      },
+      "sort": "Agent",
+      "description": {
+        "en": "Someone or something that can act or has the power to act."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://qudt.org/2.1/schema/qudt/Unit",
+      "name": "Unit",
+      "label": {
+        "en": "Unit"
+      },
+      "sort": "Unit",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/ns/sosa/ObservationCollection",
+      "name": "ObservationCollection",
+      "label": {
+        "en": "ObservationCollection"
+      },
+      "sort": "ObservationCollection",
+      "description": {
+        "en": "A collection of one or more observations, whose members share a common value for one or more properties."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/sosa/hasMember",
+          "name": "hasMember",
+          "sort": "hasMember",
+          "label": {
+            "en": "hasMember"
+          },
+          "description": {
+            "en": "Observation that belongs to the collection."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ObservationCollection",
+              "uri": "http://www.w3.org/ns/sosa/ObservationCollection"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/ssn/systems/Frequency",
+      "name": "Frequency",
+      "label": {
+        "en": "Frequency"
+      },
+      "sort": "Frequency",
+      "description": {
+        "en": "The smallest possible time between one Observation, Actuation, or Sampling and the next, under the defined Conditions."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "SystemProperty",
+          "name": "SystemProperty",
+          "package": "SSN",
+          "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+          "scoped_uri": "#SystemProperty"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "http://fixme.com#value",
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value expressing the frequency"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#unitText",
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://fixme.com#standardUnit",
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The standard unit in which the frequencey is expressed"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
+          "domain": [
+            {
+              "EA-Name": "Frequency",
+              "uri": "http://www.w3.org/ns/ssn/systems/Frequency"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+      "name": "SystemCapability",
+      "label": {
+        "en": "SystemCapability"
+      },
+      "sort": "SystemCapability",
+      "description": {
+        "en": "The normal SystemCapabilities of a System under some specified Conditions."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "SystemCapability",
+              "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "SystemProperty",
+              "range_uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#SystemProperty",
+              "range_puri": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+              "range_label": {
+                "en": "SystemProperty"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+      "name": "SystemProperty",
+      "label": {
+        "en": "SystemProperty"
+      },
+      "sort": "SystemProperty",
+      "description": {
+        "en": "An identifiable and observable characteristic that represents the System's ability to operate its primary purpose."
+      },
+      "usage": {
+        "en": "For example the Systems' Accuracy, Sensitivity, ResponseTime. The pimary purpose for a Sensor is to make Observations, for a Sampler to execute Sampling."
+      },
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation",
+      "name": "Compound Name Observation",
+      "label": {
+        "en": "Compound Name Observation"
+      },
+      "sort": "Compound Name Observation",
+      "description": {
+        "en": "Observation of the Compound name"
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "CategoryObservation",
+          "name": "CategoryObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+          "scoped_uri": "#CategoryObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
+      "name": "Meterweight Measurement",
+      "label": {
+        "en": "Meterweight Measurement"
+      },
+      "sort": "Meterweight Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement",
+      "name": "Piece Weight Measurement",
+      "label": {
+        "en": "Piece Weight Measurement"
+      },
+      "sort": "Piece Weight Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
+      "name": "Pressure Measurement",
+      "label": {
+        "en": "Pressure Measurement"
+      },
+      "sort": "Pressure Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement",
+      "name": "Schrinking Speed Measurement",
+      "label": {
+        "en": "Schrinking Speed Measurement"
+      },
+      "sort": "Schrinking Speed Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement",
+      "name": "Screw Speed Measurement",
+      "label": {
+        "en": "Screw Speed Measurement"
+      },
+      "sort": "Screw Speed Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#StatusObservation",
+      "name": "Status Observation",
+      "label": {
+        "en": "Status Observation"
+      },
+      "sort": "Status Observation",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "TruthObservation",
+          "name": "TruthObservation",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+          "scoped_uri": "#TruthObservation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement",
+      "name": "Temperature Measurement",
+      "label": {
+        "en": "Temperature Measurement"
+      },
+      "sort": "Temperature Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/core#TreadMeasurement",
+      "name": "Tread Measurement",
+      "label": {
+        "en": "Tread Measurement"
+      },
+      "sort": "Tread Measurement",
+      "description": {},
+      "usage": {},
+      "parents": [
+        {
+          "label": "Measurement",
+          "name": "Measurement",
+          "package": "Mirror",
+          "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+          "scoped_uri": "#Measurement"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+      "name": "Feature",
+      "label": {
+        "en": "Feature"
+      },
+      "sort": "Feature",
+      "description": {
+        "en": "Features are abstractions of real-world phenomena."
+      },
+      "usage": {
+        "en": "An equivalent term is Object."
+      },
+      "parents": [],
+      "properties": [
+        {
+          "uri": "TODO",
+          "name": "property Value Provider",
+          "sort": "property Value Provider",
+          "label": {
+            "en": "property Value Provider"
+          },
+          "description": {
+            "en": "Observations that provide the observedProperty with a value."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Feature",
+              "uri": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Observation",
+              "range_uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Observation",
+              "range_puri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+              "range_label": {
+                "en": "Observation"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+      "name": "CategoryObservation",
+      "label": {
+        "en": "CategoryObservation"
+      },
+      "sort": "CategoryObservation",
+      "description": {
+        "en": "Observation of a class an Object belongs to."
+      },
+      "usage": {
+        "en": "Eg the taxon of a Plant. Result is a ScopedName. For a more detailed description of this class see ISO 19156."
+      },
+      "parents": [
+        {
+          "label": "Observation",
+          "name": "Observation",
+          "package": "Mirror",
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "scoped_uri": "#Observation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+      "name": "Measurement",
+      "label": {
+        "en": "Measurement"
+      },
+      "sort": "Measurement",
+      "description": {
+        "en": "Observation of some quantifiable characteristic of an Object."
+      },
+      "usage": {
+        "en": "Eg the mass of a Rock. Result is of type Measure. For a more detailed description of this class see ISO 19156."
+      },
+      "parents": [
+        {
+          "label": "Observation",
+          "name": "Observation",
+          "package": "Mirror",
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "scoped_uri": "#Observation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+      "name": "TruthObservation",
+      "label": {
+        "en": "TruthObservation"
+      },
+      "sort": "TruthObservation",
+      "description": {
+        "en": "Observation if something is true or false about an Object."
+      },
+      "usage": {
+        "en": "Eg occurence of Fossiles. Result is of type Boolean. For a more detailed description of this class see ISO 19156."
+      },
+      "parents": [
+        {
+          "label": "Observation",
+          "name": "Observation",
+          "package": "Mirror",
+          "uri": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "scoped_uri": "#Observation"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "uri": "https://saref.etsi.org/core/Device",
+      "name": "Device",
+      "label": {
+        "en": "Device"
+      },
+      "sort": "Device",
+      "description": {
+        "en": "A tangible object designed to perform a particular Task."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Platform",
+          "name": "Platform",
+          "package": "SOSA",
+          "uri": "http://www.w3.org/ns/sosa/Platform",
+          "scoped_uri": "http://www.w3.org/ns/sosa/Platform"
+        },
+        {
+          "label": "System",
+          "name": "System",
+          "package": "SSN",
+          "uri": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
+          "scoped_uri": "https://www.w3.org/TR/vocab-ssn/#ssn-system"
+        }
+      ],
+      "properties": [
+        {
+          "uri": "https://saref.etsi.org/core/hasModel",
+          "name": "model",
+          "sort": "model",
+          "label": {
+            "en": "model"
+          },
+          "description": {
+            "en": "Name of the model of the Device."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Device",
+              "uri": "https://saref.etsi.org/core/Device"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "LangString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "LangString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://saref.etsi.org/core/hasManufacturer",
+          "name": "manufacturer",
+          "sort": "manufacturer",
+          "label": {
+            "en": "manufacturer"
+          },
+          "description": {
+            "en": "Name of the manufacturer of the Device."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Device",
+              "uri": "https://saref.etsi.org/core/Device"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "LangString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "LangString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://saref.etsi.org/core/hasFunction",
+          "name": "function",
+          "sort": "function",
+          "label": {
+            "en": "function"
+          },
+          "description": {
+            "en": "Function that the Device can perform to accomplish a Task."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Device",
+              "uri": "https://saref.etsi.org/core/Device"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Function",
+              "range_uri": "https://saref.etsi.org/core/Function"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Function",
+              "range_puri": "https://saref.etsi.org/core/Function",
+              "range_label": {
+                "en": "Function"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://saref.etsi.org/core/accomplishes",
+          "name": "task",
+          "sort": "task",
+          "label": {
+            "en": "task"
+          },
+          "description": {
+            "en": "Task that the Device was designed to accomplish."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Device",
+              "uri": "https://saref.etsi.org/core/Device"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Task",
+              "range_uri": "https://saref.etsi.org/core/Task"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Task",
+              "range_puri": "https://saref.etsi.org/core/Task",
+              "range_label": {
+                "en": "Task"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://saref.etsi.org/core/Function",
+      "name": "Function",
+      "label": {
+        "en": "Function"
+      },
+      "sort": "Function",
+      "description": {
+        "en": "The functionality necessary to accomplish the Task for which a device is designed."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://saref.etsi.org/core/Task",
+      "name": "Task",
+      "label": {
+        "en": "Task"
+      },
+      "sort": "Task",
+      "description": {
+        "en": "The goal for which a Device is designed (from a user perspective)."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://saref.etsi.org/saref4inma/Factory",
+      "name": "Factory",
+      "label": {
+        "en": "Factory"
+      },
+      "sort": "Factory",
+      "description": {
+        "en": "The facility in which goods are produced or processed"
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://saref.etsi.org/saref4inma/contains",
+          "name": "contains",
+          "sort": "contains",
+          "label": {
+            "en": "contains"
+          },
+          "description": {
+            "en": "production equiment present at the factory"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Factory",
+              "uri": "https://saref.etsi.org/saref4inma/Factory"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ProductionEquipment",
+              "range_uri": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ProductionEquipment",
+              "range_puri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+              "range_label": {
+                "en": "ProductionEquipment"
+              }
+            }
+          ],
+          "cardinality": "",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+      "name": "ProductionEquipment",
+      "label": {
+        "en": "ProductionEquipment"
+      },
+      "sort": "ProductionEquipment",
+      "description": {
+        "en": "A phyical mean used in the production process of goods."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    }
+  ],
+  "properties": [
+    {
+      "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
+      "name": {
+        "undefined": ""
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    }
+  ],
+  "contributors": [],
+  "datatypes": [
+    {
+      "uri": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+      "name": "GenericName",
+      "label": {
+        "en": "GenericName"
+      },
+      "sort": "GenericName",
+      "description": {
+        "en": "Abstract class of all names in a Namespace."
+      },
+      "usage": {
+        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
+      },
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+      "name": "TM_Object",
+      "label": {
+        "en": "TM_Object"
+      },
+      "sort": "TM_Object",
+      "description": {
+        "en": "Abstract temporal class."
+      },
+      "usage": {
+        "en": "In practice, usually takes the form of temporal primitives like Moment or Period (resp represented by a Date/DateTime or two Dates/DateTimes, one for the beginning of the Period, one for the end of the Period). For a more detailed description of this class see ISO 19108."
+      },
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty",
+      "name": "CI_ResponsibleParty",
+      "label": {
+        "en": "CI_ResponsibleParty"
+      },
+      "sort": "CI_ResponsibleParty",
+      "description": {
+        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/ns/adms#Identifier",
+      "name": "identifier",
+      "label": {
+        "en": "identifier"
+      },
+      "sort": "identifier",
+      "description": {
+        "en": "Information used to uniquely identify an object."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#notation",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "usage": {
+            "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version."
+          },
+          "domain": [
+            {
+              "EA-Name": "Identifier",
+              "uri": "http://www.w3.org/ns/adms#Identifier"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/locn#Geometry",
+      "name": "Geometry",
+      "label": {
+        "en": "Geometry"
+      },
+      "sort": "Geometry",
+      "description": {
+        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+          "name": "asWKT",
+          "sort": "asWKT",
+          "label": {
+            "en": "asWKT"
+          },
+          "description": {
+            "en": "Geometry expressed in WKT format"
+          },
+          "usage": {
+            "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
+          },
+          "domain": [
+            {
+              "EA-Name": "Geometry",
+              "uri": "http://www.w3.org/ns/locn#Geometry"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://www.opengis.net/ont/geosparql#asGML",
+          "name": "asGML",
+          "sort": "asGML",
+          "label": {
+            "en": "asGML"
+          },
+          "description": {
+            "en": "Geometry expressed in GML format."
+          },
+          "usage": {
+            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
+          },
+          "domain": [
+            {
+              "EA-Name": "Geometry",
+              "uri": "http://www.w3.org/ns/locn#Geometry"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Literal",
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "range_label": {
+                "en": "Literal"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/prov#Location",
+      "name": "Location",
+      "label": {
+        "en": "Location"
+      },
+      "sort": "Location",
+      "description": {
+        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
+      },
+      "usage": {
+        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
+      },
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+      "name": "NamedValue",
+      "label": {
+        "en": "NamedValue"
+      },
+      "sort": "NamedValue",
+      "description": {
+        "en": "Generic soft-typed value."
+      },
+      "usage": {
+        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
+      },
+      "parents": [],
+      "properties": []
+    },
+    {
+      "uri": "https://schema.org/QuantitativeValue",
+      "name": "Quantative Value",
+      "label": {
+        "en": "Quantative Value"
+      },
+      "sort": "Quantative Value",
+      "description": {
+        "en": "Indication of the quantity a property of an object has."
+      },
+      "usage": {},
+      "parents": [],
+      "properties": [
+        {
+          "uri": "https://schema.org/value",
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
+          "description": {
+            "en": "The value expressing the quantity of the property"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://schema.org/unitText",
+          "name": "unit acronym",
+          "sort": "unit acronym",
+          "label": {
+            "en": "unit acronym"
+          },
+          "description": {
+            "en": "The  unit in which the quantity  is expressed"
+          },
+          "usage": {
+            "en": "e.g. \"m\" for meter"
+          },
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://schema.org/unitCode",
+          "name": "standard unit",
+          "sort": "standard unit",
+          "label": {
+            "en": "standard unit"
+          },
+          "description": {
+            "en": "The standard unit in which the quantity  is expressed"
+          },
+          "usage": {
+            "en": "This references a URI."
+          },
+          "domain": [
+            {
+              "EA-Name": "QuantitativeValue",
+              "uri": "https://schema.org/QuantitativeValue"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
+    }
+  ],
+  "parents": [],
+  "documentroot": "/doc/applicationprofile/conti10-limited/working-draft/2022-06-01"
+}

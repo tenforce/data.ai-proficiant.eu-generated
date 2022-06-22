@@ -6741,7 +6741,7 @@
     "translation": [
         {
             "language": "en",
-            "template": "AI-PROFICIENT-Conti10-ap_en.j2",
+            "template": "AI-PROFICIENT-Conti10lim_en.j2",
             "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
             "translationjson": "AI-PROFICIENT-Conti10-ap_en.json",
             "mergefile": "AI-PROFICIENT-Conti10-ap_en_merged.jsonld"
@@ -6750,13 +6750,13 @@
     "toolchainversion": "3",
     "config": "config/config-ap.json",
     "branchtag": "master",
-    "dummy": "32",
+    "dummy": "33",
     "examples": true,
     "filename": "config/conti10lim.json",
     "navigation": {},
     "repository": "https://github.com/tenforce/ai-proficient-thema",
     "urlref": "/doc/applicationprofile/conti10-limited/working-draft/2022-06-01",
-    "documentcommit": "1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
-    "toolchaincommit": "7eef21bcc42b89f5e91b19e07e510bf35d02a51b",
+    "documentcommit": "8f849639619c281632d94597637749f973ed64e7",
+    "toolchaincommit": "0f78bd6ef9a8f40a7f915d0bcb10b232d1ba9c13",
     "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

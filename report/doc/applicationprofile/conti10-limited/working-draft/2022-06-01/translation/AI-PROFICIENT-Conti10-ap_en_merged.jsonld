@@ -222,8 +222,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10-extruder",
-  "documentcommit": "1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
-  "dummy": "32",
+  "documentcommit": "8f849639619c281632d94597637749f973ed64e7",
+  "dummy": "33",
   "eap": "AI-PROFICIENT-Core-Conti10-limited.eap",
   "editors": [],
   "examples": true,
@@ -6818,13 +6818,13 @@
   "site": "site-skeleton/AI-PROFICIENT-Conti10-limited",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
-  "toolchaincommit": "7eef21bcc42b89f5e91b19e07e510bf35d02a51b",
+  "toolchaincommit": "0f78bd6ef9a8f40a7f915d0bcb10b232d1ba9c13",
   "toolchainversion": "3",
   "translation": [
     {
       "language": "en",
       "mergefile": "AI-PROFICIENT-Conti10-ap_en_merged.jsonld",
-      "template": "AI-PROFICIENT-Conti10-ap_en.j2",
+      "template": "AI-PROFICIENT-Conti10lim_en.j2",
       "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
       "translationjson": "AI-PROFICIENT-Conti10-ap_en.json"
     }

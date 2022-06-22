@@ -222,8 +222,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10-extruder",
-  "documentcommit": "33549c37586eeb00c598c368cb2c315c7fed4e99",
-  "dummy": "33",
+  "documentcommit": "503f7d74be4d1ad2468cff43d3162807e6b57491",
+  "dummy": "34",
   "eap": "AI-PROFICIENT-Core-Conti10-limited.eap",
   "editors": [],
   "examples": true,
@@ -1328,6 +1328,109 @@
     {
       "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+      "ap-definition-en": {
+        "en": "Property of the System that defines its capability."
+      },
+      "ap-label-en": {
+        "en": "has System Property"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Property of the System that defines its capability."
+      },
+      "domain": [
+        {
+          "EA-Name": "SystemCapability",
+          "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "has System Property",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Property of the System that defines its capability.",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "SystemCapability",
+        "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+        "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+        "EA-Name": "hasSystemProperty",
+        "EA-Package": "",
+        "EA-Range": "SystemProperty",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+          "EA-Name": "SystemProperty",
+          "EA-Package": "SSN",
+          "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "has System Property",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Property of the System that defines its capability.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Property of the System that defines its capability."
+        },
+        "ap-label-en": {
+          "en": "has System Property"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Property of the System that defines its capability."
+        },
+        "derived": "false",
+        "destRole": "hasSystemProperty",
+        "label": {
+          "en": "has System Property"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "has System Property"
+      },
+      "name": "has System Property",
+      "range": [
+        {
+          "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+          "EA-Name": "SystemProperty",
+          "EA-Package": "SSN",
+          "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
       "ap-definition-en": {
         "en": "Capability of the system"
@@ -1425,74 +1528,6 @@
           "EA-Name": "SystemCapability",
           "EA-Package": "SSN",
           "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "SystemCapability",
-          "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "SystemCapability",
-        "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
-        "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
-        "EA-Name": "hasSystemProperty",
-        "EA-Package": "",
-        "EA-Range": "SystemProperty",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
-          "EA-Name": "SystemProperty",
-          "EA-Package": "SSN",
-          "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "hasSystemProperty",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
-          "EA-Name": "SystemProperty",
-          "EA-Package": "SSN",
-          "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
         }
       ]
     },
@@ -6818,7 +6853,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Conti10-limited",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
-  "toolchaincommit": "ae77e52ef4bf1ed2ef25f436f38469bc092a8ffd",
+  "toolchaincommit": "28c3f379c2c3994f8888db8d3978e4f47df0ba17",
   "toolchainversion": "3",
   "translation": [
     {

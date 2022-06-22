@@ -648,6 +648,18 @@
       }
     },
     {
+      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+      "name": "has System Property",
+      "label": {
+        "en": "has System Property",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Property of the System that defines its capability.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
       "name": "has System Capability\r\n",
       "label": {
@@ -658,10 +670,6 @@
         "en": "Capability of the system",
         "de": "Enter your translation here"
       }
-    },
-    {
-      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
-      "name": ""
     },
     {
       "EA-Guid": "{F0FD8FC4-F1AB-4619-8DEC-ADFE1D2D68AF}",

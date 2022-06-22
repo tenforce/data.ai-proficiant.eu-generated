@@ -2,180 +2,176 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SOSA".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Observation".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Sample".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.FIWARE".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.OSLO-Generic".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SSN".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SOSA-extensions".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.AirQuality".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-AirQuality".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.WaterQuality".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Mirror".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-Waterquality-BioIndicatorAndBioticIndex".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-Device".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality-alternative1".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.CUBE".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.OSLO-Adres".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-NewDevice".
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Observation, Model.Class Model.SOSA-extensions, Model.Class Model.CUBE, Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality, Model, Model.Class Model.OSLO-Generic, Model.Class Model.Objectdiagrammen.Objectdiagram-Waterquality-BioIndicatorAndBioticIndex, Model.Class Model.OSLO-Adres, Model.Class Model, Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Sample, Model.Class Model.AirQuality, Model.Class Model.Mirror, Model.Class Model.Objectdiagrammen, Model.Class Model.Objectdiagrammen.Objectdiagram-Device, Model.Class Model.FIWARE, Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality-alternative1, Model.Class Model.Objectdiagrammen.Objectdiagram-AirQuality, Model.Class Model.SOSA, Model.Class Model.SSN, Model.Class Model.WaterQuality, Model.Class Model.Objectdiagrammen.Objectdiagram-NewDevice
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirPolluantLevel): Model.Class Model.FIWARE:AirPolluantLevel, Model.Class Model.AirQuality:AirPolluantLevel
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://def.isotc211.org/iso19156/2011/Observation#OM_Observation): Model.Class Model.OM:Observation, Model.Class Model.Mirror:Observation
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityLevel): Model.Class Model.FIWARE:AirQualityLevel, Model.Class Model.AirQuality:AirQualityLevel
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Class Model.AirAndWater:ObservationProcedureType, Model.Class Model.OM:SamplingMethodType, Model.Class Model.AirAndWater:SamplingProcedureType
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ReferenceSpecification): Model.Class Model.AirQuality:ReferenceSpecification, Model.Class Model.WaterQuality:ReferenceSpecification, Model.Class Model.FIWARE:ReferenceSpecification
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://def.isotc211.org/iso19156/2011/Observation#OM_Process): Model.Class Model.OM:Process, Model.Class Model.Mirror:Process
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirPolluantValue): Model.Class Model.FIWARE:AirPolluantValue, Model.Class Model.AirQuality:AirPolluantValue
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityLevelValue): Model.Class Model.AirQuality:AirQualityLevelValue, Model.Class Model.FIWARE:AirQualityLevelValue
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Air): Model.Class Model.AirQuality:Air, Model.Class Model.AirQuality:Air
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/ssn/systems/OperatingRange): Model.Class Model.SSN:OperatingRange, Model.Class Model.SSN:OperatingProperty
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityIndex): Model.Class Model.FIWARE:AirQualityIndex, Model.Class Model.AirQuality:AirQualityIndex
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/moderate): Model.Class Model.FIWARE:AirQualityLevelValue:moderate, Model.Class Model.AirQuality:AirQualityLevelValue:moderate
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/hazardous): Model.Class Model.FIWARE:AirQualityLevelValue:hazardous, Model.Class Model.AirQuality:AirQualityLevelValue:hazardous
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/unhealthyForSensitiveGroups): Model.Class Model.FIWARE:AirQualityLevelValue:unhealthyForSensitiveGroups, Model.Class Model.AirQuality:AirQualityLevelValue:unhealthyForSensitiveGroups
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/good): Model.Class Model.AirQuality:AirQualityLevelValue:good, Model.Class Model.FIWARE:AirQualityLevelValue:good
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/unhealthy): Model.Class Model.FIWARE:AirQualityLevelValue:unhealthy, Model.Class Model.AirQuality:AirQualityLevelValue:unhealthy
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/veryUnhealthy): Model.Class Model.FIWARE:AirQualityLevelValue:veryUnhealthy, Model.Class Model.AirQuality:AirQualityLevelValue:veryUnhealthy
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#airQualityLevel): Model.Class Model.AirQuality:AirQualityLevel:airQualityLevel, Model.Class Model.AirQuality:AirQualityLevelObservation:airQualityLevel, Model.Class Model.FIWARE:AirQualityObserved:airQualityLevel, Model.Class Model.FIWARE:AirQualityLevel:airQualityLevel
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dateCreated): Model.Class Model.FIWARE:AirQualityObserved:dateCreated, Model.Class Model.AirQuality:AirQualityObservationCollection:dateCreated, Model.Class Model.WaterQuality:WaterQualityObservationCollection:dateCreated
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#^phenomenonTime): Model.Class Model.WaterQuality:WaterQualityObservationCollection:^phenomenonTime, Model.Class Model.AirQuality:AirQualityObservationCollection:^phenomenonTime
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#source): Model.Class Model.WaterQuality:WaterQualityObservationCollection:source, Model.Class Model.FIWARE:AirQualityObserved:source, Model.Class Model.AirQuality:AirQualityObservationCollection:source
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dateModified): Model.Class Model.FIWARE:AirQualityObserved:dateModified, Model.Class Model.WaterQuality:WaterQualityObservationCollection:dateModified, Model.Class Model.AirQuality:AirQualityObservationCollection:dateModified
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#observedProperty): Model.Class Model.WaterQuality:BioticIndexObservation:observedProperty, Model.Class Model.WaterQuality:BioIndicatorObservation:observedProperty, Model.Class Model.WaterQuality:WaterQualityParameterObservation:observedProperty, Model.Class Model.AirQuality:AirPolluantObservation:observedProperty, Model.Class Model.WaterQuality:ChemicalAgentConcentrationObservation:observedProperty
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#refWeatherObserved): Model.Class Model.WaterQuality:WaterQualityObservationCollection:refWeatherObserved, Model.Class Model.AirQuality:AirQualityObservationCollection:refWeatherObserved
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#airQualityIndex): Model.Class Model.FIWARE:AirQualityObserved:airQualityIndex, Model.Class Model.AirQuality:AirQualityIndexObservation:airQualityIndex, Model.Class Model.AirQuality:AirQualityIndex:airQualityIndex, Model.Class Model.FIWARE:AirQualityIndex:airQualityIndex
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#referenceSpecification): Model.Class Model.FIWARE:AirQualityIndex:referenceSpecification, Model.Class Model.AirQuality:AirQualityLevelObservation:referenceSpecification, Model.Class Model.FIWARE:AirQualityLevel:referenceSpecification, Model.Class Model.FIWARE:AirPolluantLevel:referenceSpecification, Model.Class Model.AirQuality:AirPollutantLevelObservation:referenceSpecification
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#level): Model.Class Model.AirQuality:AirPolluantLevel:level, Model.Class Model.FIWARE:AirPolluantLevel:level, Model.Class Model.FIWARE:AirPoluant:level
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#reliability): Model.Class Model.FIWARE:AirQualityObserved:reliability, Model.Class Model.AirQuality:AirQualityIndexObservation:reliability
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#^hasFeatureOfInterest): Model.Class Model.AirQuality:AirQualityObservationCollection:^hasFeatureOfInterest, Model.Class Model.WaterQuality:WaterQualityObservationCollection:^hasFeatureOfInterest
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#id): Model.Class Model.AirQuality:AirQualityObservationCollection:id, Model.Class Model.FIWARE:AirQualityObserved:id, Model.Class Model.WaterQuality:WaterQualityObservationCollection:id
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Class Model.AirQuality:AirPolluantValue:value, Model.Class Model.FIWARE:AirPolluantValue:value, Model.Class Model.SSN:Frequency:value, Model.Class Model.FIWARE:AirPoluant:value
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/ssn/systems/inCondition): Model.Class Model.SSN:SurvivalRange:inCondition, Model.Class Model.SSN:OperatingRange:inCondition
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitcode): Model.Class Model.AirQuality:AirPolluantValue:unitcode, Model.Class Model.FIWARE:AirPolluantValue:unitcode
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dataProvider): Model.Class Model.WaterQuality:WaterQualityObservationCollection:dataProvider, Model.Class Model.FIWARE:AirQualityObserved:dataProvider, Model.Class Model.AirQuality:AirQualityObservationCollection:dataProvider
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Class Model.CONTI10:Extruder:identifier, Model.Class Model.SOSA:Sensor:identifier, Model.Class Model.CONTI10:ExtruderSensor:^identifier
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#type): Model.Class Model.AirQuality:AirFeature:type, Model.Class Model.WaterQuality:WaterFeature:type, Model.Class Model.FIWARE:AirQualityObserved:type
-21:16:02 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/sosa/hasSimpleResult): Model.Class Model.SOSA:Result:hasSimpleResult, Model.Class Model.OM:Observation:hasSimpleResult
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Class Model.CONTI10".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Class Model.CONTI10".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Class Model.CONTI10".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Class Model.CONTI10".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Location" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Any" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identifier" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Observation" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SystemProperty" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Frequency" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Feature" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Device" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Function" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GenericName" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TM_Object" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ObservationCollection" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TruthObservation" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CategoryObservation" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Measurement" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PropertyType" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CI_responsibleParty" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "NamedValue" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometry" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TemperatureMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PressureMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ScrewSpeedMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SchrinkingspeedMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TreadMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "MeterWeightMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PieceWeightMeasurement" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "StatusObservation" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CompoundNameObservation" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SystemCapability" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "QuantitativeValue" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Unit" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ProductionEquipment" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Factory" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Extruder" .
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ExtruderSensor" .
-21:16:02 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Task" .
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:^locatedAt" belongs to package "CONTI10" based on source and target definition.
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.OM:PropertyType:isObservedBy is unknown
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:observes is unknown
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:result" belongs to package "OM" based on source and target definition.
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.SOSA-extensions:ObservationCollection:hasMember is unknown
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.SSN:SystemCapability:hasSystemProperty" belongs to package "SSN" based on source and target definition.
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.SSN:SystemCapability:hasSystemProperty".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.SSN:SystemCapability:hasSystemProperty".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.SSN:SystemCapability:hasSystemProperty".
-21:16:02 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property hasSystemProperty without name, further processing this property will be incoherent
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:observedProperty" belongs to package "OM" based on source and target definition.
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:^hasSystemCapability is unknown
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:setPointFor" belongs to package "CONTI10" based on source and target definition.
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:actualFrom" belongs to package "CONTI10" based on source and target definition.
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.SAREF-INMA:Factory:contains" belongs to package "SAREF-INMA" based on source and target definition.
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:madeObservation is unknown
-21:16:02 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.OM:Observation:madeBySensor is unknown
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:featureOfInterest" belongs to package "OM" based on source and target definition.
-21:16:02 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Feature:propertyValueProvider" belongs to package "OM" based on source and target definition.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendDoor" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendDoorString" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendOp" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:phenomenonTime" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:resultQuality" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:parameter" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:hasUltimateFeatureOfInterest" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:result" since it is marked as ignored.
-21:16:02 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.SSN:Frequency:standardUnit".
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:hasFeatureOfInterest" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:hasUltimateFeatureOfInterest" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:madeBySensor" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:observedProperty" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:phenomenonTime" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:resultTime" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:usedProcedure" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:parameter" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SSN:SystemCapability:hasSystemProperty" since it is marked as ignored.
-21:16:02 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SSN:SystemCapability:inCondition" since it is marked as ignored.
-21:16:02 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.OSLO-Generic:QuantitativeValue:standaardEenheid".
-21:16:02 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.OSLO-Generic:QuantitativeValue:waarde".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".
-21:16:02 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SOSA".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Observation".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Sample".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.FIWARE".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.OSLO-Generic".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SSN".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.SOSA-extensions".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.AirQuality".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-AirQuality".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.WaterQuality".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Mirror".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-Waterquality-BioIndicatorAndBioticIndex".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-Device".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality-alternative1".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.CUBE".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.OSLO-Adres".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Class Model.Objectdiagrammen.Objectdiagram-NewDevice".
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Observation, Model.Class Model.SOSA-extensions, Model.Class Model.CUBE, Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality, Model, Model.Class Model.OSLO-Generic, Model.Class Model.Objectdiagrammen.Objectdiagram-Waterquality-BioIndicatorAndBioticIndex, Model.Class Model.OSLO-Adres, Model.Class Model, Model.Class Model.Objectdiagrammen.Objectdiagram-SOSA-Sample, Model.Class Model.AirQuality, Model.Class Model.Mirror, Model.Class Model.Objectdiagrammen, Model.Class Model.Objectdiagrammen.Objectdiagram-Device, Model.Class Model.FIWARE, Model.Class Model.Objectdiagrammen.Objectdiagram-WaterQuality-alternative1, Model.Class Model.Objectdiagrammen.Objectdiagram-AirQuality, Model.Class Model.SOSA, Model.Class Model.SSN, Model.Class Model.WaterQuality, Model.Class Model.Objectdiagrammen.Objectdiagram-NewDevice
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirPolluantLevel): Model.Class Model.FIWARE:AirPolluantLevel, Model.Class Model.AirQuality:AirPolluantLevel
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://def.isotc211.org/iso19156/2011/Observation#OM_Observation): Model.Class Model.OM:Observation, Model.Class Model.Mirror:Observation
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityLevel): Model.Class Model.FIWARE:AirQualityLevel, Model.Class Model.AirQuality:AirQualityLevel
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Class Model.AirAndWater:ObservationProcedureType, Model.Class Model.OM:SamplingMethodType, Model.Class Model.AirAndWater:SamplingProcedureType
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ReferenceSpecification): Model.Class Model.AirQuality:ReferenceSpecification, Model.Class Model.WaterQuality:ReferenceSpecification, Model.Class Model.FIWARE:ReferenceSpecification
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://def.isotc211.org/iso19156/2011/Observation#OM_Process): Model.Class Model.OM:Process, Model.Class Model.Mirror:Process
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirPolluantValue): Model.Class Model.FIWARE:AirPolluantValue, Model.Class Model.AirQuality:AirPolluantValue
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityLevelValue): Model.Class Model.AirQuality:AirQualityLevelValue, Model.Class Model.FIWARE:AirQualityLevelValue
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Air): Model.Class Model.AirQuality:Air, Model.Class Model.AirQuality:Air
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/ssn/systems/OperatingRange): Model.Class Model.SSN:OperatingRange, Model.Class Model.SSN:OperatingProperty
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AirQualityIndex): Model.Class Model.FIWARE:AirQualityIndex, Model.Class Model.AirQuality:AirQualityIndex
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/moderate): Model.Class Model.FIWARE:AirQualityLevelValue:moderate, Model.Class Model.AirQuality:AirQualityLevelValue:moderate
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/hazardous): Model.Class Model.FIWARE:AirQualityLevelValue:hazardous, Model.Class Model.AirQuality:AirQualityLevelValue:hazardous
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/unhealthyForSensitiveGroups): Model.Class Model.FIWARE:AirQualityLevelValue:unhealthyForSensitiveGroups, Model.Class Model.AirQuality:AirQualityLevelValue:unhealthyForSensitiveGroups
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/good): Model.Class Model.AirQuality:AirQualityLevelValue:good, Model.Class Model.FIWARE:AirQualityLevelValue:good
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/unhealthy): Model.Class Model.FIWARE:AirQualityLevelValue:unhealthy, Model.Class Model.AirQuality:AirQualityLevelValue:unhealthy
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AirQualityLevelValue/veryUnhealthy): Model.Class Model.FIWARE:AirQualityLevelValue:veryUnhealthy, Model.Class Model.AirQuality:AirQualityLevelValue:veryUnhealthy
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#airQualityLevel): Model.Class Model.AirQuality:AirQualityLevel:airQualityLevel, Model.Class Model.AirQuality:AirQualityLevelObservation:airQualityLevel, Model.Class Model.FIWARE:AirQualityObserved:airQualityLevel, Model.Class Model.FIWARE:AirQualityLevel:airQualityLevel
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dateCreated): Model.Class Model.FIWARE:AirQualityObserved:dateCreated, Model.Class Model.AirQuality:AirQualityObservationCollection:dateCreated, Model.Class Model.WaterQuality:WaterQualityObservationCollection:dateCreated
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#^phenomenonTime): Model.Class Model.WaterQuality:WaterQualityObservationCollection:^phenomenonTime, Model.Class Model.AirQuality:AirQualityObservationCollection:^phenomenonTime
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#source): Model.Class Model.WaterQuality:WaterQualityObservationCollection:source, Model.Class Model.FIWARE:AirQualityObserved:source, Model.Class Model.AirQuality:AirQualityObservationCollection:source
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dateModified): Model.Class Model.FIWARE:AirQualityObserved:dateModified, Model.Class Model.WaterQuality:WaterQualityObservationCollection:dateModified, Model.Class Model.AirQuality:AirQualityObservationCollection:dateModified
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#observedProperty): Model.Class Model.WaterQuality:BioticIndexObservation:observedProperty, Model.Class Model.WaterQuality:BioIndicatorObservation:observedProperty, Model.Class Model.WaterQuality:WaterQualityParameterObservation:observedProperty, Model.Class Model.AirQuality:AirPolluantObservation:observedProperty, Model.Class Model.WaterQuality:ChemicalAgentConcentrationObservation:observedProperty
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#refWeatherObserved): Model.Class Model.WaterQuality:WaterQualityObservationCollection:refWeatherObserved, Model.Class Model.AirQuality:AirQualityObservationCollection:refWeatherObserved
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#airQualityIndex): Model.Class Model.FIWARE:AirQualityObserved:airQualityIndex, Model.Class Model.AirQuality:AirQualityIndexObservation:airQualityIndex, Model.Class Model.AirQuality:AirQualityIndex:airQualityIndex, Model.Class Model.FIWARE:AirQualityIndex:airQualityIndex
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#referenceSpecification): Model.Class Model.FIWARE:AirQualityIndex:referenceSpecification, Model.Class Model.AirQuality:AirQualityLevelObservation:referenceSpecification, Model.Class Model.FIWARE:AirQualityLevel:referenceSpecification, Model.Class Model.FIWARE:AirPolluantLevel:referenceSpecification, Model.Class Model.AirQuality:AirPollutantLevelObservation:referenceSpecification
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#level): Model.Class Model.AirQuality:AirPolluantLevel:level, Model.Class Model.FIWARE:AirPolluantLevel:level, Model.Class Model.FIWARE:AirPoluant:level
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#reliability): Model.Class Model.FIWARE:AirQualityObserved:reliability, Model.Class Model.AirQuality:AirQualityIndexObservation:reliability
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#^hasFeatureOfInterest): Model.Class Model.AirQuality:AirQualityObservationCollection:^hasFeatureOfInterest, Model.Class Model.WaterQuality:WaterQualityObservationCollection:^hasFeatureOfInterest
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#id): Model.Class Model.AirQuality:AirQualityObservationCollection:id, Model.Class Model.FIWARE:AirQualityObserved:id, Model.Class Model.WaterQuality:WaterQualityObservationCollection:id
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Class Model.AirQuality:AirPolluantValue:value, Model.Class Model.FIWARE:AirPolluantValue:value, Model.Class Model.SSN:Frequency:value, Model.Class Model.FIWARE:AirPoluant:value
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/ssn/systems/inCondition): Model.Class Model.SSN:SurvivalRange:inCondition, Model.Class Model.SSN:OperatingRange:inCondition
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#unitcode): Model.Class Model.AirQuality:AirPolluantValue:unitcode, Model.Class Model.FIWARE:AirPolluantValue:unitcode
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#dataProvider): Model.Class Model.WaterQuality:WaterQualityObservationCollection:dataProvider, Model.Class Model.FIWARE:AirQualityObserved:dataProvider, Model.Class Model.AirQuality:AirQualityObservationCollection:dataProvider
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Class Model.CONTI10:Extruder:identifier, Model.Class Model.SOSA:Sensor:identifier, Model.Class Model.CONTI10:ExtruderSensor:^identifier
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#type): Model.Class Model.AirQuality:AirFeature:type, Model.Class Model.WaterQuality:WaterFeature:type, Model.Class Model.FIWARE:AirQualityObserved:type
+21:37:09 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/sosa/hasSimpleResult): Model.Class Model.SOSA:Result:hasSimpleResult, Model.Class Model.OM:Observation:hasSimpleResult
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Class Model.CONTI10".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Class Model.CONTI10".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Class Model.CONTI10".
+21:37:09 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Class Model.CONTI10".
+21:37:09 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Location" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Any" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identifier" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Observation" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SystemProperty" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Frequency" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Feature" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Device" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Function" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GenericName" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TM_Object" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ObservationCollection" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TruthObservation" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CategoryObservation" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Measurement" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PropertyType" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CI_responsibleParty" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "NamedValue" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometry" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TemperatureMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TemperatureMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PressureMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PressureMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ScrewSpeedMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:ScrewSpeedMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SchrinkingspeedMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:SchrinkingspeedMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TreadMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:TreadMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "MeterWeightMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:MeterWeightMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PieceWeightMeasurement" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:PieceWeightMeasurement".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "StatusObservation" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:StatusObservation".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CompoundNameObservation" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "SystemCapability" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "QuantitativeValue" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Unit" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.AI-PROFICIENT-Core:Unit".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ProductionEquipment" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Factory" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Extruder" .
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ExtruderSensor" .
+21:37:10 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Task" .
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:^locatedAt" belongs to package "CONTI10" based on source and target definition.
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder".
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.OM:PropertyType:isObservedBy is unknown
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:observes is unknown
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:result" belongs to package "OM" based on source and target definition.
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.SOSA-extensions:ObservationCollection:hasMember is unknown
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.SSN:SystemCapability:hasSystemProperty" belongs to package "SSN" based on source and target definition.
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:observedProperty" belongs to package "OM" based on source and target definition.
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:^hasSystemCapability is unknown
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:setPointFor" belongs to package "CONTI10" based on source and target definition.
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.CONTI10:ExtruderSensor:actualFrom" belongs to package "CONTI10" based on source and target definition.
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.SAREF-INMA:Factory:contains" belongs to package "SAREF-INMA" based on source and target definition.
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.CONTI10:ExtruderSensor:madeObservation is unknown
+21:37:10 WARN  c.g.i.o.c.Converter - Package for connector Model.Class Model.OM:Observation:madeBySensor is unknown
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Observation:featureOfInterest" belongs to package "OM" based on source and target definition.
+21:37:10 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Class Model.OM:Feature:propertyValueProvider" belongs to package "OM" based on source and target definition.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendDoor" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendDoorString" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OSLO-Generic:Identifier:toegekendOp" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:phenomenonTime" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:resultQuality" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:parameter" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:hasUltimateFeatureOfInterest" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.OM:Observation:result" since it is marked as ignored.
+21:37:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.SSN:Frequency:standardUnit".
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:hasFeatureOfInterest" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:hasUltimateFeatureOfInterest" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:madeBySensor" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:observedProperty" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:phenomenonTime" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:resultTime" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:usedProcedure" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SOSA-extensions:ObservationCollection:parameter" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SSN:SystemCapability:hasSystemProperty" since it is marked as ignored.
+21:37:10 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Class Model.SSN:SystemCapability:inCondition" since it is marked as ignored.
+21:37:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.OSLO-Generic:QuantitativeValue:standaardEenheid".
+21:37:10 WARN  c.g.i.o.c.Converter - Missing data type for attribute "Model.Class Model.OSLO-Generic:QuantitativeValue:waarde".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:Extruder:identifier".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".
+21:37:10 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Class Model.CONTI10:ExtruderSensor:^identifier".

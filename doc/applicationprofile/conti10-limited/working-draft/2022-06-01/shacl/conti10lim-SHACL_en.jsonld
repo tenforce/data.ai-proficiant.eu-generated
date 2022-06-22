@@ -1,0 +1,2056 @@
+{
+  "@context": {
+    "@vocab": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@id": "qb:codeList",
+      "@type": "@id"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdfs:comment": {
+      "@id": "rdfs:comment"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:and": {
+      "@container": "@set",
+      "@id": "sh:and",
+      "@type": "@id"
+    },
+    "sh:class": {
+      "@id": "sh:class",
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@id": "sh:datatype",
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language",
+      "@id": "sh:description"
+    },
+    "sh:hasValue": {
+      "@id": "sh:hasValue",
+      "@type": "@id"
+    },
+    "sh:in": {
+      "@container": "@set",
+      "@id": "sh:in",
+      "@type": "@id"
+    },
+    "sh:maxCount": {
+      "@id": "sh:maxCount",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@id": "sh:minCount",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language",
+      "@id": "sh:name"
+    },
+    "sh:node": {
+      "@id": "sh:node",
+      "@type": "@id"
+    },
+    "sh:nodeKind": {
+      "@id": "sh:nodeKind",
+      "@type": "@id"
+    },
+    "sh:or": {
+      "@container": "@set",
+      "@id": "sh:or",
+      "@type": "@id"
+    },
+    "sh:path": {
+      "@id": "sh:path",
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@id": "sh:property",
+      "@type": "@id"
+    },
+    "sh:severity": {
+      "@id": "sh:severity",
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@id": "sh:targetClass",
+      "@type": "@id"
+    },
+    "sh:uniqueLang": {
+      "@id": "sh:uniqueLang",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "shapes": {
+      "@id": "rdfs:member",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vl": "https://data.vlaanderen.be/ns/shacl#"
+  },
+  "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01",
+  "shapes": [
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor identifier"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/aadbd67a77a624f073be2076627fb9dc883cbe48",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "De verwachte waarde voor identifier is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/c0d17764e84e711728581fda7356a51e99a9040a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor identifier"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/e2017f72421063cd9ff494011ec78f35f9632a4a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/103bda315e7c497aff8007399fa7a3b28bfece96",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3AmadeObservation",
+          "sh:class": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "sh:description": {
+            "en": "Observation made by the Sensor."
+          },
+          "sh:name": {
+            "en": "madeObservation"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/madeObservation",
+          "vl:message": {
+            "en": "De range van madeObservation moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/27093d8812ddd3b753a905f1924c10da119b0c4d",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves",
+          "sh:description": {
+            "en": "Type of Property that the Sensor is capable of sensing."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "observes"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/observes",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor observes"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3cd9a30abb0380e7fe8b97b32fe912a75c6cc624",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Alocated%20at",
+          "sh:description": {
+            "en": "a place where the sensor is located"
+          },
+          "sh:name": {
+            "en": "located at"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
+          "vl:message": {
+            "en": "De verwachte waarde voor located at is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3da90e79bf666a08ed168e60a30ea15ac4dd5378",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Ahas%20System%20Capability%0D%0A",
+          "sh:description": {
+            "en": "Capability of the system"
+          },
+          "sh:name": {
+            "en": "has System Capability\r\n"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "vl:message": {
+            "en": "De verwachte waarde voor has System Capability\r\n is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor identifier"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/7aeb9f28662742a204f8f4487c1842a6de195543",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3AmadeObservation",
+          "sh:description": {
+            "en": "Observation made by the Sensor."
+          },
+          "sh:name": {
+            "en": "madeObservation"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/sosa/madeObservation",
+          "vl:message": {
+            "en": "De verwachte waarde voor madeObservation is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/9021cea554dc4f876699235bd8a9f113728806ef",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Alocated%20at",
+          "sh:class": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+          "sh:description": {
+            "en": "a place where the sensor is located"
+          },
+          "sh:name": {
+            "en": "located at"
+          },
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
+          "vl:message": {
+            "en": "De range van located at moet van het type <https://data.ai-proficient.eu/ns/conti10#Extruder> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/aadbd67a77a624f073be2076627fb9dc883cbe48",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "De verwachte waarde voor identifier is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/b02db496c1db100b85f6ad70ef5479939148aa50",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves",
+          "sh:description": {
+            "en": "Type of Property that the Sensor is capable of sensing."
+          },
+          "sh:name": {
+            "en": "observes"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/sosa/observes",
+          "vl:message": {
+            "en": "De verwachte waarde voor observes is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/c0d17764e84e711728581fda7356a51e99a9040a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor identifier"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cc68ed0b5c44a4ad30b59b9547aef118fd4092ed",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Ahas%20System%20Capability%0D%0A",
+          "sh:class": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+          "sh:description": {
+            "en": "Capability of the system"
+          },
+          "sh:name": {
+            "en": "has System Capability\r\n"
+          },
+          "sh:path": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "vl:message": {
+            "en": "De range van has System Capability\r\n moet van het type <http://www.w3.org/ns/ssn/systems/SystemCapability> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cf9b90ab5fb9c3312d20ae6b090823d21e7c8a94",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves",
+          "sh:class": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+          "sh:description": {
+            "en": "Type of Property that the Sensor is capable of sensing."
+          },
+          "sh:name": {
+            "en": "observes"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/observes",
+          "vl:message": {
+            "en": "De range van observes moet van het type <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/d6f0b49fa06bf114449c63f175dc8c7d782657e5",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aactual%20from",
+          "sh:description": {
+            "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+          },
+          "sh:name": {
+            "en": "actual from"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+          "vl:message": {
+            "en": "De verwachte waarde voor actual from is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e2017f72421063cd9ff494011ec78f35f9632a4a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier",
+          "vl:message": {
+            "en": "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e5386632b8c89a7654769e92bc60337008268cc9",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Asetpoint-for",
+          "sh:description": {
+            "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+          },
+          "sh:name": {
+            "en": "setpoint-for"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+          "vl:message": {
+            "en": "De verwachte waarde voor setpoint-for is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/f551434a88c4cef95fd3ad2f3e484034c073027a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Asetpoint-for",
+          "sh:class": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+          "sh:description": {
+            "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+          },
+          "sh:name": {
+            "en": "setpoint-for"
+          },
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+          "vl:message": {
+            "en": "De range van setpoint-for moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/fa6daecfbba17f4d96edd66501edc11d12d339b9",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aactual%20from",
+          "sh:class": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+          "sh:description": {
+            "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+          },
+          "sh:name": {
+            "en": "actual from"
+          },
+          "sh:path": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+          "vl:message": {
+            "en": "De range van actual from moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GenericNameShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2005/Names#GenericName"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "https://purl.eu/ns/observations#unitText",
+          "vl:message": {
+            "en": "De verwachte waarde voor unit acronym is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue",
+          "sh:description": {
+            "en": "The value measured, shared, "
+          },
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "https://purl.eu/ns/observations#value",
+          "vl:message": {
+            "en": "De verwachte waarde voor value is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/4f068ed992c0c6cff59400a2eba66ed265584107",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "https://purl.eu/ns/observations#unitText",
+          "vl:message": {
+            "en": "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/53e450a34121bff96bb85d65d500af572d53d5a6",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "https://purl.eu/ns/observations#unitText",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor unit acronym"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/7e33e7b5f2ea9a6c57bce5576a555dfc6ccff2a0",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit",
+          "sh:class": "http://qudt.org/2.1/schema/qudt/Unit",
+          "sh:description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "https://purl.eu/ns/observations#standardUnit",
+          "vl:message": {
+            "en": "De range van standard unit moet van het type <http://qudt.org/2.1/schema/qudt/Unit> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/91bfa321c10baf1f54ede6712dba0056caa0e687",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit",
+          "sh:description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "https://purl.eu/ns/observations#standardUnit",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor standard unit"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue",
+          "sh:description": {
+            "en": "The value measured, shared, "
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://purl.eu/ns/observations#value",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor value"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/a2ae69ec05b2abed6733627d669216779024e4f3",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit",
+          "sh:description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "https://purl.eu/ns/observations#standardUnit",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor standard unit"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The unit identified using the unit textual acronym"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "https://purl.eu/ns/observations#unitText",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor unit acronym"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue",
+          "sh:description": {
+            "en": "The value measured, shared, "
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://purl.eu/ns/observations#value",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor value"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e21b431429fb80836ef06b664f40814e6d9ef121",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit",
+          "sh:description": {
+            "en": "The unit identified using a standard unit code"
+          },
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://purl.eu/ns/observations#standardUnit",
+          "vl:message": {
+            "en": "De verwachte waarde voor standard unit is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e6ef62a70178318602d7f27504b53fd5102749a1",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "The value measured, shared, "
+          },
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://purl.eu/ns/observations#value",
+          "vl:message": {
+            "en": "De range van value moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TM_ObjectShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/c114bdc54e89e909e5a0c4bf5fefa0eaf544b3b2",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyType%3AisObservedBy",
+          "sh:description": {
+            "en": "Relation between a PropertyType and the Sensor able to observe it."
+          },
+          "sh:name": {
+            "en": "isObservedBy"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/sosa/isObservedBy",
+          "vl:message": {
+            "en": "De verwachte waarde voor isObservedBy is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/e8092f273791ad0b00e45c58318045904f2d1495",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyType%3AisObservedBy",
+          "sh:class": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+          "sh:description": {
+            "en": "Relation between a PropertyType and the Sensor able to observe it."
+          },
+          "sh:name": {
+            "en": "isObservedBy"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/isObservedBy",
+          "vl:message": {
+            "en": "De range van isObservedBy moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CI_responsiblePartyShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/0554f76f75de8ca2ee5672bb40e26503ceafcd17",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty",
+          "sh:description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "observedProperty"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor observedProperty"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/199904424bed835e843b678e8ee8fb8d2595b86a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest",
+          "sh:class": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+          "sh:description": {
+            "en": "Object that is observed."
+          },
+          "sh:name": {
+            "en": "featureOfInterest"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "vl:message": {
+            "en": "De range van featureOfInterest moet van het type <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/1dbb82f8151188038b93c76850c3530df782ef13",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty",
+          "sh:class": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+          "sh:description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "sh:name": {
+            "en": "observedProperty"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "vl:message": {
+            "en": "De range van observedProperty moet van het type <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/231ad17c2b4c014daabd6ff1f4297a69a9d589b8",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor",
+          "sh:description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "madeBySensor"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/madeBySensor",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor madeBySensor"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/34f5229e96357e3b3088fdfc8f139bb6d6059060",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime",
+          "sh:description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "resultTime"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor resultTime"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/3b282d30eacb33050c74cf6ab700778d368deed8",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor",
+          "sh:description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "madeBySensor"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/madeBySensor",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor madeBySensor"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/455b19536af639c21c2d7de95ea13748159da3e1",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest",
+          "sh:description": {
+            "en": "Object that is observed."
+          },
+          "sh:name": {
+            "en": "featureOfInterest"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "vl:message": {
+            "en": "De verwachte waarde voor featureOfInterest is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4739fe0d0c226f792fb189e70d3e52a0de4fa4f1",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult",
+          "sh:description": {
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "result"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor result"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4c9ba43023dcbeb7b9ef7c1360d91689e95e9534",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor",
+          "sh:class": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+          "sh:description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "sh:name": {
+            "en": "madeBySensor"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/madeBySensor",
+          "vl:message": {
+            "en": "De range van madeBySensor moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/504de398128c3d6e9cc7f221de1627ce36f120ae",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty",
+          "sh:description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "sh:name": {
+            "en": "observedProperty"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "vl:message": {
+            "en": "De verwachte waarde voor observedProperty is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/5246151eb00a936eb041e3e0e2329da0b5be1822",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest",
+          "sh:description": {
+            "en": "Object that is observed."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "featureOfInterest"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor featureOfInterest"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/65a17e1d990568a6ffe92cbad03f89ec9411b4da",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult",
+          "sh:description": {
+            "en": "The simple value of an Observation."
+          },
+          "sh:name": {
+            "en": "hasSimpleResult"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "vl:message": {
+            "en": "De verwachte waarde voor hasSimpleResult is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/66343681fc05e797add62b28ad6bdf2bca27d908",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty",
+          "sh:description": {
+            "en": "Characteristic that one observes of the featureOfInterest."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "observedProperty"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor observedProperty"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/770006077473bddb3382cebc52c95b4f644d1af8",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest",
+          "sh:description": {
+            "en": "Object that is observed."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "featureOfInterest"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor featureOfInterest"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7af81599e4d930f8977878f841930567a7d36147",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult",
+          "sh:description": {
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "sh:name": {
+            "en": "result"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "vl:message": {
+            "en": "De verwachte waarde voor result is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7fefe7e04cfffef8900d89d9a083481e0b9218bc",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult",
+          "sh:description": {
+            "en": "The simple value of an Observation."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "hasSimpleResult"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor hasSimpleResult"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/8830bc9e0f24b4446c5a691797da35a52b98c95c",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor",
+          "sh:description": {
+            "en": "Relation between an Observation and the Sensor which made the Observations."
+          },
+          "sh:name": {
+            "en": "madeBySensor"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/sosa/madeBySensor",
+          "vl:message": {
+            "en": "De verwachte waarde voor madeBySensor is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a106b514f0b32d5bb051cf58601c58756394ff4c",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult",
+          "sh:description": {
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "result"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor result"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a47629aba3ad4e2f7fbdfcba9fd81015af42f12a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult",
+          "sh:description": {
+            "en": "The simple value of an Observation."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "hasSimpleResult"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor hasSimpleResult"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/aa9bb9a473136b7edeba06957ab83841e0bbe2eb",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime",
+          "sh:description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "resultTime"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor resultTime"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/b22f53827b68351cf5d9ca84751090bcb807d5cc",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "sh:name": {
+            "en": "resultTime"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "vl:message": {
+            "en": "De range van resultTime moet van het type <http://www.w3.org/2001/XMLSchema#dateTime> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d054bfd22c9ced76c4ab349543ece31fab5eecc9",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult",
+          "sh:class": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+          "sh:description": {
+            "en": "The value of the observedProperty as a result of the Observation."
+          },
+          "sh:name": {
+            "en": "result"
+          },
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+          "vl:message": {
+            "en": "De range van result moet van het type <http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d5d0a18a521298b9b76d1e44e4df403e7bdf4019",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime",
+          "sh:description": {
+            "en": "Time when the result of the Observation was obtained."
+          },
+          "sh:name": {
+            "en": "resultTime"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+          "vl:message": {
+            "en": "De verwachte waarde voor resultTime is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/ea9893f0362ca20fa1bed10d8f9dd797760a0f6f",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "The simple value of an Observation."
+          },
+          "sh:name": {
+            "en": "hasSimpleResult"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "vl:message": {
+            "en": "De range van hasSimpleResult moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AgentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://purl.org/dc/terms/Agent"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#UnitShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://qudt.org/2.1/schema/qudt/Unit"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/aadbd67a77a624f073be2076627fb9dc883cbe48",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier",
+          "sh:description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation",
+          "vl:message": {
+            "en": "De verwachte waarde voor identifier is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/c0d17764e84e711728581fda7356a51e99a9040a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier",
+          "sh:description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor identifier"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/e2017f72421063cd9ff494011ec78f35f9632a4a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation",
+          "vl:message": {
+            "en": "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/60ee9b0695c34181d22cc0d844149cf4d7f612eb",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
+          "sh:description": {
+            "en": "Geometry expressed in WKT format"
+          },
+          "sh:name": {
+            "en": "asWKT"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
+          "vl:message": {
+            "en": "De verwachte waarde voor asWKT is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/89f7d496919088bf6f5d91d717fd0008036e162f",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
+          "sh:description": {
+            "en": "Geometry expressed in GML format."
+          },
+          "sh:name": {
+            "en": "asGML"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
+          "vl:message": {
+            "en": "De verwachte waarde voor asGML is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/b67f3d29a7a2846127d77457ddca122b09d8989e",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
+          "sh:description": {
+            "en": "Geometry expressed in WKT format"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "asWKT"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor asWKT"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/bff06d9e7e1b1ac87ea76b59cec7713bc587d89d",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "Geometry expressed in GML format."
+          },
+          "sh:name": {
+            "en": "asGML"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
+          "vl:message": {
+            "en": "De range van asGML moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/e0af63679f9ee6d8a705e1418681f497c4a4e935",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
+          "sh:description": {
+            "en": "Geometry expressed in GML format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "asGML"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor asGML"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/f3fab1456b31c72b594512a5b07010a2b945d2cb",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "Geometry expressed in WKT format"
+          },
+          "sh:name": {
+            "en": "asWKT"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
+          "vl:message": {
+            "en": "De range van asWKT moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#LocationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/prov#Location"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/1c758cfa068589c32e754fdf184bd31363a3f72c",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember",
+          "sh:class": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "sh:description": {
+            "en": "Observation that belongs to the collection."
+          },
+          "sh:name": {
+            "en": "hasMember"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/hasMember",
+          "vl:message": {
+            "en": "De range van hasMember moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/8dc446dff494512ee0a8db1d4976a65866488d7a",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember",
+          "sh:description": {
+            "en": "Observation that belongs to the collection."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "hasMember"
+          },
+          "sh:path": "http://www.w3.org/ns/sosa/hasMember",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor hasMember"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/a240d8dea65d1b43a1d0c1670e22f5d16b66875d",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember",
+          "sh:description": {
+            "en": "Observation that belongs to the collection."
+          },
+          "sh:name": {
+            "en": "hasMember"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/sosa/hasMember",
+          "vl:message": {
+            "en": "De verwachte waarde voor hasMember is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/sosa/ObservationCollection"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://fixme.com#unitText",
+          "vl:message": {
+            "en": "De verwachte waarde voor unit acronym is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue",
+          "sh:description": {
+            "en": "The value expressing the frequency"
+          },
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "http://fixme.com#value",
+          "vl:message": {
+            "en": "De verwachte waarde voor value is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/4f068ed992c0c6cff59400a2eba66ed265584107",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "http://fixme.com#unitText",
+          "vl:message": {
+            "en": "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/53e450a34121bff96bb85d65d500af572d53d5a6",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "http://fixme.com#unitText",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor unit acronym"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/91bfa321c10baf1f54ede6712dba0056caa0e687",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Astandard%20unit",
+          "sh:description": {
+            "en": "The standard unit in which the frequencey is expressed"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "http://fixme.com#standardUnit",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor standard unit"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue",
+          "sh:description": {
+            "en": "The value expressing the frequency"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://fixme.com#value",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor value"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/a2ae69ec05b2abed6733627d669216779024e4f3",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Astandard%20unit",
+          "sh:description": {
+            "en": "The standard unit in which the frequencey is expressed"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "http://fixme.com#standardUnit",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor standard unit"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The  unit in which the frequency is expressed"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "http://fixme.com#unitText",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor unit acronym"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue",
+          "sh:description": {
+            "en": "The value expressing the frequency"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://fixme.com#value",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor value"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/e6ef62a70178318602d7f27504b53fd5102749a1",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue",
+          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "sh:description": {
+            "en": "The value expressing the frequency"
+          },
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://fixme.com#value",
+          "vl:message": {
+            "en": "De range van value moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/ssn/systems/Frequency"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/06a031fb7964dc5f4af20eca88a42e6ed4b979fc",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapability%3Ahas%20System%20Property",
+          "sh:class": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+          "sh:description": {
+            "en": "Property of the System that defines its capability."
+          },
+          "sh:name": {
+            "en": "has System Property"
+          },
+          "sh:path": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "vl:message": {
+            "en": "De range van has System Property moet van het type <http://www.w3.org/ns/ssn/systems/SystemProperty> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/92b516cd2e96170cd6b60886f7d6adb7e7c6f08b",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapability%3Ahas%20System%20Property",
+          "sh:description": {
+            "en": "Property of the System that defines its capability."
+          },
+          "sh:name": {
+            "en": "has System Property"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "vl:message": {
+            "en": "De verwachte waarde voor has System Property is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemPropertyShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CompoundNameObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeterWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PieceWeightMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PressureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#PressureMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SchrinkingspeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ScrewSpeedMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#StatusObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#StatusObservation"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TemperatureMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TreadMeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.ai-proficient.eu/ns/core#TreadMeasurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/7c39538df6c27dbf81e1d2bdc7a7f7131a89c5cb",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Feature%3Aproperty%20Value%20Provider",
+          "sh:description": {
+            "en": "Observations that provide the observedProperty with a value."
+          },
+          "sh:name": {
+            "en": "property Value Provider"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "TODO",
+          "vl:message": {
+            "en": "De verwachte waarde voor property Value Provider is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/eb89ab16e4087d2fcc47e1be5ef1b18788181411",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Feature%3Aproperty%20Value%20Provider",
+          "sh:class": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+          "sh:description": {
+            "en": "Observations that provide the observedProperty with a value."
+          },
+          "sh:name": {
+            "en": "property Value Provider"
+          },
+          "sh:path": "TODO",
+          "vl:message": {
+            "en": "De range van property Value Provider moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CategoryObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeasurementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#NamedValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TruthObservationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/012de59a5afa4c16a02a7c4f3aae7aa026cb93aa",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel",
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of the model of the Device."
+          },
+          "sh:name": {
+            "en": "model"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasModel",
+          "vl:message": {
+            "en": "De range van model moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/08c9a4c776d54b1b03d31cd3278055a7edc78090",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel",
+          "sh:description": {
+            "en": "Name of the model of the Device."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "model"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasModel",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor model"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/139e18dd0a0b2034c499b46844112dec4b0c9513",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer",
+          "sh:description": {
+            "en": "Name of the manufacturer of the Device."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "manufacturer"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasManufacturer",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor manufacturer"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/253a0cda6905af9c498f98ceb0faee8c843998cc",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer",
+          "sh:description": {
+            "en": "Name of the manufacturer of the Device."
+          },
+          "sh:name": {
+            "en": "manufacturer"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "https://saref.etsi.org/core/hasManufacturer",
+          "vl:message": {
+            "en": "De verwachte waarde voor manufacturer is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/33b902385da9f32529c31db6680201030d3a96e7",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction",
+          "sh:class": "https://saref.etsi.org/core/Function",
+          "sh:description": {
+            "en": "Function that the Device can perform to accomplish a Task."
+          },
+          "sh:name": {
+            "en": "function"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasFunction",
+          "vl:message": {
+            "en": "De range van function moet van het type <https://saref.etsi.org/core/Function> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/381451295730b8edd12095393ce36d81a909eaa0",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction",
+          "sh:description": {
+            "en": "Function that the Device can perform to accomplish a Task."
+          },
+          "sh:name": {
+            "en": "function"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://saref.etsi.org/core/hasFunction",
+          "vl:message": {
+            "en": "De verwachte waarde voor function is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/42609f09f3fc30f86f2edeaeb92f3d8e8c25eb5e",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel",
+          "sh:description": {
+            "en": "Name of the model of the Device."
+          },
+          "sh:name": {
+            "en": "model"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasModel",
+          "sh:uniqueLang": "true",
+          "vl:message": {
+            "en": "Slechts 1 waarde voor elke taal toegelaten voor model"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a3e7db03c343e04a2a2bad8f021e5f888d4877b0",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer",
+          "sh:description": {
+            "en": "Name of the manufacturer of the Device."
+          },
+          "sh:name": {
+            "en": "manufacturer"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasManufacturer",
+          "sh:uniqueLang": "true",
+          "vl:message": {
+            "en": "Slechts 1 waarde voor elke taal toegelaten voor manufacturer"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a7991619ec840a0ff43dcd17916ebf87642fa24b",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask",
+          "sh:class": "https://saref.etsi.org/core/Task",
+          "sh:description": {
+            "en": "Task that the Device was designed to accomplish."
+          },
+          "sh:name": {
+            "en": "task"
+          },
+          "sh:path": "https://saref.etsi.org/core/accomplishes",
+          "vl:message": {
+            "en": "De range van task moet van het type <https://saref.etsi.org/core/Task> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/b8d894743730652272a61ca3ce061a50755fe8a8",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask",
+          "sh:description": {
+            "en": "Task that the Device was designed to accomplish."
+          },
+          "sh:name": {
+            "en": "task"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://saref.etsi.org/core/accomplishes",
+          "vl:message": {
+            "en": "De verwachte waarde voor task is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/c8cf631763f1cd2b3fec2c8dc2ce1edfa8dcb901",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask",
+          "sh:description": {
+            "en": "Task that the Device was designed to accomplish."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "task"
+          },
+          "sh:path": "https://saref.etsi.org/core/accomplishes",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor task"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d1bc797694bce088762c27c9406ba6b585dbd854",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer",
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of the manufacturer of the Device."
+          },
+          "sh:name": {
+            "en": "manufacturer"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasManufacturer",
+          "vl:message": {
+            "en": "De range van manufacturer moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d2e1b93cab17f121b86dba89dc824ec17006df7c",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction",
+          "sh:description": {
+            "en": "Function that the Device can perform to accomplish a Task."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "function"
+          },
+          "sh:path": "https://saref.etsi.org/core/hasFunction",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor function"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d9a2b9e7939728b860f31c8e29a76484d94cc805",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel",
+          "sh:description": {
+            "en": "Name of the model of the Device."
+          },
+          "sh:name": {
+            "en": "model"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "https://saref.etsi.org/core/hasModel",
+          "vl:message": {
+            "en": "De verwachte waarde voor model is een Literal"
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://saref.etsi.org/core/Device"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FunctionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://saref.etsi.org/core/Function"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TaskShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://saref.etsi.org/core/Task"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/a7e92160d89c13c719fef8015937f385f88917f4",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Factory%3Acontains",
+          "sh:description": {
+            "en": "production equiment present at the factory"
+          },
+          "sh:name": {
+            "en": "contains"
+          },
+          "sh:nodekind": "sh:BlankNodeOrIRI",
+          "sh:path": "https://saref.etsi.org/saref4inma/contains",
+          "vl:message": {
+            "en": "De verwachte waarde voor contains is een rdfs:Resource (URI of blank node)"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/bb4f8d2752be4e63c0600b820774cf721bce070f",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Factory%3Acontains",
+          "sh:class": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+          "sh:description": {
+            "en": "production equiment present at the factory"
+          },
+          "sh:name": {
+            "en": "contains"
+          },
+          "sh:path": "https://saref.etsi.org/saref4inma/contains",
+          "vl:message": {
+            "en": "De range van contains moet van het type <https://saref.etsi.org/saref4inma/ProductionEquipment> zijn."
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://saref.etsi.org/saref4inma/Factory"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ProductionEquipmentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://saref.etsi.org/saref4inma/ProductionEquipment"
+    },
+    {
+      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The  unit in which the quantity  is expressed"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:nodekind": "sh:Literal",
+          "sh:path": "https://schema.org/unitText",
+          "vl:message": {
+            "en": "De verwachte waarde voor unit acronym is een Literal"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/4f068ed992c0c6cff59400a2eba66ed265584107",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "The  unit in which the quantity  is expressed"
+          },
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "https://schema.org/unitText",
+          "vl:message": {
+            "en": "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/91bfa321c10baf1f54ede6712dba0056caa0e687",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Astandard%20unit",
+          "sh:description": {
+            "en": "The standard unit in which the quantity  is expressed"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "standard unit"
+          },
+          "sh:path": "https://schema.org/unitCode",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor standard unit"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Avalue",
+          "sh:description": {
+            "en": "The value expressing the quantity of the property"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://schema.org/value",
+          "vl:message": {
+            "en": "Minimaal 1 waarden verwacht voor value"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym",
+          "sh:description": {
+            "en": "The  unit in which the quantity  is expressed"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "unit acronym"
+          },
+          "sh:path": "https://schema.org/unitText",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor unit acronym"
+          },
+          "vl:rule": ""
+        },
+        {
+          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/db15b7df9d94d285bd33d0966a4d2357f8333c31",
+          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Avalue",
+          "sh:description": {
+            "en": "The value expressing the quantity of the property"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "https://schema.org/value",
+          "vl:message": {
+            "en": "Maximaal 1 waarden toegelaten voor value"
+          },
+          "vl:rule": ""
+        }
+      ],
+      "sh:targetClass": "https://schema.org/QuantitativeValue"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
 {
-    "systemCapability": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+    "systemCapability": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+    "hasSystemProperty": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
 }

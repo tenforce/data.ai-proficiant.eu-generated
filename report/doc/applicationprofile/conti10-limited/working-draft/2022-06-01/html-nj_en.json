@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/33549c37586eeb00c598c368cb2c315c7fed4e99",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/33549c37586eeb00c598c368cb2c315c7fed4e99/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/503f7d74be4d1ad2468cff43d3162807e6b57491",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/503f7d74be4d1ad2468cff43d3162807e6b57491/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -973,10 +973,14 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "has System Property",
+          "sort": "has System Property",
+          "label": {
+            "en": "has System Property"
+          },
+          "description": {
+            "en": "Property of the System that defines its capability."
+          },
           "usage": {},
           "domain": [
             {

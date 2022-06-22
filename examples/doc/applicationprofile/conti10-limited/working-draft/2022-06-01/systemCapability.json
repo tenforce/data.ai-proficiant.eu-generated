@@ -1,5 +1,6 @@
 {
     "@context": "/doc/ap/conti10lim/systemCapability.jsonld",
     "@type": "http://www.w3.org/ns/ssn/systems/SystemCapability",
-    "@id": "{{ID}}"
+    "@id": "{{ID}}",
+    "hasSystemProperty": "{{VAL}}"
 }

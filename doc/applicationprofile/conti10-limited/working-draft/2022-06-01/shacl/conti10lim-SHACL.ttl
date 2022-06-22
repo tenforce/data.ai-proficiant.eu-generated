@@ -1,0 +1,1149 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schemas: <https://schema.org/> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01> rdfs:member <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GenericNameShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TM_ObjectShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CI_responsiblePartyShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AgentShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#UnitShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#LocationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemPropertyShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CompoundNameObservationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeterWeightMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PieceWeightMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PressureMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SchrinkingspeedMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ScrewSpeedMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#StatusObservationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TemperatureMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TreadMeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CategoryObservationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeasurementShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#NamedValueShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TruthObservationShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FunctionShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TaskShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ProductionEquipmentShape>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AgentShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass dc:Agent .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/4f068ed992c0c6cff59400a2eba66ed265584107>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/53e450a34121bff96bb85d65d500af572d53d5a6>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/7e33e7b5f2ea9a6c57bce5576a555dfc6ccff2a0>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/91bfa321c10baf1f54ede6712dba0056caa0e687>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/a2ae69ec05b2abed6733627d669216779024e4f3>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e21b431429fb80836ef06b664f40814e6d9ef121>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e6ef62a70178318602d7f27504b53fd5102749a1>;
+  shacl:targetClass <http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym";
+  shacl:description "The unit identified using the unit textual acronym"@en;
+  shacl:name "unit acronym"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://purl.eu/ns/observations#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor unit acronym is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue";
+  shacl:description "The value measured, shared, "@en;
+  shacl:name "value"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://purl.eu/ns/observations#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor value is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/4f068ed992c0c6cff59400a2eba66ed265584107> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym";
+  shacl:datatype xsd:string;
+  shacl:description "The unit identified using the unit textual acronym"@en;
+  shacl:name "unit acronym"@en;
+  shacl:path <https://purl.eu/ns/observations#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/53e450a34121bff96bb85d65d500af572d53d5a6> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym";
+  shacl:description "The unit identified using the unit textual acronym"@en;
+  shacl:minCount 1;
+  shacl:name "unit acronym"@en;
+  shacl:path <https://purl.eu/ns/observations#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor unit acronym"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/7e33e7b5f2ea9a6c57bce5576a555dfc6ccff2a0> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit";
+  shacl:class <http://qudt.org/2.1/schema/qudt/Unit>;
+  shacl:description "The unit identified using a standard unit code"@en;
+  shacl:name "standard unit"@en;
+  shacl:path <https://purl.eu/ns/observations#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van standard unit moet van het type <http://qudt.org/2.1/schema/qudt/Unit> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/91bfa321c10baf1f54ede6712dba0056caa0e687> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit";
+  shacl:description "The unit identified using a standard unit code"@en;
+  shacl:maxCount 1;
+  shacl:name "standard unit"@en;
+  shacl:path <https://purl.eu/ns/observations#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor standard unit"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue";
+  shacl:description "The value measured, shared, "@en;
+  shacl:minCount 1;
+  shacl:name "value"@en;
+  shacl:path <https://purl.eu/ns/observations#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/a2ae69ec05b2abed6733627d669216779024e4f3> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit";
+  shacl:description "The unit identified using a standard unit code"@en;
+  shacl:minCount 1;
+  shacl:name "standard unit"@en;
+  shacl:path <https://purl.eu/ns/observations#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor standard unit"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Aunit%20acronym";
+  shacl:description "The unit identified using the unit textual acronym"@en;
+  shacl:maxCount 1;
+  shacl:name "unit acronym"@en;
+  shacl:path <https://purl.eu/ns/observations#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor unit acronym"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue";
+  shacl:description "The value measured, shared, "@en;
+  shacl:maxCount 1;
+  shacl:name "value"@en;
+  shacl:path <https://purl.eu/ns/observations#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e21b431429fb80836ef06b664f40814e6d9ef121> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Astandard%20unit";
+  shacl:description "The unit identified using a standard unit code"@en;
+  shacl:name "standard unit"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://purl.eu/ns/observations#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor standard unit is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape/e6ef62a70178318602d7f27504b53fd5102749a1> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Any%3Avalue";
+  shacl:datatype rdfs:Literal;
+  shacl:description "The value measured, shared, "@en;
+  shacl:name "value"@en;
+  shacl:path <https://purl.eu/ns/observations#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van value moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CI_responsiblePartyShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CategoryObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CompoundNameObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#CompoundNameObservation> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/012de59a5afa4c16a02a7c4f3aae7aa026cb93aa>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/08c9a4c776d54b1b03d31cd3278055a7edc78090>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/139e18dd0a0b2034c499b46844112dec4b0c9513>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/253a0cda6905af9c498f98ceb0faee8c843998cc>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/33b902385da9f32529c31db6680201030d3a96e7>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/381451295730b8edd12095393ce36d81a909eaa0>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/42609f09f3fc30f86f2edeaeb92f3d8e8c25eb5e>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a3e7db03c343e04a2a2bad8f021e5f888d4877b0>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a7991619ec840a0ff43dcd17916ebf87642fa24b>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/b8d894743730652272a61ca3ce061a50755fe8a8>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/c8cf631763f1cd2b3fec2c8dc2ce1edfa8dcb901>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d1bc797694bce088762c27c9406ba6b585dbd854>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d2e1b93cab17f121b86dba89dc824ec17006df7c>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d9a2b9e7939728b860f31c8e29a76484d94cc805>;
+  shacl:targetClass <https://saref.etsi.org/core/Device> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/012de59a5afa4c16a02a7c4f3aae7aa026cb93aa> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel";
+  shacl:datatype rdf:langString;
+  shacl:description "Name of the model of the Device."@en;
+  shacl:name "model"@en;
+  shacl:path <https://saref.etsi.org/core/hasModel>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van model moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/08c9a4c776d54b1b03d31cd3278055a7edc78090> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel";
+  shacl:description "Name of the model of the Device."@en;
+  shacl:maxCount 1;
+  shacl:name "model"@en;
+  shacl:path <https://saref.etsi.org/core/hasModel>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor model"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/139e18dd0a0b2034c499b46844112dec4b0c9513> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer";
+  shacl:description "Name of the manufacturer of the Device."@en;
+  shacl:maxCount 1;
+  shacl:name "manufacturer"@en;
+  shacl:path <https://saref.etsi.org/core/hasManufacturer>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor manufacturer"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/253a0cda6905af9c498f98ceb0faee8c843998cc> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer";
+  shacl:description "Name of the manufacturer of the Device."@en;
+  shacl:name "manufacturer"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://saref.etsi.org/core/hasManufacturer>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor manufacturer is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/33b902385da9f32529c31db6680201030d3a96e7> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction";
+  shacl:class <https://saref.etsi.org/core/Function>;
+  shacl:description "Function that the Device can perform to accomplish a Task."@en;
+  shacl:name "function"@en;
+  shacl:path <https://saref.etsi.org/core/hasFunction>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van function moet van het type <https://saref.etsi.org/core/Function> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/381451295730b8edd12095393ce36d81a909eaa0> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction";
+  shacl:description "Function that the Device can perform to accomplish a Task."@en;
+  shacl:name "function"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://saref.etsi.org/core/hasFunction>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor function is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/42609f09f3fc30f86f2edeaeb92f3d8e8c25eb5e> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel";
+  shacl:description "Name of the model of the Device."@en;
+  shacl:name "model"@en;
+  shacl:path <https://saref.etsi.org/core/hasModel>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Slechts 1 waarde voor elke taal toegelaten voor model"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a3e7db03c343e04a2a2bad8f021e5f888d4877b0> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer";
+  shacl:description "Name of the manufacturer of the Device."@en;
+  shacl:name "manufacturer"@en;
+  shacl:path <https://saref.etsi.org/core/hasManufacturer>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Slechts 1 waarde voor elke taal toegelaten voor manufacturer"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/a7991619ec840a0ff43dcd17916ebf87642fa24b> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask";
+  shacl:class <https://saref.etsi.org/core/Task>;
+  shacl:description "Task that the Device was designed to accomplish."@en;
+  shacl:name "task"@en;
+  shacl:path <https://saref.etsi.org/core/accomplishes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van task moet van het type <https://saref.etsi.org/core/Task> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/b8d894743730652272a61ca3ce061a50755fe8a8> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask";
+  shacl:description "Task that the Device was designed to accomplish."@en;
+  shacl:name "task"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://saref.etsi.org/core/accomplishes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor task is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/c8cf631763f1cd2b3fec2c8dc2ce1edfa8dcb901> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Atask";
+  shacl:description "Task that the Device was designed to accomplish."@en;
+  shacl:minCount 1;
+  shacl:name "task"@en;
+  shacl:path <https://saref.etsi.org/core/accomplishes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor task"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d1bc797694bce088762c27c9406ba6b585dbd854> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amanufacturer";
+  shacl:datatype rdf:langString;
+  shacl:description "Name of the manufacturer of the Device."@en;
+  shacl:name "manufacturer"@en;
+  shacl:path <https://saref.etsi.org/core/hasManufacturer>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van manufacturer moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d2e1b93cab17f121b86dba89dc824ec17006df7c> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Afunction";
+  shacl:description "Function that the Device can perform to accomplish a Task."@en;
+  shacl:minCount 1;
+  shacl:name "function"@en;
+  shacl:path <https://saref.etsi.org/core/hasFunction>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor function"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#DeviceShape/d9a2b9e7939728b860f31c8e29a76484d94cc805> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Device%3Amodel";
+  shacl:description "Name of the model of the Device."@en;
+  shacl:name "model"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <https://saref.etsi.org/core/hasModel>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor model is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/103bda315e7c497aff8007399fa7a3b28bfece96>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/27093d8812ddd3b753a905f1924c10da119b0c4d>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3cd9a30abb0380e7fe8b97b32fe912a75c6cc624>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3da90e79bf666a08ed168e60a30ea15ac4dd5378>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/7aeb9f28662742a204f8f4487c1842a6de195543>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/9021cea554dc4f876699235bd8a9f113728806ef>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/aadbd67a77a624f073be2076627fb9dc883cbe48>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/b02db496c1db100b85f6ad70ef5479939148aa50>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/c0d17764e84e711728581fda7356a51e99a9040a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cc68ed0b5c44a4ad30b59b9547aef118fd4092ed>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cf9b90ab5fb9c3312d20ae6b090823d21e7c8a94>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/d6f0b49fa06bf114449c63f175dc8c7d782657e5>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e2017f72421063cd9ff494011ec78f35f9632a4a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e5386632b8c89a7654769e92bc60337008268cc9>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/f551434a88c4cef95fd3ad2f3e484034c073027a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/fa6daecfbba17f4d96edd66501edc11d12d339b9>;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/103bda315e7c497aff8007399fa7a3b28bfece96> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3AmadeObservation";
+  shacl:class <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation>;
+  shacl:description "Observation made by the Sensor."@en;
+  shacl:name "madeObservation"@en;
+  shacl:path <http://www.w3.org/ns/sosa/madeObservation>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van madeObservation moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/27093d8812ddd3b753a905f1924c10da119b0c4d> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves";
+  shacl:description "Type of Property that the Sensor is capable of sensing."@en;
+  shacl:minCount 1;
+  shacl:name "observes"@en;
+  shacl:path <http://www.w3.org/ns/sosa/observes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor observes"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3cd9a30abb0380e7fe8b97b32fe912a75c6cc624> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Alocated%20at";
+  shacl:description "a place where the sensor is located"@en;
+  shacl:name "located at"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor located at is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/3da90e79bf666a08ed168e60a30ea15ac4dd5378> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Ahas%20System%20Capability%0D%0A";
+  shacl:description "Capability of the system"@en;
+  shacl:name """has System Capability
+"""@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/ssn/systems/hasSystemCapability>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> """De verwachte waarde voor has System Capability
+ is een rdfs:Resource (URI of blank node)"""];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier";
+  shacl:minCount 1;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor identifier"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/7aeb9f28662742a204f8f4487c1842a6de195543> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3AmadeObservation";
+  shacl:description "Observation made by the Sensor."@en;
+  shacl:name "madeObservation"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/sosa/madeObservation>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor madeObservation is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/9021cea554dc4f876699235bd8a9f113728806ef> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Alocated%20at";
+  shacl:class <https://data.ai-proficient.eu/ns/conti10#Extruder>;
+  shacl:description "a place where the sensor is located"@en;
+  shacl:name "located at"@en;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van located at moet van het type <https://data.ai-proficient.eu/ns/conti10#Extruder> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/aadbd67a77a624f073be2076627fb9dc883cbe48> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier";
+  shacl:name "identifier"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor identifier is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/b02db496c1db100b85f6ad70ef5479939148aa50> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves";
+  shacl:description "Type of Property that the Sensor is capable of sensing."@en;
+  shacl:name "observes"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/sosa/observes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor observes is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/c0d17764e84e711728581fda7356a51e99a9040a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier";
+  shacl:maxCount 1;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor identifier"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cc68ed0b5c44a4ad30b59b9547aef118fd4092ed> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Ahas%20System%20Capability%0D%0A";
+  shacl:class <http://www.w3.org/ns/ssn/systems/SystemCapability>;
+  shacl:description "Capability of the system"@en;
+  shacl:name """has System Capability
+"""@en;
+  shacl:path <http://www.w3.org/ns/ssn/systems/hasSystemCapability>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> """De range van has System Capability
+ moet van het type <http://www.w3.org/ns/ssn/systems/SystemCapability> zijn."""];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/cf9b90ab5fb9c3312d20ae6b090823d21e7c8a94> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aobserves";
+  shacl:class <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType>;
+  shacl:description "Type of Property that the Sensor is capable of sensing."@en;
+  shacl:name "observes"@en;
+  shacl:path <http://www.w3.org/ns/sosa/observes>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van observes moet van het type <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/d6f0b49fa06bf114449c63f175dc8c7d782657e5> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aactual%20from";
+  shacl:description "The sensor on the production equipment that measures the actual value for this setpoint sensor "@en;
+  shacl:name "actual from"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://data.ai-proficient.eu/ns/conti10#actualFrom>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor actual from is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e2017f72421063cd9ff494011ec78f35f9632a4a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aidentifier";
+  shacl:datatype rdfs:Literal;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/e5386632b8c89a7654769e92bc60337008268cc9> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Asetpoint-for";
+  shacl:description "The sensor that sets the to-be achieved by the production equipment for this sensor. "@en;
+  shacl:name "setpoint-for"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://data.ai-proficient.eu/ns/conti10#setPointFor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor setpoint-for is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/f551434a88c4cef95fd3ad2f3e484034c073027a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Asetpoint-for";
+  shacl:class <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor>;
+  shacl:description "The sensor that sets the to-be achieved by the production equipment for this sensor. "@en;
+  shacl:name "setpoint-for"@en;
+  shacl:path <https://data.ai-proficient.eu/ns/conti10#setPointFor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van setpoint-for moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensorShape/fa6daecfbba17f4d96edd66501edc11d12d339b9> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderSensor%3Aactual%20from";
+  shacl:class <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor>;
+  shacl:description "The sensor on the production equipment that measures the actual value for this setpoint sensor "@en;
+  shacl:name "actual from"@en;
+  shacl:path <https://data.ai-proficient.eu/ns/conti10#actualFrom>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van actual from moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/aadbd67a77a624f073be2076627fb9dc883cbe48>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/c0d17764e84e711728581fda7356a51e99a9040a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/e2017f72421063cd9ff494011ec78f35f9632a4a>;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/conti10#Extruder> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier";
+  shacl:minCount 1;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor identifier"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/aadbd67a77a624f073be2076627fb9dc883cbe48> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier";
+  shacl:name "identifier"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor identifier is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/c0d17764e84e711728581fda7356a51e99a9040a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier";
+  shacl:maxCount 1;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor identifier"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ExtruderShape/e2017f72421063cd9ff494011ec78f35f9632a4a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Extruder%3Aidentifier";
+  shacl:datatype rdfs:Literal;
+  shacl:name "identifier"@en;
+  shacl:path dc:identifier;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/a7e92160d89c13c719fef8015937f385f88917f4>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/bb4f8d2752be4e63c0600b820774cf721bce070f>;
+  shacl:targetClass <https://saref.etsi.org/saref4inma/Factory> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/a7e92160d89c13c719fef8015937f385f88917f4> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Factory%3Acontains";
+  shacl:description "production equiment present at the factory"@en;
+  shacl:name "contains"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://saref.etsi.org/saref4inma/contains>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor contains is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FactoryShape/bb4f8d2752be4e63c0600b820774cf721bce070f> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Factory%3Acontains";
+  shacl:class <https://saref.etsi.org/saref4inma/ProductionEquipment>;
+  shacl:description "production equiment present at the factory"@en;
+  shacl:name "contains"@en;
+  shacl:path <https://saref.etsi.org/saref4inma/contains>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van contains moet van het type <https://saref.etsi.org/saref4inma/ProductionEquipment> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/7c39538df6c27dbf81e1d2bdc7a7f7131a89c5cb>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/eb89ab16e4087d2fcc47e1be5ef1b18788181411>;
+  shacl:targetClass <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/7c39538df6c27dbf81e1d2bdc7a7f7131a89c5cb> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Feature%3Aproperty%20Value%20Provider";
+  shacl:description "Observations that provide the observedProperty with a value."@en;
+  shacl:name "property Value Provider"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor property Value Provider is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FeatureShape/eb89ab16e4087d2fcc47e1be5ef1b18788181411> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Feature%3Aproperty%20Value%20Provider";
+  shacl:class <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation>;
+  shacl:description "Observations that provide the observedProperty with a value."@en;
+  shacl:name "property Value Provider"@en;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van property Value Provider moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/4f068ed992c0c6cff59400a2eba66ed265584107>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/53e450a34121bff96bb85d65d500af572d53d5a6>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/91bfa321c10baf1f54ede6712dba0056caa0e687>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/a2ae69ec05b2abed6733627d669216779024e4f3>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/e6ef62a70178318602d7f27504b53fd5102749a1>;
+  shacl:targetClass <http://www.w3.org/ns/ssn/systems/Frequency> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym";
+  shacl:description "The  unit in which the frequency is expressed"@en;
+  shacl:name "unit acronym"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://fixme.com#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor unit acronym is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/3ae7580c4039ed7af240c19ddf9bdc57c8fba687> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue";
+  shacl:description "The value expressing the frequency"@en;
+  shacl:name "value"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://fixme.com#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor value is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/4f068ed992c0c6cff59400a2eba66ed265584107> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym";
+  shacl:datatype xsd:string;
+  shacl:description "The  unit in which the frequency is expressed"@en;
+  shacl:name "unit acronym"@en;
+  shacl:path <http://fixme.com#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/53e450a34121bff96bb85d65d500af572d53d5a6> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym";
+  shacl:description "The  unit in which the frequency is expressed"@en;
+  shacl:minCount 1;
+  shacl:name "unit acronym"@en;
+  shacl:path <http://fixme.com#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor unit acronym"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/91bfa321c10baf1f54ede6712dba0056caa0e687> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Astandard%20unit";
+  shacl:description "The standard unit in which the frequencey is expressed"@en;
+  shacl:maxCount 1;
+  shacl:name "standard unit"@en;
+  shacl:path <http://fixme.com#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor standard unit"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue";
+  shacl:description "The value expressing the frequency"@en;
+  shacl:minCount 1;
+  shacl:name "value"@en;
+  shacl:path <http://fixme.com#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/a2ae69ec05b2abed6733627d669216779024e4f3> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Astandard%20unit";
+  shacl:description "The standard unit in which the frequencey is expressed"@en;
+  shacl:minCount 1;
+  shacl:name "standard unit"@en;
+  shacl:path <http://fixme.com#standardUnit>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor standard unit"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Aunit%20acronym";
+  shacl:description "The  unit in which the frequency is expressed"@en;
+  shacl:maxCount 1;
+  shacl:name "unit acronym"@en;
+  shacl:path <http://fixme.com#unitText>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor unit acronym"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/db15b7df9d94d285bd33d0966a4d2357f8333c31> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue";
+  shacl:description "The value expressing the frequency"@en;
+  shacl:maxCount 1;
+  shacl:name "value"@en;
+  shacl:path <http://fixme.com#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FrequencyShape/e6ef62a70178318602d7f27504b53fd5102749a1> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Frequency%3Avalue";
+  shacl:datatype rdfs:Literal;
+  shacl:description "The value expressing the frequency"@en;
+  shacl:name "value"@en;
+  shacl:path <http://fixme.com#value>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van value moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#FunctionShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://saref.etsi.org/core/Function> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GenericNameShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://def.isotc211.org/iso19103/2005/Names#GenericName> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/60ee9b0695c34181d22cc0d844149cf4d7f612eb>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/89f7d496919088bf6f5d91d717fd0008036e162f>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/b67f3d29a7a2846127d77457ddca122b09d8989e>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/bff06d9e7e1b1ac87ea76b59cec7713bc587d89d>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/e0af63679f9ee6d8a705e1418681f497c4a4e935>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/f3fab1456b31c72b594512a5b07010a2b945d2cb>;
+  shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/60ee9b0695c34181d22cc0d844149cf4d7f612eb> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT";
+  shacl:description "Geometry expressed in WKT format"@en;
+  shacl:name "asWKT"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://www.opengis.net/ont/geosparql#asWKT>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor asWKT is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/89f7d496919088bf6f5d91d717fd0008036e162f> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML";
+  shacl:description "Geometry expressed in GML format."@en;
+  shacl:name "asGML"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://www.opengis.net/ont/geosparql#asGML>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor asGML is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/b67f3d29a7a2846127d77457ddca122b09d8989e> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT";
+  shacl:description "Geometry expressed in WKT format"@en;
+  shacl:maxCount 1;
+  shacl:name "asWKT"@en;
+  shacl:path <http://www.opengis.net/ont/geosparql#asWKT>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor asWKT"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/bff06d9e7e1b1ac87ea76b59cec7713bc587d89d> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML";
+  shacl:datatype rdfs:Literal;
+  shacl:description "Geometry expressed in GML format."@en;
+  shacl:name "asGML"@en;
+  shacl:path <http://www.opengis.net/ont/geosparql#asGML>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van asGML moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/e0af63679f9ee6d8a705e1418681f497c4a4e935> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML";
+  shacl:description "Geometry expressed in GML format."@en;
+  shacl:maxCount 1;
+  shacl:name "asGML"@en;
+  shacl:path <http://www.opengis.net/ont/geosparql#asGML>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor asGML"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/f3fab1456b31c72b594512a5b07010a2b945d2cb> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT";
+  shacl:datatype rdfs:Literal;
+  shacl:description "Geometry expressed in WKT format"@en;
+  shacl:name "asWKT"@en;
+  shacl:path <http://www.opengis.net/ont/geosparql#asWKT>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van asWKT moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/aadbd67a77a624f073be2076627fb9dc883cbe48>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/c0d17764e84e711728581fda7356a51e99a9040a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/e2017f72421063cd9ff494011ec78f35f9632a4a>;
+  shacl:targetClass <http://www.w3.org/ns/adms#Identifier> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/aadbd67a77a624f073be2076627fb9dc883cbe48> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier";
+  shacl:description "String used to uniquely identify the object."@en;
+  shacl:name "identifier"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path skos:notation;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor identifier is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/c0d17764e84e711728581fda7356a51e99a9040a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier";
+  shacl:description "String used to uniquely identify the object."@en;
+  shacl:maxCount 1;
+  shacl:name "identifier"@en;
+  shacl:path skos:notation;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor identifier"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#IdentifierShape/e2017f72421063cd9ff494011ec78f35f9632a4a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Identifier%3Aidentifier";
+  shacl:datatype rdfs:Literal;
+  shacl:description "String used to uniquely identify the object."@en;
+  shacl:name "identifier"@en;
+  shacl:path skos:notation;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van identifier moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#LocationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass prov:Location .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#Measurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#MeterWeightMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#NamedValueShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#NamedValue> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/1c758cfa068589c32e754fdf184bd31363a3f72c>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/8dc446dff494512ee0a8db1d4976a65866488d7a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/a240d8dea65d1b43a1d0c1670e22f5d16b66875d>;
+  shacl:targetClass <http://www.w3.org/ns/sosa/ObservationCollection> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/1c758cfa068589c32e754fdf184bd31363a3f72c> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember";
+  shacl:class <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation>;
+  shacl:description "Observation that belongs to the collection."@en;
+  shacl:name "hasMember"@en;
+  shacl:path <http://www.w3.org/ns/sosa/hasMember>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van hasMember moet van het type <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/8dc446dff494512ee0a8db1d4976a65866488d7a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember";
+  shacl:description "Observation that belongs to the collection."@en;
+  shacl:minCount 1;
+  shacl:name "hasMember"@en;
+  shacl:path <http://www.w3.org/ns/sosa/hasMember>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor hasMember"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape/a240d8dea65d1b43a1d0c1670e22f5d16b66875d> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollection%3AhasMember";
+  shacl:description "Observation that belongs to the collection."@en;
+  shacl:name "hasMember"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/sosa/hasMember>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor hasMember is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/0554f76f75de8ca2ee5672bb40e26503ceafcd17>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/199904424bed835e843b678e8ee8fb8d2595b86a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/1dbb82f8151188038b93c76850c3530df782ef13>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/231ad17c2b4c014daabd6ff1f4297a69a9d589b8>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/34f5229e96357e3b3088fdfc8f139bb6d6059060>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/3b282d30eacb33050c74cf6ab700778d368deed8>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/455b19536af639c21c2d7de95ea13748159da3e1>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4739fe0d0c226f792fb189e70d3e52a0de4fa4f1>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4c9ba43023dcbeb7b9ef7c1360d91689e95e9534>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/504de398128c3d6e9cc7f221de1627ce36f120ae>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/5246151eb00a936eb041e3e0e2329da0b5be1822>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/65a17e1d990568a6ffe92cbad03f89ec9411b4da>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/66343681fc05e797add62b28ad6bdf2bca27d908>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/770006077473bddb3382cebc52c95b4f644d1af8>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7af81599e4d930f8977878f841930567a7d36147>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7fefe7e04cfffef8900d89d9a083481e0b9218bc>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/8830bc9e0f24b4446c5a691797da35a52b98c95c>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a106b514f0b32d5bb051cf58601c58756394ff4c>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a47629aba3ad4e2f7fbdfcba9fd81015af42f12a>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/aa9bb9a473136b7edeba06957ab83841e0bbe2eb>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/b22f53827b68351cf5d9ca84751090bcb807d5cc>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d054bfd22c9ced76c4ab349543ece31fab5eecc9>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d5d0a18a521298b9b76d1e44e4df403e7bdf4019>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/ea9893f0362ca20fa1bed10d8f9dd797760a0f6f>;
+  shacl:targetClass <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/0554f76f75de8ca2ee5672bb40e26503ceafcd17> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty";
+  shacl:description "Characteristic that one observes of the featureOfInterest."@en;
+  shacl:minCount 1;
+  shacl:name "observedProperty"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor observedProperty"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/199904424bed835e843b678e8ee8fb8d2595b86a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest";
+  shacl:class <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature>;
+  shacl:description "Object that is observed."@en;
+  shacl:name "featureOfInterest"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van featureOfInterest moet van het type <https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/1dbb82f8151188038b93c76850c3530df782ef13> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty";
+  shacl:class <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType>;
+  shacl:description "Characteristic that one observes of the featureOfInterest."@en;
+  shacl:name "observedProperty"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van observedProperty moet van het type <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/231ad17c2b4c014daabd6ff1f4297a69a9d589b8> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor";
+  shacl:description "Relation between an Observation and the Sensor which made the Observations."@en;
+  shacl:maxCount 1;
+  shacl:name "madeBySensor"@en;
+  shacl:path <http://www.w3.org/ns/sosa/madeBySensor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor madeBySensor"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/34f5229e96357e3b3088fdfc8f139bb6d6059060> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime";
+  shacl:description "Time when the result of the Observation was obtained."@en;
+  shacl:maxCount 1;
+  shacl:name "resultTime"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor resultTime"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/3b282d30eacb33050c74cf6ab700778d368deed8> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor";
+  shacl:description "Relation between an Observation and the Sensor which made the Observations."@en;
+  shacl:minCount 1;
+  shacl:name "madeBySensor"@en;
+  shacl:path <http://www.w3.org/ns/sosa/madeBySensor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor madeBySensor"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/455b19536af639c21c2d7de95ea13748159da3e1> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest";
+  shacl:description "Object that is observed."@en;
+  shacl:name "featureOfInterest"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor featureOfInterest is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4739fe0d0c226f792fb189e70d3e52a0de4fa4f1> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult";
+  shacl:description "The value of the observedProperty as a result of the Observation."@en;
+  shacl:maxCount 1;
+  shacl:name "result"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#Observation.result>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor result"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/4c9ba43023dcbeb7b9ef7c1360d91689e95e9534> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor";
+  shacl:class <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor>;
+  shacl:description "Relation between an Observation and the Sensor which made the Observations."@en;
+  shacl:name "madeBySensor"@en;
+  shacl:path <http://www.w3.org/ns/sosa/madeBySensor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van madeBySensor moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/504de398128c3d6e9cc7f221de1627ce36f120ae> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty";
+  shacl:description "Characteristic that one observes of the featureOfInterest."@en;
+  shacl:name "observedProperty"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor observedProperty is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/5246151eb00a936eb041e3e0e2329da0b5be1822> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest";
+  shacl:description "Object that is observed."@en;
+  shacl:maxCount 1;
+  shacl:name "featureOfInterest"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor featureOfInterest"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/65a17e1d990568a6ffe92cbad03f89ec9411b4da> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult";
+  shacl:description "The simple value of an Observation."@en;
+  shacl:name "hasSimpleResult"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://www.w3.org/ns/sosa/hasSimpleResult>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor hasSimpleResult is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/66343681fc05e797add62b28ad6bdf2bca27d908> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AobservedProperty";
+  shacl:description "Characteristic that one observes of the featureOfInterest."@en;
+  shacl:maxCount 1;
+  shacl:name "observedProperty"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor observedProperty"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/770006077473bddb3382cebc52c95b4f644d1af8> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AfeatureOfInterest";
+  shacl:description "Object that is observed."@en;
+  shacl:minCount 1;
+  shacl:name "featureOfInterest"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor featureOfInterest"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7af81599e4d930f8977878f841930567a7d36147> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult";
+  shacl:description "The value of the observedProperty as a result of the Observation."@en;
+  shacl:name "result"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#Observation.result>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor result is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/7fefe7e04cfffef8900d89d9a083481e0b9218bc> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult";
+  shacl:description "The simple value of an Observation."@en;
+  shacl:maxCount 1;
+  shacl:name "hasSimpleResult"@en;
+  shacl:path <http://www.w3.org/ns/sosa/hasSimpleResult>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor hasSimpleResult"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/8830bc9e0f24b4446c5a691797da35a52b98c95c> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AmadeBySensor";
+  shacl:description "Relation between an Observation and the Sensor which made the Observations."@en;
+  shacl:name "madeBySensor"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/sosa/madeBySensor>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor madeBySensor is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a106b514f0b32d5bb051cf58601c58756394ff4c> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult";
+  shacl:description "The value of the observedProperty as a result of the Observation."@en;
+  shacl:minCount 1;
+  shacl:name "result"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#Observation.result>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor result"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/a47629aba3ad4e2f7fbdfcba9fd81015af42f12a> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult";
+  shacl:description "The simple value of an Observation."@en;
+  shacl:minCount 1;
+  shacl:name "hasSimpleResult"@en;
+  shacl:path <http://www.w3.org/ns/sosa/hasSimpleResult>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor hasSimpleResult"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/aa9bb9a473136b7edeba06957ab83841e0bbe2eb> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime";
+  shacl:description "Time when the result of the Observation was obtained."@en;
+  shacl:minCount 1;
+  shacl:name "resultTime"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor resultTime"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/b22f53827b68351cf5d9ca84751090bcb807d5cc> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime";
+  shacl:datatype xsd:dateTime;
+  shacl:description "Time when the result of the Observation was obtained."@en;
+  shacl:name "resultTime"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van resultTime moet van het type <http://www.w3.org/2001/XMLSchema#dateTime> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d054bfd22c9ced76c4ab349543ece31fab5eecc9> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3Aresult";
+  shacl:class <http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any>;
+  shacl:description "The value of the observedProperty as a result of the Observation."@en;
+  shacl:name "result"@en;
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#Observation.result>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van result moet van het type <http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/d5d0a18a521298b9b76d1e44e4df403e7bdf4019> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AresultTime";
+  shacl:description "Time when the result of the Observation was obtained."@en;
+  shacl:name "resultTime"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor resultTime is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape/ea9893f0362ca20fa1bed10d8f9dd797760a0f6f> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Observation%3AhasSimpleResult";
+  shacl:datatype rdfs:Literal;
+  shacl:description "The simple value of an Observation."@en;
+  shacl:name "hasSimpleResult"@en;
+  shacl:path <http://www.w3.org/ns/sosa/hasSimpleResult>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van hasSimpleResult moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PieceWeightMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#PieceWeightMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PressureMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#PressureMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ProductionEquipmentShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://saref.etsi.org/saref4inma/ProductionEquipment> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/c114bdc54e89e909e5a0c4bf5fefa0eaf544b3b2>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/e8092f273791ad0b00e45c58318045904f2d1495>;
+  shacl:targetClass <http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/c114bdc54e89e909e5a0c4bf5fefa0eaf544b3b2> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyType%3AisObservedBy";
+  shacl:description "Relation between a PropertyType and the Sensor able to observe it."@en;
+  shacl:name "isObservedBy"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/sosa/isObservedBy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor isObservedBy is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyTypeShape/e8092f273791ad0b00e45c58318045904f2d1495> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#PropertyType%3AisObservedBy";
+  shacl:class <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor>;
+  shacl:description "Relation between a PropertyType and the Sensor able to observe it."@en;
+  shacl:name "isObservedBy"@en;
+  shacl:path <http://www.w3.org/ns/sosa/isObservedBy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van isObservedBy moet van het type <https://data.ai-proficient.eu/ns/conti10#ExtruderSensor> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/4f068ed992c0c6cff59400a2eba66ed265584107>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/91bfa321c10baf1f54ede6712dba0056caa0e687>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/db15b7df9d94d285bd33d0966a4d2357f8333c31>;
+  shacl:targetClass schemas:QuantitativeValue .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/12971dbc408789afff2e9fdc5f2ae98638d67fd4> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym";
+  shacl:description "The  unit in which the quantity  is expressed"@en;
+  shacl:name "unit acronym"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path schemas:unitText;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor unit acronym is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/4f068ed992c0c6cff59400a2eba66ed265584107> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym";
+  shacl:datatype xsd:string;
+  shacl:description "The  unit in which the quantity  is expressed"@en;
+  shacl:name "unit acronym"@en;
+  shacl:path schemas:unitText;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van unit acronym moet van het type <http://www.w3.org/2001/XMLSchema#string> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/91bfa321c10baf1f54ede6712dba0056caa0e687> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Astandard%20unit";
+  shacl:description "The standard unit in which the quantity  is expressed"@en;
+  shacl:maxCount 1;
+  shacl:name "standard unit"@en;
+  shacl:path schemas:unitCode;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor standard unit"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/9e6efd49d4b4d8a4758672d9007bbe68237d359b> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Avalue";
+  shacl:description "The value expressing the quantity of the property"@en;
+  shacl:minCount 1;
+  shacl:name "value"@en;
+  shacl:path schemas:value;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Minimaal 1 waarden verwacht voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/c7274a3cad450b529bbdcfc2c05c4850e1d20eae> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Aunit%20acronym";
+  shacl:description "The  unit in which the quantity  is expressed"@en;
+  shacl:maxCount 1;
+  shacl:name "unit acronym"@en;
+  shacl:path schemas:unitText;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor unit acronym"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValueShape/db15b7df9d94d285bd33d0966a4d2357f8333c31> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#QuantitativeValue%3Avalue";
+  shacl:description "The value expressing the quantity of the property"@en;
+  shacl:maxCount 1;
+  shacl:name "value"@en;
+  shacl:path schemas:value;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "Maximaal 1 waarden toegelaten voor value"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SchrinkingspeedMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#SchrinkingspeedMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ScrewSpeedMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#ScrewSpeedMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#StatusObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#StatusObservation> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/06a031fb7964dc5f4af20eca88a42e6ed4b979fc>,
+    <https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/92b516cd2e96170cd6b60886f7d6adb7e7c6f08b>;
+  shacl:targetClass <http://www.w3.org/ns/ssn/systems/SystemCapability> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/06a031fb7964dc5f4af20eca88a42e6ed4b979fc> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapability%3Ahas%20System%20Property";
+  shacl:class <http://www.w3.org/ns/ssn/systems/SystemProperty>;
+  shacl:description "Property of the System that defines its capability."@en;
+  shacl:name "has System Property"@en;
+  shacl:path <http://www.w3.org/ns/ssn/systems/hasSystemCapability>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De range van has System Property moet van het type <http://www.w3.org/ns/ssn/systems/SystemProperty> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapabilityShape/92b516cd2e96170cd6b60886f7d6adb7e7c6f08b> rdfs:seeAlso "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemCapability%3Ahas%20System%20Property";
+  shacl:description "Property of the System that defines its capability."@en;
+  shacl:name "has System Property"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://www.w3.org/ns/ssn/systems/hasSystemCapability>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01en> "De verwachte waarde voor has System Property is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#SystemPropertyShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://www.w3.org/ns/ssn/systems/SystemProperty> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TM_ObjectShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TaskShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://saref.etsi.org/core/Task> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TemperatureMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#TemperatureMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TreadMeasurementShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.ai-proficient.eu/ns/core#TreadMeasurement> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TruthObservationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://def.isotc211.org/iso19156/2011/Observation#TruthObservation> .
+
+<https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#UnitShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <http://qudt.org/2.1/schema/qudt/Unit> .

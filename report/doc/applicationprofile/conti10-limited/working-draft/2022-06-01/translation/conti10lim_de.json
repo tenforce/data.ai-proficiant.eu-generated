@@ -11,10 +11,50 @@
     },
     {
       "EA-Guid": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
-      "name": ""
+      "name": "Extruder Sensor",
+      "label": {
+        "en": "Extruder Sensor",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A sensor that is associated with an extruder",
+        "de": "Enter your translation here"
+      }
     }
   ],
   "properties": [
+    {
+      "EA-Guid": "{8F8B1078-CCE9-459b-A7B7-39AA1798A84F}",
+      "name": "setpoint-for",
+      "label": {
+        "en": "setpoint-for",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. ",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. ",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8F8B1078-CCE9-459b-A7B7-39AA1798A84F}",
+      "name": "actual from",
+      "label": {
+        "en": "actual from",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor ",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. ",
+        "de": "Enter your translation here"
+      }
+    },
     {
       "EA-Guid": "{6FB22896-AB73-4c4e-A711-5B43EFC7CBF8}",
       "name": ""
@@ -600,11 +640,11 @@
       }
     },
     {
-      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+      "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
       "name": ""
     },
     {
-      "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
+      "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
       "name": ""
     },
     {

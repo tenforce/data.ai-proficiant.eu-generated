@@ -167,7 +167,16 @@
             "@id": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "A sensor that is associated with an extruder"
+            },
+            "ap-label-en": {
+                "en": "Extruder Sensor"
+            },
+            "definition": {
+                "en": "A sensor that is associated with an extruder"
+            },
+            "label": {
+                "en": "Extruder Sensor"
             },
             "extra": {
                 "EA-Name": "ExtruderSensor",
@@ -190,20 +199,37 @@
                     }
                 ],
                 "parentclasses": "https://saref.etsi.org/core/Device, http://www.w3.org/ns/sosa/Sensor",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "Extruder Sensor"
+                },
+                "definition": {
+                    "en": "A sensor that is associated with an extruder"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "Extruder Sensor"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "A sensor that is associated with an extruder"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "Extruder Sensor",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "A sensor that is associated with an extruder",
+                        "note": "null"
+                    }
+                ],
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "Extruder Sensor",
             "parents": [
                 "https://saref.etsi.org/core/Device",
                 "http://www.w3.org/ns/sosa/Sensor"
@@ -211,6 +237,224 @@
         }
     ],
     "properties": [
+        {
+            "@id": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "setpoint-for",
+            "inpackage": "ACTIVE_PACKAGE",
+            "ap-definition-en": {
+                "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+            },
+            "usage": {
+                "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+            },
+            "ap-label-en": {
+                "en": "setpoint-for"
+            },
+            "definition": {
+                "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+            },
+            "label": {
+                "en": "setpoint-for"
+            },
+            "extra": {
+                "EA-Name": "setPointFor",
+                "EA-Guid": "{8F8B1078-CCE9-459b-A7B7-39AA1798A84F}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ExtruderSensor",
+                "EA-Domain-Guid": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                "EA-Range": "ExtruderSensor",
+                "RangeData": {
+                    "EA-Name": "ExtruderSensor",
+                    "EA-GUID": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                    "EA-Package": "CONTI10",
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+                },
+                "sourceRole": "actualFrom",
+                "destRole": "setPointFor",
+                "label": {
+                    "en": "setpoint-for"
+                },
+                "definition": {
+                    "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+                },
+                "usage": {
+                    "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                },
+                "ap-label-en": {
+                    "en": "setpoint-for"
+                },
+                "ap-definition-en": {
+                    "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "setpoint-for"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+                    },
+                    {
+                        "key": "usageNote-en",
+                        "value": "NOTE",
+                        "note": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "setpoint-for"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+                    },
+                    {
+                        "key": "usageNote-en",
+                        "value": "NOTE",
+                        "note": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+                    "EA-Name": "ExtruderSensor"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "ExtruderSensor",
+                    "EA-GUID": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                    "EA-Package": "CONTI10",
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "actual from",
+            "inpackage": "ACTIVE_PACKAGE",
+            "ap-definition-en": {
+                "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+            },
+            "usage": {
+                "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+            },
+            "ap-label-en": {
+                "en": "actual from"
+            },
+            "definition": {
+                "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+            },
+            "label": {
+                "en": "actual from"
+            },
+            "extra": {
+                "EA-Name": "actualFrom",
+                "EA-Guid": "{8F8B1078-CCE9-459b-A7B7-39AA1798A84F}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ExtruderSensor",
+                "EA-Domain-Guid": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                "EA-Range": "ExtruderSensor",
+                "RangeData": {
+                    "EA-Name": "ExtruderSensor",
+                    "EA-GUID": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                    "EA-Package": "CONTI10",
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+                },
+                "sourceRole": "setPointFor",
+                "destRole": "actualFrom",
+                "label": {
+                    "en": "actual from"
+                },
+                "definition": {
+                    "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+                },
+                "usage": {
+                    "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                },
+                "ap-label-en": {
+                    "en": "actual from"
+                },
+                "ap-definition-en": {
+                    "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "usageNote-en",
+                        "value": "NOTE",
+                        "note": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "actual from"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "usageNote-en",
+                        "value": "NOTE",
+                        "note": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "actual from"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+                    }
+                ],
+                "Scope": "FULL_DEFINITON"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+                    "EA-Name": "ExtruderSensor"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "ExtruderSensor",
+                    "EA-GUID": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
+                    "EA-Package": "CONTI10",
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
         {
             "@id": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -3934,73 +4178,6 @@
             "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "",
-            "inpackage": "OTHER_PACKAGE",
-            "ap-definition-en": {
-                "en": "TODO"
-            },
-            "extra": {
-                "EA-Name": "hasSystemProperty",
-                "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "SystemCapability",
-                "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
-                "EA-Range": "SystemProperty",
-                "RangeData": {
-                    "EA-Name": "SystemProperty",
-                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
-                    "EA-Package": "SSN",
-                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
-                },
-                "sourceRole": "null",
-                "destRole": "hasSystemProperty",
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
-                    }
-                ],
-                "DestRoleTags": [
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
-                    "EA-Name": "SystemCapability"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "SystemProperty",
-                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
-                    "EA-Package": "SSN",
-                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
-                }
-            ],
-            "generalization": []
-        },
-        {
-            "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
             "inpackage": "UNKNOWN",
             "ap-definition-en": {
                 "en": "TODO"
@@ -4060,6 +4237,73 @@
                     "EA-GUID": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
                     "EA-Package": "SSN",
                     "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability"
+                }
+            ],
+            "generalization": []
+        },
+        {
+            "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "extra": {
+                "EA-Name": "hasSystemProperty",
+                "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "SystemCapability",
+                "EA-Domain-Guid": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
+                "EA-Range": "SystemProperty",
+                "RangeData": {
+                    "EA-Name": "SystemProperty",
+                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
+                },
+                "sourceRole": "null",
+                "destRole": "hasSystemProperty",
+                "label": "",
+                "definition": "",
+                "usage": "",
+                "ap-label-en": "",
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+                    "EA-Name": "SystemCapability"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "SystemProperty",
+                    "EA-GUID": "{03348EF7-3259-4085-8A6F-CE07A9594F65}",
+                    "EA-Package": "SSN",
+                    "uri": "http://www.w3.org/ns/ssn/systems/SystemProperty"
                 }
             ],
             "generalization": []

@@ -1,0 +1,10 @@
+{
+    "@context": "/doc/ap/conti10lim/extruderSensor.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+    "@id": "{{ID}}",
+    "setpointFor": "{{VAL}}",
+    "actualFrom": "{{VAL}}",
+    "observes": "{{VAL}}",
+    "madeObservation": "{{VAL}}",
+    "identifier": "{{VAL}}"
+}

@@ -1,0 +1,8 @@
+{
+    "extruderSensor": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+    "setpointFor": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+    "actualFrom": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+    "observes": "http://www.w3.org/ns/sosa/observes",
+    "madeObservation": "http://www.w3.org/ns/sosa/madeObservation",
+    "identifier": "http://purl.org/dc/terms/identifier"
+}

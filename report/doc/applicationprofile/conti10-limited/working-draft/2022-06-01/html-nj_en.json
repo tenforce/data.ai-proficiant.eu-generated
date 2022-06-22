@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/fd415f2574cf7037f20befdd40aa83262ec94e45",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/fd415f2574cf7037f20befdd40aa83262ec94e45/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/9c2a84e96abedcf669c6ca07b2d923677ab646ea",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/9c2a84e96abedcf669c6ca07b2d923677ab646ea/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -77,10 +77,14 @@
     },
     {
       "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Extruder Sensor",
+      "label": {
+        "en": "Extruder Sensor"
+      },
+      "sort": "Extruder Sensor",
+      "description": {
+        "en": "A sensor that is associated with an extruder"
+      },
       "usage": {},
       "parents": [
         {
@@ -99,6 +103,80 @@
         }
       ],
       "properties": [
+        {
+          "uri": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+          "name": "setpoint-for",
+          "sort": "setpoint-for",
+          "label": {
+            "en": "setpoint-for"
+          },
+          "description": {
+            "en": "The sensor that sets the to-be achieved by the production equipment for this sensor. "
+          },
+          "usage": {
+            "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+          },
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ExtruderSensor",
+              "range_uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Extruder Sensor",
+              "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+              "range_label": {
+                "en": "Extruder Sensor"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+          "name": "actual from",
+          "sort": "actual from",
+          "label": {
+            "en": "actual from"
+          },
+          "description": {
+            "en": "The sensor on the production equipment that measures the actual value for this setpoint sensor "
+          },
+          "usage": {
+            "en": "This is a symmetric property with the property actual from. Not all sensors form a pair. "
+          },
+          "domain": [
+            {
+              "EA-Name": "ExtruderSensor",
+              "uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ExtruderSensor",
+              "range_uri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Extruder Sensor",
+              "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+              "range_label": {
+                "en": "Extruder Sensor"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
         {
           "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
           "name": "",
@@ -430,10 +508,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ExtruderSensor",
+              "range_uri": "#Extruder Sensor",
               "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
               "range_label": {
-                "en": "ExtruderSensor"
+                "en": "Extruder Sensor"
               }
             }
           ],
@@ -482,10 +560,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ExtruderSensor",
+              "range_uri": "#Extruder Sensor",
               "range_puri": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
               "range_label": {
-                "en": "ExtruderSensor"
+                "en": "Extruder Sensor"
               }
             }
           ],
@@ -1504,6 +1582,36 @@
     }
   ],
   "properties": [
+    {
+      "uri": "https://data.ai-proficient.eu/ns/conti10#setPointFor",
+      "name": {
+        "en": "setpoint-for",
+        "undefined": "setpoint-for"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.ai-proficient.eu/ns/conti10#actualFrom",
+      "name": {
+        "en": "actual from",
+        "undefined": "actual from"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
     {
       "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
       "name": {

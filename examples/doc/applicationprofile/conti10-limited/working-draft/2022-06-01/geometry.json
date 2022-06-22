@@ -1,0 +1,7 @@
+{
+    "@context": "/doc/ap/conti10lim/geometry.jsonld",
+    "@type": "http://www.w3.org/ns/locn#Geometry",
+    "@id": "{{ID}}",
+    "asWkt": "{{VAL}}",
+    "asGml": "{{VAL}}"
+}

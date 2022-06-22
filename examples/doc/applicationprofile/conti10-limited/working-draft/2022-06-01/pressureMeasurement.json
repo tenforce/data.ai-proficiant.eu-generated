@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/pressureMeasurement.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#PressureMeasurement",
+    "@id": "{{ID}}"
+}

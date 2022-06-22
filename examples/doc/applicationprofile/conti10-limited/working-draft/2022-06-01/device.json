@@ -1,0 +1,13 @@
+{
+    "@context": "/doc/ap/conti10lim/device.jsonld",
+    "@type": "https://saref.etsi.org/core/Device",
+    "@id": "{{ID}}",
+    "model": {
+        "en": "{{STRING}}"
+    },
+    "manufacturer": {
+        "en": "{{STRING}}"
+    },
+    "function": "{{VAL}}",
+    "task": "{{VAL}}"
+}

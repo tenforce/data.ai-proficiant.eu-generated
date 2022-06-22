@@ -1,0 +1,11 @@
+{
+    "@context": "/doc/ap/conti10lim/observation.jsonld",
+    "@type": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+    "@id": "{{ID}}",
+    "madeBySensor": "{{VAL}}",
+    "hasSimpleResult": "{{VAL}}",
+    "result": "{{VAL}}",
+    "resultTime": "{{DATETIME}}",
+    "observedProperty": "{{VAL}}",
+    "featureOfInterest": "{{VAL}}"
+}

@@ -1,0 +1,6 @@
+{
+    "@context": "/doc/ap/conti10lim/factory.jsonld",
+    "@type": "https://saref.etsi.org/saref4inma/Factory",
+    "@id": "{{ID}}",
+    "contains": "{{VAL}}"
+}

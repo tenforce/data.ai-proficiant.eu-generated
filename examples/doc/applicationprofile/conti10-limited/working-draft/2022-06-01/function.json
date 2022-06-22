@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/function.jsonld",
+    "@type": "https://saref.etsi.org/core/Function",
+    "@id": "{{ID}}"
+}

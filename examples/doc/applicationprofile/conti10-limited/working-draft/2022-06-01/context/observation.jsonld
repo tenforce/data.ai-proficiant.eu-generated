@@ -1,0 +1,12 @@
+{
+    "observation": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+    "madeBySensor": "http://www.w3.org/ns/sosa/madeBySensor",
+    "hasSimpleResult": "http://www.w3.org/ns/sosa/hasSimpleResult",
+    "result": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+    "resultTime": {
+        "@id": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "observedProperty": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+    "featureOfInterest": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest"
+}

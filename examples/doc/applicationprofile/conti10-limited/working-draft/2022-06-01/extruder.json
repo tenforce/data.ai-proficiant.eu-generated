@@ -1,0 +1,6 @@
+{
+    "@context": "/doc/ap/conti10lim/extruder.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+    "@id": "{{ID}}",
+    "identifier": "{{VAL}}"
+}

@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/statusObservation.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#StatusObservation",
+    "@id": "{{ID}}"
+}

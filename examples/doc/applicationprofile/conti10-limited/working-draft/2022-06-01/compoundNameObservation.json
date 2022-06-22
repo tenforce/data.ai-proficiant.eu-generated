@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/compoundNameObservation.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#CompoundNameObservation",
+    "@id": "{{ID}}"
+}

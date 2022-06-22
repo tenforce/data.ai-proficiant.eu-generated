@@ -1,0 +1,6 @@
+{
+    "@context": "/doc/ap/conti10lim/feature.jsonld",
+    "@type": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+    "@id": "{{ID}}",
+    "propertyValueProvider": "{{VAL}}"
+}

@@ -1,0 +1,21 @@
+{
+    "device": "https://saref.etsi.org/core/Device",
+    "model": {
+        "@container": [
+            "@language",
+            "@set"
+        ],
+        "@id": "https://saref.etsi.org/core/hasModel",
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "manufacturer": {
+        "@container": [
+            "@language",
+            "@set"
+        ],
+        "@id": "https://saref.etsi.org/core/hasManufacturer",
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "function": "https://saref.etsi.org/core/hasFunction",
+    "task": "https://saref.etsi.org/core/accomplishes"
+}

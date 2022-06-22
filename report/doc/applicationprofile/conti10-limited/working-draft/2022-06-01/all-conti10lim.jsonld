@@ -6435,11 +6435,12 @@
     "config": "config/config-ap.json",
     "branchtag": "master",
     "dummy": "31",
+    "examples": true,
     "filename": "config/conti10lim.json",
     "navigation": {},
     "repository": "https://github.com/tenforce/ai-proficient-thema",
     "urlref": "/doc/applicationprofile/conti10-limited/working-draft/2022-06-01",
     "documentcommit": "fd415f2574cf7037f20befdd40aa83262ec94e45",
-    "toolchaincommit": "dd03764ca2e2e018cd9b1b7cb319195a61082e12",
+    "toolchaincommit": "8bb68686c18503ee967d4904d5bbe4a2031249f9",
     "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

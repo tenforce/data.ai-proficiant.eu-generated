@@ -1,0 +1,8 @@
+{
+    "@context": "/doc/ap/conti10lim/any.jsonld",
+    "@type": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+    "@id": "{{ID}}",
+    "value": "{{VAL}}",
+    "unitAcronym": "{{STRING}}",
+    "standardUnit": "{{VAL}}"
+}

@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/temperatureMeasurement.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#TemperatureMeasurement",
+    "@id": "{{ID}}"
+}

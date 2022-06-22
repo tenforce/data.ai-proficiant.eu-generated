@@ -1,0 +1,8 @@
+{
+    "@context": "/doc/ap/conti10lim/frequency.jsonld",
+    "@type": "http://www.w3.org/ns/ssn/systems/Frequency",
+    "@id": "{{ID}}",
+    "value": "{{VAL}}",
+    "unitAcronym": "{{STRING}}",
+    "standardUnit": "{{ANY}}"
+}

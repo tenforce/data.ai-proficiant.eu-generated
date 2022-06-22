@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/meterweightMeasurement.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#MeterWeightMeasurement",
+    "@id": "{{ID}}"
+}

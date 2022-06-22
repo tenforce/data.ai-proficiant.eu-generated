@@ -1,0 +1,9 @@
+{
+    "any": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+    "value": "https://purl.eu/ns/observations#value",
+    "unitAcronym": {
+        "@id": "https://purl.eu/ns/observations#unitText",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "standardUnit": "https://purl.eu/ns/observations#standardUnit"
+}

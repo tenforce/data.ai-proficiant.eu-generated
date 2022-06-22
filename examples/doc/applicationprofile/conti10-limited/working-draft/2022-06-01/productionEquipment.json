@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/productionEquipment.jsonld",
+    "@type": "https://saref.etsi.org/saref4inma/ProductionEquipment",
+    "@id": "{{ID}}"
+}

@@ -1,0 +1,6 @@
+{
+    "@context": "/doc/ap/conti10lim/identifier.jsonld",
+    "@type": "http://www.w3.org/ns/adms#Identifier",
+    "@id": "{{ID}}",
+    "identifier": "{{VAL}}"
+}

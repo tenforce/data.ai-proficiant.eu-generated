@@ -1,0 +1,9 @@
+{
+    "quantativeValue": "https://schema.org/QuantitativeValue",
+    "value": "",
+    "unitAcronym": {
+        "@id": "https://schema.org/unitText",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "standardUnit": ""
+}

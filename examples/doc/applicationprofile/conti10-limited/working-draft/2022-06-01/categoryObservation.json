@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/categoryObservation.jsonld",
+    "@type": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+    "@id": "{{ID}}"
+}

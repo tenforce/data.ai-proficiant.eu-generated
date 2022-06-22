@@ -1,0 +1,5 @@
+{
+    "@context": "/doc/ap/conti10lim/treadMeasurement.jsonld",
+    "@type": "https://data.ai-proficient.eu/ns/core#TreadMeasurement",
+    "@id": "{{ID}}"
+}

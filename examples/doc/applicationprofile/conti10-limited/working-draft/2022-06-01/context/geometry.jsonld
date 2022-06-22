@@ -1,0 +1,5 @@
+{
+    "geometry": "http://www.w3.org/ns/locn#Geometry",
+    "asWkt": "http://www.opengis.net/ont/geosparql#asWKT",
+    "asGml": "http://www.opengis.net/ont/geosparql#asGML"
+}

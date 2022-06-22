@@ -1,0 +1,9 @@
+{
+    "frequency": "http://www.w3.org/ns/ssn/systems/Frequency",
+    "value": "http://fixme.com#value",
+    "unitAcronym": {
+        "@id": "http://fixme.com#unitText",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "standardUnit": ""
+}

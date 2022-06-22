@@ -1,0 +1,8 @@
+{
+    "@context": "/doc/ap/conti10lim/quantativeValue.jsonld",
+    "@type": "https://schema.org/QuantitativeValue",
+    "@id": "{{ID}}",
+    "value": "{{ANY}}",
+    "unitAcronym": "{{STRING}}",
+    "standardUnit": "{{ANY}}"
+}

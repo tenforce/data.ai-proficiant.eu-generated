@@ -1,0 +1,4 @@
+{
+    "observationCollection": "http://www.w3.org/ns/sosa/ObservationCollection",
+    "hasMember": "http://www.w3.org/ns/sosa/hasMember"
+}

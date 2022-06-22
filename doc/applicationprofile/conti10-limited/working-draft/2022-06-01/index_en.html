@@ -103,13 +103,13 @@
                 Source
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/tree/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9">https://github.com/tenforce/ai-proficient-thema/tree/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/tree/33549c37586eeb00c598c368cb2c315c7fed4e99">https://github.com/tenforce/ai-proficient-thema/tree/33549c37586eeb00c598c368cb2c315c7fed4e99</a>
             </dd>
             <dt>
                 Changelog
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/blob/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9/CHANGELOG</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/blob/33549c37586eeb00c598c368cb2c315c7fed4e99/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/33549c37586eeb00c598c368cb2c315c7fed4e99/CHANGELOG</a>
             </dd>
             <dt>
                 Feedback
@@ -3589,7 +3589,7 @@
         JSON-LD context
     </h2>
     <div class="region region--no-space-top" id="jsonld">
-         (not normative)
+         (non normative)
         
             <p>
                 A reusable JSON-LD context definition for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/conti10-limited/working-draft/2022-06-01/context/conti10lim.jsonld"
@@ -3603,7 +3603,7 @@
         SHACL template
     </h2>
     <div class="region region--no-space-top" id="shacl">
-         (not normative)
+         (non normative)
         
             <p>
                 A reusable SHACL template for this application profile is retrievable at: <a href="https://raw.githubusercontent.com/tenforce/data.ai-proficiant.eu-generated/master/doc/applicationprofile/conti10-limited/working-draft/2022-06-01/shacl/conti10lim-SHACL.ttl"
@@ -3618,8 +3618,50 @@
     </h2>
     <div class="region region--no-space-top" id="examples">
         
-	<p> No examples defined </p>
-        
+
+<aside class="example" title="An observation and details about the sensor">
+  <p>
+    The example shows an observation and details about the sensor.
+  <p>
+  <pre class="js">
+   {
+    "@context": "https://system.conti.com/compoundnameobservation.jsonld",
+    "@type": "Observation",
+    "@id": "https://system.conti.com/uuid/123",
+    "madeBySensor": {
+	   "@type": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+	   "@id" : "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorCompoundNameSetpoint",
+	   "identifier" : "extruder1SensorCompoundName",
+	   "locatedAt" : {
+	       "@type" : "https://data.ai-proficient.eu/ns/conti10#Extruder"
+           "@id" : "https://data.ai-proficient.eu/id/conti/extruder/1"
+           "identifier" : "1"		   
+	   },
+	   "hasSystemCapability" : {
+	       "hasSystemProperty" : {
+		      "@id" : "https://data.ai-proficient.eu/id/conti/frequency/everyRecipeLoading",
+			  "value" : "every recipe loading"
+			  "unitText": "recipe loading"
+		   }
+	   },
+	   "setpointFor": {
+	   "@id": "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorCompoundNameActual"
+	   }
+	 },
+    "result": {
+	   "unitText" : "no unit",
+	   "value" : "rubber type 1"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": {
+	    "@id" : "https://data.ai-proficient.eu/id/conti/feature/compoundname"
+	}
+    }
+
+  </pre>
+</aside>
+
+
     </div>
 </section>
 <!-- End page content -->

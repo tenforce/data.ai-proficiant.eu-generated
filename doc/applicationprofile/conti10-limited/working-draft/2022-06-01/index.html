@@ -103,13 +103,13 @@
                 Source
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/tree/503f7d74be4d1ad2468cff43d3162807e6b57491">https://github.com/tenforce/ai-proficient-thema/tree/503f7d74be4d1ad2468cff43d3162807e6b57491</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/tree/33d31e9f702bf11027315fc056004bd75ae64712">https://github.com/tenforce/ai-proficient-thema/tree/33d31e9f702bf11027315fc056004bd75ae64712</a>
             </dd>
             <dt>
                 Changelog
             </dt>
             <dd>
-                <a href="https://github.com/tenforce/ai-proficient-thema/blob/503f7d74be4d1ad2468cff43d3162807e6b57491/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/503f7d74be4d1ad2468cff43d3162807e6b57491/CHANGELOG</a>
+                <a href="https://github.com/tenforce/ai-proficient-thema/blob/33d31e9f702bf11027315fc056004bd75ae64712/CHANGELOG">https://github.com/tenforce/ai-proficient-thema/blob/33d31e9f702bf11027315fc056004bd75ae64712/CHANGELOG</a>
             </dd>
             <dt>
                 Feedback
@@ -3681,6 +3681,70 @@
   </pre>
 </aside>
 
+<aside class="example" title="Example 2 with ids condensed ">
+  <p>
+    The example shows the observation from Example 2 with condensed identifiers.
+    This requires adapting the json-ld context to add the appropriate prefix to each value.
+  <p>
+  <pre class="js">
+{
+    "@context": "https://system.conti.com/compoundnameobservation.jsonld",
+    "@type": "Observation",
+    "@id": "123",
+    "madeBySensor": "extruder1SensorCompoundNameSetpoint",
+    "result": {
+	   "unitText" : "no unit",
+	   "value" : "rubber type 1"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": "compoundname"
+}
+  </pre>
+</aside>
+
+<aside class="example" title="An observation about the temperature barrel">
+  <p>
+    The example shows an tempurature measurement and details about the sensor.
+  <p>
+  <pre class="js">
+   {
+    "@context": "https://system.conti.com/temperatureobservation.jsonld",
+    "@type": "Observation",
+    "@id": "https://system.conti.com/uuid/234",
+    "madeBySensor": {
+	   "@type": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+	   "@id" : "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorTemperatureBarrelActual",
+	   "identifier" : "extruder1SensorTemperatureBarrelActual",
+	   "locatedAt" : {
+	       "@type" : "https://data.ai-proficient.eu/ns/conti10#Extruder"
+               "@id" : "https://data.ai-proficient.eu/id/conti/extruder/1"
+               "identifier" : "1"		   
+	   },
+	   "hasSystemCapability" : {
+	       "hasSystemProperty" : {
+		      "@id" : "https://data.ai-proficient.eu/id/conti/frequency/every1DegreeCelcius",
+			  "value" : "1",
+			  "unitText": "Cel",
+                          "standardUnit" : "http://qudt.org/vocab/unit/DEG_C"
+		   }
+	   },
+	   "actualFrom": {
+	   "@id": "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorTemperatureBarrelSetPoint"
+	   }
+	 },
+    "result": {
+	   "value" : "67.23",
+	   "unitText": "Cel",
+           "standardUnit" : "http://qudt.org/vocab/unit/DEG_C"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": {
+	    "@id" : "https://data.ai-proficient.eu/id/conti/feature/temperature"
+	}
+    }
+
+  </pre>
+</aside>
 
     </div>
 </section>

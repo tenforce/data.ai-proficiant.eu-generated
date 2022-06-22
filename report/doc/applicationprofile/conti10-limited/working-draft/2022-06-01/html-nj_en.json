@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/9c2a84e96abedcf669c6ca07b2d923677ab646ea",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/9c2a84e96abedcf669c6ca07b2d923677ab646ea/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -179,10 +179,14 @@
         },
         {
           "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "located at",
+          "sort": "located at",
+          "label": {
+            "en": "located at"
+          },
+          "description": {
+            "en": "a place where the sensor is located"
+          },
           "usage": {},
           "domain": [
             {
@@ -210,10 +214,14 @@
         },
         {
           "uri": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "has System Capability\r\n",
+          "sort": "has System Capability\r\n",
+          "label": {
+            "en": "has System Capability\r\n"
+          },
+          "description": {
+            "en": "Capability of the system"
+          },
           "usage": {},
           "domain": [
             {
@@ -1615,7 +1623,8 @@
     {
       "uri": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
       "name": {
-        "undefined": ""
+        "en": "located at",
+        "undefined": "located at"
       },
       "description": {},
       "domain": [

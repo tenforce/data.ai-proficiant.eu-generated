@@ -222,7 +222,7 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10-extruder",
-  "documentcommit": "9c2a84e96abedcf669c6ca07b2d923677ab646ea",
+  "documentcommit": "1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
   "dummy": "32",
   "eap": "AI-PROFICIENT-Core-Conti10-limited.eap",
   "editors": [],
@@ -1330,9 +1330,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Capability of the system"
+      },
+      "ap-label-en": {
+        "en": "has System Capability\r\n"
       },
       "codelist": [],
+      "definition": {
+        "en": "Capability of the system"
+      },
       "domain": [
         {
           "EA-Name": "ExtruderSensor",
@@ -1344,6 +1350,16 @@
           {
             "key": "uri",
             "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has System Capability\r\n",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Capability of the system",
             "value": "NOTE"
           }
         ],
@@ -1365,25 +1381,44 @@
             "key": "uri",
             "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
             "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has System Capability\r\n",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Capability of the system",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Capability of the system"
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "has System Capability\r\n"
+        },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Capability of the system"
+        },
         "derived": "false",
         "destRole": "^hasSystemCapability",
-        "label": "",
+        "label": {
+          "en": "has System Capability\r\n"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
-      "name": "",
+      "label": {
+        "en": "has System Capability\r\n"
+      },
+      "name": "has System Capability\r\n",
       "range": [
         {
           "EA-GUID": "{7CCAD7D4-2F2D-4e16-8824-33E2A28B875C}",
@@ -6688,9 +6723,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{6FB22896-AB73-4c4e-A711-5B43EFC7CBF8}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "a place where the sensor is located"
+      },
+      "ap-label-en": {
+        "en": "located at"
       },
       "codelist": [],
+      "definition": {
+        "en": "a place where the sensor is located"
+      },
       "domain": [
         {
           "EA-Name": "ExtruderSensor",
@@ -6698,7 +6739,18 @@
         }
       ],
       "extra": {
-        "DestRoleTags": [],
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "located at",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "a place where the sensor is located",
+            "value": "NOTE"
+          }
+        ],
         "EA-Domain": "ExtruderSensor",
         "EA-Domain-Guid": "{E88E4FFC-F375-4e34-8FCE-2EBF4F3C0F86}",
         "EA-Guid": "{6FB22896-AB73-4c4e-A711-5B43EFC7CBF8}",
@@ -6712,24 +6764,44 @@
           "EA-Package": "CONTI10",
           "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
         },
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "located at",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "a place where the sensor is located",
+            "value": "NOTE"
+          }
+        ],
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "a place where the sensor is located"
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "located at"
+        },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "a place where the sensor is located"
+        },
         "derived": "false",
         "destRole": "^locatedAt",
-        "label": "",
+        "label": {
+          "en": "located at"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "located at"
+      },
+      "name": "located at",
       "range": [
         {
           "EA-GUID": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
@@ -6746,7 +6818,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Conti10-limited",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
-  "toolchaincommit": "b6068777d27071c80717dacaf291eafe41bc5cf3",
+  "toolchaincommit": "7eef21bcc42b89f5e91b19e07e510bf35d02a51b",
   "toolchainversion": "3",
   "translation": [
     {

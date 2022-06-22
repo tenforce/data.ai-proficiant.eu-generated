@@ -19,15 +19,7 @@
       }
     }
   ],
-  "properties": [
-    {
-      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-      "name": "identifier",
-      "label": {
-        "en": "identifier"
-      }
-    }
-  ],
+  "properties": [],
   "externals": [
     {
       "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
@@ -1127,6 +1119,13 @@
       },
       "usage": {
         "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
+      }
+    },
+    {
+      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier"
       }
     },
     {

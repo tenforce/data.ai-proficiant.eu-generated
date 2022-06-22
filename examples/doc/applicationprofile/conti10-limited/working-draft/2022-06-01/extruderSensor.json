@@ -4,6 +4,8 @@
     "@id": "{{ID}}",
     "setpointFor": "{{VAL}}",
     "actualFrom": "{{VAL}}",
+    "locatedAt": "{{VAL}}",
+    "hasSystemCapability": "{{VAL}}",
     "observes": "{{VAL}}",
     "madeObservation": "{{VAL}}",
     "identifier": "{{VAL}}"

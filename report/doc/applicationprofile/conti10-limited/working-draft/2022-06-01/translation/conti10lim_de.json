@@ -57,7 +57,15 @@
     },
     {
       "EA-Guid": "{6FB22896-AB73-4c4e-A711-5B43EFC7CBF8}",
-      "name": ""
+      "name": "located at",
+      "label": {
+        "en": "located at",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "a place where the sensor is located",
+        "de": "Enter your translation here"
+      }
     }
   ],
   "externals": [
@@ -641,7 +649,15 @@
     },
     {
       "EA-Guid": "{5920F0E7-CC07-462a-9680-F08CF8EF3B3C}",
-      "name": ""
+      "name": "has System Capability\r\n",
+      "label": {
+        "en": "has System Capability\r\n",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Capability of the system",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{0DA82CDD-59DA-42e9-B771-740FDF7B247A}",

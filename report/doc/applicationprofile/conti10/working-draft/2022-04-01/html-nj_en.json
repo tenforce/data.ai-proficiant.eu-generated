@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/4cc62a16d14e97679c7a7d3b4155c18bdd147170",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/4cc62a16d14e97679c7a7d3b4155c18bdd147170/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -41,7 +41,7 @@
       ],
       "properties": [
         {
-          "uri": "https://data.ai-proficient.eu/ns/conti10#identifier",
+          "uri": "http://purl.org/dc/terms/identifier",
           "name": "identifier",
           "sort": "identifier",
           "label": {

@@ -458,10 +458,19 @@
         {
             "@id": "https://data.ai-proficient.eu/ns/conti10#^locatedAt",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "located at",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "a place where the sensor is located"
+            },
+            "ap-label-en": {
+                "en": "located at"
+            },
+            "definition": {
+                "en": "a place where the sensor is located"
+            },
+            "label": {
+                "en": "located at"
             },
             "extra": {
                 "EA-Name": "^locatedAt",
@@ -480,17 +489,45 @@
                 },
                 "sourceRole": "null",
                 "destRole": "^locatedAt",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "located at"
+                },
+                "definition": {
+                    "en": "a place where the sensor is located"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "located at"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "a place where the sensor is located"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
-                "RawTags": [],
-                "DestRoleTags": [],
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "located at"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "a place where the sensor is located"
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "located at"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "a place where the sensor is located"
+                    }
+                ],
                 "Scope": "FULL_DEFINITON"
             },
             "codelist": [],
@@ -4177,10 +4214,19 @@
         {
             "@id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "has System Capability\r\n",
             "inpackage": "UNKNOWN",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Capability of the system"
+            },
+            "ap-label-en": {
+                "en": "has System Capability\r\n"
+            },
+            "definition": {
+                "en": "Capability of the system"
+            },
+            "label": {
+                "en": "has System Capability\r\n"
             },
             "extra": {
                 "EA-Name": "^hasSystemCapability",
@@ -4199,12 +4245,18 @@
                 },
                 "sourceRole": "null",
                 "destRole": "^hasSystemCapability",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "has System Capability\r\n"
+                },
+                "definition": {
+                    "en": "Capability of the system"
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "has System Capability\r\n"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Capability of the system"
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -4213,6 +4265,16 @@
                         "key": "uri",
                         "value": "NOTE",
                         "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "has System Capability\r\n"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "Capability of the system"
                     }
                 ],
                 "DestRoleTags": [
@@ -4220,6 +4282,16 @@
                         "key": "uri",
                         "value": "NOTE",
                         "note": "http://www.w3.org/ns/ssn/systems/hasSystemCapability"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "has System Capability\r\n"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "Capability of the system"
                     }
                 ],
                 "Scope": "NOTHING"

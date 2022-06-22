@@ -239,80 +239,7 @@
             ]
         }
     ],
-    "properties": [
-        {
-            "@id": "https://data.ai-proficient.eu/ns/conti10#identifier",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "identifier",
-            "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "TODO"
-            },
-            "ap-label-en": {
-                "en": "identifier"
-            },
-            "label": {
-                "en": "identifier"
-            },
-            "extra": {
-                "EA-Name": "identifier",
-                "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-                "EA-Package": "CONTI10",
-                "EA-Type": "attribute",
-                "EA-Domain": "Extruder",
-                "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-                "EA-Range": "Literal",
-                "RangeData": {
-                    "EA-Name": "Literal",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-                },
-                "label": {
-                    "en": "identifier"
-                },
-                "definition": "",
-                "usage": "",
-                "ap-label-en": {
-                    "en": "identifier"
-                },
-                "ap-definition-en": {
-                    "en": "TODO"
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-en",
-                        "value": "identifier",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-label-en",
-                        "value": "identifier",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "FULL_DEFINITON"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder",
-                    "EA-Name": "Extruder"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Literal",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        }
-    ],
+    "properties": [],
     "externals": [
         {
             "@id": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
@@ -10112,6 +10039,83 @@
             "maxCardinality": "1"
         },
         {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "identifier",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "TODO"
+            },
+            "ap-label-en": {
+                "en": "identifier"
+            },
+            "label": {
+                "en": "identifier"
+            },
+            "extra": {
+                "EA-Name": "identifier",
+                "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+                "EA-Package": "CONTI10",
+                "EA-Type": "attribute",
+                "EA-Domain": "Extruder",
+                "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": {
+                    "en": "identifier"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-en": {
+                    "en": "identifier"
+                },
+                "ap-definition-en": {
+                    "en": "TODO"
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "identifier",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-label-en",
+                        "value": "identifier",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/dc/terms/identifier",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder",
+                    "EA-Name": "Extruder"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
             "@id": "http://purl.org/dc/elements/1.1/title",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "title",
@@ -12948,7 +12952,7 @@
     "navigation": {},
     "repository": "https://github.com/tenforce/ai-proficient-thema",
     "urlref": "/doc/applicationprofile/conti10/working-draft/2022-04-01",
-    "documentcommit": "4cc62a16d14e97679c7a7d3b4155c18bdd147170",
-    "toolchaincommit": "a01efd661e838e760576581cc689e96b74ae3c3c",
+    "documentcommit": "1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
+    "toolchaincommit": "7eef21bcc42b89f5e91b19e07e510bf35d02a51b",
     "hostname": "https://tenforce.github.io/data.ai-proficiant.eu"
 }

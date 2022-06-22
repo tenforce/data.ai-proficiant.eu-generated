@@ -225,7 +225,7 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10",
-  "documentcommit": "4cc62a16d14e97679c7a7d3b4155c18bdd147170",
+  "documentcommit": "1b71a1a901f52e5fc12b1b9523bb8e6c6ff517b9",
   "dummy": "31",
   "eap": "AI-PROFICIENT-Core-Conti10.eap",
   "editors": [],
@@ -5342,6 +5342,84 @@
       "usage": {
         "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
       }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/identifier",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "identifier"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Extruder",
+          "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Extruder",
+        "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
+        "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
+        "EA-Name": "identifier",
+        "EA-Package": "CONTI10",
+        "EA-Range": "Literal",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "identifier"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "identifier"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/identifier"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "identifier"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "identifier"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "identifier",
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
     },
     {
       "@id": "http://purl.org/dc/elements/1.1/title",
@@ -12989,88 +13067,14 @@
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "name": "conti10",
   "navigation": {},
-  "properties": [
-    {
-      "@id": "https://data.ai-proficient.eu/ns/conti10#identifier",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "identifier"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Extruder",
-          "uri": "https://data.ai-proficient.eu/ns/conti10#Extruder"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Extruder",
-        "EA-Domain-Guid": "{F8FF4FC3-D3FF-468b-95B2-50A1FE7A887E}",
-        "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
-        "EA-Name": "identifier",
-        "EA-Package": "CONTI10",
-        "EA-Range": "Literal",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "identifier"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "identifier"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "identifier"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "identifier"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "identifier"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "identifier",
-      "range": [
-        {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        }
-      ]
-    }
-  ],
+  "properties": [],
   "publication-date": "2022-04-01",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "repository": "https://github.com/tenforce/ai-proficient-thema",
   "site": "site-skeleton/AI-PROFICIENT-Conti10-ap",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 data model",
-  "toolchaincommit": "a01efd661e838e760576581cc689e96b74ae3c3c",
+  "toolchaincommit": "7eef21bcc42b89f5e91b19e07e510bf35d02a51b",
   "toolchainversion": "3",
   "translation": [
     {

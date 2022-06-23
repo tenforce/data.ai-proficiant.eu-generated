@@ -420,13 +420,6 @@
       "sh:targetClass": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor"
     },
     {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GenericNameShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://def.isotc211.org/iso19103/2005/Names#GenericName"
-    },
-    {
       "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AnyShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -672,13 +665,6 @@
         }
       ],
       "sh:targetClass": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType"
-    },
-    {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#CI_responsiblePartyShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty"
     },
     {
       "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationShape",
@@ -1073,13 +1059,6 @@
       "sh:targetClass": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation"
     },
     {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#AgentShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://purl.org/dc/terms/Agent"
-    },
-    {
       "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#UnitShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -1141,117 +1120,6 @@
         }
       ],
       "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
-    },
-    {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/60ee9b0695c34181d22cc0d844149cf4d7f612eb",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
-          "sh:description": {
-            "en": "Geometry expressed in WKT format"
-          },
-          "sh:name": {
-            "en": "asWKT"
-          },
-          "sh:nodekind": "sh:Literal",
-          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
-          "vl:message": {
-            "en": "De verwachte waarde voor asWKT is een Literal"
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/89f7d496919088bf6f5d91d717fd0008036e162f",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
-          "sh:description": {
-            "en": "Geometry expressed in GML format."
-          },
-          "sh:name": {
-            "en": "asGML"
-          },
-          "sh:nodekind": "sh:Literal",
-          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
-          "vl:message": {
-            "en": "De verwachte waarde voor asGML is een Literal"
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/b67f3d29a7a2846127d77457ddca122b09d8989e",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
-          "sh:description": {
-            "en": "Geometry expressed in WKT format"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "asWKT"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
-          "vl:message": {
-            "en": "Maximaal 1 waarden toegelaten voor asWKT"
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/bff06d9e7e1b1ac87ea76b59cec7713bc587d89d",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
-          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:description": {
-            "en": "Geometry expressed in GML format."
-          },
-          "sh:name": {
-            "en": "asGML"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
-          "vl:message": {
-            "en": "De range van asGML moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/e0af63679f9ee6d8a705e1418681f497c4a4e935",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasGML",
-          "sh:description": {
-            "en": "Geometry expressed in GML format."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "asGML"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asGML",
-          "vl:message": {
-            "en": "Maximaal 1 waarden toegelaten voor asGML"
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#GeometryShape/f3fab1456b31c72b594512a5b07010a2b945d2cb",
-          "rdfs:seeAlso": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#Geometry%3AasWKT",
-          "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:description": {
-            "en": "Geometry expressed in WKT format"
-          },
-          "sh:name": {
-            "en": "asWKT"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT",
-          "vl:message": {
-            "en": "De range van asWKT moet van het type <http://www.w3.org/2000/01/rdf-schema#Literal> zijn."
-          },
-          "vl:rule": ""
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
-    },
-    {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#LocationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/ns/prov#Location"
     },
     {
       "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#ObservationCollectionShape",
@@ -1640,13 +1508,6 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#Measurement"
-    },
-    {
-      "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#NamedValueShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
     },
     {
       "@id": "https://tenforce.github.io/data.ai-proficiant.eu/doc/applicationprofile/conti10-limited/working-draft/2022-06-01#TruthObservationShape",

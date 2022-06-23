@@ -222,8 +222,8 @@
   "contributors-column": "AI-PROFICIENT",
   "contributors-file": "stakeholders.csv",
   "diagram": "AI-PROFICIENT-Conti10-extruder",
-  "documentcommit": "857807eb0b15928b4f8a1cf70f0a4a9dac1c33cc",
-  "dummy": "37",
+  "documentcommit": "5f4045d4f93321540c1f4567ba47ba6be8e4e313",
+  "dummy": "38",
   "eap": "AI-PROFICIENT-Core-Conti10-limited.eap",
   "editors": [],
   "examples": true,
@@ -2483,252 +2483,6 @@
       }
     },
     {
-      "@id": "http://www.opengis.net/ont/geosparql#asWKT",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
-      "ap-definition-en": {
-        "en": "Geometry expressed in WKT format"
-      },
-      "ap-label-en": {
-        "en": "asWKT"
-      },
-      "ap-usageNote-en": {
-        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-      },
-      "codelist": [],
-      "definition": {
-        "en": "Geometry expressed in WKT format"
-      },
-      "domain": [
-        {
-          "EA-Name": "Geometry",
-          "uri": "http://www.w3.org/ns/locn#Geometry"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Geometry",
-        "EA-Domain-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
-        "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
-        "EA-Name": "wkt",
-        "EA-Package": "OSLO-Generic",
-        "EA-Range": "Literal",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        },
-        "RawTags": [
-          {
-            "key": "ap-label-nl",
-            "note": "null",
-            "value": "asWKT"
-          },
-          {
-            "key": "ap-usageNote-nl",
-            "note": "null",
-            "value": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.opengis.net/ont/geosparql#asWKT"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "asWKT"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "Geometry expressed in WKT format"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Geometry expressed in WKT format"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "asWKT"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Geometry expressed in WKT format"
-          },
-          {
-            "key": "ap-usageNote-en",
-            "note": "null",
-            "value": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Geometry expressed in WKT format"
-        },
-        "ap-label-en": {
-          "en": "asWKT"
-        },
-        "ap-usageNote-en": {
-          "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-        },
-        "definition": {
-          "en": "Geometry expressed in WKT format"
-        },
-        "label": {
-          "en": "asWKT"
-        },
-        "usage": {
-          "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-        }
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "asWKT"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "asWKT",
-      "range": [
-        {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        }
-      ],
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-      }
-    },
-    {
-      "@id": "http://www.opengis.net/ont/geosparql#asGML",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
-      "ap-definition-en": {
-        "en": "Geometry expressed in GML format."
-      },
-      "ap-label-en": {
-        "en": "asGML"
-      },
-      "ap-usageNote-en": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-      },
-      "codelist": [],
-      "definition": {
-        "en": "Geometry expressed in GML format."
-      },
-      "domain": [
-        {
-          "EA-Name": "Geometry",
-          "uri": "http://www.w3.org/ns/locn#Geometry"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Geometry",
-        "EA-Domain-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
-        "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
-        "EA-Name": "gml",
-        "EA-Package": "OSLO-Generic",
-        "EA-Range": "Literal",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        },
-        "RawTags": [
-          {
-            "key": "ap-label-nl",
-            "note": "null",
-            "value": "asGML"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.opengis.net/ont/geosparql#asGML"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "asGML"
-          },
-          {
-            "key": "ap-usageNote-nl",
-            "note": "null",
-            "value": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "Geometry expressed in GML format."
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Geometry expressed in GML format."
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "asGML"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Geometry expressed in GML format."
-          },
-          {
-            "key": "ap-usageNote-en",
-            "note": "null",
-            "value": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Geometry expressed in GML format."
-        },
-        "ap-label-en": {
-          "en": "asGML"
-        },
-        "ap-usageNote-en": {
-          "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-        },
-        "definition": {
-          "en": "Geometry expressed in GML format."
-        },
-        "label": {
-          "en": "asGML"
-        },
-        "usage": {
-          "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-        }
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "asGML"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "asGML",
-      "range": [
-        {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        }
-      ],
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-      }
-    },
-    {
       "@id": "http://purl.org/dc/terms/identifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{14CCFB0E-417C-4b10-879B-EE62C2EF5C32}",
@@ -3898,97 +3652,6 @@
   ],
   "externals": [
     {
-      "@id": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
-      "ap-definition-en": {
-        "en": "Abstract class of all names in a Namespace."
-      },
-      "ap-label-en": {
-        "en": "GenericName"
-      },
-      "ap-usageNote-en": {
-        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-      },
-      "definition": {
-        "en": "Abstract class of all names in a Namespace."
-      },
-      "extra": {
-        "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
-        "EA-Name": "GenericName",
-        "EA-Package": "OM",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "GenericName"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Abstract class of all names in a Namespace."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://def.isotc211.org/iso19103/2005/Names#GenericName"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "GenericName"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Abstract class of all names in a Namespace."
-          },
-          {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-          },
-          {
-            "key": "ap-usageNote-en",
-            "note": "null",
-            "value": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Abstract class of all names in a Namespace."
-        },
-        "ap-label-en": {
-          "en": "GenericName"
-        },
-        "ap-usageNote-en": {
-          "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-        },
-        "definition": {
-          "en": "Abstract class of all names in a Namespace."
-        },
-        "label": {
-          "en": "GenericName"
-        },
-        "parentclasses": "",
-        "usage": {
-          "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-        }
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "GenericName"
-      },
-      "name": "GenericName",
-      "usage": {
-        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-      }
-    },
-    {
       "@id": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
@@ -4242,82 +3905,6 @@
       "name": "PropertyType"
     },
     {
-      "@id": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{967D02A1-E7B9-4b34-AB44-61027BBBF85B}",
-      "ap-definition-en": {
-        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-      },
-      "ap-label-en": {
-        "en": "CI_ResponsibleParty"
-      },
-      "definition": {
-        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-      },
-      "extra": {
-        "EA-Guid": "{967D02A1-E7B9-4b34-AB44-61027BBBF85B}",
-        "EA-Name": "CI_responsibleParty",
-        "EA-Package": "OM",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "CI_ResponsibleParty"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Identification in terms of communication with the person(s) and organization(s) related to data."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "CI_ResponsibleParty"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "CI_ResponsibleParty"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-        },
-        "ap-label-en": {
-          "en": "CI_ResponsibleParty"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-        },
-        "label": {
-          "en": "CI_ResponsibleParty"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "CI_ResponsibleParty"
-      },
-      "name": "CI_ResponsibleParty"
-    },
-    {
       "@id": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
@@ -4399,77 +3986,6 @@
       }
     },
     {
-      "@id": "http://purl.org/dc/terms/Agent",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{C9C17C85-EA67-44a4-B489-0C82BC4FCF92}",
-      "ap-definition-en": {
-        "en": "Someone or something that can act or has the power to act."
-      },
-      "ap-label-en": {
-        "en": "Agent"
-      },
-      "definition": {
-        "en": "Someone or something that can act or has the power to act."
-      },
-      "extra": {
-        "EA-Guid": "{C9C17C85-EA67-44a4-B489-0C82BC4FCF92}",
-        "EA-Name": "Agent",
-        "EA-Package": "OSLO-Generic",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "CLASS",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "Agent"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/Agent"
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Agent"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Someone or something that can act or has the power to act."
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "Agent"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Someone or something that can act or has the power to act."
-        },
-        "ap-label-en": {
-          "en": "Agent"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "Someone or something that can act or has the power to act."
-        },
-        "label": {
-          "en": "Agent"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "Agent"
-      },
-      "name": "Agent"
-    },
-    {
       "@id": "http://qudt.org/2.1/schema/qudt/Unit",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
@@ -4533,7 +4049,7 @@
         "en": "Information used to uniquely identify an object."
       },
       "ap-label-en": {
-        "en": "identifier"
+        "en": "Identifier"
       },
       "definition": {
         "en": "Information used to uniquely identify an object."
@@ -4574,12 +4090,12 @@
           {
             "key": "ap-label-nl",
             "note": "null",
-            "value": "identifier"
+            "value": "Identifier"
           },
           {
             "key": "ap-label-en",
             "note": "null",
-            "value": "identifier"
+            "value": "Identifier"
           }
         ],
         "Scope": "NOTHING",
@@ -4588,175 +4104,23 @@
           "en": "Information used to uniquely identify an object."
         },
         "ap-label-en": {
-          "en": "identifier"
+          "en": "Identifier"
         },
         "ap-usageNote-en": "",
         "definition": {
           "en": "Information used to uniquely identify an object."
         },
         "label": {
-          "en": "identifier"
+          "en": "Identifier"
         },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "en": "identifier"
+        "en": "Identifier"
       },
-      "name": "identifier"
-    },
-    {
-      "@id": "http://www.w3.org/ns/locn#Geometry",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
-      "ap-definition-en": {
-        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-      },
-      "ap-label-en": {
-        "en": "Geometry"
-      },
-      "definition": {
-        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-      },
-      "extra": {
-        "EA-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
-        "EA-Name": "Geometry",
-        "EA-Package": "OSLO-Generic",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "Geometry"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/locn#Geometry"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "Geometry"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-        },
-        "ap-label-en": {
-          "en": "Geometry"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-        },
-        "label": {
-          "en": "Geometry"
-        },
-        "parentclasses": "",
-        "usage": ""
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "Geometry"
-      },
-      "name": "Geometry"
-    },
-    {
-      "@id": "http://www.w3.org/ns/prov#Location",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{836A92DB-235F-4c0c-9187-08CAD6C03E01}",
-      "ap-definition-en": {
-        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-      },
-      "ap-label-en": {
-        "en": "Location"
-      },
-      "ap-usageNote-en": {
-        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-      },
-      "definition": {
-        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-      },
-      "extra": {
-        "EA-Guid": "{836A92DB-235F-4c0c-9187-08CAD6C03E01}",
-        "EA-Name": "Location",
-        "EA-Package": "OSLO-Generic",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "Location"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/prov#Location"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-          },
-          {
-            "key": "ap-usageNote-en",
-            "note": "null",
-            "value": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "Location"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-        },
-        "ap-label-en": {
-          "en": "Location"
-        },
-        "ap-usageNote-en": {
-          "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-        },
-        "definition": {
-          "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-        },
-        "label": {
-          "en": "Location"
-        },
-        "parentclasses": "",
-        "usage": {
-          "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-        }
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "Location"
-      },
-      "name": "Location",
-      "usage": {
-        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-      }
+      "name": "Identifier"
     },
     {
       "@id": "http://www.w3.org/ns/sosa/ObservationCollection",
@@ -5879,97 +5243,6 @@
       }
     },
     {
-      "@id": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{7FA3F20F-F28C-449a-A07A-8CAFB58C7542}",
-      "ap-definition-en": {
-        "en": "Generic soft-typed value."
-      },
-      "ap-label-en": {
-        "en": "NamedValue"
-      },
-      "ap-usageNote-en": {
-        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-      },
-      "definition": {
-        "en": "Generic soft-typed value."
-      },
-      "extra": {
-        "EA-Guid": "{7FA3F20F-F28C-449a-A07A-8CAFB58C7542}",
-        "EA-Name": "NamedValue",
-        "EA-Package": "OM",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "NamedValue"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The class NamedValue provides for a generic soft-typed parameter value."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "The class NamedValue provides for a generic soft-typed parameter value."
-          },
-          {
-            "key": "ap-label-en",
-            "note": "null",
-            "value": "NamedValue"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "null",
-            "value": "Generic soft-typed value."
-          },
-          {
-            "key": "ap-usageNote-en",
-            "note": "null",
-            "value": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Generic soft-typed value."
-        },
-        "ap-label-en": {
-          "en": "NamedValue"
-        },
-        "ap-usageNote-en": {
-          "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-        },
-        "definition": {
-          "en": "Generic soft-typed value."
-        },
-        "label": {
-          "en": "NamedValue"
-        },
-        "parentclasses": "",
-        "usage": {
-          "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-        }
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "NamedValue"
-      },
-      "name": "NamedValue",
-      "usage": {
-        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-      }
-    },
-    {
       "@id": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{BF72588B-F588-41c2-9330-D0CD897EBBFA}",
@@ -6853,7 +6126,7 @@
   "site": "site-skeleton/AI-PROFICIENT-Conti10-limited",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
-  "toolchaincommit": "adcd1366d89003780110ed0e06f4e79846d93ef4",
+  "toolchaincommit": "c50611fb10520b83c1765fb879292b4c455400f3",
   "toolchainversion": "3",
   "translation": [
     {

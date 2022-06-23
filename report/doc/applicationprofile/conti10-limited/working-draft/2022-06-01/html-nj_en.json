@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/857807eb0b15928b4f8a1cf70f0a4a9dac1c33cc",
-    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/857807eb0b15928b4f8a1cf70f0a4a9dac1c33cc/CHANGELOG",
+    "repositoryurl": "https://github.com/tenforce/ai-proficient-thema/tree/5f4045d4f93321540c1f4567ba47ba6be8e4e313",
+    "changelogurl": "https://github.com/tenforce/ai-proficient-thema/blob/5f4045d4f93321540c1f4567ba47ba6be8e4e313/CHANGELOG",
     "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
     "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
     "usesVocs": [],
@@ -762,20 +762,6 @@
           "codelist_uri": ""
         }
       ]
-    },
-    {
-      "uri": "http://purl.org/dc/terms/Agent",
-      "name": "Agent",
-      "label": {
-        "en": "Agent"
-      },
-      "sort": "Agent",
-      "description": {
-        "en": "Someone or something that can act or has the power to act."
-      },
-      "usage": {},
-      "parents": [],
-      "properties": []
     },
     {
       "uri": "http://qudt.org/2.1/schema/qudt/Unit",
@@ -1643,22 +1629,6 @@
   "contributors": [],
   "datatypes": [
     {
-      "uri": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
-      "name": "GenericName",
-      "label": {
-        "en": "GenericName"
-      },
-      "sort": "GenericName",
-      "description": {
-        "en": "Abstract class of all names in a Namespace."
-      },
-      "usage": {
-        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-      },
-      "parents": [],
-      "properties": []
-    },
-    {
       "uri": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
       "name": "TM_Object",
       "label": {
@@ -1675,26 +1645,12 @@
       "properties": []
     },
     {
-      "uri": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty",
-      "name": "CI_ResponsibleParty",
-      "label": {
-        "en": "CI_ResponsibleParty"
-      },
-      "sort": "CI_ResponsibleParty",
-      "description": {
-        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-      },
-      "usage": {},
-      "parents": [],
-      "properties": []
-    },
-    {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "identifier",
+      "name": "Identifier",
       "label": {
-        "en": "identifier"
+        "en": "Identifier"
       },
-      "sort": "identifier",
+      "sort": "Identifier",
       "description": {
         "en": "Information used to uniquely identify an object."
       },
@@ -1739,127 +1695,6 @@
           "codelist_uri": ""
         }
       ]
-    },
-    {
-      "uri": "http://www.w3.org/ns/locn#Geometry",
-      "name": "Geometry",
-      "label": {
-        "en": "Geometry"
-      },
-      "sort": "Geometry",
-      "description": {
-        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-      },
-      "usage": {},
-      "parents": [],
-      "properties": [
-        {
-          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-          "name": "asWKT",
-          "sort": "asWKT",
-          "label": {
-            "en": "asWKT"
-          },
-          "description": {
-            "en": "Geometry expressed in WKT format"
-          },
-          "usage": {
-            "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-          },
-          "domain": [
-            {
-              "EA-Name": "Geometry",
-              "uri": "http://www.w3.org/ns/locn#Geometry"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Literal",
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_label": {
-                "en": "Literal"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://www.opengis.net/ont/geosparql#asGML",
-          "name": "asGML",
-          "sort": "asGML",
-          "label": {
-            "en": "asGML"
-          },
-          "description": {
-            "en": "Geometry expressed in GML format."
-          },
-          "usage": {
-            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
-          },
-          "domain": [
-            {
-              "EA-Name": "Geometry",
-              "uri": "http://www.w3.org/ns/locn#Geometry"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Literal",
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_puri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "range_label": {
-                "en": "Literal"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "http://www.w3.org/ns/prov#Location",
-      "name": "Location",
-      "label": {
-        "en": "Location"
-      },
-      "sort": "Location",
-      "description": {
-        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-      },
-      "usage": {
-        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
-      },
-      "parents": [],
-      "properties": []
-    },
-    {
-      "uri": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
-      "name": "NamedValue",
-      "label": {
-        "en": "NamedValue"
-      },
-      "sort": "NamedValue",
-      "description": {
-        "en": "Generic soft-typed value."
-      },
-      "usage": {
-        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
-      },
-      "parents": [],
-      "properties": []
     },
     {
       "uri": "https://schema.org/QuantitativeValue",

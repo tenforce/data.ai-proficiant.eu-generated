@@ -59,19 +59,6 @@
   ],
   "externals": [
     {
-      "EA-Guid": "{93D68B5D-0223-45be-9955-719529D24B7A}",
-      "name": "GenericName",
-      "label": {
-        "en": "GenericName"
-      },
-      "definition": {
-        "en": "Abstract class of all names in a Namespace."
-      },
-      "usage": {
-        "en": "Subtypes are LocalName and ScopedName. For a more detailed description of this class see ISO 19103."
-      }
-    },
-    {
       "EA-Guid": "{D62D3FF2-8CA1-4591-B578-B069FEA3E10A}",
       "name": "Any",
       "label": {
@@ -108,16 +95,6 @@
       }
     },
     {
-      "EA-Guid": "{967D02A1-E7B9-4b34-AB44-61027BBBF85B}",
-      "name": "CI_ResponsibleParty",
-      "label": {
-        "en": "CI_ResponsibleParty"
-      },
-      "definition": {
-        "en": "Identification in terms of communication with the person(s) and organization(s) related to data. For a more detailed description of this class see ISO 19115."
-      }
-    },
-    {
       "EA-Guid": "{6CFFB8DF-79C9-44e1-AACD-62F79D16E0A7}",
       "name": "Observation",
       "label": {
@@ -131,16 +108,6 @@
       }
     },
     {
-      "EA-Guid": "{C9C17C85-EA67-44a4-B489-0C82BC4FCF92}",
-      "name": "Agent",
-      "label": {
-        "en": "Agent"
-      },
-      "definition": {
-        "en": "Someone or something that can act or has the power to act."
-      }
-    },
-    {
       "EA-Guid": "{4C78B2A1-9448-4892-BC1F-598F33AC74F5}",
       "name": "Unit",
       "label": {
@@ -149,35 +116,12 @@
     },
     {
       "EA-Guid": "{CA2B6870-DBEF-4fe9-BDFA-5287BBD575E0}",
-      "name": "identifier",
+      "name": "Identifier",
       "label": {
-        "en": "identifier"
+        "en": "Identifier"
       },
       "definition": {
         "en": "Information used to uniquely identify an object."
-      }
-    },
-    {
-      "EA-Guid": "{E5089A7D-8FB2-4f50-80D0-479A2A097D81}",
-      "name": "Geometry",
-      "label": {
-        "en": "Geometry"
-      },
-      "definition": {
-        "en": "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
-      }
-    },
-    {
-      "EA-Guid": "{836A92DB-235F-4c0c-9187-08CAD6C03E01}",
-      "name": "Location",
-      "label": {
-        "en": "Location"
-      },
-      "definition": {
-        "en": "Indication of a geographical position, by means of coordinates, a toponym, referral to a place or region or an address."
-      },
-      "usage": {
-        "en": "To be used if the way geographical positions are described will only be determined upon implementation. If otherwise, direct use of datatypes like Geometry, GeographicalName, Address etc is recommended."
       }
     },
     {
@@ -326,19 +270,6 @@
       },
       "usage": {
         "en": "Eg the mass of a Rock. Result is of type Measure. For a more detailed description of this class see ISO 19156."
-      }
-    },
-    {
-      "EA-Guid": "{7FA3F20F-F28C-449a-A07A-8CAFB58C7542}",
-      "name": "NamedValue",
-      "label": {
-        "en": "NamedValue"
-      },
-      "definition": {
-        "en": "Generic soft-typed value."
-      },
-      "usage": {
-        "en": "Essentially a value and the type of the value, given by a name. For example 21degrees temperature (value=21degrees, name=temperature). For a more detailed description of this class see ISO 19156."
       }
     },
     {
@@ -629,32 +560,6 @@
       },
       "usage": {
         "en": "The string part of the literal is the actual identifier, the type part refers to the identification system and its version."
-      }
-    },
-    {
-      "EA-Guid": "{0168F2D4-85D9-463d-99ED-B251331D3CA7}",
-      "name": "asWKT",
-      "label": {
-        "en": "asWKT"
-      },
-      "definition": {
-        "en": "Geometry expressed in WKT format"
-      },
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
-      }
-    },
-    {
-      "EA-Guid": "{1DD1582E-2C66-4ddd-B423-13BF448BC8DB}",
-      "name": "asGML",
-      "label": {
-        "en": "asGML"
-      },
-      "definition": {
-        "en": "Geometry expressed in GML format."
-      },
-      "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
       }
     },
     {
